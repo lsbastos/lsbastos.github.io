@@ -1,0 +1,14 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## Research
+
+I am an applied Bayesian statistician. My main interest is on _developing_ Bayesian statistical models to applied problems, usually public health problems. I am interested in problems where the usual statistical model assumptions (e.g. independence, normality) are not valid, this may explain the big variability among areas of application in my CV, varying from micro (analysis of mosquito data) to macro (National epidemics).
+
+Some research projects I am directly involved:
+
+- *Inference in hard to reach populations*: I am a leader of a CNPq group on this theme, where we mainly try to answer two questions about hard to reach populations (i) How many are they? (ii) Who are they? The first question we explore a method called Network Scale-up (NSUM); The second we deal with data from time location sampling (TLS) and Respondent-driven sampling (RDS) designs.
+- *Divas project* is a Respondent-driven sampling study aiming to learn about the individual and overall reality of Transsexual and Transvestite women in Brazil.
+- *Infodengue* and *Infogripe* projects are two real-time warning systems. Infodengue deals with cases of dengue, Zika and Chikungunya in the 790 (on August 2018) Brazilian municipalities. Infogripe is a warning system for Severe acute respiratory syndrome in Brazil.
