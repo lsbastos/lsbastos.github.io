@@ -1,18 +1,8 @@
 ---
+output: html_document
+bibliography: CV/leo.bib
+nocite: '@*'
+csl: CV/apa-cv.csl
 ---
 
-# Publications
-
-Papers and citation according to [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
-
-To do!
-
-### Pre-prints 
-
-### Accepted
-
-### 2018
-
-### 2017
-
-### 2016
+# References

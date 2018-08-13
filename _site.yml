@@ -11,7 +11,7 @@ navbar:
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:leonardo.bastos@fiocruz_DOT_br
+      href: contact.html
     - icon: fa-github fa-lg
       href: http://github.com/lsbastos
     - icon: fa-twitter fa-lg
