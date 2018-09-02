@@ -12,7 +12,13 @@ Stat - Undergraduate courses for Statistics
 - (Epi) Statistical modelling I [Course material (In Portuguese)](https://gitlab.procc.fiocruz.br/marcelo/me-I) 
 - (Epi) Applied Bayesian modelling 
 - (BCS) Quantitative methods in biosciences (Métodos quantitativos em biociências)
+- (BCS) Mathematical and statistical modelling for epidemics
 
 ### 2017
+
+- (Epi) Statistics for Epidemiology
+- (Epi) Applied Bayesian modelling
+
+## 2016 
 
 To do!

@@ -9,8 +9,6 @@ navbar:
       href: publications.html
     - text: "Teaching"
       href: teaching.html
-    - text: "News"
-      href: news.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
