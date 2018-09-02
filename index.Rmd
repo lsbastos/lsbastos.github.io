@@ -7,21 +7,7 @@
 
 I am an applied Bayesian statistician working at the [Scientific Computing Program (PROCC)](http://www.procc.fiocruz.br) in the [Oswaldo Cruz Foundation (Fiocruz)](http://www.fiocruz.br). 
 
+My main interest is on _developing_ Bayesian statistical models to applied problems, usually public health problems. I am interested in problems where the usual statistical model assumptions (e.g. independence, normality) are not valid, this may explain the big variability among areas of application in my CV, varying from micro (analysis of mosquito data) to macro (National epidemics).
 
-
-### Education
-
-- PhD in statistics, [The University of Sheffield](https://www.sheffield.ac.uk/maths), UK, 2010. <BR> Under supervision of [Prof Tony O'Hagan](http://tonyohagan.co.uk/) and [Prof Jeremy Oakley](http://www.jeremy-oakley.staff.shef.ac.uk/). ([Thesis](http://etheses.whiterose.ac.uk/963/))
-- MSc in statistics, [Federal University of Rio de Janeiro](http://www.dme.ufrj.br), Brazil, 2003. <br> Under supervison of [Prof Dani Gamerman]()
-- BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
-
-### Short bio
-
-After finishing my PhD at University of Sheffield, UK I moved back to Brazil where I got a lecturer position in the Department of Statistics at the Fluminense Federal University where I stay until December 2012 when I started the researcher position at Fiocruz.
-
-### CV
-
-My Lattes CV is available [here](http://lattes.cnpq.br/5241799121437269) <br>
-My full CV (PDF) is available [here](CV/cv-leo.pdf) <br>
-Papers and citations according to [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
-
+My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos
+Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)

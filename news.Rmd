@@ -1,5 +1,11 @@
 ---
 ---
 
-## Links
+- (Conference) I will be a conference speakers at Foro Climatico Internacional, Tucuman, Argentina [(Link)](https://climactivo.com)
+- (New paper) Accepted in Tubercolusis. (with Teca Galvão and others)
+- (New paper) Accepted in the Scandinavian Journal of Work Enviroment & Health. (with Leidjaira Juvanhol and others)
 
+Last update:
+```{r, echo=F}
+date()
+```
