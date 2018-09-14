@@ -53,3 +53,19 @@ Some papers and tech reports:
 - Zapata-Vázquez, R. E., O'Hagan, A.,  **Bastos, L. S.** (2014). Eliciting expert judgements about a set of proportions. Journal of Applied Statistics, 41(9), 1919–1933. [(DOI)](https://doi.org/10.1080/02664763.2014.898131)
 - **Bastos, L.S.**, Rosa, J. M. C. (2013). Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. Journal of Applied Statistics, 40(7), 1533–1544. [(DOI)](https://doi.org/10.1080/02664763.2013.788619)
 - **Bastos, L.S.**, Pinho, A. A., Codeço, C., Bastos, F. I. (2012). Binary regression analysis with network structure of respondent-driven sampling data. arXiv preprint arXiv:1206.5681. [(Link)](http://arxiv.org/abs/1206.5681)
+
+## Colaborarion network
+
+My colaborarion network according to Google scholar (using scholar package)
+
+```{r, out.width = '120%'}
+library(scholar)
+
+# My google scholar id
+id <- "A5VmZYMAAAAJ"
+p <- get_publications(id)
+
+coauthor_network <- get_coauthors(id, n_coauthors = 6)
+
+plot_coauthors(coauthor_network)
+```
