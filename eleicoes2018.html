@@ -296,7 +296,7 @@ summary(r)</code></pre>
 ## 
 ## Time used:
 ##  Pre-processing    Running inla Post-processing           Total 
-##          0.6319          0.1783          0.2812          1.0913 
+##          0.6351          0.1775          0.2772          1.0898 
 ## 
 ## Fixed effects:
 ##                mean    sd 0.025quant 0.5quant 0.975quant    mode kld
@@ -332,6 +332,15 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
 
 ## Warning: Ignoring unknown aesthetics: y</code></pre>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
+<div id="proporcao-de-votos-validos-do-haddad" class="section level2">
+<h2>Proporcão de votos válidos do Haddad</h2>
+<pre class="r"><code>Prediction[nrow(Prediction),]</code></pre>
+<pre><code>## # A tibble: 1 x 7
+##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
+##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
+## 1 0.429 0.0383        0.356      0.428        0.508 0.426 2018-10-28</code></pre>
+<p>Até é possível calcular a probabilidade de vitória do Haddad, mas por ser tão baixa prefiro nem olhar. (O Neale tá estimando 2%)</p>
 </div>
 
 

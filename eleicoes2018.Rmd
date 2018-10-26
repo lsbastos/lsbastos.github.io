@@ -81,6 +81,13 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = "re
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = mode, ymin = `0.025quant`, ymax = `0.975quant`), color = "red", fill = "red", alpha = 0.2) +
   geom_line(data = Prediction, mapping = aes(x = Data, y = 1-mode), color = "#E69F00") +
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = "#E69F00", fill = "#E69F00", alpha = 0.2)
-
 ```
+
+## Proporcão de votos válidos do Haddad
+
+```{r}
+Prediction[nrow(Prediction),]
+```
+
+Até é possível calcular a probabilidade de vitória do Haddad, mas por ser tão baixa prefiro nem olhar. (O Neale tá estimando 2%)
 
