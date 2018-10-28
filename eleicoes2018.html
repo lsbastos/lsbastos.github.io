@@ -253,7 +253,7 @@ $(document).ready(function () {
 
 <div id="dados" class="section level2">
 <h2>Dados</h2>
-<p>Peguei os dados das pesquisas registradas usando no site pooling data <a href="http://www.pollingdata.com.br" class="uri">http://www.pollingdata.com.br</a>.</p>
+<p>Peguei os dados das pesquisas registradas usando no site pooling data <a href="http://www.pollingdata.com.br" class="uri">http://www.pollingdata.com.br</a>. Mas quem quiser, pode baixar o arquivo csv <a href="files/PollingData%20-%202018-T2-Brasil-BR-President.csv">aqui</a>.</p>
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
 
@@ -265,8 +265,8 @@ dados1 &lt;- dados %&gt;% gather(Candidato, Prop,-Data,-Instituto, -link, -Entre
 dados2 &lt;- mutate(dados, Total = `Bolsonaro (PSL)` + `Fernando Haddad (PT)`, 
                  Bolsonaro = `Bolsonaro (PSL)` / Total, 
                  Haddad = `Fernando Haddad (PT)` / Total ) %&gt;%
-  select( Data, Bolsonaro, Haddad) %&gt;%
-  gather(Candidato, Prop,-Data)</code></pre>
+  select( Data, Bolsonaro, Haddad, Entrevistas, Instituto) %&gt;%
+  gather(Candidato, Prop,-Data, -Entrevistas, -Instituto)</code></pre>
 </div>
 <div id="todos-os-votos-e-pesquisas" class="section level2">
 <h2>Todos os votos e pesquisas</h2>
@@ -282,44 +282,24 @@ dados2 &lt;- mutate(dados, Total = `Bolsonaro (PSL)` + `Fernando Haddad (PT)`,
 <pre class="r"><code>library(INLA)
 
 # Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
+seq_2turno &lt;- seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1)
+
+
 dadosM &lt;- filter(dados2, Data &gt; &quot;2018-10-07&quot;, Candidato == &quot;Haddad&quot;) %&gt;%
-  bind_rows(tibble(Data = seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1), Candidato = &quot;Haddad&quot;, Prop = NA)) %&gt;%
-  mutate( Days = as.numeric( Data - min(Data) ) + 1 )
+  bind_rows(tibble(Data = seq_2turno, Candidato = &quot;Haddad&quot;, Prop = NA)) %&gt;%
+  mutate( Days = as.numeric( Data - min(Data) ) + 1,
+          Peso = round(Entrevistas / min(Entrevistas, na.rm = T))) %&gt;%
+  replace_na(list(Peso = 1))
+
 
 model &lt;- Prop ~ 1 + f(Days, model = &quot;rw2&quot;)
 
+
 r &lt;- inla(model, data = dadosM, family = &quot;beta&quot;, control.predictor = list( compute = T, link = T))
-summary(r)</code></pre>
-<pre><code>## 
-## Call:
-## c(&quot;inla(formula = model, family = \&quot;beta\&quot;, data = dadosM, control.predictor = list(compute = T, &quot;,  &quot;    link = T))&quot;)
-## 
-## Time used:
-##  Pre-processing    Running inla Post-processing           Total 
-##          0.6351          0.1775          0.2772          1.0898 
-## 
-## Fixed effects:
-##                mean    sd 0.025quant 0.5quant 0.975quant    mode kld
-## (Intercept) -0.3286 0.052    -0.4313  -0.3287    -0.2257 -0.3289   0
-## 
-## Random effects:
-## Name   Model
-##  Days   RW2 model 
-## 
-## Model hyperparameters:
-##                                                   mean       sd 0.025quant
-## precision parameter for the beta observations    84.22    24.86      44.16
-## Precision for Days                            20441.54 19110.45    1807.55
-##                                               0.5quant 0.975quant    mode
-## precision parameter for the beta observations    81.44     141.12   76.04
-## Precision for Days                            15014.99   71092.68 5152.67
-## 
-## Expected number of effective parameters(std dev): 2.41(0.3295)
-## Number of equivalent replicates : 9.543 
-## 
-## Marginal log-Likelihood:  28.76 
-## Posterior marginals for linear predictor and fitted values computed</code></pre>
-<pre class="r"><code>Prediction &lt;- as_tibble(r$summary.fitted.values[24:nrow(dadosM),]) %&gt;% bind_cols(Data = seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1))
+
+
+Prediction &lt;- as_tibble(
+  r$summary.fitted.values[(nrow(dadosM)-length(seq_2turno)+1):nrow(dadosM),]) %&gt;% bind_cols(Data = seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1))
 
 
 p1 &lt;- ggplot(filter(dados2, Data &gt; &quot;2018-10-07&quot;), aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab(&quot;&quot;) + ylab(&quot;&quot;) + scale_color_manual(values=c(&quot;#E69F00&quot;, &quot;red&quot;)) + ylim(c(0.3,.7))
@@ -333,14 +313,27 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
 ## Warning: Ignoring unknown aesthetics: y</code></pre>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
-<div id="proporcao-de-votos-validos-do-haddad" class="section level2">
-<h2>Proporcão de votos válidos do Haddad</h2>
-<pre class="r"><code>Prediction[nrow(Prediction),]</code></pre>
-<pre><code>## # A tibble: 1 x 7
+<div id="estimativas-de-votos-validos-do-haddad" class="section level2">
+<h2>Estimativas de votos válidos do Haddad</h2>
+<pre class="r"><code>tail(Prediction)</code></pre>
+<pre><code>## # A tibble: 6 x 7
 ##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
 ##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
-## 1 0.429 0.0383        0.356      0.428        0.508 0.426 2018-10-28</code></pre>
-<p>Até é possível calcular a probabilidade de vitória do Haddad, mas por ser tão baixa prefiro nem olhar. (O Neale tá estimando 2%)</p>
+## 1 0.429 0.0136        0.402      0.429        0.456 0.429 2018-10-23
+## 2 0.433 0.0142        0.405      0.433        0.461 0.433 2018-10-24
+## 3 0.438 0.0154        0.407      0.438        0.468 0.438 2018-10-25
+## 4 0.443 0.0175        0.408      0.443        0.477 0.442 2018-10-26
+## 5 0.448 0.0205        0.408      0.447        0.489 0.447 2018-10-27
+## 6 0.453 0.0246        0.406      0.452        0.503 0.451 2018-10-28</code></pre>
+<p>Note que a última linha é o dia da eleição.</p>
+<p>Calculando a probabilidade de vitória do Haddad, <span class="math inline">\(P(Y_T &gt; 0.50)\)</span>, onde <span class="math inline">\(T\)</span> é o dia da eleição (28/10/2018).</p>
+<pre class="r"><code>aux &lt;- names(r$marginals.fitted.values)
+
+prob &lt;- 1 - inla.pmarginal( q = 0.50, 
+                marginal = r$marginals.fitted.values[aux[length(aux)]][[1]]
+                )
+round(prob,4)</code></pre>
+<pre><code>## [1] 0.0309</code></pre>
 </div>
 
 
