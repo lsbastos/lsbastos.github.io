@@ -251,9 +251,9 @@ $(document).ready(function () {
 </div>
 
 
-<div id="dados" class="section level2">
-<h2>Dados</h2>
-<p>Peguei os dados das pesquisas registradas usando no site pooling data <a href="http://www.pollingdata.com.br" class="uri">http://www.pollingdata.com.br</a>. Mas quem quiser, pode baixar o arquivo csv <a href="files/PollingData%20-%202018-T2-Brasil-BR-President.csv">aqui</a>.</p>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p>I got the data in the pooling data website: <a href="http://www.pollingdata.com.br" class="uri">http://www.pollingdata.com.br</a>. But the csv file is availabe here: <a href="files/PollingData%20-%202018-T2-Brasil-BR-President.csv">aqui</a>.</p>
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
 
@@ -266,74 +266,69 @@ dados2 &lt;- mutate(dados, Total = `Bolsonaro (PSL)` + `Fernando Haddad (PT)`,
                  Bolsonaro = `Bolsonaro (PSL)` / Total, 
                  Haddad = `Fernando Haddad (PT)` / Total ) %&gt;%
   select( Data, Bolsonaro, Haddad, Entrevistas, Instituto) %&gt;%
-  gather(Candidato, Prop,-Data, -Entrevistas, -Instituto)</code></pre>
+  gather(Candidato, Prop,-Data, -Entrevistas, -Instituto) </code></pre>
 </div>
-<div id="todos-os-votos-e-pesquisas" class="section level2">
-<h2>Todos os votos e pesquisas</h2>
+<div id="considering-valid-and-non-valid-votes-and-all-registred-polls" class="section level2">
+<h2>Considering valid and non-valid votes and all registred polls</h2>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-2-1.png" width="672" /><img src="eleicoes2018_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
 </div>
-<div id="considerando-apenas-as-do-segundo-turno" class="section level2">
-<h2>Considerando apenas as do segundo turno</h2>
+<div id="considering-only-second-round-polls-registred-after-7-oct-2018" class="section level2">
+<h2>Considering only Second round polls (Registred after 7 Oct 2018)</h2>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-3-1.png" width="672" /><img src="eleicoes2018_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
 </div>
-<div id="modelando-usando-uma-verossimilhanca-beta-e-efeito-aleatorio-dinamico" class="section level2">
-<h2>Modelando usando uma verossimilhança Beta e efeito aleatório dinâmico</h2>
-<p><span class="math display">\[Y_t \sim Beta(\mu_t, \phi), \quad t=1,2,\ldots \]</span> onde <span class="math inline">\(t=1\)</span> é o dia da eleição (não considerei o resultado da eleição do primeiro turno), a função de ligação é dada por <span class="math display">\[logit(\mu_t) = \alpha + \beta_t\]</span> onde <span class="math inline">\(\alpha\)</span> é um efeito fixo, e <span class="math inline">\(\beta_t\)</span> segue um passeio aleatório de ordem 2.</p>
+<div id="model" class="section level2">
+<h2>Model</h2>
+<p>Let <span class="math inline">\(Y_t\)</span> be the proportional of votes for Fernando Haddad at day <span class="math inline">\(t\)</span>, <span class="math inline">\(t=1,2,\ldots,T\)</span>, where <span class="math inline">\(T=\)</span> ellection day. Since <span class="math inline">\(Y_t \in (0,1)\)</span>, the likelihood is assumed to be a Beta distribution with mean <span class="math inline">\(\mu_t\)</span> and scale parameter <span class="math inline">\(\phi\)</span>, i.e. <span class="math display">\[Y_t \sim Beta(\mu_t, \phi),\]</span> where <span class="math inline">\(\phi&gt;0\)</span> and <span class="math inline">\(\mu_t \in (0,1)\)</span> is given by <span class="math display">\[logit(\mu_t) = \alpha + \beta_t,\]</span> <span class="math inline">\(\alpha\)</span> is a fixed effect, and <span class="math inline">\(\beta_t\)</span> is a time-varying second-order random walk.</p>
+<p>In INLA this is represented as the following:</p>
 <pre class="r"><code>library(INLA)
 
-# Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
+# Taking only the polls after 7 Oct 2018
 seq_2turno &lt;- seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1)
 
-
+# Preparing the data (using tidyverse magic) :-)
 dadosM &lt;- filter(dados2, Data &gt; &quot;2018-10-07&quot;, Candidato == &quot;Haddad&quot;) %&gt;%
   bind_rows(tibble(Data = seq_2turno, Candidato = &quot;Haddad&quot;, Prop = NA)) %&gt;%
   mutate( Days = as.numeric( Data - min(Data) ) + 1,
           Peso = round(Entrevistas / min(Entrevistas, na.rm = T))) %&gt;%
   replace_na(list(Peso = 1))
 
-
+# Model equation
 model &lt;- Prop ~ 1 + f(Days, model = &quot;rw2&quot;)
 
-
+# INLA fit
 r &lt;- inla(model, data = dadosM, family = &quot;beta&quot;, control.predictor = list( compute = T, link = T))
 
-
+# Forecast
 Prediction &lt;- as_tibble(
-  r$summary.fitted.values[(nrow(dadosM)-length(seq_2turno)+1):nrow(dadosM),]) %&gt;% bind_cols(Data = seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1))
-
-
-p1 &lt;- ggplot(filter(dados2, Data &gt; &quot;2018-10-07&quot;), aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab(&quot;&quot;) + ylab(&quot;&quot;) + scale_color_manual(values=c(&quot;#E69F00&quot;, &quot;red&quot;)) + ylim(c(0.3,.7))
+  r$summary.fitted.values[(nrow(dadosM)-length(seq_2turno)+1):nrow(dadosM),]) %&gt;% bind_cols(Data = seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1))</code></pre>
+</div>
+<div id="plotting-the-forecast" class="section level2">
+<h2>Plotting the forecast</h2>
+<pre class="r"><code>p1 &lt;- ggplot(filter(dados2, Data &gt; &quot;2018-10-07&quot;), aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab(&quot;&quot;) + ylab(&quot;&quot;) + scale_color_manual(values=c(&quot;#E69F00&quot;, &quot;red&quot;)) + ylim(c(0.3,.7))
 
 p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &quot;red&quot;) + 
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = mode, ymin = `0.025quant`, ymax = `0.975quant`), color = &quot;red&quot;, fill = &quot;red&quot;, alpha = 0.2) +
   geom_line(data = Prediction, mapping = aes(x = Data, y = 1-mode), color = &quot;#E69F00&quot;) +
-  geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = &quot;#E69F00&quot;, fill = &quot;#E69F00&quot;, alpha = 0.2)</code></pre>
-<pre><code>## Warning: Ignoring unknown aesthetics: y
-
-## Warning: Ignoring unknown aesthetics: y</code></pre>
-<p><img src="eleicoes2018_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+  geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = &quot;#E69F00&quot;, fill = &quot;#E69F00&quot;, alpha = 0.2) +
+  guides(color = guide_legend(title = &quot;Candidate&quot;))</code></pre>
+<p><img src="eleicoes2018_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 </div>
-<div id="estimativas-de-votos-validos-do-haddad" class="section level2">
-<h2>Estimativas de votos válidos do Haddad</h2>
-<pre class="r"><code>tail(Prediction)</code></pre>
-<pre><code>## # A tibble: 6 x 7
-##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
-##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
-## 1 0.429 0.0136        0.402      0.429        0.456 0.429 2018-10-23
-## 2 0.433 0.0142        0.405      0.433        0.461 0.433 2018-10-24
-## 3 0.438 0.0154        0.407      0.438        0.468 0.438 2018-10-25
-## 4 0.443 0.0175        0.408      0.443        0.477 0.442 2018-10-26
-## 5 0.448 0.0205        0.408      0.447        0.489 0.447 2018-10-27
-## 6 0.453 0.0246        0.406      0.452        0.503 0.451 2018-10-28</code></pre>
-<p>Note que a última linha é o dia da eleição.</p>
-<p>Calculando a probabilidade de vitória do Haddad, <span class="math inline">\(P(Y_T &gt; 0.50)\)</span>, onde <span class="math inline">\(T\)</span> é o dia da eleição (28/10/2018).</p>
+<div id="estimates-for-haddad-results" class="section level2">
+<h2>Estimates for Haddad results</h2>
+<pre class="r"><code>Prediction[22, c(1, 3, 5)]</code></pre>
+<pre><code>## # A tibble: 1 x 3
+##    mean `0.025quant` `0.975quant`
+##   &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
+## 1 0.453        0.406        0.503</code></pre>
+<p>Notice that the final result was 44.87%, a very good forecast I would say.</p>
+<p>The posteiror probability of Haddad win the ellection, <span class="math inline">\(P(Y_T &gt; 0.50)\)</span>, where <span class="math inline">\(T\)</span> is the ellection day (28 Oct 2018) can easily be calculated in INLA:</p>
 <pre class="r"><code>aux &lt;- names(r$marginals.fitted.values)
 
 prob &lt;- 1 - inla.pmarginal( q = 0.50, 
                 marginal = r$marginals.fitted.values[aux[length(aux)]][[1]]
                 )
 round(prob,4)</code></pre>
-<pre><code>## [1] 0.0309</code></pre>
+<pre><code>## [1] 0.0306</code></pre>
 </div>
 
 
