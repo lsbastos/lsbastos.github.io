@@ -5,9 +5,9 @@
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Data
+## Dados
 
-I got the data in the pooling data website: <http://www.pollingdata.com.br>. But the csv file is availabe here: [aqui](files/PollingData - 2018-T2-Brasil-BR-President.csv).
+Peguei os dados das pesquisas registradas usando no site pooling data <http://www.pollingdata.com.br>. Mas quem quiser, pode baixar o arquivo csv [aqui](files/PollingData - 2018-T2-Brasil-BR-President.csv).
 
 
 ```{r, message=FALSE}
@@ -23,94 +23,83 @@ dados2 <- mutate(dados, Total = `Bolsonaro (PSL)` + `Fernando Haddad (PT)`,
                  Bolsonaro = `Bolsonaro (PSL)` / Total, 
                  Haddad = `Fernando Haddad (PT)` / Total ) %>%
   select( Data, Bolsonaro, Haddad, Entrevistas, Instituto) %>%
-  gather(Candidato, Prop,-Data, -Entrevistas, -Instituto) 
+  gather(Candidato, Prop,-Data, -Entrevistas, -Instituto)
 
 ```
 
-## Considering valid and non-valid votes and all registred polls 
+## Todos os votos e pesquisas
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 ggplot(dados1, aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab("") + ylab("") + 
-geom_smooth() + scale_color_manual(values=c("#E69F00", "red", "#999999")) + ylim(c(0.05,.65)) +
-  guides(color = guide_legend(title = "Candidate"))
+geom_smooth() + scale_color_manual(values=c("#E69F00", "red", "#999999")) + ylim(c(0.05,.65))
 
 ggplot(dados2, aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab("") + ylab("") + 
-  geom_smooth() + scale_color_manual(values=c("#E69F00", "red")) + ylim(c(0.3,.7)) +
-  guides(color = guide_legend(title = "Candidate"))
+  geom_smooth() + scale_color_manual(values=c("#E69F00", "red")) + ylim(c(0.3,.7))
 
 ```
 
 
-## Considering only Second round polls (Registred after 7 Oct 2018)
+## Considerando apenas as do segundo turno
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 ggplot(filter(dados1, Data > "2018-10-07"), aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab("") + ylab("") + 
-geom_smooth() + scale_color_manual(values=c("#E69F00", "red", "#999999")) + ylim(c(0.05,.65)) +
-  guides(color = guide_legend(title = "Candidate"))
+geom_smooth() + scale_color_manual(values=c("#E69F00", "red", "#999999")) + ylim(c(0.05,.65))
 
 ggplot(filter(dados2, Data > "2018-10-07"), aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab("") + ylab("") + 
-  geom_smooth() + scale_color_manual(values=c("#E69F00", "red")) + ylim(c(0.3,.7)) +
-  guides(color = guide_legend(title = "Candidate"))
+  geom_smooth() + scale_color_manual(values=c("#E69F00", "red")) + ylim(c(0.3,.7))
 
 ```
 
-## Model 
+## Modelando usando uma verossimilhança Beta e efeito aleatório dinâmico
 
-Let $Y_t$ be the proportional of votes for Fernando Haddad at day $t$, $t=1,2,\ldots,T$, where $T=$ ellection day. Since $Y_t \in (0,1)$, the likelihood is assumed to be a Beta distribution with mean $\mu_t$ and scale parameter $\phi$, i.e.
-$$Y_t \sim Beta(\mu_t, \phi),$$
-where $\phi>0$ and $\mu_t \in (0,1)$ is given by 
-$$logit(\mu_t) = \alpha + \beta_t,$$
-$\alpha$ is a fixed effect, and $\beta_t$ is a time-varying second-order random walk.
+$$Y_t \sim Beta(\mu_t, \phi), \quad t=1,2,\ldots $$
+onde $t=1$ é o dia da eleição (não considerei o resultado da eleição do primeiro turno), a função de ligação é dada por
+$$logit(\mu_t) = \alpha + \beta_t$$
+onde $\alpha$ é um efeito fixo, e $\beta_t$ segue um passeio aleatório de ordem 2.
 
-In INLA this is represented as the following:
 ```{r, message=FALSE}
 library(INLA)
 
-# Taking only the polls after 7 Oct 2018
+# Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
 seq_2turno <- seq.Date(from = ymd("2018-10-07"), to = ymd("2018-10-28"), by=1)
 
-# Preparing the data (using tidyverse magic) :-)
+
 dadosM <- filter(dados2, Data > "2018-10-07", Candidato == "Haddad") %>%
   bind_rows(tibble(Data = seq_2turno, Candidato = "Haddad", Prop = NA)) %>%
   mutate( Days = as.numeric( Data - min(Data) ) + 1,
           Peso = round(Entrevistas / min(Entrevistas, na.rm = T))) %>%
   replace_na(list(Peso = 1))
 
-# Model equation
+
 model <- Prop ~ 1 + f(Days, model = "rw2")
 
-# INLA fit
+
 r <- inla(model, data = dadosM, family = "beta", control.predictor = list( compute = T, link = T))
 
-# Forecast
+
 Prediction <- as_tibble(
   r$summary.fitted.values[(nrow(dadosM)-length(seq_2turno)+1):nrow(dadosM),]) %>% bind_cols(Data = seq.Date(from = ymd("2018-10-07"), to = ymd("2018-10-28"), by=1))
-```
 
-## Plotting the forecast
 
-```{r, warning=FALSE}
 p1 <- ggplot(filter(dados2, Data > "2018-10-07"), aes(x = Data, y = Prop, color = Candidato)) + geom_point(size = 4) + theme_bw(base_size = 18) + xlab("") + ylab("") + scale_color_manual(values=c("#E69F00", "red")) + ylim(c(0.3,.7))
 
 p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = "red") + 
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = mode, ymin = `0.025quant`, ymax = `0.975quant`), color = "red", fill = "red", alpha = 0.2) +
   geom_line(data = Prediction, mapping = aes(x = Data, y = 1-mode), color = "#E69F00") +
-  geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = "#E69F00", fill = "#E69F00", alpha = 0.2) +
-  guides(color = guide_legend(title = "Candidate"))
+  geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = "#E69F00", fill = "#E69F00", alpha = 0.2)
 ```
 
-
-## Estimates for Haddad results
+## Estimativas de votos válidos do Haddad
 
 ```{r}
-Prediction[22, c(1, 3, 5)]
+tail(Prediction)
 ```
+Note que a última linha é o dia da eleição.
 
-Notice that the final result was 44.87%, a very good forecast I would say.
 
-The posteiror probability of Haddad win the ellection, $P(Y_T > 0.50)$, where $T$ is the ellection day (28 Oct 2018) can easily be calculated in INLA:
+Calculando a probabilidade de vitória do Haddad, $P(Y_T > 0.50)$, onde $T$ é o dia da eleição (28/10/2018).
 
 
 ```{r}
@@ -121,3 +110,4 @@ prob <- 1 - inla.pmarginal( q = 0.50,
                 )
 round(prob,4)
 ```
+

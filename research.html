@@ -22,7 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -92,8 +93,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -109,7 +116,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -129,6 +135,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -150,18 +193,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -252,7 +354,54 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area. - Inference in hard-to-reach populations - Modelling infectious diseases - Statistical methods: Mainly applied Bayesian modelling and computational statistics</p>
+<div id="research-areas" class="section level1">
+<h1>Research areas</h1>
+<p>If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area:</p>
+<ul>
+<li>Applied Bayesian modelling<br />
+</li>
+<li>Modelling infectious diseases</li>
+<li>Inference in hard-to-reach populations</li>
+</ul>
+<p>Please note that some papers bellow are repeated, since these three areas are naturally correlated. And one paper may be included in all three areas.</p>
+<div id="statistical-methods" class="section level2">
+<h2>Statistical methods</h2>
+<p>Model development and computational implementation of statistical tools usually applied to biological and public health problems. My main interest is on implement proper statistical models to answer biological and epidemiological question on public helth problems using Bayesian methods.</p>
+<ul>
+<li>[Model-based inference for RDS data] Bastos, F. I., <strong>Bastos, L. S.</strong>, Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. Medicine, 97(1 Suppl), S16–S24.<a href="https://doi.org/10.1097/md.0000000000009447">(DOI)</a></li>
+<li>[Bayesian inference for NSUM] <strong>Bastos, L.S.</strong>, Paiva, N.S., Bastos, F.I., Villela, D.A.M.. (2018) Fast approaches for Bayesian estimation of size of hard-to-reach populations using Network Scale-up. ArXiV preprint 1804.04678. <a href="http://arxiv.org/abs/1804.04678">(Link)</a></li>
+<li>[Evaluation on RDS estimators] Sperandei, S., <strong>Bastos, L. S.</strong>, Ribeiro-Alves, M., Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. <a href="https://doi.org/10.1016/j.socnet.2017.05.004">(DOI)</a></li>
+<li>[Reporting delay modelling] <strong>Bastos, L.</strong>, Economou, T., Gomes, M., Villela, D., Bailey, T., &amp; Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. <a href="http://arxiv.org/abs/1709.09150">(Link)</a></li>
+<li>[Dynamic quantile regression] Gonçalves, K., Migon, H. S., <strong>Bastos, L. S.</strong> (2017). Dynamic quantile linear model: a Bayesian approach. arXiv preprint arXiv:1711.00162. <a href="http://arxiv.org/abs/1711.00162">(Link)</a></li>
+<li>[log-Pooling] de Carvalho, L. M., Villela, D. A., Coelho, F. C., <strong>Bastos, L. S.</strong> (2015). Choosing the weights for the logarithmic pooling of probability distributions. arXiv preprint arXiv:1502.04206. <a href="http://arxiv.org/abs/1502.04206">(Link)</a></li>
+<li>[Elicitation] Zapata-Vázquez, R. E., O’Hagan, A., <strong>Bastos, L. S.</strong> (2014). Eliciting expert judgements about a set of proportions. Journal of Applied Statistics, 41(9), 1919–1933. <a href="https://doi.org/10.1080/02664763.2014.898131">(DOI)</a></li>
+<li>[Poisson model; Fuzzy clusters] <strong>Bastos, L.S.</strong>, Rosa, J. M. C. (2013). Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. Journal of Applied Statistics, 40(7), 1533–1544. <a href="https://doi.org/10.1080/02664763.2013.788619">(DOI)</a></li>
+<li>[Model-based inference for RDS data] <strong>Bastos, L.S.</strong>, Pinho, A. A., Codeço, C., Bastos, F. I. (2012). Binary regression analysis with network structure of respondent-driven sampling data. arXiv preprint arXiv:1206.5681. <a href="http://arxiv.org/abs/1206.5681">(Link)</a></li>
+</ul>
+</div>
+<div id="modelling-infectious-diseases" class="section level2">
+<h2>Modelling infectious diseases</h2>
+<p>I am involved in modelling and analysis of infectious diseases data. I have been working on several type of infectious, sexually transmitted infections such as HIV, syphilis, and hepatitis, mosquito-borne infectious diseases like Malaria, and the arboviroses dengue, Zika, and chikungunya. Our interesting relies on describe using a model-based approach the disease epidemiology via providing prevalences, incidences, and risk factors, and also we are interested on provide early warning models that may be able to antecipate an large epideic, or even an small outbreak.</p>
+<p>Projects:</p>
+<ul>
+<li>Space-time epidemiology of arboviroses</li>
+<li>e-Surveillance project is a project for statistical and mathematical methods for disease surveillance.
+<ul>
+<li><em>Infodengue</em> is a warning system with cases of dengue in the 790 (on August 2018) Brazilian municipalities. <a href="https://info.dengue.mat.br/">(link)</a></li>
+<li><em>Infogripe</em> is a warning system for Severe acute respiratory syndrome in Brazil. <a href="http://info.gripe.fiocruz.br/">(link)</a></li>
+</ul></li>
+</ul>
+<p>Some papers and tech reports:</p>
+<ul>
+<li>[Dengue] Codeço, C.T., Coelho, F.C., Cruz, O.G., Oliveira, S., Castro, T., <strong>Bastos, L.S.</strong> (2018). Infodengue: A nowcasting system for the surveillance of arboviruses in brazil. REVUE D EPIDEMIOLOGIE ET DE SANTE PUBLIQUE, 66, p. S386. <a href="https://doi.org/10.1016/j.respe.2018.05.408">(DOI)</a></li>
+<li>[ZIKA] Armstrong, M., Coelho, F.C., <strong>Bastos, L.S.</strong>, Saraceni, V., Lemos, C., Silva, M., Sant’Anna, L., Crespo, J., Watanabe, M.S.. (2018) How Public Transport affected the Propagation of Zika and Microcephaly within Rio de Janeiro early in 2015. BioArXiV pre-print. <a href="https://doi.org/10.1101/345454">(DOI)</a></li>
+<li>[ZIKA] Villela, D., <strong>Bastos, L.</strong>, De Carvalho, L., Cruz, O., Gomes, M., Durovni, B., … Codeço, C. (2017). Zika in rio de janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. Epidemiology &amp; Infection, 145(8), 1649–1657. <a href="https://doi.org/10.1017/s0950268817000358">(DOI)</a></li>
+<li>[Dengue,SARS] Bastos, L., Economou, T., Gomes, M., Villela, D., Bailey, T., &amp; Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. <a href="http://arxiv.org/abs/1709.09150">(Link)</a></li>
+<li>[Malaria] Lima, J. B. P., Galardo, A. K. R., <strong>Bastos, L. S.</strong>, Silva Lima, A. W. da, &amp; Rosa-Freitas, M. G. (2017). MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. PLoS Neglected Tropical Diseases, 11(3), e0005245. <a href="https://doi.org/10.1371/journal.pntd.0005245" class="uri">https://doi.org/10.1371/journal.pntd.0005245</a></li>
+<li>[ZIKA] Codeço, C., Villela, D., Gomes, M. F., <strong>Bastos, L.</strong>, Cruz, O., Struchiner, C., … Coelho, F. (2016). Zika is not a reason for missing the olympic games in rio de janeiro: Response to the open letter of dr attaran and colleagues to dr margaret chan, director-general, who, on the zika threat to the olympic and paralympic games. Memórias Do Instituto Oswaldo Cruz, 111(6), 414–415. <a href="https://doi.org/10.1590/0074-02760160003">(DOI)</a></li>
+<li>[ZIKA] Coelho, F. C., Durovni, B., Saraceni, V., Lemos, C., Codeco, C. T., Camargo, S., … others. (2016). Higher incidence of zika in adult women than adult men in rio de janeiro suggests a significant contribution of sexual transmission from men to women. International Journal of Infectious Diseases, 51, 128–132. <a href="https://doi.org/10.1016/j.ijid.2016.08.023">(DOI)</a></li>
+</ul>
+</div>
 <div id="inference-in-hard-to-reach-populations" class="section level2">
 <h2>Inference in hard-to-reach populations</h2>
 <p>I am a leader of a <a href="http://dgp.cnpq.br/dgp/espelhogrupo/9202942352902061">CNPq group</a> on this theme, where we mainly try to answer two questions about hard to reach populations (i) How many are they? (ii) Who are they? The first question we explore a method called Network Scale-up (NSUM); The second we deal with data from time location sampling (TLS) and Respondent-driven sampling (RDS) designs.</p>
@@ -269,40 +418,6 @@ $(document).ready(function () {
 <li>[TLS] Toledo, L., Cano, I., Bastos, L., Bertoni, N., &amp; Bastos, F. I. (2017). Criminal justice involvement of crack cocaine users in the city of rio de janeiro and greater metropolitan area: Implications for public health and the public security agenda. International Journal of Drug Policy, 49, 65–72. <a href="https://doi.org/10.1016/j.drugpo.2017.07.034">(DOI)</a></li>
 </ul>
 </div>
-<div id="modelling-infectious-diseases" class="section level2">
-<h2>Modelling infectious diseases</h2>
-<p>Projects:</p>
-<ul>
-<li>e-Surveillance project is a project for statistical and mathematical methods for disease surveillance.
-<ul>
-<li><em>Infodengue</em> is a warning system with cases of dengue in the 790 (on August 2018) Brazilian municipalities. <a href="https://info.dengue.mat.br/">(link)</a></li>
-<li><em>Infogripe</em> is a warning system for Severe acute respiratory syndrome in Brazil. <a href="http://info.gripe.fiocruz.br/">(link)</a></li>
-</ul></li>
-</ul>
-<p>Some papers and tech reports:</p>
-<ul>
-<li>[Dengue] Codeço, C.T., Coelho, F.C., Cruz, O.G., Oliveira, S., Castro, T., <strong>Bastos, L.S.</strong> (2018). Infodengue: A nowcasting system for the surveillance of arboviruses in brazil. REVUE D EPIDEMIOLOGIE ET DE SANTE PUBLIQUE, 66, p. S386. <a href="https://doi.org/10.1016/j.respe.2018.05.408">(DOI)</a></li>
-<li>[ZIKA] Armstrong, M., Coelho, F.C., <strong>Bastos, L.S.</strong>, Saraceni, V., Lemos, C., Silva, M., Sant’Anna, L., Crespo, J., Watanabe, M.S.. (2018) How Public Transport affected the Propagation of Zika and Microcephaly within Rio de Janeiro early in 2015. BioArXiV pre-print. <a href="https://doi.org/10.1101/345454">(DOI)</a></li>
-<li>[ZIKA] Villela, D., <strong>Bastos, L.</strong>, De Carvalho, L., Cruz, O., Gomes, M., Durovni, B., … Codeço, C. (2017). Zika in rio de janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. Epidemiology &amp; Infection, 145(8), 1649–1657. <a href="https://doi.org/10.1017/s0950268817000358">(DOI)</a></li>
-<li>[Dengue,SARS] Bastos, L., Economou, T., Gomes, M., Villela, D., Bailey, T., &amp; Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. <a href="http://arxiv.org/abs/1709.09150">(Link)</a></li>
-<li>[ZIKA] Codeço, C., Villela, D., Gomes, M. F., <strong>Bastos, L.</strong>, Cruz, O., Struchiner, C., … Coelho, F. (2016). Zika is not a reason for missing the olympic games in rio de janeiro: Response to the open letter of dr attaran and colleagues to dr margaret chan, director-general, who, on the zika threat to the olympic and paralympic games. Memórias Do Instituto Oswaldo Cruz, 111(6), 414–415. <a href="https://doi.org/10.1590/0074-02760160003">(DOI)</a></li>
-<li>[ZIKA] Coelho, F. C., Durovni, B., Saraceni, V., Lemos, C., Codeco, C. T., Camargo, S., … others. (2016). Higher incidence of zika in adult women than adult men in rio de janeiro suggests a significant contribution of sexual transmission from men to women. International Journal of Infectious Diseases, 51, 128–132. <a href="https://doi.org/10.1016/j.ijid.2016.08.023">(DOI)</a></li>
-</ul>
-</div>
-<div id="statistical-methods" class="section level2">
-<h2>Statistical methods</h2>
-<ul>
-<li>[RDS] Bastos, F. I., <strong>Bastos, L. S.</strong>, Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. Medicine, 97(1 Suppl), S16–S24.<a href="https://doi.org/10.1097/md.0000000000009447">(DOI)</a></li>
-<li>[NSUM] <strong>Bastos, L.S.</strong>, Paiva, N.S., Bastos, F.I., Villela, D.A.M.. (2018) Fast approaches for Bayesian estimation of size of hard-to-reach populations using Network Scale-up. ArXiV preprint 1804.04678. <a href="http://arxiv.org/abs/1804.04678">(Link)</a></li>
-<li>[RDS] Sperandei, S., <strong>Bastos, L. S.</strong>, Ribeiro-Alves, M., Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. <a href="https://doi.org/10.1016/j.socnet.2017.05.004">(DOI)</a></li>
-<li><strong>Bastos, L.</strong>, Economou, T., Gomes, M., Villela, D., Bailey, T., &amp; Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. <a href="http://arxiv.org/abs/1709.09150">(Link)</a></li>
-<li>Gonçalves, K., Migon, H. S., <strong>Bastos, L. S.</strong> (2017). Dynamic quantile linear model: a Bayesian approach. arXiv preprint arXiv:1711.00162. <a href="http://arxiv.org/abs/1711.00162">(Link)</a></li>
-<li>de Carvalho, L. M., Villela, D. A., Coelho, F. C., <strong>Bastos, L. S.</strong> (2015). Choosing the weights for the logarithmic pooling of probability distributions. arXiv preprint arXiv:1502.04206. <a href="http://arxiv.org/abs/1502.04206">(Link)</a></li>
-<li>Zapata-Vázquez, R. E., O’Hagan, A., <strong>Bastos, L. S.</strong> (2014). Eliciting expert judgements about a set of proportions. Journal of Applied Statistics, 41(9), 1919–1933. <a href="https://doi.org/10.1080/02664763.2014.898131">(DOI)</a></li>
-<li><strong>Bastos, L.S.</strong>, Rosa, J. M. C. (2013). Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. Journal of Applied Statistics, 40(7), 1533–1544. <a href="https://doi.org/10.1080/02664763.2013.788619">(DOI)</a></li>
-<li><strong>Bastos, L.S.</strong>, Pinho, A. A., Codeço, C., Bastos, F. I. (2012). Binary regression analysis with network structure of respondent-driven sampling data. arXiv preprint arXiv:1206.5681. <a href="http://arxiv.org/abs/1206.5681">(Link)</a></li>
-</ul>
-</div>
 <div id="colaborarion-network" class="section level2">
 <h2>Colaborarion network</h2>
 <p>My colaborarion network according to Google scholar (using scholar package)</p>
@@ -315,7 +430,8 @@ p &lt;- get_publications(id)
 coauthor_network &lt;- get_coauthors(id, n_coauthors = 6)
 
 plot_coauthors(coauthor_network)</code></pre>
-<p><img src="research_files/figure-html/unnamed-chunk-1-1.png" width="120%" /></p>
+<p><img src="research_files/figure-html/AFF-1.png" width="120%" /></p>
+</div>
 </div>
 
 
