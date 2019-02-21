@@ -20,9 +20,10 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -31,10 +32,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -90,8 +93,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -107,7 +116,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -127,6 +135,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,18 +193,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -213,6 +317,9 @@ $(document).ready(function () {
 <li>
   <a href="news.html">News</a>
 </li>
+<li>
+  <a href="eleicoes2018.html">Eleições 2018</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -249,11 +356,16 @@ $(document).ready(function () {
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
 <div id="refs" class="references">
+<<<<<<< HEAD
 <div id="ref-de2019accuracy">
 <p>Almeida Ribeiro, C. R. de, Amado, L. A., Tourinho, R. S., Pinto Lima, L. R., Melgaço, J. G., Almeida, A. J. de, … Paula, V. S. de. (2019). Accuracy of rapid test for diagnosis of hepatitis a with different infection rate settings and with predictive modeling. <em>Future Microbiology</em>.</p>
 </div>
 <div id="ref-coutinho2019risks">
 <p>Coutinho, C., Bastos, L. S., da Mota, J. C., Toledo, L., Costa, K., Bertoni, N., &amp; Bastos, F. I. (2019). The risks of hcv infection among brazilian crack cocaine users: Incorporating diagnostic test uncertainty. <em>Scientific Reports</em>, <em>9</em>(1), 443.</p>
+=======
+<div id="ref-Juvanhol2018">
+<p>Juvanhol, E. C. P. C., Leidjaira Lopesand Melo. (XXXX). Association between demand–control model components and blood pressure in the elsa-brasil study: Exploring heterogeneity using quantile regression analyses. <em>Scandinavian Journal of Work, Environment &amp; Health</em>. <a href="https://doi.org/10.5271/sjweh.3755" class="uri">https://doi.org/10.5271/sjweh.3755</a></p>
+>>>>>>> 86c14560aab0ec969ab93150fea0bca8db3c6f5e
 </div>
 <div id="ref-Bastoset2018Divas">
 <p>Bastos, F. I., Bastos, L. S., Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. <em>Medicine</em>, <em>97</em>(1 Suppl), S16–S24. <a href="https://doi.org/10.1097/md.0000000000009447" class="uri">https://doi.org/10.1097/md.0000000000009447</a></p>
@@ -267,8 +379,13 @@ $(document).ready(function () {
 <div id="ref-Faccion2018">
 <p>Faccion, R. S., Bernardo, P. S., Lopes, G. P. F. de, Bastos, L. S., Teixeira, C. L., Oliveira, J. A. de, … Maia, R. C. (2018). P53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. <em>Cellular Oncology</em>, <em>41</em>(2), 141–157. <a href="https://doi.org/10.1007/s13402-017-0361-5" class="uri">https://doi.org/10.1007/s13402-017-0361-5</a></p>
 </div>
+<<<<<<< HEAD
 <div id="ref-juvanhol2018association">
 <p>Juvanhol, L. L., Melo, E. C. P., Chor, D., Fonseca, M., Rotenberg, L., Bastos, L. S., … Griep, R. H. (2018). Association between demand–control model components and blood pressure in the elsa-brasil study: Exploring heterogeneity using quantile regression analyses. <em>Scandinavian Journal of Work, Environment &amp; Health</em>, <em>44</em>(6), 601–612.</p>
+=======
+<div id="ref-DASILVA2018163">
+<p>Silva, D. A. da, Ferreira, N. V., Rego, A. M., Barbosa, P. C. P., Machado, R. F., Pimentel, A., … Galvão, T. C. (2018). Integrated analysis of ethionamide resistance loci in mycobacterium tuberculosis clinical isolates. <em>Tuberculosis</em>, <em>113</em>, 163–174. <a href="https://doi.org/https://doi.org/10.1016/j.tube.2018.08.010" class="uri">https://doi.org/https://doi.org/10.1016/j.tube.2018.08.010</a></p>
+>>>>>>> 86c14560aab0ec969ab93150fea0bca8db3c6f5e
 </div>
 <div id="ref-sperandei2018assessing">
 <p>Sperandei, S., Bastos, L. S., Ribeiro-Alves, M., &amp; Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. <em>Social Networks</em>, <em>52</em>, 48–55. <a href="https://doi.org/10.1016/j.socnet.2017.05.004" class="uri">https://doi.org/10.1016/j.socnet.2017.05.004</a></p>

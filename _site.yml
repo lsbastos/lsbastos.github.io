@@ -19,6 +19,8 @@ navbar:
       href: teaching.html
     - text: "News"
       href: news.html
+    - text: "Eleições 2018"
+      href: eleicoes2018.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html

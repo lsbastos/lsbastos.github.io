@@ -423,6 +423,19 @@
   Publisher                = {SciELO Public Health}
 }
 
+@Article{DASILVA2018163,
+  Title                    = {Integrated analysis of ethionamide resistance loci in Mycobacterium tuberculosis clinical isolates},
+  Author                   = {Duanne Alves da Silva and Nicole Victor Ferreira and Amanda Mendes Rego and Pamela Chrystina Pinto Barbosa and Rodrigo Fernandes Machado and Alessandra Pimentel and Lusiano Motta dos Reis and Lucindo Cardoso de Pina and Paulo Redner and Paulo Cesar de Souza Caldas and Fátima Cristina Onofre Fandinho-Montes and Liamar Borga and Suzanne Pereira Leite and Jorge Luiz da Rocha and Leonardo Soares Bastos and Jesus Pais Ramos and Wim Maurits Degrave and L. Caetano M. Antunes and Teca Calcagno Galv\~ao},
+  Journal                  = {Tuberculosis},
+  Year                     = {2018},
+  Pages                    = {163 - 174},
+  Volume                   = {113},
+
+  Doi                      = {https://doi.org/10.1016/j.tube.2018.08.010},
+  ISSN                     = {1472-9792},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S147297921830180X}
+}
+
 @Article{sperandei2018assessing,
   Title                    = {Assessing respondent-driven sampling: A simulation study across different networks},
   Author                   = {Sperandei, Sandro and Bastos, Leonardo Soares and Ribeiro-Alves, Marcelo and Bastos, Francisco In{\'a}cio},
