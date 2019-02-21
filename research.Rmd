@@ -7,7 +7,10 @@
 If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area.
 - Inference in hard-to-reach populations
 - Modelling infectious diseases
-- Statistical methods: Mainly applied Bayesian modelling and computational statistics 
+- Developing and applying statistical methods in public health
+    - Applied Bayesian modelling 
+    - Bayesian computational (MCMC, INLA)
+    - Causal inference
 
 ## Inference in hard-to-reach populations
 
@@ -20,6 +23,7 @@ Projects:
 
 Some papers and tech reports:
 
+- [TLS] Coutinho, C. F., **Bastos, L. S.**, Mota, J. C., Toledo, L., Costa, K., Bertoni, N., Bastos, F. I. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. Scientific Reports, v. 9, p. 443. [(DOI)](http://dx.doi.org/10.1038/s41598-018-35657-0)
 - [RDS] Bastos, F. I., **Bastos, L. S.**, Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. Medicine, 97(1 Suppl), S16–S24.[(DOI)](https://doi.org/10.1097/md.0000000000009447) 
 - [NSUM] **Bastos, L.S.**, Paiva, N.S., Bastos, F.I., Villela, D.A.M.. (2018) Fast approaches for Bayesian estimation of size of hard-to-reach populations using Network Scale-up. ArXiV preprint 1804.04678. [(Link)](http://arxiv.org/abs/1804.04678)
 - [RDS] Sperandei, S., **Bastos, L. S.**, Ribeiro-Alves, M., & Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. [(DOI)](https://doi.org/10.1016/j.socnet.2017.05.004)
