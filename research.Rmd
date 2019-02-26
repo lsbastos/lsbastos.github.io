@@ -1,99 +1,20 @@
-
 ---
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
 
 # Research areas
 
-<<<<<<< HEAD
 If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area.
-- Inference in hard-to-reach populations
 - Modelling infectious diseases
+    - Mosquito-borne diseases: Arboviruses (dengue, Zika, Chikungunya), Malaria
+    - Sexual transmitted infections: HIV, HCV, syphilis
+- Inference in hard-to-reach populations
+    - Respondent-driven sampling
+    - Network scale-up methods
 - Developing and applying statistical methods in public health
     - Applied Bayesian modelling 
     - Bayesian computational (MCMC, INLA)
-    - Causal inference
-=======
-If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area:
->>>>>>> 86c14560aab0ec969ab93150fea0bca8db3c6f5e
-
-- Applied Bayesian modelling  
-- Modelling infectious diseases
-- Inference in hard-to-reach populations
-
-Please note that some papers bellow are repeated, since these three areas are naturally correlated. And one paper may be included in all three areas.
-
-## Statistical methods
-
-Model development and computational implementation of statistical tools usually applied to biological and public health problems. My main interest is on implement proper statistical models to answer biological and epidemiological question on public helth problems using Bayesian methods. 
-
-- [Model-based inference for RDS data] Bastos, F. I., **Bastos, L. S.**, Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. Medicine, 97(1 Suppl), S16–S24.[(DOI)](https://doi.org/10.1097/md.0000000000009447) 
-- [Bayesian inference for NSUM] **Bastos, L.S.**, Paiva, N.S., Bastos, F.I., Villela, D.A.M.. (2018) Fast approaches for Bayesian estimation of size of hard-to-reach populations using Network Scale-up. ArXiV preprint 1804.04678. [(Link)](http://arxiv.org/abs/1804.04678)
-- [Evaluation on RDS estimators] Sperandei, S., **Bastos, L. S.**, Ribeiro-Alves, M., Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. [(DOI)](https://doi.org/10.1016/j.socnet.2017.05.004)
-- [Reporting delay modelling] **Bastos, L.**, Economou, T., Gomes, M., Villela, D., Bailey, T., & Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. [(Link)](http://arxiv.org/abs/1709.09150)
-- [Dynamic quantile regression] Gonçalves, K., Migon, H. S., **Bastos, L. S.** (2017). Dynamic quantile linear model: a Bayesian approach. arXiv preprint arXiv:1711.00162. [(Link)](http://arxiv.org/abs/1711.00162)
-- [log-Pooling] de Carvalho, L. M., Villela, D. A., Coelho, F. C., **Bastos, L. S.** (2015). Choosing the weights for the logarithmic pooling of probability distributions. arXiv preprint arXiv:1502.04206. [(Link)](http://arxiv.org/abs/1502.04206)
-- [Elicitation] Zapata-Vázquez, R. E., O'Hagan, A.,  **Bastos, L. S.** (2014). Eliciting expert judgements about a set of proportions. Journal of Applied Statistics, 41(9), 1919–1933. [(DOI)](https://doi.org/10.1080/02664763.2014.898131)
-- [Poisson model; Fuzzy clusters] **Bastos, L.S.**, Rosa, J. M. C. (2013). Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. Journal of Applied Statistics, 40(7), 1533–1544. [(DOI)](https://doi.org/10.1080/02664763.2013.788619)
-- [Model-based inference for RDS data] **Bastos, L.S.**, Pinho, A. A., Codeço, C., Bastos, F. I. (2012). Binary regression analysis with network structure of respondent-driven sampling data. arXiv preprint arXiv:1206.5681. [(Link)](http://arxiv.org/abs/1206.5681)
-
-<<<<<<< HEAD
-- [TLS] Coutinho, C. F., **Bastos, L. S.**, Mota, J. C., Toledo, L., Costa, K., Bertoni, N., Bastos, F. I. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. Scientific Reports, v. 9, p. 443. [(DOI)](http://dx.doi.org/10.1038/s41598-018-35657-0)
-- [RDS] Bastos, F. I., **Bastos, L. S.**, Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. Medicine, 97(1 Suppl), S16–S24.[(DOI)](https://doi.org/10.1097/md.0000000000009447) 
-- [NSUM] **Bastos, L.S.**, Paiva, N.S., Bastos, F.I., Villela, D.A.M.. (2018) Fast approaches for Bayesian estimation of size of hard-to-reach populations using Network Scale-up. ArXiV preprint 1804.04678. [(Link)](http://arxiv.org/abs/1804.04678)
-- [RDS] Sperandei, S., **Bastos, L. S.**, Ribeiro-Alves, M., & Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. [(DOI)](https://doi.org/10.1016/j.socnet.2017.05.004)
-- [TLS] Toledo, L., Cano, I., Bastos, L., Bertoni, N., & Bastos, F. I. (2017). Criminal justice involvement of crack cocaine users in the city of rio de janeiro and greater metropolitan area: Implications for public health and the public security agenda. International Journal of Drug Policy, 49, 65–72. [(DOI)](https://doi.org/10.1016/j.drugpo.2017.07.034)
-=======
->>>>>>> 86c14560aab0ec969ab93150fea0bca8db3c6f5e
-
-## Modelling infectious diseases 
-
-I am involved in modelling and analysis of infectious diseases data. I have been working on several type of infectious, sexually transmitted infections such as HIV, syphilis, and hepatitis, mosquito-borne infectious diseases like Malaria, and the arboviroses dengue, Zika, and chikungunya. Our interesting relies on describe using a model-based approach the disease epidemiology via providing prevalences, incidences, and risk factors, and also we are interested on provide early warning models that may be able to antecipate an large epideic, or even an small outbreak.
-
-Projects:
-
-- Space-time epidemiology of arboviroses
-- e-Surveillance project is a project for statistical and mathematical methods for disease surveillance.
-    - *Infodengue* is a warning system with cases of dengue in the 790 (on August 2018) Brazilian municipalities. [(link)](https://info.dengue.mat.br/)
-    - *Infogripe* is a warning system for Severe acute respiratory syndrome in Brazil. [(link)](http://info.gripe.fiocruz.br/) 
-
-Some papers and tech reports:
-
-- [Dengue] Codeço, C.T., Coelho, F.C., Cruz, O.G., Oliveira, S., Castro, T., **Bastos, L.S.** (2018). Infodengue: A nowcasting system for the surveillance of arboviruses in brazil. REVUE D EPIDEMIOLOGIE ET DE SANTE PUBLIQUE, 66, p. S386. [(DOI)](https://doi.org/10.1016/j.respe.2018.05.408)
-- [ZIKA] Armstrong, M., Coelho, F.C., **Bastos, L.S.**, Saraceni, V., Lemos, C., Silva, M., Sant'Anna, L., Crespo, J., Watanabe, M.S.. (2018) How Public Transport affected the Propagation of Zika and Microcephaly within Rio de Janeiro early in 2015. BioArXiV pre-print.  [(DOI)](https://doi.org/10.1101/345454) 
-- [ZIKA] Villela, D., **Bastos, L.**, De Carvalho, L., Cruz, O., Gomes, M., Durovni, B., … Codeço, C. (2017). Zika in rio de janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. Epidemiology & Infection, 145(8), 1649–1657. [(DOI)](https://doi.org/10.1017/s0950268817000358)
-- [Dengue,SARS] Bastos, L., Economou, T., Gomes, M., Villela, D., Bailey, T., & Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. [(Link)](http://arxiv.org/abs/1709.09150)
-- [Malaria] Lima, J. B. P., Galardo, A. K. R., **Bastos, L. S.**, Silva Lima, A. W. da, & Rosa-Freitas, M. G. (2017). MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. PLoS Neglected Tropical Diseases, 11(3), e0005245. https://doi.org/10.1371/journal.pntd.0005245
-- [ZIKA] Codeço, C., Villela, D., Gomes, M. F., **Bastos, L.**, Cruz, O., Struchiner, C., … Coelho, F. (2016). Zika is not a reason for missing the olympic games in rio de janeiro: Response to the open letter of dr attaran and colleagues to dr margaret chan, director-general, who, on the zika threat to the olympic and paralympic games. Memórias Do Instituto Oswaldo Cruz, 111(6), 414–415. [(DOI)](https://doi.org/10.1590/0074-02760160003)
-- [ZIKA] Coelho, F. C., Durovni, B., Saraceni, V., Lemos, C., Codeco, C. T., Camargo, S., … others. (2016). Higher incidence of zika in adult women than adult men in rio de janeiro suggests a significant contribution of sexual transmission from men to women. International Journal of Infectious Diseases, 51, 128–132. [(DOI)](https://doi.org/10.1016/j.ijid.2016.08.023)
-
-
-## Inference in hard-to-reach populations
-
-I am a leader of a [CNPq group](http://dgp.cnpq.br/dgp/espelhogrupo/9202942352902061) on this theme, where we mainly try to answer two questions about hard to reach populations (i) How many are they? (ii) Who are they? The first question we explore a method called Network Scale-up (NSUM); The second we deal with data from time location sampling (TLS) and Respondent-driven sampling (RDS) designs.
-
-Projects:
-
-- *Divas project* is a Respondent-driven sampling study aiming to learn about the individual and overall reality of Transsexual and Transvestite women in Brazil. [(link)](https://www.nudhes.com/divas)
-- *Pesquisa Nacional do Crack* is a National survey on Crack-cocaine users. This study has two components: (i) TLS component to sample crack users; and (ii) NSUM survey aiming to estimated the number of crack users in the 27 Brazilian capitals.
-
-Some papers and tech reports:
-
-- [RDS] Bastos, F. I., **Bastos, L. S.**, Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. Medicine, 97(1 Suppl), S16–S24.[(DOI)](https://doi.org/10.1097/md.0000000000009447) 
-- [NSUM] **Bastos, L.S.**, Paiva, N.S., Bastos, F.I., Villela, D.A.M.. (2018) Fast approaches for Bayesian estimation of size of hard-to-reach populations using Network Scale-up. ArXiV preprint 1804.04678. [(Link)](http://arxiv.org/abs/1804.04678)
-<<<<<<< HEAD
-- [RDS] Sperandei, S., **Bastos, L. S.**, Ribeiro-Alves, M., Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. [(DOI)](https://doi.org/10.1016/j.socnet.2017.05.004)
-- **Bastos, L.**, Economou, T., Gomes, M., Villela, D., Bailey, T., & Codeço, C. (2017). Modelling reporting delays for disease surveillance data. arXiv preprint arXiv:1709.09150. [(Link)](http://arxiv.org/abs/1709.09150)
-- Gonçalves, K., Migon, H. S., **Bastos, L. S.** (2017). Dynamic quantile linear model: a Bayesian approach. arXiv preprint arXiv:1711.00162. [(Link)](http://arxiv.org/abs/1711.00162)
-- de Carvalho, L. M., Villela, D. A., Coelho, F. C., **Bastos, L. S.** (2015). Choosing the weights for the logarithmic pooling of probability distributions. arXiv preprint arXiv:1502.04206. [(Link)](http://arxiv.org/abs/1502.04206)
-- Zapata-Vázquez, R. E., O'Hagan, A.,  **Bastos, L. S.** (2014). Eliciting expert judgements about a set of proportions. Journal of Applied Statistics, 41(9), 1919–1933. [(DOI)](https://doi.org/10.1080/02664763.2014.898131)
-- **Bastos, L.S.**, Rosa, J. M. C. (2013). Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. Journal of Applied Statistics, 40(7), 1533–1544. [(DOI)](https://doi.org/10.1080/02664763.2013.788619)
-- **Bastos, L.S.**, Pinho, A. A., Codeço, C., Bastos, F. I. (2012). Binary regression analysis with network structure of respondent-driven sampling data. arXiv preprint arXiv:1206.5681. [(Link)](http://arxiv.org/abs/1206.5681)
-=======
-- [RDS] Sperandei, S., **Bastos, L. S.**, Ribeiro-Alves, M., & Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 52, 48–55. [(DOI)](https://doi.org/10.1016/j.socnet.2017.05.004)
-- [TLS] Toledo, L., Cano, I., Bastos, L., Bertoni, N., & Bastos, F. I. (2017). Criminal justice involvement of crack cocaine users in the city of rio de janeiro and greater metropolitan area: Implications for public health and the public security agenda. International Journal of Drug Policy, 49, 65–72. [(DOI)](https://doi.org/10.1016/j.drugpo.2017.07.034)
-
+    - Quantile regression
 
 
 ## Colaborarion network
@@ -111,4 +32,4 @@ coauthor_network <- get_coauthors(id, n_coauthors = 6)
 
 plot_coauthors(coauthor_network)
 ```
->>>>>>> 86c14560aab0ec969ab93150fea0bca8db3c6f5e
+

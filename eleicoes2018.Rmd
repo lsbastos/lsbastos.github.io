@@ -13,6 +13,9 @@ Peguei os dados das pesquisas registradas usando no site pooling data <http://ww
 ```{r, message=FALSE}
 library(tidyverse)
 library(lubridate)
+# Using this because I am lazy to upgrade my linux
+INLA:::inla.dynload.workaround()
+
 
 dados <- read_csv2(file = "files/PollingData - 2018-T2-Brasil-BR-President.csv")
 
@@ -74,7 +77,6 @@ dadosM <- filter(dados2, Data > "2018-10-07", Candidato == "Haddad") %>%
 
 
 model <- Prop ~ 1 + f(Days, model = "rw2")
-
 
 r <- inla(model, data = dadosM, family = "beta", control.predictor = list( compute = T, link = T))
 

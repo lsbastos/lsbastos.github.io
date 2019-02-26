@@ -18,6 +18,7 @@
 
 - (Epi) Statistics for Epidemiology
 - (Epi) Applied Bayesian modelling
+- (Epi) Statistical modelling II
 
 ### 2016 and before 
 
