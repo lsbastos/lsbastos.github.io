@@ -12,6 +12,7 @@ If you are looking for a possible colaboration, you may be interested in some of
     - Inference in hard-to-reach populations
         - Respondent-driven sampling
         - Network scale-up methods
+        
 - Developing and applying statistical methods in public health
     - Bayesian multilevel models
     - Spatial and spatio-temporal models
