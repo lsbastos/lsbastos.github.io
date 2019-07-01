@@ -5,9 +5,12 @@
 
 <img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am an applied Bayesian statistician working at the [Scientific Computing Program (PROCC)](http://www.procc.fiocruz.br) in the [Oswaldo Cruz Foundation (Fiocruz)](http://www.fiocruz.br). 
+I am an applied Bayesian statistician. 
 
-My main interest is on _developing_ Bayesian statistical models to applied problems, usually public health problems. I am interested in problems where the usual statistical model assumptions (e.g. independence, normality) are not valid, this may explain the big variability among areas of application in my CV, varying from micro (analysis of mosquito data) to macro (National epidemics).
+  - Public health researcher in the [PROCC](http://www.procc.fiocruz.br) at the [Fiocruz](http://www.fiocruz.br) 
+  - Research Fellow at the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) at the [LSHTM](https://www.lshtm.ac.uk/)
+
+My main interest is on _developing_ Bayesian statistical solutions/models to applied problems, usually public health problems. I am interested in problems where the usual statistical model assumptions (e.g. independence, normality) are not valid.
 
 My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos
 Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)

@@ -7,7 +7,9 @@ My Lattes CV is available [here](http://lattes.cnpq.br/5241799121437269) <br>
 
 My full CV (PDF) is available [here](CV/cv-leo.pdf) <br>
 
-Papers and citations according to [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
+Papers and citations:
+  - [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
+  - Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
 
 
 ## Education

@@ -22,7 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -92,8 +93,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -109,7 +116,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -129,6 +135,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -150,18 +193,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -248,108 +350,80 @@ $(document).ready(function () {
 </div>
 
 
-<div id="references" class="section level1 unnumbered">
+<div id="references" class="section level1">
 <h1>References</h1>
-<div id="refs" class="references">
-<div id="ref-de2019accuracy">
-<p>Almeida Ribeiro, C. R. de, Amado, L. A., Tourinho, R. S., Pinto Lima, L. R., Melgaço, J. G., Almeida, A. J. de, … Paula, V. S. de. (2019). Accuracy of rapid test for diagnosis of hepatitis a with different infection rate settings and with predictive modeling. <em>Future Microbiology</em>, <em>14</em>(3), 247–258. <a href="https://doi.org/10.2217/fmb-2018-0211" class="uri">https://doi.org/10.2217/fmb-2018-0211</a></p>
+<div id="to-appear" class="section level2">
+<h2>To appear</h2>
+<ul>
+<li>Goncalvez, Migon and <em>Bastos</em>. Dynamic Quantile Linear Models: A Bayesian Approach. <em>Bayesian Analysis</em>.</li>
+<li>Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. <em>Brazilian Journal of Tropical Medicine</em>.</li>
+<li>Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of <em>Trypanosoma cruzi</em>: an example of cooperative behavior. <em>Journal of Biomolecular Structure and Dynamics</em>.</li>
+<li><em>Bastos</em> et al.. A modelling approach for correcting reporting delays in disease surveillance data. <em>Statistics in Medicine</em>.</li>
+</ul>
 </div>
-<div id="ref-coutinho2019risks">
-<p>Coutinho, C., Bastos, L. S., da Mota, J. C., Toledo, L., Costa, K., Bertoni, N., &amp; Bastos, F. I. (2019). The risks of hcv infection among brazilian crack cocaine users: Incorporating diagnostic test uncertainty. <em>Scientific Reports</em>, <em>9</em>(1), 443. <a href="https://doi.org/10.1038/s41598-018-35657-0" class="uri">https://doi.org/10.1038/s41598-018-35657-0</a></p>
+<div id="section" class="section level2">
+<h2>2019</h2>
+<ul>
+<li>Coutinho, <em>Bastos</em>, et al.. The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. <em>Scientific Reports</em>. <a href="https://www.nature.com/articles/s41598-018-35657-0">(Open access)</a></li>
+<li>de Almeida Ribeiro, et al.. Accuracy of rapid test for diagnosis of hepatitis A with different infection rate settings and with predictive modeling. <em>Future Microbiology</em>.</li>
+</ul>
 </div>
-<div id="ref-Bastoset2018Divas">
-<p>Bastos, F. I., Bastos, L. S., Coutinho, C. F., Toledo, L., Mota, J. C., Velasco-de-Castro, C. A., … Divas Research Group. (2018). HIV, HCV, HBV and Syphilis among transgender women from Brazil: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population. <em>Medicine</em>, <em>97</em>(1 Suppl), S16–S24. <a href="https://doi.org/10.1097/md.0000000000009447" class="uri">https://doi.org/10.1097/md.0000000000009447</a></p>
+<div id="section-1" class="section level2">
+<h2>2018</h2>
+<ul>
+<li>Bastos, <em>Bastos</em>, et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. <em>Medicine</em>.</li>
+<li>Sperandei, Bastos, et al.. A simulation study across different networks. <em>Social Networks</em>.</li>
+<li>Juvanhol et al.. Association between demand-control model components and blood pressure in the ELSA-Brasil study: exploring heterogeneity using quantile regression analyses. <em>Scandinavian Journal of Work Enviroment &amp; Health</em>.</li>
+<li>Faccion et al.. p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. <em>Celullar Oncology</em>.</li>
+<li>Da Silva et al.. Integrated analysis of ethionamide resistance loci in <em>Mycobacterium tuberculosis</em> clinical isolates. <em>Tuberculosis</em>.</li>
+<li>Cysne-Finkelstein et al.. Evidence of Subpopulations with Distinct Biological Features Within a Leishmania (Viannia) braziliensis Strain. <em>Protist</em>.</li>
+</ul>
 </div>
-<div id="ref-codeco2018">
-<p>Codeço, C., Coelho, F., Oliveira, S., Castro, T., &amp; Bastos, L. (2018). Infodengue: A nowcasting system for the surveillance of arboviruses in brazil. <em>REVUE D EPIDEMIOLOGIE ET DE SANTE PUBLIQUE</em>, <em>66, p. S386</em>, S386. <a href="https://doi.org/10.1016/j.respe.2018.05.408" class="uri">https://doi.org/10.1016/j.respe.2018.05.408</a></p>
+<div id="section-2" class="section level2">
+<h2>2017</h2>
+<ul>
+<li>Villela, <em>Bastos</em>, et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. <em>Epidemiology and Infection</em>.</li>
+<li>Toledo et al.. Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda. <em>International Journal of Drug Policy</em>.</li>
+<li>Lima et el.. MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. <em>PLoS Neglected Tropical Diseases</em>.</li>
+<li>Rodrigues et al.. Distribution of pulmonary tuberculosis in Rio de Janeiro (Brazil): a spatial analysis. <em>Ciencia &amp; Saude Coletiva</em>.</li>
+<li>Lima-Neiva et al.. Biology of <em>Triatoma sherlocki</em> (Hemiptera: Reduviidae) Under Laboratory Conditions: Biological Cycle and Resistance to Starvation. <em>Journal of Medical Entomology</em>.</li>
+<li>Rizzzeto et al.. Chronic kidney disease progression: a retrospective analysis of 3-year adherence to a low protein diet. <em>Renal Failure</em>.</li>
+</ul>
 </div>
-<div id="ref-cysne2018evidence">
-<p>Cysne-Finkelstein, L., Silva-Almeida, M., Pereira, B. A. S., Santos Charret, K. dos, Bertho, Á. L., Bastos, L. S., … Alves, C. R. (2018). Evidence of subpopulations with distinct biological features within a leishmania (viannia) braziliensis strain. <em>Protist</em>, <em>169</em>, 107–121. <a href="https://doi.org/10.1016/j.protis.2017.11.004" class="uri">https://doi.org/10.1016/j.protis.2017.11.004</a></p>
+<div id="section-3" class="section level2">
+<h2>2016</h2>
+<ul>
+<li>MacCharty et al.. Mind the gap: implementation challenges break the link between HIV/AIDS research and practice. <em>Cadernos de Saúde Pública</em>.</li>
+<li>Codeco et al.. Zika is not a reason for missing the Olympic Games in Rio de Janeiro: response to the open letter of Dr Attaran and colleagues to Dr Margaret Chan, Director - General, WHO, on the Zika threat to the Olympic and Paralympic Games. <em>Memórias do Instituto Oswaldo Cruz</em>.</li>
+<li>Juvanhol et al. Factors associated with overweight: are the conclusions influenced by choice of the regression method? <em>BMC Public Health</em>.</li>
+<li>Coelho et al.. Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. <em>International Journal of Infectious Diseases</em>.</li>
+</ul>
 </div>
-<div id="ref-Faccion2018">
-<p>Faccion, R. S., Bernardo, P. S., Lopes, G. P. F. de, Bastos, L. S., Teixeira, C. L., Oliveira, J. A. de, … Maia, R. C. (2018). P53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. <em>Cellular Oncology</em>, <em>41</em>(2), 141–157. <a href="https://doi.org/10.1007/s13402-017-0361-5" class="uri">https://doi.org/10.1007/s13402-017-0361-5</a></p>
+<div id="section-4" class="section level2">
+<h2>2015</h2>
+<ul>
+<li>Bastos, De Oliveira and Velasque. Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. Cadernos de Saúde Pública</li>
+<li>Bittencourt et al.. Neonatal care in Brazil: hospital structure and adequacy according to newborn obstetric risk. <em>Paediatrics and International Child Health</em>.</li>
+</ul>
 </div>
-<div id="ref-DASILVA2018163">
-<p>Silva, D. A. da, Ferreira, N. V., Rego, A. M., Barbosa, P. C. P., Machado, R. F., Pimentel, A., … Galvão, T. C. (2018). Integrated analysis of ethionamide resistance loci in mycobacterium tuberculosis clinical isolates. <em>Tuberculosis</em>, <em>113</em>, 163–174. <a href="https://doi.org/https://doi.org/10.1016/j.tube.2018.08.010" class="uri">https://doi.org/https://doi.org/10.1016/j.tube.2018.08.010</a></p>
+<div id="section-5" class="section level2">
+<h2>2014</h2>
+<ul>
+<li>Bazin et al.. Terapia antirretroviral em crianças e adolescentes infectados pelo HIV: o que sabemos após 30 anos de epidemia. <em>Cadernos de Saúde Pública</em>.</li>
+<li>Zapata-Vazquez, <em>Bastos</em> and O’Hagan. Eliciting expert judgements about a set of proportions. Journal of Applied Statistics</li>
+<li>Boni et al. Unrecorded alcohol in Rio de Janeiro: assessing its misusers through respondent-driven sampling. <em>Drug and Alcohol Depencdence</em>.</li>
+<li>Griep, <em>Bastos</em>, et al. Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil. <em>BMC Health Services Research</em>.</li>
+</ul>
 </div>
-<div id="ref-sperandei2018assessing">
-<p>Sperandei, S., Bastos, L. S., Ribeiro-Alves, M., &amp; Bastos, F. I. (2018). Assessing respondent-driven sampling: A simulation study across different networks. <em>Social Networks</em>, <em>52</em>, 48–55. <a href="https://doi.org/10.1016/j.socnet.2017.05.004" class="uri">https://doi.org/10.1016/j.socnet.2017.05.004</a></p>
-</div>
-<div id="ref-lima2017mosqtent">
-<p>Lima, J. B. P., Galardo, A. K. R., Bastos, L. S., Silva Lima, A. W. da, &amp; Rosa-Freitas, M. G. (2017). MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. <em>PLoS Neglected Tropical Diseases</em>, <em>11</em>(3), e0005245. <a href="https://doi.org/10.1371/journal.pntd.0005245" class="uri">https://doi.org/10.1371/journal.pntd.0005245</a></p>
-</div>
-<div id="ref-lima2017biology">
-<p>Lima-Neiva, V., Gonçalves, T. C., Bastos, L. S., Gumiel, M., Correia, N. C., Silva, C. C., … Costa, J. (2017). Biology of triatoma sherlocki (hemiptera: Reduviidae) under laboratory conditions: Biological cycle and resistance to starvation. <em>Journal of Medical Entomology</em>, <em>54</em>(4), 831–836. <a href="https://doi.org/10.1093/jme/tjw249" class="uri">https://doi.org/10.1093/jme/tjw249</a></p>
-</div>
-<div id="ref-rizzetto2017chronic">
-<p>Rizzetto, F., Leal, V. de O., Bastos, L. S., Fouque, D., &amp; Mafra, D. (2017). Chronic kidney disease progression: A retrospective analysis of 3-year adherence to a low protein diet. <em>Renal Failure</em>, <em>39</em>(1), 357–362. <a href="https://doi.org/10.1080/0886022x.2017.1282374" class="uri">https://doi.org/10.1080/0886022x.2017.1282374</a></p>
-</div>
-<div id="ref-rodrigues2017distribution">
-<p>Rodrigues, N. C. P., Andrade, M. K. de N., O’Dwyer, G., Flynn, M., Braga, J. U., Almeida, A. S. de, … Lino, V. T. S. (2017). Distribution of pulmonary tuberculosis in rio de janeiro (Brazil): A spatial analysis. <em>Ciencia &amp; Saude Coletiva</em>, <em>22</em>, 4125–4134. <a href="https://doi.org/10.1590/1413-812320172212.0143016" class="uri">https://doi.org/10.1590/1413-812320172212.0143016</a></p>
-</div>
-<div id="ref-toledo2017criminal">
-<p>Toledo, L., Cano, I., Bastos, L., Bertoni, N., &amp; Bastos, F. I. (2017). Criminal justice involvement of crack cocaine users in the city of rio de janeiro and greater metropolitan area: Implications for public health and the public security agenda. <em>International Journal of Drug Policy</em>, <em>49</em>, 65–72. <a href="https://doi.org/10.1016/j.drugpo.2017.07.034" class="uri">https://doi.org/10.1016/j.drugpo.2017.07.034</a></p>
-</div>
-<div id="ref-villela2017zika">
-<p>Villela, D., Bastos, L., De Carvalho, L., Cruz, O., Gomes, M., Durovni, B., … Codeço, C. (2017). Zika in rio de janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. <em>Epidemiology &amp; Infection</em>, <em>145</em>(8), 1649–1657. <a href="https://doi.org/10.1017/s0950268817000358" class="uri">https://doi.org/10.1017/s0950268817000358</a></p>
-</div>
-<div id="ref-codecco2016zika">
-<p>Codeço, C., Villela, D., Gomes, M. F., Bastos, L., Cruz, O., Struchiner, C., … Coelho, F. (2016). Zika is not a reason for missing the olympic games in rio de janeiro: Response to the open letter of dr attaran and colleagues to dr margaret chan, director-general, who, on the zika threat to the olympic and paralympic games. <em>Memórias Do Instituto Oswaldo Cruz</em>, <em>111</em>(6), 414–415. <a href="https://doi.org/10.1590/0074-02760160003" class="uri">https://doi.org/10.1590/0074-02760160003</a></p>
-</div>
-<div id="ref-coelho2016higher">
-<p>Coelho, F. C., Durovni, B., Saraceni, V., Lemos, C., Codeco, C. T., Camargo, S., … others. (2016). Higher incidence of zika in adult women than adult men in rio de janeiro suggests a significant contribution of sexual transmission from men to women. <em>International Journal of Infectious Diseases</em>, <em>51</em>, 128–132. <a href="https://doi.org/10.1016/j.ijid.2016.08.023" class="uri">https://doi.org/10.1016/j.ijid.2016.08.023</a></p>
-</div>
-<div id="ref-juvanhol2016factors">
-<p>Juvanhol, L. L., Lana, R. M., Cabrelli, R., Bastos, L. S., Nobre, A. A., Rotenberg, L., &amp; Griep, R. H. (2016). Factors associated with overweight: Are the conclusions influenced by choice of the regression method? <em>BMC Public Health</em>, <em>16</em>(1), 642. <a href="https://doi.org/10.1186/s12889-016-3340-2" class="uri">https://doi.org/10.1186/s12889-016-3340-2</a></p>
-</div>
-<div id="ref-MacCarthy2016">
-<p>MacCarthy, S. A. H., Sarah AND Reisner. (2016). Mind the gap: implementation challenges break the link between HIV/AIDS research and practice. <em>Cadernos de Saúde Pública</em>, <em>32</em>(10), e00047715. <a href="https://doi.org/10.1590/0102-311X00047715" class="uri">https://doi.org/10.1590/0102-311X00047715</a></p>
-</div>
-<div id="ref-Bastos2015">
-<p>Bastos, L. S., Oliveira, R. de V. C. d, &amp; Velasque, L. de S. (2015). Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. <em>Cadernos de Saúde Pública</em>, <em>31</em>(3), 487–495. <a href="https://doi.org/10.1590/0102-311X00175413" class="uri">https://doi.org/10.1590/0102-311X00175413</a></p>
-</div>
-<div id="ref-DeAzevedoBittencourt2015">
-<p>Bittencourt, S. D. de A., Gurgel, R. Q., Menezes, M. A. da S., Bastos, L. S., &amp; Leal, M. do C. (2015). Neonatal care in Brazil: hospital structure and adequacy according to newborn obstetric risk. <em>Paediatrics and International Child Health</em>, <em>35</em>(3), 206–212. <a href="https://doi.org/10.1179/2046905515Y.0000000028" class="uri">https://doi.org/10.1179/2046905515Y.0000000028</a></p>
-</div>
-<div id="ref-DeCarvalho2015">
-<p>Carvalho, L. M. de, Villela, D. A. M., Coelho, F. C., &amp; Bastos, L. S. (2015). <em>Choosing the weights for the logarithmic pooling of probability distributions</em> (No. arXiv:1502.04206). arXiv preprint. Retrieved from <a href="http://arxiv.org/abs/1502.04206" class="uri">http://arxiv.org/abs/1502.04206</a></p>
-</div>
-<div id="ref-Carvalho2015">
-<p>Carvalho, L. M., Struchiner, C. J., &amp; Bastos, L. S. (2015). Bayesian Inference of Deterministic Population Growth Models. In <em>Interdisciplinary bayesian statistics</em> (pp. 217–228). Springer. <a href="https://doi.org/10.1007/978-3-319-12454-4{\_}18" class="uri">https://doi.org/10.1007/978-3-319-12454-4{\_}18</a></p>
-</div>
-<div id="ref-Bazin2014">
-<p>Bazin, G. R., Gaspar, M. C. S., Silva, N. C. X. M. da, Mendes, C. da C., Oliveira, C. P. de, Bastos, L. S., &amp; Cardoso, C. A. A. (2014). Terapia antirretroviral em crianças e adolescentes infectados pelo HIV: o que sabemos após 30 anos de epidemia. <em>Cadernos de Saúde Pública</em>, <em>30</em>(4), 687–702. <a href="https://doi.org/10.1590/0102-311X00075413" class="uri">https://doi.org/10.1590/0102-311X00075413</a></p>
-</div>
-<div id="ref-DeBoni2014">
-<p>De Boni, R. B., Bertoni, N., Bastos, L. S., &amp; Bastos, F. I. (2014). Unrecorded alcohol in Rio de Janeiro: Assessing its misusers through Respondent Driven Sampling. <em>Drug and Alcohol Dependence</em>, <em>139</em>, 169–173. <a href="https://doi.org/10.1016/j.drugalcdep.2014.03.015" class="uri">https://doi.org/10.1016/j.drugalcdep.2014.03.015</a></p>
-</div>
-<div id="ref-Griep2014">
-<p>Griep, R., Bastos, L. S., Fonseca, M. de J., Silva-Costa, A., Portela, L., Toivanen, S., &amp; Rotenberg, L. (2014). Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil. <em>BMC Health Services Research</em>, <em>14</em>(1), 603. <a href="https://doi.org/10.1186/s12913-014-0603-4" class="uri">https://doi.org/10.1186/s12913-014-0603-4</a></p>
-</div>
-<div id="ref-Zapata-Vazquez2014">
-<p>Zapata-Vázquez, R. E., O’Hagan, A., &amp; Bastos, L. S. (2014). Eliciting expert judgements about a set of proportions. <em>Journal of Applied Statistics</em>, <em>41</em>(9), 1919–1933. <a href="https://doi.org/10.1080/02664763.2014.898131" class="uri">https://doi.org/10.1080/02664763.2014.898131</a></p>
-</div>
-<div id="ref-Bastos2013">
-<p>Bastos, L. S., &amp; Rosa, J. M. C. da. (2013). Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. <em>Journal of Applied Statistics</em>, <em>40</em>(7), 1533–1544. <a href="https://doi.org/10.1080/02664763.2013.788619" class="uri">https://doi.org/10.1080/02664763.2013.788619</a></p>
-</div>
-<div id="ref-Basetal12">
-<p>Bastos, L. S., Pinho, A. A., Codeço, C., &amp; Bastos, F. I. (2012). <em>Binary regression analysis with network structure of respondent-driven sampling data</em>. ArXiv e-prints.</p>
-</div>
-<div id="ref-Paiva2012">
-<p>Paiva, N. S., &amp; Bastos, L. S. (2012). Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. <em>Revista Brasileira de Estatistica</em>, <em>2</em>(237), 93–115.</p>
-</div>
-<div id="ref-Bastos2010">
-<p>Bastos, L. S. (2010). <em>Validating Gaussian Process Models in Computer Experiments</em> (PhD thesis). University of Sheffield. Retrieved from <a href="http://etheses.whiterose.ac.uk/963/" class="uri">http://etheses.whiterose.ac.uk/963/</a></p>
-</div>
-<div id="ref-Bastos2009">
-<p>Bastos, L. S., &amp; O’Hagan, A. (2009). Diagnostics for Gaussian Process Emulators. <em>Technometrics</em>, <em>51</em>(4), 425–438. <a href="https://doi.org/10.1198/TECH.2009.08019" class="uri">https://doi.org/10.1198/TECH.2009.08019</a></p>
-</div>
-<div id="ref-Bastos2006">
-<p>Bastos, L. S., &amp; Gamerman, D. (2006). Dynamic survival models with spatial frailty. <em>Lifetime Data Analysis</em>, <em>12</em>(4), 441–460. <a href="https://doi.org/10.1007/s10985-006-9020-2" class="uri">https://doi.org/10.1007/s10985-006-9020-2</a></p>
-</div>
-<div id="ref-Loschi2005">
-<p>Loschi, R. H., Bastos, L. S., &amp; Iglesias, P. L. (2005). Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. <em>Computational Economics</em>, <em>24</em>(4), 305–319. <a href="https://doi.org/10.1007/s10614-005-5169-0" class="uri">https://doi.org/10.1007/s10614-005-5169-0</a></p>
-</div>
+<div id="and-before" class="section level2">
+<h2>2013 and before</h2>
+<ul>
+<li>Bastos and Rosa. Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. <em>Journal of Applied Statistics</em>. (2013)</li>
+<li>Paiva and Bastos. Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. <em>Revista Brasileira de Estatística</em>. (2012)</li>
+<li>Bastos and O’Hagan. Diagnostics for Gaussian Process Emulators. <em>Technometrics</em>. (2009)</li>
+<li>Bastos and Gamerman. Dynamic survival models with spatial frailty. Lifetime Data Analaysis. (2006)</li>
+<li>Loschi, Bastos, and Iglesias. Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. <em>Computational Economics</em>. (2005)</li>
+</ul>
 </div>
 </div>
 
