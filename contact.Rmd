@@ -3,9 +3,9 @@
 
 ## Contact
 
-Emails: leonardo.bastos@fiocruz.br; lsbastos@pq.cnpq.br
+Emails: leonardo.bastos AT {fiocruz.br, lshtm.ac.uk}; lsbastos AT {pq.cnpq.br, gmail.com}
 
-Twitter: [@leosbastos](http://twitter.com/leosbastos)
+Twitter: [`@`leosbastos](http://twitter.com/leosbastos)
 
 
 ### Institutional address:

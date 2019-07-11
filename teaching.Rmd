@@ -7,6 +7,12 @@
 - [BCS] Courses for Computational and Systems Biology
 - [Stat] Undergraduate courses for Statistics
 
+
+### 2019
+
+- (BCS) Quantitative methods in biosciences (Métodos quantitativos em biociências)
+
+
 ### 2018
 
 - (Epi) Statistical modelling I [Course material (In Portuguese)](https://gitlab.procc.fiocruz.br/marcelo/me-I) 

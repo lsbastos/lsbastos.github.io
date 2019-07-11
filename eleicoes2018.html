@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>eleicoes2018.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -72,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -193,8 +191,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -265,6 +261,15 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -355,8 +360,8 @@ $(document).ready(function () {
 <p>Peguei os dados das pesquisas registradas usando no site pooling data <a href="http://www.pollingdata.com.br" class="uri">http://www.pollingdata.com.br</a>. Mas quem quiser, pode baixar o arquivo csv <a href="files/PollingData%20-%202018-T2-Brasil-BR-President.csv">aqui</a>.</p>
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
-# Using this because I am lazy to upgrade my linux
-INLA:::inla.dynload.workaround()
+### Using this because I am lazy to upgrade my linux
+# INLA:::inla.dynload.workaround()
 
 
 dados &lt;- read_csv2(file = &quot;files/PollingData - 2018-T2-Brasil-BR-President.csv&quot;)
@@ -420,12 +425,12 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
 <pre><code>## # A tibble: 6 x 7
 ##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
 ##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
-## 1 0.429 0.0136        0.402      0.429        0.456 0.429 2018-10-23
+## 1 0.429 0.0135        0.402      0.429        0.456 0.429 2018-10-23
 ## 2 0.433 0.0142        0.405      0.433        0.461 0.433 2018-10-24
 ## 3 0.438 0.0154        0.407      0.438        0.468 0.438 2018-10-25
-## 4 0.443 0.0175        0.408      0.443        0.477 0.442 2018-10-26
-## 5 0.448 0.0205        0.408      0.447        0.489 0.447 2018-10-27
-## 6 0.453 0.0246        0.406      0.452        0.503 0.451 2018-10-28</code></pre>
+## 4 0.443 0.0175        0.408      0.443        0.477 0.443 2018-10-26
+## 5 0.448 0.0205        0.408      0.448        0.489 0.447 2018-10-27
+## 6 0.453 0.0245        0.406      0.452        0.503 0.451 2018-10-28</code></pre>
 <p>Note que a última linha é o dia da eleição.</p>
 <p>Calculando a probabilidade de vitória do Haddad, <span class="math inline">\(P(Y_T &gt; 0.50)\)</span>, onde <span class="math inline">\(T\)</span> é o dia da eleição (28/10/2018).</p>
 <pre class="r"><code>aux &lt;- names(r$marginals.fitted.values)
@@ -434,7 +439,7 @@ prob &lt;- 1 - inla.pmarginal( q = 0.50,
                 marginal = r$marginals.fitted.values[aux[length(aux)]][[1]]
                 )
 round(prob,4)</code></pre>
-<pre><code>## [1] 0.0309</code></pre>
+<pre><code>## [1] 0.0306</code></pre>
 </div>
 
 

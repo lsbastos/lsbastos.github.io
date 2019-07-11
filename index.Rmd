@@ -10,7 +10,27 @@ I am an applied Bayesian statistician.
   - Public health researcher in the [PROCC](http://www.procc.fiocruz.br) at the [Fiocruz](http://www.fiocruz.br) 
   - Research Fellow at the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) at the [LSHTM](https://www.lshtm.ac.uk/)
 
-My main interest is on _developing_ Bayesian statistical solutions/models to applied problems, usually public health problems. I am interested in problems where the usual statistical model assumptions (e.g. independence, normality) are not valid.
+My main interest is on _developing_ Bayesian statistical solutions/models to applied problems, usually infectious diseases. I am interested in problems in which the usual statistical model assumptions (e.g. independence, normality) are not valid.
 
-My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos
+## Random stuff
+
+- I am a Taekwondo student holding a 1st DAN black belt. My masters are [Master Erico Soares](http://soaresteam.com.br) (4th DAN) and [Senior Master Renato Ribeiro](http://soaresteam.com.br/mestre-soares-team/) (7 th DAN).
+- My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos <br>
 Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)
+
+
+## CV
+
+My Lattes CV is available [here](http://lattes.cnpq.br/5241799121437269) <br>
+
+Papers and citations:
+  - [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
+  - Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
+
+
+## Education
+
+- PhD in statistics, [The University of Sheffield](https://www.sheffield.ac.uk/maths), UK, 2010. <BR> Under supervision of [Prof Tony O'Hagan](http://tonyohagan.co.uk/) and [Prof Jeremy Oakley](http://www.jeremy-oakley.staff.shef.ac.uk/). ([Thesis](http://etheses.whiterose.ac.uk/963/))
+- MSc in statistics, [Federal University of Rio de Janeiro](http://www.dme.ufrj.br), Brazil, 2003. <br> Under supervison of [Prof Dani Gamerman]()
+- BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
+

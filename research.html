@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>research.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -72,9 +72,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -193,8 +191,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -265,6 +261,15 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -375,9 +380,11 @@ $(document).ready(function () {
 <div id="colaborarion-network" class="section level2">
 <h2>Colaborarion network</h2>
 <p>My colaborarion network according to Google scholar (using scholar package)</p>
-<pre class="r"><code>library(scholar)
-
-# My google scholar id
+<pre class="r"><code>library(scholar)</code></pre>
+<pre><code>## Registered S3 method overwritten by &#39;R.oo&#39;:
+##   method        from       
+##   throw.default R.methodsS3</code></pre>
+<pre class="r"><code># My google scholar id
 id &lt;- &quot;A5VmZYMAAAAJ&quot;
 p &lt;- get_publications(id)
 

@@ -5,6 +5,7 @@
 
 ## To appear
 
+  - *Bastos*, Economou, et al.. . *Statistics in Medicine*. Open Access. [Code and data](https://github.com/lsbastos/Delay).
   - Goncalvez, Migon and *Bastos*. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
   - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. *Brazilian Journal of Tropical Medicine*.
   - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of _Trypanosoma cruzi_: an example of cooperative behavior. *Journal of Biomolecular Structure and Dynamics*.
