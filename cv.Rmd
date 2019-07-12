@@ -1,17 +1,47 @@
 ---
 ---
 
-## CV
+## Formal positions:
 
-My Lattes CV is available [here](http://lattes.cnpq.br/5241799121437269) <br>
+  - Associate researcher at [PROCC](http://www.procc.fiocruz.br)/[Fiocruz](http://www.fiocruz.br), Brazil.
+  - Posdoctoral Research Fellow at [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK.
 
-Papers and citations:
+
+## CV and publications:
+
+  - [Lattes CV](http://lattes.cnpq.br/5241799121437269)
   - [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
   - Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
+  - [Publication page](publications.html)
+
+
+## Statistics skills/interests
+
+  - Basic of bayesian computation (MCMC, INLA, ABC)
+  - Gaussian process emulators
+  - Dynamic linear models
+  - Bayesian survival analysis
+  - Bayesian mapping diseases
+  - Spatial and spatio-temporal models
+  - Analysis of survey data
+  - Statistical analysis of hard-to-reach population data (RDS, TLS and NSUM)
+
+## Computer skills
+
+  - Linux user since 2000
+  - R user since 2001, and I am honest user of [tidyverse](https://www.tidyverse.org/)
+  - Some knowlegment of C/C++
+
 
 
 ## Education
 
 - PhD in statistics, [The University of Sheffield](https://www.sheffield.ac.uk/maths), UK, 2010. <BR> Under supervision of [Prof Tony O'Hagan](http://tonyohagan.co.uk/) and [Prof Jeremy Oakley](http://www.jeremy-oakley.staff.shef.ac.uk/). ([Thesis](http://etheses.whiterose.ac.uk/963/))
 - MSc in statistics, [Federal University of Rio de Janeiro](http://www.dme.ufrj.br), Brazil, 2003. <br> Under supervison of [Prof Dani Gamerman]()
-- BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
+- BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. <br> Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
+
+## Random stuff
+
+- I am a Taekwondo student holding a 1st DAN black belt. My masters are [Master Erico Soares](http://soaresteam.com.br) (4th DAN) and [Grandmaster Renato Ribeiro](https://www.kimtkd.com.br/) (7th DAN).
+- My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos <br>
+(Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2))

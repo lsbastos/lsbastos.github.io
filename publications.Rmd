@@ -5,21 +5,21 @@
 
 ## To appear
 
-  - *Bastos*, Economou, et al.. . *Statistics in Medicine*. Open Access. [Code and data](https://github.com/lsbastos/Delay).
-  - Goncalvez, Migon and *Bastos*. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
+  - **Bastos**, Economou, et al.. . *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
+  - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
   - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. *Brazilian Journal of Tropical Medicine*.
   - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of _Trypanosoma cruzi_: an example of cooperative behavior. *Journal of Biomolecular Structure and Dynamics*.
-  - *Bastos* et al.. A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*.
+  - **Bastos** et al.. A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*.
 
 ## 2019
 
-  - Coutinho, *Bastos*, et al.. The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [(Open access)](https://www.nature.com/articles/s41598-018-35657-0)
+  - Coutinho, **Bastos**, et al.. The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0)
   - de Almeida Ribeiro, et al.. Accuracy of rapid test for diagnosis of hepatitis A with different infection rate settings and with predictive modeling. *Future Microbiology*.
   
 
 ## 2018
 
-  - Bastos, *Bastos*, et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*.
+  - Bastos, **Bastos**, et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*.
   - Sperandei, Bastos, et al.. A simulation study across different networks. *Social Networks*.
   - Juvanhol et al.. Association between demand-control model components and blood pressure in the ELSA-Brasil study: exploring heterogeneity using quantile regression analyses. *Scandinavian Journal of Work Enviroment & Health*.
   - Faccion et al.. p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. *Celullar Oncology*.
@@ -29,7 +29,7 @@
 
 ## 2017
 
-  - Villela, *Bastos*, et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*.
+  - Villela, **Bastos**, et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*.
   - Toledo et al.. Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda. *International Journal of Drug Policy*.
   - Lima et el.. MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. *PLoS Neglected Tropical Diseases*.
   - Rodrigues et al.. Distribution of pulmonary tuberculosis in Rio de Janeiro (Brazil): a spatial analysis. *Ciencia & Saude Coletiva*.
@@ -45,20 +45,20 @@
 
 ## 2015
 
-  - Bastos, De Oliveira and Velasque. Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. Cadernos de Saúde Pública
+  - **Bastos**, De Oliveira and Velasque. Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. Cadernos de Saúde Pública
   - Bittencourt et al.. Neonatal care in Brazil: hospital structure and adequacy according to newborn obstetric risk. *Paediatrics and International Child Health*.
 
 ## 2014
 
   - Bazin et al.. Terapia antirretroviral em crianças e adolescentes infectados pelo HIV: o que sabemos após 30 anos de epidemia. *Cadernos de Saúde Pública*.
-  - Zapata-Vazquez, *Bastos* and O'Hagan. Eliciting expert judgements about a set of proportions. Journal of Applied Statistics
+  - Zapata-Vazquez, **Bastos** and O'Hagan. Eliciting expert judgements about a set of proportions. Journal of Applied Statistics
   - Boni et al. Unrecorded alcohol in Rio de Janeiro: assessing its misusers through respondent-driven sampling. *Drug and Alcohol Depencdence*.
-  - Griep, *Bastos*, et al. Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil. *BMC Health Services Research*.
+  - Griep, **Bastos**, et al. Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil. *BMC Health Services Research*.
   
 ## 2013 and before
 
-  - Bastos and Rosa. Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. *Journal of Applied Statistics*. (2013)
-  - Paiva and Bastos. Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. *Revista Brasileira de Estatística*. (2012)
-  - Bastos and O'Hagan. Diagnostics for Gaussian Process Emulators. *Technometrics*. (2009)
-  - Bastos and Gamerman. Dynamic survival models with spatial frailty. Lifetime Data Analaysis. (2006)
-  - Loschi, Bastos, and Iglesias. Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. *Computational Economics*. (2005)
+  - **Bastos** and Rosa. Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. *Journal of Applied Statistics*. (2013)
+  - Paiva and **Bastos**. Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. *Revista Brasileira de Estatística*. (2012)
+  - **Bastos** and O'Hagan. Diagnostics for Gaussian Process Emulators. *Technometrics*. (2009)
+  - **Bastos** and Gamerman. Dynamic survival models with spatial frailty. Lifetime Data Analaysis. (2006)
+  - Loschi, **Bastos**, and Iglesias. Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. *Computational Economics*. (2005)

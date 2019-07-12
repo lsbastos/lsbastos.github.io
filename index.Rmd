@@ -3,34 +3,28 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
-I am an applied Bayesian statistician. 
+## Short bio
 
-  - Public health researcher in the [PROCC](http://www.procc.fiocruz.br) at the [Fiocruz](http://www.fiocruz.br) 
-  - Research Fellow at the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) at the [LSHTM](https://www.lshtm.ac.uk/)
+I am an applied Bayesian statistician working on public health problems. I am currently based in London working as a research fellow at the LSHTM, UK, and I also hold permanent position at Fiocruz, Brazil.  My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research question for infectious diseases. I am interested in problems in which the usual statistical model approaches (e.g. LM, GLMs) are not appropriate.
 
-My main interest is on _developing_ Bayesian statistical solutions/models to applied problems, usually infectious diseases. I am interested in problems in which the usual statistical model assumptions (e.g. independence, normality) are not valid.
+## News in a short format
 
-## Random stuff
+- (New paper) Accepted in Statistics in Medicine with Theo Economou, Prof Trevor Bailey, and others. (Jul. 2019)
+- (Postdoc) Start a research fellow postion at LSHTM in London with Rachel Lowe and Oliver Brandy. (Jun. 2019)
+- (New paper) Accepter in Journal of Biomolecular Structure and Dynamics with Rafael Soares, Ernesto Caffarena, and others (May 2019)
+- (New paper) Accepted in Bayesian Analysis with Kelly Goncalvez and Helio Migon (Apr. 2019)
+- (New paper) Accepted in Journal of the Brazilian Society of Tropical Medicine with Filipe de Souza, Nathaly de Souza and others. (Mar. 2019)
+- (New paper) Accepted in Nature Scientific Reports with Carol Coutinho, Francisco Bastos and others. (Feb. 2019)
+- (New paper) Accepted in Future Microbiology with Luciane Amado and others. (Jan. 2019)
+- (Visiting researcher) I visited for 10 days prof. Haavard Rue at KAUST, Saudi Arabia.  (Jan. 2019)
+- (Brazilian Elections 2018) I did some coding on Brazilian presidential elections [(Link)](eleicoes2018.html)
+- (Conference) I was a conference speakers at Foro Climatico Internacional, Tucuman, Argentina [(Link)](https://climactivo.com)  (Oct. 2018)
+- (New paper) Accepted in Tubercolusis with Teca Galvão and others (Aug. 2018)
+- (New paper) Accepted in the Scandinavian Journal of Work Enviroment & Health with Leidjaira Juvanhol, Rosane Griep and others (2018)
 
-- I am a Taekwondo student holding a 1st DAN black belt. My masters are [Master Erico Soares](http://soaresteam.com.br) (4th DAN) and [Senior Master Renato Ribeiro](http://soaresteam.com.br/mestre-soares-team/) (7 th DAN).
-- My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos <br>
-Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)
-
-
-## CV
-
-My Lattes CV is available [here](http://lattes.cnpq.br/5241799121437269) <br>
-
-Papers and citations:
-  - [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
-  - Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
-
-
-## Education
-
-- PhD in statistics, [The University of Sheffield](https://www.sheffield.ac.uk/maths), UK, 2010. <BR> Under supervision of [Prof Tony O'Hagan](http://tonyohagan.co.uk/) and [Prof Jeremy Oakley](http://www.jeremy-oakley.staff.shef.ac.uk/). ([Thesis](http://etheses.whiterose.ac.uk/963/))
-- MSc in statistics, [Federal University of Rio de Janeiro](http://www.dme.ufrj.br), Brazil, 2003. <br> Under supervison of [Prof Dani Gamerman]()
-- BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
-
+Last update:
+```{r, echo=F}
+date()
+```
