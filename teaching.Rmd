@@ -1,7 +1,6 @@
 ---
+title: "Teaching"
 ---
-
-## Teaching
 
 - [Epi] Courses for the Epidemiology graduate program
 - [BCS] Courses for Computational and Systems Biology

@@ -1,26 +1,41 @@
 ---
+title: "Research areas"
 ---
 
 
-# Research areas
-
-If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area.
-
-- Modelling infectious diseases
-    - Mosquito-borne diseases: Arboviruses (dengue, Zika, Chikungunya), Malaria
-    - Sexual transmitted infections: HIV, HCV, syphilis
-    - Inference in hard-to-reach populations
-        - Respondent-driven sampling
-        - Network scale-up methods
-        
-- Developing and applying statistical methods in public health
-    - Bayesian multilevel models
-    - Spatial and spatio-temporal models
-    - Bayesian Quantile regression
-    - Bayesian computational (INLA, MCMC)
+- Statistical modelling of mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria)
+    - Spatial and Spatio-temporal models for counting data
+    - Nowcasting and forecasting models for epidemics
+    - Model-based approach for defining epidemic thrseholds
+- Inference in hard-to-reach (H2R) populations
+    - Inference for Respondent-driven sampling data
+    - Estimating population size using Network scale-up methods
+    - Statistical models for sexually transmitted infections (e.g. HIV, HCV, syphilis) in H2R populations
+        - Bayesian multilevel modelling (multilevel logistic regression)
+- Statistical models for noncomunicable diseases
+    - Statistical models for cohorts, in particular in colaboration with the ELSA-Brasil study
+    - Bayesian inference for complex samples in secondary data sources 
 
 
-## Google scholar colaborarion network
+## Oportunities
+
+If you are looking for a possible colaboration or an opportunity feel free to write to discuss a potencial project at all levels:
+
+### Undergraduate students
+
+Scientific iniciation (PIBIC), it requires a CR>7 and at least a couple of months to prepare a project to submit to Fiocruz, FAPERJ, etc. PIBIC project under my supervision wiil basically be R development projects relate to my research interests.
+
+### Graduate students (MSc and PhD)
+
+I am qualified to supervise students in two graduate programs: Epidemiology in Public Health at ENSP/Fiocruz and Systems and Computational Biology at IOC/Fiocruz. A project may be required, so please get in touch in advance at least 3 to 6 months before application (usually 2nd semester of each year)
+
+### Posdoctoral reasearch
+
+From time to time there are some posdoc scholarships available from the graduate programs (PNPD) and from other sources like FAPERJ, CNPq and international sources, let me know if you are interested.
+
+
+
+# Google scholar colaborarion network
 
 My colaborarion network according to Google scholar (using scholar package)
 

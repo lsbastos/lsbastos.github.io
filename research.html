@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>research.utf8.md</title>
+<title>Research areas</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -86,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -247,18 +247,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -330,34 +318,51 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Research areas</h1>
 
 </div>
 
 
-<div id="research-areas" class="section level1">
-<h1>Research areas</h1>
-<p>If you are looking for a possible colaboration, you may be interested in some of my papers and tech reports by area.</p>
 <ul>
-<li>Modelling infectious diseases
+<li>Statistical modelling of mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria)
 <ul>
-<li>Mosquito-borne diseases: Arboviruses (dengue, Zika, Chikungunya), Malaria</li>
-<li>Sexual transmitted infections: HIV, HCV, syphilis</li>
-<li>Inference in hard-to-reach populations
+<li>Spatial and Spatio-temporal models for counting data</li>
+<li>Nowcasting and forecasting models for epidemics</li>
+<li>Model-based approach for defining epidemic thrseholds</li>
+</ul></li>
+<li>Inference in hard-to-reach (H2R) populations
 <ul>
-<li>Respondent-driven sampling</li>
-<li>Network scale-up methods</li>
+<li>Inference for Respondent-driven sampling data</li>
+<li>Estimating population size using Network scale-up methods</li>
+<li>Statistical models for sexually transmitted infections (e.g. HIV, HCV, syphilis) in H2R populations
+<ul>
+<li>Bayesian multilevel modelling (multilevel logistic regression)</li>
 </ul></li>
 </ul></li>
-<li>Developing and applying statistical methods in public health
+<li>Statistical models for noncomunicable diseases
 <ul>
-<li>Bayesian multilevel models</li>
-<li>Spatial and spatio-temporal models</li>
-<li>Bayesian Quantile regression</li>
-<li>Bayesian computational (INLA, MCMC)</li>
+<li>Statistical models for cohorts, in particular in colaboration with the ELSA-Brasil study</li>
+<li>Bayesian inference for complex samples in secondary data sources</li>
 </ul></li>
 </ul>
-<div id="google-scholar-colaborarion-network" class="section level2">
-<h2>Google scholar colaborarion network</h2>
+<div id="oportunities" class="section level2">
+<h2>Oportunities</h2>
+<p>If you are looking for a possible colaboration or an opportunity feel free to write to discuss a potencial project at all levels:</p>
+<div id="undergraduate-students" class="section level3">
+<h3>Undergraduate students</h3>
+<p>Scientific iniciation (PIBIC), it requires a CR&gt;7 and at least a couple of months to prepare a project to submit to Fiocruz, FAPERJ, etc. PIBIC project under my supervision wiil basically be R development projects relate to my research interests.</p>
+</div>
+<div id="graduate-students-msc-and-phd" class="section level3">
+<h3>Graduate students (MSc and PhD)</h3>
+<p>I am qualified to supervise students in two graduate programs: Epidemiology in Public Health at ENSP/Fiocruz and Systems and Computational Biology at IOC/Fiocruz. A project may be required, so please get in touch in advance at least 3 to 6 months before application (usually 2nd semester of each year)</p>
+</div>
+<div id="posdoctoral-reasearch" class="section level3">
+<h3>Posdoctoral reasearch</h3>
+<p>From time to time there are some posdoc scholarships available from the graduate programs (PNPD) and from other sources like FAPERJ, CNPq and international sources, let me know if you are interested.</p>
+</div>
+</div>
+<div id="google-scholar-colaborarion-network" class="section level1">
+<h1>Google scholar colaborarion network</h1>
 <p>My colaborarion network according to Google scholar (using scholar package)</p>
 <pre class="r"><code>library(scholar)</code></pre>
 <pre><code>## Registered S3 method overwritten by &#39;R.oo&#39;:
@@ -371,7 +376,6 @@ coauthor_network &lt;- get_coauthors(id, n_coauthors = 6)
 
 plot_coauthors(coauthor_network)</code></pre>
 <p><img src="research_files/figure-html/AFF-1.png" width="120%" /></p>
-</div>
 </div>
 
 
@@ -391,6 +395,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

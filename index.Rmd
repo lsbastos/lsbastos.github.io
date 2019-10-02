@@ -9,6 +9,14 @@
 
 I am an applied Bayesian statistician working on public health problems. I am currently based in London working as a research fellow at the LSHTM, UK, and I also hold permanent position at Fiocruz, Brazil.  My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research question for infectious diseases. I am interested in problems in which the usual statistical model approaches (e.g. LM, GLMs) are not appropriate.
 
+## CV and publications:
+
+- [Lattes CV](http://lattes.cnpq.br/5241799121437269)
+- [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
+- Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
+- [Publication page](publications.html)
+
+
 ## News in a short format
 
 - (New paper) Accepted in Statistics in Medicine with Theo Economou, Prof Trevor Bailey, and others. (Jul. 2019)

@@ -7,15 +7,8 @@
   - Posdoctoral Research Fellow at [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK.
 
 
-## CV and publications:
 
-  - [Lattes CV](http://lattes.cnpq.br/5241799121437269)
-  - [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
-  - Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
-  - [Publication page](publications.html)
-
-
-## Statistics skills/interests
+## Statistical skills/interests
 
   - Basic of bayesian computation (MCMC, INLA, ABC)
   - Gaussian process emulators
