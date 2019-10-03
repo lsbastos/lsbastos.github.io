@@ -21,17 +21,9 @@ title: "Research areas"
 
 If you are looking for a possible colaboration or an opportunity feel free to write to discuss a potencial project at all levels:
 
-### Undergraduate students
-
-Scientific iniciation (PIBIC), it requires a CR>7 and at least a couple of months to prepare a project to submit to Fiocruz, FAPERJ, etc. PIBIC project under my supervision wiil basically be R development projects relate to my research interests.
-
-### Graduate students (MSc and PhD)
-
-I am qualified to supervise students in two graduate programs: Epidemiology in Public Health at ENSP/Fiocruz and Systems and Computational Biology at IOC/Fiocruz. A project may be required, so please get in touch in advance at least 3 to 6 months before application (usually 2nd semester of each year)
-
-### Posdoctoral reasearch
-
-From time to time there are some posdoc scholarships available from the graduate programs (PNPD) and from other sources like FAPERJ, CNPq and international sources, let me know if you are interested.
+- **Undergraduate students** <br> Scientific iniciation (PIBIC), it requires a CR>7 and at least a couple of months to prepare a project to submit to Fiocruz, FAPERJ, etc. PIBIC project under my supervision wiil basically be R development projects relate to my research interests.
+- **Graduate students (MSc and PhD)** <br> I am qualified to supervise students in two graduate programs: Epidemiology in Public Health at ENSP/Fiocruz and Systems and Computational Biology at IOC/Fiocruz. A project may be required, so please get in touch in advance at least 3 to 6 months before application (usually 2nd semester of each year)
+- **Posdoctoral reasearchers** <br> From time to time there are some posdoc scholarships available from the graduate programs (PNPD) and from other sources like FAPERJ, CNPq and international sources, let me know if you are interested.
 
 
 
@@ -51,3 +43,17 @@ coauthor_network <- get_coauthors(id, n_coauthors = 6)
 plot_coauthors(coauthor_network)
 ```
 
+# Important links:
+
+- Bayesian Statistical softwares
+    - INLA: http://www.r-inla.org/
+    - Stan: https://mc-stan.org/
+    - Nimble: https://r-nimble.org/
+- Brazilian microdata:
+    - PNS: [IBGE description](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&t=sobre) and [download and analysis in R](http://asdfree.com/pesquisa-nacional-de-saude-pns.html)
+    - Vigitel: http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm
+    - Datasus: http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos
+- Research projects:
+    - Infodenge: https://info.dengue.mat.br/
+    - Infogripe: http://info.gripe.fiocruz.br/
+    - ELSA-Brasil: http://www.elsa.org.br/index1.html

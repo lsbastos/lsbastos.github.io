@@ -1,5 +1,5 @@
 ---
-title: Leo Bastos
+title: Leo Bastos' personal homepage
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -21,9 +21,10 @@ I am an applied Bayesian statistician working on public health problems. I am cu
 ## News in a short format
 
 - (New paper) Accepted in Vaccine with Guillermo Barrenechea (Oct 2019)
+- (New paper) Accepted in Cardernos de Saude Publica with Natalia Paiva et al. (Sep 2019)
 - (New paper) Accepted in Statistics in Medicine with Theo Economou, Prof Trevor Bailey, and others. (Jul 2019)
-- (Postdoc) Start a research fellow postion at LSHTM in London with Rachel Lowe and Oliver Brandy. (Jun 2019)
-- (New paper) Accepter in Journal of Biomolecular Structure and Dynamics with Rafael Soares, Ernesto Caffarena, and others (May 2019)
+- (Postdoc) Started a research fellow position at LSHTM in London with Rachel Lowe and Oliver Brandy. (Jun 2019)
+- (New paper) Accepted in Journal of Biomolecular Structure and Dynamics with Rafael Soares, Ernesto Caffarena, and others (May 2019)
 - (New paper) Accepted in Bayesian Analysis with Kelly Goncalvez and Helio Migon (Apr 2019)
 - (New paper) Accepted in Journal of the Brazilian Society of Tropical Medicine with Filipe de Souza, Nathaly de Souza and others. (Mar 2019)
 - (New paper) Accepted in Nature Scientific Reports with Carol Coutinho, Francisco Bastos and others. (Feb 2019)

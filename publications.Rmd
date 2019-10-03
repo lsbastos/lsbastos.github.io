@@ -6,7 +6,9 @@ title: "Publications"
 
 ## To appear
 
-  - **Bastos**, Economou, et al.. . *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
+  - Barrenechea and **Bastos**. Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine*.
+  - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. 
+  - **Bastos**, Economou, et al.. A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
   - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
   - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. *Brazilian Journal of Tropical Medicine*.
   - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of _Trypanosoma cruzi_: an example of cooperative behavior. *Journal of Biomolecular Structure and Dynamics*.
