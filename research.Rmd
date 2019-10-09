@@ -31,7 +31,7 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 
 My colaborarion network according to Google scholar (using scholar package)
 
-```{r, AFF, out.width = '120%'}
+```{r, AFF, out.width = '120%', message=FALSE}
 library(scholar)
 
 # My google scholar id

@@ -1,14 +1,15 @@
 ---
-title: Leo Bastos' personal homepage
+title: Leo Bastos
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 <img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
-## Short bio
 
-I am an applied Bayesian statistician working on public health problems. I am currently based in London working as a research fellow at the LSHTM, UK, and I also hold permanent position at Fiocruz, Brazil.  My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research question for infectious diseases. I am interested in problems in which the usual statistical model approaches (e.g. LM, GLMs) are not appropriate.
+- Associate researcher at [PROCC](http://www.procc.fiocruz.br)/[Fiocruz](http://www.fiocruz.br), Brazil.
+- Posdoctoral Research Fellow at [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK.
+
 
 ## CV and publications:
 

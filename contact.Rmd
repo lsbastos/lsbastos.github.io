@@ -1,12 +1,9 @@
 ---
-title: Leo Bastos' contact details
+title: "Contact"
 ---
 
-## Contact
+Emails: leonardo DOT bastos AT {fiocruz.br; lshtm.ac.uk; pq.cnpq.br}
 
-Emails: leonardo.bastos AT {fiocruz.br, lshtm.ac.uk}
-
-Social network: [Twitter](https://twitter.com/leosbastos) [LinkedIn](linkedin.com/in/leo-bastos-2489a222)
 
 
 

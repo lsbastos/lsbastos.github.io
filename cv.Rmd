@@ -1,29 +1,11 @@
 ---
+title: "CV"
 ---
 
-## Formal positions:
 
-  - Associate researcher at [PROCC](http://www.procc.fiocruz.br)/[Fiocruz](http://www.fiocruz.br), Brazil.
-  - Posdoctoral Research Fellow at [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK.
+## Short bio
 
-
-
-## Statistical skills/interests
-
-  - Basic of bayesian computation (MCMC, INLA, ABC)
-  - Gaussian process emulators
-  - Dynamic linear models
-  - Bayesian survival analysis
-  - Bayesian mapping diseases
-  - Spatial and spatio-temporal models
-  - Analysis of survey data
-  - Statistical analysis of hard-to-reach population data (RDS, TLS and NSUM)
-
-## Computer skills
-
-  - Linux user since 2000
-  - R user since 2001, and I am honest user of [tidyverse](https://www.tidyverse.org/)
-  - Some knowlegment of C/C++
+I am a registred statistician at the [CONRE2](http://www.conre2.org.br/), but I would rather consider myself an applied Bayesian statistician working on public health problems. I am currently based in London working as a research fellow at the [LSHTM](https://www.lshtm.ac.uk/), UK, and I also hold permanent position at [Fiocruz](https://portal.fiocruz.br/en), Brazil.  My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research questions for infectious diseases. 
 
 
 
@@ -34,59 +16,74 @@
 - BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. <br> Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
 
 
-## Students
+## Random stuff
 
-### Current 
+  - I am a Taekwondo student holding a 1st DAN black belt. My masters are: 
+    - [Master Erico Soares](http://soaresteam.com.br) (4th DAN)
+    - [Grandmaster Renato Ribeiro](https://www.kimtkd.com.br/) (7th DAN).
+  - My [Erdős Number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 4: Bastos > O'Hagan > Leonard > Taylor > Erdős (Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2))
+    - Curiosity note: I am academically decendent from Lindley, Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli
+  - My profile in the [Mathematics Genealogy project](https://genealogy.math.ndsu.nodak.edu/id.php?id=144359)
 
-  - Gisele Vieira Rocha, PhD student in Systems and Computational Biology, Fiocruz
-  - Lucas Monteiro Bianchi. PhD candidate in Epidemiology, Fiocruz
-  - Fernanda Esthefane Garrides Oliveira. PhD candidate in Epidemiology, Fiocruz
-  - Julia Novaes de Barros Peixoto. MSc student in Epidemiology, Fiocruz
-  - Camila Mattos Santos, MSc student in Epidemiology, Fiocruz
-  - Ana Carolina de Queirós e Feijó, MSc student in Epidemiology, Fiocruz
 
+
+## Posdocs
+
+### Former
+
+  - Marcelo F C Gomes (2019-2019) BCS/Fiocruz.
+  - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
+
+
+## PhD students
+
+### Current
+
+  - Gisele Vieira Rocha  (2016-) PhD student in Systems and Computational Biology, Fiocruz (co supervisor Mauricio Garcia)
+  - Lucas Monteiro Bianchi (2019-). PhD candidate in Epidemiology, Fiocruz
+  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD candidate in Epidemiology, Fiocruz (co supervisor Rosane Griep)
 
 ### Former 
 
-  - Marcelo F C Gomes (2019) Postdoctoral research,  BCS/Fiocruz.
-  - Diego da Costa Moreira Barbosa (2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
-  - Juliane da Silva Falcão (2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
-  - Daniel Stokes (2016) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
-  - José Carlos Benfica (2015) MSc in Epidemiogy, Fiocruz (Co supervisor Paula Luz)
-  - Mohema Duarte de Oliveira (2015) MSc in Epidemiogy, Fiocruz
-  - Sebastian Genero (2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
-  - Monique de Abreu Rocha (2015) BSc in Statistics, ENCE/IBGE.
-  - Bruno Laiber de Pinho (2015) BSc in Statistics, ENCE/IBGE.
-  - Felipe Rocha Oshiro (2015) BSc in Statistics, ENCE/IBGE.
-  - Leonara Alves Cesario da Silva (2015) Scientific Iniciation, Fiocruz.
-  - Yasmin Ferreira Cavaliere (2015) Scientific Iniciation, Fiocruz.
-  - Julia Villapouca Gesualdi (2014) Scientific Iniciation, Fiocruz.
-  - Danielle Freitas (2013) BSc in Statistics, UFF.
-  - Evandro Dalbem Lopes (2013) BSc in Statistics, UFF.
-  - Natalia Santana Paiva (2012) BSc in Statistics, UFF.
-  - Kiese da Silva Quiavauca (2012) BSc in Statistics, UFF.
-  - Natália Santana Paiva	(2011) Scientific Iniciation, UFF.
-  - Clarissa Cardoso Oesselmann (2011) Scientific Iniciation, UFF
-  - Fabiano Oliveira Campos (2006) BSc in Statistics, UFPR.
-  - Moisés Marcus Retka (2006) BSc in Statistics, UFPR.
-  
-  
-### Former (co supervision)
-
-  - Fabio Jorge de Vasconcellos Júnior (2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
-  - Ana Carolina Cardoso Arruda Carvalho de Moura (2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)
-  - Sandro Sperandei (2018) Postdoctoral at Fiocruz (co supervised Francisco Bastos)
   - Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Maria Rita Lustosa Byington (2015) PhD in Epidemiology at Fiocruz (Supervisor Marilia Carvalho)
   - Lidiane da Silveira Gouvea Toledo (2015) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
-  - Gabriela Ricordi Bazin (2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)
+
+
+## Other students 
+
+### Current
+
+  - Julia Novaes de Barros Peixoto (2018-) MSc student in Epidemiology, Fiocruz
+  - Camila Mattos Santos  (2018-) MSc student in Epidemiology, Fiocruz
+  - Ana Carolina de Queirós e Feijó  (2017-) MSc student in Epidemiology, Fiocruz
+
+### Former 
+
+  - Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
+  - Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)
+  - Diego da Costa Moreira Barbosa (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
+  - Juliane da Silva Falcão (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
+  - Daniel Stokes (2015-2016) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
+  - José Carlos Benfica (2014-2015) MSc in Epidemiogy, Fiocruz (Co supervisor Paula Luz)
+  - Mohema Duarte de Oliveira (2014-2015) MSc in Epidemiogy, Fiocruz
+  - Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
+  - Monique de Abreu Rocha (2014-2015) BSc in Statistics, ENCE/IBGE.
+  - Bruno Laiber de Pinho (2014-2015) BSc in Statistics, ENCE/IBGE.
+  - Felipe Rocha Oshiro (2014-2015) BSc in Statistics, ENCE/IBGE.
+  - Leonara Alves Cesario da Silva (2014-2015) Scientific Iniciation, Fiocruz.
+  - Yasmin Ferreira Cavaliere (2014-2015) Scientific Iniciation, Fiocruz.
+  - Julia Villapouca Gesualdi (2013-2014) Scientific Iniciation, Fiocruz.
+  - Danielle Freitas (2012-2013) BSc in Statistics, UFF.
+  - Evandro Dalbem Lopes (2013-2013) BSc in Statistics, UFF.
+  - Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)
+  - Natalia Santana Paiva (2011-2012) BSc in Statistics, UFF.
+  - Kiese da Silva Quiavauca (2012-2012) BSc in Statistics, UFF.
+  - Natália Santana Paiva	(2010-2011) Scientific Iniciation, UFF.
+  - Clarissa Cardoso Oesselmann (2011-2012) Scientific Iniciation, UFF
+  - Fabiano Oliveira Campos (2006-2006) BSc in Statistics, UFPR.
+  - Moisés Marcus Retka (2006-2006) BSc in Statistics, UFPR.
 
 
 
-
-## Random stuff
-
-- I am a Taekwondo student holding a 1st DAN black belt. My masters are [Master Erico Soares](http://soaresteam.com.br) (4th DAN) and [Grandmaster Renato Ribeiro](https://www.kimtkd.com.br/) (7th DAN).
-- My Erdos Number is 4: Bastos > O'Hagan > Leonard > Taylor > Erdos <br>
-(Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2))
