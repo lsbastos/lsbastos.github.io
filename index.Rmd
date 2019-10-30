@@ -16,6 +16,7 @@ title: Leo Bastos
 - [Lattes CV](http://lattes.cnpq.br/5241799121437269)
 - [Google Scholar](http://scholar.google.com.au/citations?user=9e3_tSsAAAAJ&hl=en)
 - Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
+- Scopus: [55648716900](https://www.scopus.com/authid/detail.uri?authorId=55648716900)
 - [Publication page](publications.html)
 
 

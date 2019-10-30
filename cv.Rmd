@@ -57,10 +57,10 @@ I am a registred statistician at the [CONRE2](http://www.conre2.org.br/), but I 
 
   - Julia Novaes de Barros Peixoto (2018-) MSc student in Epidemiology, Fiocruz
   - Camila Mattos Santos  (2018-) MSc student in Epidemiology, Fiocruz
-  - Ana Carolina de Queirós e Feijó  (2017-) MSc student in Epidemiology, Fiocruz
 
 ### Former 
 
+  - Ana Carolina de Queirós e Feijó  (2017-2019) MSc in Epidemiology, Fiocruz (co supervisor Leticia Cardoso)
   - Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
   - Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)
   - Diego da Costa Moreira Barbosa (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
