@@ -6,6 +6,7 @@ title: "Publications"
 
 ## To appear
 
+  - Lopes et al.. Natural infection by the protozoan Leptomonas wallacei impacts the morphology, physiology, reproduction, and lifespan of the insect Oncopeltus fasciatus. *Scientific Reports*.
   - Barrenechea and **Bastos**. Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine*.
   - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. 
   - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
