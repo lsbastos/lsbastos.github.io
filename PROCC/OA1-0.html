@@ -1,0 +1,201 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PROCC</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PROCC</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Tese de doutorado'}, 
+series: [{data: [[2015,
+2],
+[2016,
+8],
+[2017,
+2],
+[2018,
+4],
+[2019,
+6]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 22<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Felicita Mabel Dure Pérez. <b>Creación de un repositorio Nacional de datos genómicos de Patógenos Bacterianos Entéricos del Paraguay para la exploración y análisis de secuencias</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, Fundo para a Convergência Estrutural do MERCOSUL. In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6679069461879682">Fabricio Alves Barbosa da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fernanda Cristina da Silva Lopes Ferreira. <b>AVALIAÇÃO DO RISCO DE OCORRÊNCIA DE SURTOS DE FEBRE AMARELA NO BRASIL ATRAVÉS DO USO DE MODELO MATEMÁTICO</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4016632420686251">Daniel Antunes Maciel Villela</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3549247509161138">Fernanda Esthefane Garrides Oliveira</a>. <b>O papel da segregação residencial e da raça/cor no risco de mortalidade por todas as causas no estudo longitudinal de saúde do adulto (ELSA-Brasil)</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5241799121437269">Leonardo Soares Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Lucas Monteiro Bianchi. <b>Modelagem espaço-temporal hierarquica de Chikungunya no Brasil (titulo provisório)</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5241799121437269">Leonardo Soares Bastos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Mariana Araujo Neves Lima. <b>Acesso à assistência oncológica no Estado do Rio de Janeiro</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, . In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4016632420686251">Daniel Antunes Maciel Villela</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ronald Sodré Martins. <b>Identificação in silico do perfil de novos receptores que os psicodélicos clássicos possuem afinidade</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8742778337409951">Ernesto Raúl Caffarena</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andre Gustavo Neves de Albuquerque. <b>Epidemiologia de transplantes</b>. Tese (Doutorado em Saúde Coletiva) - Universidade do Estado do Rio de Janeiro, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7202319892868540">Claudio Jose Struchiner</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8240782060489040">Breno Augusto Bormann de Souza Filho</a>. <b>Modelos Teóricos: Uma Proposta Teórico-Metodológica para sua Elaboração e Avaliação da Qualidade de Estudos Epidemiológicos em Saúde Pública</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7202319892868540">Claudio Jose Struchiner</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Elisa Alves Montalvao. <b>A Vigilância Sentinela da Influenza na região Sul do Brasil, Brasil, 2009-2015</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6064559192125515">Marcelo Ferreira da Costa Gomes</a>, <a href="http://lattes.cnpq.br/1929576902623348">Cláudia Torres Codeço</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2852304469305683">Valdemir Custodio de Vargas Junior</a>. <b>Estudo das propriedades dinâmicas, transporte e comunicação da pesticina em bactérias do tipo Gram Negativas</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8742778337409951">Ernesto Raúl Caffarena</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3084995596136673">ANDRÉIA ALVES DE SENA SILVA</a>. <b>SOROCONVERSÃO DA VACINA CONTRA HEPATITE B E FATORES ASSOCIADOS EM PESSOAS VIVENDO COM HIV</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5392568548228414">Antonio Guilherme Fonseca Pacheco</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7030877097926458">Fernando Medeiros Filho</a>. <b>Identificação e caracterização de alvos terapêuticos no clone endêmico brasileiro de Pseudomonas aeruginosa (ST277) através da análise de modelos integrados</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6679069461879682">Fabricio Alves Barbosa da Silva</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Jordano Conforte. <b>Caracterização de alvos terapêuticos e modelagem de rede de sinalização no contexto de medicina personalizada do câncer</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz. (Coorientador)., . In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6679069461879682">Fabricio Alves Barbosa da Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1614713784849492">Antonio Alcirley da Silva Balieiro</a>. <b>Modelos para Apoio Diagnostico Diferencial da Infecção por ZIKV em um Cenário de Transmissão de Outras Arboviroses em Manaus, Amazonas</b>. Tese (Doutorado em Biologia Parasitária) - Fundação Oswaldo Cruz, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4016632420686251">Daniel Antunes Maciel Villela</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gisele Vieira Rocha. <b>Análise Estatística de Redes Dinâmicas Para o Estudo de Alosteria na Falcipaína-2</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5241799121437269">Leonardo Soares Bastos</a>, <a href="http://lattes.cnpq.br/3330385596576917">Mauricio Garcia de Souza Costa</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2996805485281003">Laís Picinini Freitas</a>. <b>Espaço, tempo e ambiente: A incidência de Dengue, Zika e Chikungunya em um cenário intra-urbano</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Leonardo Javier Arcuri. <b>Comparação entre Transplante Haploidêntico e Transplante com Doador Não-Aparentado em pacientes com Leucemias Agudas</b>. Tese (Doutorado em Epidemiologia em Saúde Pública) - Fundação Oswaldo Cruz, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5392568548228414">Antonio Guilherme Fonseca Pacheco</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Letícia de Castro Martins Ferreira. <b>Efeitos dos elementos Climáticos na mortalidade por doenças cardiovasculares</b>. Tese (Doutorado em Saúde Coletiva) - Universidade Federal de Juiz de Fora. (Coorientador)., . In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2150779236919988">Mario Julian Canon Ayala</a>. <b>Modeling and simulation of anti-malarial drug campaigns in the Brazilian Amazon region</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4016632420686251">Daniel Antunes Maciel Villela</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ohanna Cavalcanti de Lima Bezerra. <b>ANÁLISE GENÉTICA E FUNCIONAL DOS POLIMORFISMOS DO GENE PKLR ASSOCIADOS À HANSENÍASE NA POPULAÇÃO BRASILEIRA</b>. Tese (Doutorado em Biologia Celular e Molecular) - Fundação Oswaldo Cruz, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5392568548228414">Antonio Guilherme Fonseca Pacheco</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carlos Eduardo Pena Junior. <b>Modelagem e dinâmica molecular da exo-celulase Cel7A</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz. (Coorientador)., . In&iacute;cio: 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3330385596576917">Mauricio Garcia de Souza Costa</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0148329600696277">Thiago da Silva Frasson</a>. <b>Triagem virtual de fármacos para proteases do HIV-1 com baixa suscetibilidade aos inibidores convencionais</b>. Tese (Doutorado em Biologia Computacional e Sistemas) - Fundação Oswaldo Cruz, . In&iacute;cio: 2015.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3330385596576917">Mauricio Garcia de Souza Costa</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 19/11/2019 14:22:33<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leonardo.bastos@fiocruz.br">leonardo.bastos@fiocruz.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

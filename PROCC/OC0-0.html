@@ -1,0 +1,197 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PROCC</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PROCC</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Supervisão de pós-doutorado'}, 
+series: [{data: [[2008,
+1],
+[2009,
+1],
+[2010,
+3],
+[2013,
+1],
+[2015,
+2],
+[2016,
+3],
+[2017,
+2],
+[2018,
+2],
+[2019,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Supervisão de pós-doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 16<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Marcelo Ferreira da Costa Gomes. <b></b>. Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2019.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5241799121437269">Leonardo Soares Bastos</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Pacheco-Coral. <b></b>. Fundação Oswaldo Cruz, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1929576902623348">Cláudia Torres Codeço</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Lucas Stolerman. <b></b>. Fundação Oswaldo Cruz, FIOTEC. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1929576902623348">Cláudia Torres Codeço</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amanda Souza Câmara. <b></b>. Fundação Oswaldo Cruz, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8265750834533915">Paulo Ricardo Batista</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Rita Daniela Fernández Medina. <b></b>. Fundação Oswaldo Cruz, Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7202319892868540">Claudio Jose Struchiner</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carolin Marlen Degener. <b></b>. Fundação Oswaldo Cruz, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7202319892868540">Claudio Jose Struchiner</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Leandro Martin Totaro Garcia. <b></b>. Fundação Oswaldo Cruz, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Pedro Henrique Monteiro Torres. <b></b>. Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8742778337409951">Ernesto Raúl Caffarena</a>.</font></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Marcelo Ferreira da Costa Gomes. <b></b>. Fundação Oswaldo Cruz, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7202319892868540">Claudio Jose Struchiner</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>RICARDO VELA DE BRITO PEREIRA. <b></b>. Fundação Oswaldo Cruz, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2015.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Tamara Nunes de Lima Camara. <b></b>. Fundação Oswaldo Cruz, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2013.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1929576902623348">Cláudia Torres Codeço</a>.</font></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carlos Manuel Carlevaro. <b></b>. Insituto de Física de Líquidos y Sistemas Biológicos, Consejo Nacional de Ciencia y Tecnologia. 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8742778337409951">Ernesto Raúl Caffarena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Enirtes Caetano Prates Melo. <b>Desenvolvimento Metodológico na Interface de Dados Primários e Secundários em Estudos Longitudinais</b>. Fundação Oswaldo Cruz, Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ. 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Rejane Sobrino Pinheiro. <b>Estudos sobre Variações no Uso de Serviços de Saúde: abordagens metodológicas e a utilização de grandes bases de dados nacionais</b>. Escola Nacional de Saúde Pública, . 2010.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Enrico Antonio Colosimo. <b></b>. Fundação Oswaldo Cruz, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2009.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7202319892868540">Claudio Jose Struchiner</a>.</font></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Romy Elena Rodriguez Ravines. <b></b>. Escola Nacional de Saúde Pública, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2008.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6465314260773099">Marilia Sa Carvalho</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 19/11/2019 14:22:33<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leonardo.bastos@fiocruz.br">leonardo.bastos@fiocruz.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

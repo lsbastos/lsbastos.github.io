@@ -1,0 +1,225 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>PROCC</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>PROCC</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Capítulos de livros publicados'}, 
+series: [{data: [[2008,
+5],
+[2009,
+1],
+[2010,
+1],
+[2011,
+4],
+[2012,
+1],
+[2013,
+1],
+[2014,
+2],
+[2015,
+4],
+[2016,
+2],
+[2017,
+1],
+[2018,
+4],
+[2019,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Capítulos de livros publicados</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 27<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SANTOS, L. H. ; FERREIRA, R. S. ; CAFFARENA, ERNESTO. <b>Integrating Molecular Docking and Molecular Dynamics Simulations</b>. Em: Walter Filgueira de Azevedo Jr.. (Org.). Docking Screens for Drug Discovery (Methods in Molecular Biology). 1ed. 2019.v. 2053, p. 1. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Integrating+Molecular+Docking+and+Molecular+Dynamics+Simulations&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Integrating+Molecular+Docking+and+Molecular+Dynamics+Simulations">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Integrating+Molecular+Docking+and+Molecular+Dynamics+Simulations">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Conforte, Alessandra Jordano ; Magalhães, Milena ; Tilli, Tatiana Martins ; DA SILVA, FABRICIO ALVES BARBOSA ; Carels, Nicolas. <b>The Challenge of Translating System Biology into Targeted Therapy of Cancer. Computational Biology. 1ed</b>. Em: . : Springer International Publishing. 2018.v. 1, p. 175-194. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+Challenge+of+Translating+System+Biology+into+Targeted+Therapy+of+Cancer.+Computational+Biology.+1ed&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+Challenge+of+Translating+System+Biology+into+Targeted+Therapy+of+Cancer.+Computational+Biology.+1ed">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+Challenge+of+Translating+System+Biology+into+Targeted+Therapy+of+Cancer.+Computational+Biology.+1ed">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DA SILVA, FABRICIO ALVES BARBOSA; Filho, Fernando Medeiros ; Merigueti, Thiago Castanheira ; Giannini, Thiago ; BRUM, RAFAELA ; de Faria, Laura Machado ; do Nascimento, Ana Paula Barbosa ; Belloze, Kele Teixeira ; Silva, Floriano Paes ; Albano, Rodolpho Mattos ; dos Santos, Marcelo Trindade ; de Castro, Maria Clicia Stelling ; de Menezes, Marcio Argollo ; Carvalho-Assef, Ana Paula D A.. <b>Computational Modeling of Multidrug-Resistant Bacteria</b>. Em: Fabrício Alves Barbosa da Silva; Nicolas Carels; Floriano Paes Silva Junior. (Org.). Computational Biology. 1ed. : Springer International Publishing. 2018.v. 1, p. 195-220. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Computational+Modeling+of+Multidrug-Resistant+Bacteria&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Computational+Modeling+of+Multidrug-Resistant+Bacteria">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Computational+Modeling+of+Multidrug-Resistant+Bacteria">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>dos Santos, Marcelo Trindade ; do Nascimento, Ana Paula Barbosa ; Filho, Fernando Medeiros ; DA SILVA, FABRICIO ALVES BARBOSA. <b>Modeling Gene Transcriptional Regulation: A Primer</b>. Em: Fabrício Alves Barbosa da Silva; Nicolas Carels;Floriano Paes Silva Junior. (Org.). Computational Biology. 1ed. : Springer International Publishing. 2018.v. 1, p. 27-39. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modeling+Gene+Transcriptional+Regulation:+A+Primer&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modeling+Gene+Transcriptional+Regulation:+A+Primer">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modeling+Gene+Transcriptional+Regulation:+A+Primer">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Sgariglia, Domenico ; Conforte, Alessandra Jordano ; de Carvalho, Luis Alfredo Vidal ; Carels, Nicolas ; DA SILVA, FABRICIO ALVES BARBOSA. <b>Cellular Reprogramming</b>. Em: Fabrício Alves Barbosa da Silva; Nicolas Carels; Floriano Paes Silva Junior. (Org.). Computational Biology. 1ed. : Springer International Publishing. 2018.v. 1, p. 41-55. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cellular+Reprogramming&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cellular+Reprogramming">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cellular+Reprogramming">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Struchiner, Cláudio J. <b>Pensamentos aleatórios, incertos ou vagos?</b>. Em: Cláudio Tadeu Daniel-Ribeiro, Yuri Chaves Martins. (Org.). Imagens, Micróbios e Espelhos: os sistemas imune e nervoso e nossa relação com o ambiente. 1ed.Rio de Janeiro. : Editora FIOCRUZ. 2017.p. 45-53. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pensamentos+aleatórios,+incertos+ou+vagos?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pensamentos+aleatórios,+incertos+ou+vagos?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pensamentos+aleatórios,+incertos+ou+vagos?">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORREIA, R. J. C. ; RIBEIRO-VAZ, I. ; SILVA, A. M. M. ; SILVA, F. A. B. ; ALVES, D.. <b>Pharmacovigilance Informatics</b>. Em: Maria Manuela Cruz-Cunha, Isabel Miranda. (Org.). Encyclopedia of E-Health and Telemedicine. 1ed.Hershey. : IGI-Global. 2016.v. 1, p. 300-316. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pharmacovigilance+Informatics&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pharmacovigilance+Informatics">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pharmacovigilance+Informatics">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Pastore-Piontti, Ana ; Zhang, Qian ; GOMES, MARCELO F. C. ; ROSSI, LUCA ; Poletto, Chiara ; Colizza, Vittoria ; Chao, Dennis L. ; Longini, Ira M. ; HALLORAN, M. ELIZABETH ; VESPIGNANI, ALESSANDRO. <b>Real-Time Assessment of the International Spreading Risk Associated with the 2014 West African Ebola Outbreak</b>. Em: Chowell, Gerardo; Hyman, James M.,. (Org.). Mathematical and Statistical Modeling for Emerging and Re-emerging Infectious Diseases. 1ed. : Springer International Publishing. 2016.p. 39-56. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Real-Time+Assessment+of+the+International+Spreading+Risk+Associated+with+the+2014+West+African+Ebola+Outbreak&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Real-Time+Assessment+of+the+International+Spreading+Risk+Associated+with+the+2014+West+African+Ebola+Outbreak">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Real-Time+Assessment+of+the+International+Spreading+Risk+Associated+with+the+2014+West+African+Ebola+Outbreak">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carvalho, Luiz Max ; Struchiner, Claudio J. ; Bastos, Leonardo S.. <b>Bayesian Inference of Deterministic Population Growth Models</b>. Em: Polpo de Campos, A.; Neto, F.L.; Ramos Rifo, L.; Stern, J.M., Lauretto, M.. (Org.). Springer Proceedings in Mathematics Statistics. 1ed. : Springer International Publishing. 2015.v. 168, p. 217-228. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Bayesian+Inference+of+Deterministic+Population+Growth+Models&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Bayesian+Inference+of+Deterministic+Population+Growth+Models">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Bayesian+Inference+of+Deterministic+Population+Growth+Models">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CODEÇO, Claudia Torres ; LUZ, Paula Mendes ; LIMA, A. W. S. ; Struchiner, Cláudio J. <b>Modelagem Matemática em Dengue: Histórico e Questões Atuais</b>. Em: Denise Valle; Denise Nacif Pimenta; Rivaldo Venâncio da Cunha. (Org.). Dengue: Teorias e Práticas. 1ed.Rio de Janeiro. : Editora Fiocruz. 2015.p. 147-169. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelagem+Matemática+em+Dengue:+Histórico+e+Questões+Atuais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelagem+Matemática+em+Dengue:+Histórico+e+Questões+Atuais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelagem+Matemática+em+Dengue:+Histórico+e+Questões+Atuais">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CODEÇO, CLÁUDIA TORRES; LUZ, P. M. ; WEISS, Arthur ; Struchiner, CJ. <b>Dengue: teorias e práticas</b>. Em: Denise Vale, Denise Nacif Pimenta, Rivaldo Venâncio da Cunha. (Org.). Modelagem Matemática em Dengue: histórico e questões atuais. 1ed.Rio de Janeiro. : Editora Fiocruz. 2015.v. 1, p. 40-46. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Dengue:+teorias+e+práticas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Dengue:+teorias+e+práticas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Dengue:+teorias+e+práticas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, F. A. B.; SENGER, Hermes. <b>Scalability Analysis of BoT Applications on Large Distributed Computing Systems</b>. Em: Inês Dutra; Jorge Barbosa. (Org.). Grid Computing: techniques and future prospects. 1ed.Hauppauge. : Nova Science Publishers. 2015.v. 1, p. 99-128. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Scalability+Analysis+of+BoT+Applications+on+Large+Distributed+Computing+Systems&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Scalability+Analysis+of+BoT+Applications+on+Large+Distributed+Computing+Systems">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Scalability+Analysis+of+BoT+Applications+on+Large+Distributed+Computing+Systems">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Schechtman, H. ; VILLELA, D. A. M. ; CODECO, C. T. ; Souza, M. O.. <b>Short Review on Mathematical Models for Aedes Aegypti Population Dynamics and its Control. Short Review on Mathematical Models for Aedes Aegypti Population Dynamics and its Control. 1ed.Bauru, SP</b>. Em: Adriano de Oliveira Andrade, Alcimar Barbosa Soares, Alexandre Cardoso e Edgar Afonso Lamounier. (Org.). Tecnologias, Ténicas e Tendências em Engenharia Biomédica. 1ed.Bauru. : Canal 6. 2014.p. 167-182. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Short+Review+on+Mathematical+Models+for+Aedes+Aegypti+Population+Dynamics+and+its+Control.+Short+Review+on+Mathematical+Models+for+Aedes+Aegypti+Population+Dynamics+and+its+Control.+1ed.Bauru,+SP&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Short+Review+on+Mathematical+Models+for+Aedes+Aegypti+Population+Dynamics+and+its+Control.+Short+Review+on+Mathematical+Models+for+Aedes+Aegypti+Population+Dynamics+and+its+Control.+1ed.Bauru,+SP">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Short+Review+on+Mathematical+Models+for+Aedes+Aegypti+Population+Dynamics+and+its+Control.+Short+Review+on+Mathematical+Models+for+Aedes+Aegypti+Population+Dynamics+and+its+Control.+1ed.Bauru,+SP">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVA, F. A. B.; MOURA, D. F. C. ; GALDINO, J. F.. <b>Security Issues in Tactical Software-Defined Radios: Analysis of Attacks and Case Studies</b>. Em: Seppo Virtanen. (Org.). Advancing Embedded Systems and Real-Time Communications with Emerging Technologies. 1ed.Hershey, Pennsylvania. : IGI Global. 2014.v. 1, p. 22-53. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Security+Issues+in+Tactical+Software-Defined+Radios:+Analysis+of+Attacks+and+Case+Studies&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Security+Issues+in+Tactical+Software-Defined+Radios:+Analysis+of+Attacks+and+Case+Studies">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Security+Issues+in+Tactical+Software-Defined+Radios:+Analysis+of+Attacks+and+Case+Studies">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Struchiner, Claudio J; Luz, Paula M ; SABROZA, Paulo Chagasteles. <b>Modelos Matemáticos e Epidemiológicos para Doenças Infecciosas e Parasitárias</b>. Em: José Rodrigues Coura. (Org.). Dinâmica das Doenças Infecciosas e Parasitárias. 2ed.Rio de Janeiro. : Guabara Koogan. 2013.v. 1, p. 154-164. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelos+Matemáticos+e+Epidemiológicos+para+Doenças+Infecciosas+e+Parasitárias&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelos+Matemáticos+e+Epidemiológicos+para+Doenças+Infecciosas+e+Parasitárias">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelos+Matemáticos+e+Epidemiológicos+para+Doenças+Infecciosas+e+Parasitárias">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>STRUCHINER, C. J. ; LUZ, P. M. ; Codeço, Claudia T. ; MASSAD, E.. <b>Modelos Matemáticos em Epidemiologia</b>. Em: Naomar de Almeida Filho; Mauricio L. Barreto. (Org.). EPIDEMIOLOGIA SAÚDE - FUNDAMENTOS, MÉTODOS E APLICAÇÕES. EPIDEMIOLOGIA SAÚDE - FUNDAMENTOS, MÉTODOS E APLICAÇÕES. 1ed.Rio de Janeiro. : Editora Guanabara Koogan. 2012.v. 1, p. 282-290. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelos+Matemáticos+em+Epidemiologia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelos+Matemáticos+em+Epidemiologia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelos+Matemáticos+em+Epidemiologia">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2011"><h3 class="year">2011</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Albuquerque, E ; CODEÇO, C. T. ; BASTOS, Francisco Inácio Pinkusfeld Monteiro. <b>Assessing Respondent-Driven Sampling in the estimation of STDs prevalence in populationsstructured in complex networks</b>. Em: Costa LF; Evuskoff A; Mangioni G; Menezes R.. (Org.). Complex Networks: Second International Workshop. New York. : Springer. 2011.v. 1, p. 108-118. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Assessing+Respondent-Driven+Sampling+in+the+estimation+of+STDs+prevalence+in+populationsstructured+in+complex+networks&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Assessing+Respondent-Driven+Sampling+in+the+estimation+of+STDs+prevalence+in+populationsstructured+in+complex+networks">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Assessing+Respondent-Driven+Sampling+in+the+estimation+of+STDs+prevalence+in+populationsstructured+in+complex+networks">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, Marilia Sá ; Struchiner, Claudio J. <b>Modelos de sobrevivência e a epidemiologia</b>. Em: Marília Sá Carvalho; Valeska Lima Andreozzi; Claudia Torres Codeço; Dayse Pereira Campos; Maria Tereza Serrano Barbosa; Sílvia Emiko Shimakura. (Org.). Análise de sobrevivência: Teoria e aplicações em saúde. 2ed.Rio de Janeiro. : Editora FIOCRUZ. 2011.p. 27-45. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelos+de+sobrevivência+e+a+epidemiologia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelos+de+sobrevivência+e+a+epidemiologia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelos+de+sobrevivência+e+a+epidemiologia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PACHECO, A. G. <b>Eventos Competitivos</b>. Em: Marilia Sá Carvalho; Valeska Lima Adreozzi; Claudia Torres Codeço; Dayse Pereira Campos; Maria Tereza Serrano Barbosa; Silvia Emiko Shimakura. (Org.). Análise de sobrevivência: teoria e aplicações em saúde. 2ed.Rio de Janeiro. : Editora Fiocruz. 2011.v. 1, p. 329-361. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Eventos+Competitivos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Eventos+Competitivos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Eventos+Competitivos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Zamite, João ; Silva, Fabrício A. B. ; Couto, Francisco ; Silva, Mário J.. <b>MEDCollector: Multisource Epidemic Data Collector. Lecture Notes in Computer Science. 4ed</b>. Em: . : Springer Berlin Heidelberg. 2011.p. 40-72. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=MEDCollector:+Multisource+Epidemic+Data+Collector.+Lecture+Notes+in+Computer+Science.+4ed&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=MEDCollector:+Multisource+Epidemic+Data+Collector.+Lecture+Notes+in+Computer+Science.+4ed">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=MEDCollector:+Multisource+Epidemic+Data+Collector.+Lecture+Notes+in+Computer+Science.+4ed">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2010"><h3 class="year">2010</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CAFFARENA, E. R.; GRIGERA, J. R.. <b>Hydration of carbohydrates</b>. Em: Hugo Verli. (Org.). Strategies for the Determination of Carbohydrates Structure and Conformation. Kerala, India. : Transworld Research Network. 2010.v. 85, p. 101. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Hydration+of+carbohydrates&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Hydration+of+carbohydrates">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Hydration+of+carbohydrates">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2009"><h3 class="year">2009</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SILVA, F. A. B.; GAGLIARDI, Henrique Fabrício ; GALLO, Eduardo ; Madope, M. A. ; CAVICCHIOLI NETO, V. ; PISA, I. ; ALVES, D.. <b>IntegraEPI: Epidemiologic Surveillance on the Grid</b>. Em: Mario Cannataro. (Org.). Handbook of Research on Computational Grid Technologies for Life Sciences, Biomedicine and Healthcare. Hershey. : IGI Global. 2009.p. 444-468. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=IntegraEPI:+Epidemiologic+Surveillance+on+the+Grid&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=IntegraEPI:+Epidemiologic+Surveillance+on+the+Grid">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=IntegraEPI:+Epidemiologic+Surveillance+on+the+Grid">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2008"><h3 class="year">2008</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, Marilia Sá ; CRUZ, O. G. ; SOUZA, Wayner V ; Monteiro, A.M.V.. <b>Conceitos Básicos em Análise de Dados Espaciais em Saúde</b>. Em: Simone M. Santos; Wayner Vieira de Souza. (Org.). Introdução à Estatística Espacial para a Saúde Pública. Brasília. : Ministério da Saúde. 2008.v. 3, p. 11-25. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Conceitos+Básicos+em+Análise+de+Dados+Espaciais+em+Saúde&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Conceitos+Básicos+em+Análise+de+Dados+Espaciais+em+Saúde">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Conceitos+Básicos+em+Análise+de+Dados+Espaciais+em+Saúde">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LUIZ, R. R. ; WERNECK, Guilherme Loureiro ; Struchiner, Claudio José. <b>Modelos para inferência causal em epidemiologia</b>. Em: Roberto A. Medronho; Katia V Bloch; Ronir R Luiz; Guilherme L Werneck. (Org.). Epidemiologia. 2ed.Rio de Janeiro. : Atheneu. 2008.v. 1, p. 647-658. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelos+para+inferência+causal+em+epidemiologia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelos+para+inferência+causal+em+epidemiologia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelos+para+inferência+causal+em+epidemiologia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>RIBEIRO, J. M. ; Struchiner, Claudio José ; WERNECK, Guilherme Loureiro. <b>Dinâmica de transmiisão de doenças</b>. Em: Roberto A. Medronho; Katia V Bloch; Ronir R Luiz; Guilherme L Werneck. (Org.). Epidemiologia. 2ed.Rio de Janeiro. : Atheneu. 2008.v. 1, p. 659-674. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Dinâmica+de+transmiisão+de+doenças&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Dinâmica+de+transmiisão+de+doenças">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Dinâmica+de+transmiisão+de+doenças">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SOUZA, Wayner V ; CARVALHO, Marilia Sá ; CRUZ, O. G. ; CORREA, Virgínia Ragoni de Moraes. <b>Análise espacial de Dados de Área</b>. Em: Simone M. Santos; Wayner Vieira de Souza. (Org.). Introdução à Estatística Espacial para a Saúde Pública. Brasília. : Ministério da Saúde. 2008.v. 3, p. 60-79. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Análise+espacial+de+Dados+de+Área&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Análise+espacial+de+Dados+de+Área">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Análise+espacial+de+Dados+de+Área">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>VALENTE, R. H. ; FERREIRA, A. G. C. N. ; CAFFARENA, E. R. ; DOMONT, G. B. ; PERALES, J.. <b>Snake Venom Metalloproteinase Inhibitors (SVMPIs): an overview and future perspectives</b>. Em: Maria Elena De Lima; Adriano M. C. Pimenta; Marie France Martin-Eauclaire; Russolina Zingali.. (Org.). ANIMAL TOXINS: STATE OF THE ART. Perspectives on Health and Biotechnology (NO PRELO). Belo Horizonte. : UFMG. 2008..<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Snake+Venom+Metalloproteinase+Inhibitors+(SVMPIs):+an+overview+and+future+perspectives&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Snake+Venom+Metalloproteinase+Inhibitors+(SVMPIs):+an+overview+and+future+perspectives">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Snake+Venom+Metalloproteinase+Inhibitors+(SVMPIs):+an+overview+and+future+perspectives">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p>
+<br>Data de processamento: 19/11/2019 14:22:33<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leonardo.bastos@fiocruz.br">leonardo.bastos@fiocruz.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

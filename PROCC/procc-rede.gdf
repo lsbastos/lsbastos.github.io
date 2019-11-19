@@ -1,0 +1,46 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
+0,5860617664784376,Aline Araujo Nobre,Pesquisador,,,1.05609,23,21,0,0,0,0,2,0,6,3,4,'0,0,153'
+1,5392568548228414,Antonio Guilherme Fonseca Pacheco,Pesquisador,,,0.485619,96,71,0,1,0,0,24,0,4,9,6,'0,0,153'
+2,1929576902623348,Claudia Torres Codeco,Pesquisador,,,2.13235,83,70,1,3,2,3,4,3,12,16,1,'0,0,153'
+3,7202319892868540,Claudio Jose Struchiner,Pesquisador,,,0.917623,95,85,2,8,0,0,0,4,8,7,3,'0,0,153'
+4,4016632420686251,Daniel Antunes Maciel Villela,Pesquisador,,,1.12519,33,20,0,1,3,0,9,0,3,3,0,'0,0,153'
+5,8742778337409951,Ernesto Raul Caffarena,Pesquisador,,,1.10725,104,44,0,3,3,0,54,2,12,12,1,'0,0,153'
+6,6679069461879682,Fabricio Alves Barbosa da Silva,Pesquisador,,,0.463724,46,19,1,9,16,1,0,0,0,8,0,'0,0,153'
+7,5343124450714007,Helio Schechtman,Pesquisador,,,0.341283,9,4,0,1,2,0,2,0,1,0,0,'0,0,153'
+8,5241799121437269,Leonardo Soares Bastos,Pesquisador,,,0.660639,36,30,1,1,0,0,4,1,4,7,7,'0,0,153'
+9,6064559192125515,Marcelo Ferreira da Costa Gomes,Pesquisador,,,0.762133,13,12,0,1,0,0,0,0,0,1,0,'0,0,153'
+10,6465314260773099,Marilia Sa Carvalho,Pesquisador,,,1.08508,140,112,2,0,5,0,21,5,16,5,1,'0,0,153'
+11,3330385596576917,Mauricio Garcia de Souza Costa,Pesquisador,,,1.21451,27,23,0,0,0,0,4,0,0,1,0,'0,0,153'
+12,9530671289607786,Oswaldo Goncalves Cruz,Pesquisador,,,1.43399,50,48,0,2,0,0,0,0,0,1,0,'0,0,153'
+13,8265750834533915,Paulo Ricardo Batista,Pesquisador,,,1.21451,21,21,0,0,0,0,0,1,3,3,2,'0,0,153'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+0,2,6.0
+0,8,1.0
+0,9,1.0
+0,10,3.0
+0,12,1.0
+1,3,1.0
+1,10,3.0
+1,12,2.0
+2,3,7.0
+2,4,6.0
+2,8,3.0
+2,9,5.0
+2,10,2.0
+2,12,8.0
+3,4,2.0
+3,8,2.0
+3,9,1.0
+3,12,2.0
+4,7,2.0
+4,8,3.0
+4,9,5.0
+4,12,3.0
+5,6,3.0
+5,11,3.0
+5,13,3.0
+8,9,3.0
+8,12,4.0
+9,12,3.0
+10,12,6.0
+11,13,8.0
