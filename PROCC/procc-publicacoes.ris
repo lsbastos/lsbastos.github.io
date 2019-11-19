@@ -3095,19 +3095,6 @@ L3  - 2167-8359
 ER  - 
 
 TY  - JOUR
-AU  - MERLER, STEFANO ; AJELLI, MARCO ; FUMANELLI, LAURA ; GOMES, MARCELO F C ; PIONTTI, ANA PASTORE Y ; ROSSI, LUCA ; CHAO, DENNIS L ; LONGINI, IRA M ; HALLORAN, M ELIZABETH ; VESPIGNANI, ALESSANDRO
-TI  - Spatiotemporal spread of the 2014 outbreak of Ebola virus disease in Liberia and the effectiveness of non-pharmaceutical interventions: a computational modelling analysis
-JO  - Lancet. Infectious Diseases (Print)
-VL  - 15
-IS  - 
-SP  - 204
-EP  - 211
-PY  - 2015
-L2  - http://dx.doi.org/10.1016/S1473-3099(14)71074-6
-L3  - 1473-3099
-ER  - 
-
-TY  - JOUR
 AU  - MIGOWSKI, ARN ; RIBEIRO, ANTONIO LUIZ ; CARVALHO, Marilia Sá ; AZEVEDO, VITOR MANUEL PEREIRA ; CHAVES, ROGÉRIO BRANT MARTINS ; HASHIMOTO, LUCAS DE AQUINO ; XAVIER, CAROLINA DE AQUINO ; XAVIER, REGINA MARIA DE AQUINO
 TI  - Seven years of use of implantable cardioverter-defibrillator therapies: a nationwide population-based assessment of their effectiveness in real clinical settings
 JO  - BMC Cardiovascular Disorders (Online)
@@ -3446,19 +3433,6 @@ L3  - 1475-9276
 ER  - 
 
 TY  - JOUR
-AU  - C. Poletto ; M F Gomes ; A Pastore y Piontti ; L Rossi ; L Bioglio ; D Chao ; I Longini ; M E Halloran ; V Colizza ; A Vespignani
-TI  - Assessing the impact of travel restrictions on international spread of the 2014 West African Ebola epidemic
-JO  - Eurosurveillance (English ed. Online)
-VL  - 19
-IS  - 
-SP  - 2
-EP  - 
-PY  - 2014
-L2  - 
-L3  - 1560-7917
-ER  - 
-
-TY  - JOUR
 AU  - CARVALHO, ALCIONE SILVA DE ; SALOMÃO, KELLY ; CASTRO, SOLANGE LISBOA DE ; CONDE, TALINE RAMOS ; ZAMITH, HELENA PEREIRA DA SILVA ; Caffarena, Ernesto Raúl ; HALL, BELINDA SUZETTE ; WILKINSON, SHANE ROBERT ; BOECHAT, NÚBIA
 TI  - Megazol and its bioisostere 4H-1,2,4-triazole: comparing the trypanocidal, cytotoxic and genotoxic activities and their in vitro and in silico interactions with the Trypanosoma brucei nitroreductase enzyme
 JO  - Memórias do Instituto Oswaldo Cruz (Impresso)
@@ -3638,19 +3612,6 @@ EP  - 645
 PY  - 2014
 L2  - http://dx.doi.org/10.1093/cid/ciu849
 L3  - 1058-4838
-ER  - 
-
-TY  - JOUR
-AU  - GOMES, MARCELO F. C.; PASTORE Y PIONTTI, ANA ; ROSSI, LUCA ; CHAO, DENNIS ; LONGINI, IRA ; HALLORAN, M. ELIZABETH ; VESPIGNANI, ALESSANDRO
-TI  - Assessing the International Spreading Risk Associated with the 2014 West African Ebola Outbreak
-JO  - PLoS Currents: Tree of Life
-VL  - 6
-IS  - 
-SP  - 1
-EP  - 
-PY  - 2014
-L2  - http://dx.doi.org/10.1371/currents.outbreaks.cd818f63d40e24aef769dda7df9e0da5
-L3  - 2157-3999
 ER  - 
 
 TY  - JOUR
@@ -3859,19 +3820,6 @@ EP  - 1478
 PY  - 2014
 L2  - http://dx.doi.org/10.5588/ijtld.14.0181
 L3  - 1027-3719
-ER  - 
-
-TY  - JOUR
-AU  - PASTORE Y PIONTTI, ANA ; GOMES, MARCELO FERREIRA DA COSTA ; SAMAY, NICOLE ; PERRA, NICOLA ; VESPIGNANI, ALESSANDRO
-TI  - The infection tree of global epidemics
-JO  - Network Science
-VL  - 2
-IS  - 
-SP  - 132
-EP  - 137
-PY  - 2014
-L2  - http://dx.doi.org/10.1017/nws.2014.5
-L3  - 2050-1242
 ER  - 
 
 TY  - JOUR
@@ -4655,19 +4603,6 @@ L3  - 0002-9262
 ER  - 
 
 TY  - JOUR
-AU  - ARANTES, L. ; LEJEUNE, J. ; PIFFARETTI, M. ; MARIN, O. ; BESSANI, A. N. ; COGO, V. V. ; CORREA, M. P. ; COSTA, P. ; PASIN, M. ; SENS, P. ; SILVA, F. A. B. ; SOPENA, J.
-TI  - Vers une plate-forme MapReduce tolérant les fautes byzantines
-JO  - TSI. Technique et Science Informatiques
-VL  - 31
-IS  - 
-SP  - 1079
-EP  - 1099
-PY  - 2012
-L2  - http://dx.doi.org/10.3166/tsi.31.1079-1099
-L3  - 0752-4072
-ER  - 
-
-TY  - JOUR
 AU  - BEZERRA, D. C. ; SHARRETT, A. R. ; MATSUSHITA, K. ; GOTTESMAN, R. F. ; SHIBATA, D. ; Mosley, T. H. ; CORESH, J. ; SZKLO, M. ; Carvalho, M. S. ; SELVIN, E.
 TI  - Risk factors for lacune subtypes in the Atherosclerosis Risk in Communities (ARIC) Study
 JO  - Neurology (Cleveland, Ohio)
@@ -4678,19 +4613,6 @@ EP  - 108
 PY  - 2012
 L2  - http://dx.doi.org/10.1212/WNL.0b013e31823efc42
 L3  - 0028-3878
-ER  - 
-
-TY  - JOUR
-AU  - Bitar, Mainá ; DRUMMOND, MARCELA GONÇALVES ; Costa, Mauricio Garcia Souza ; LOBO, FRANCISCO PEREIRA ; CALZAVARA-SILVA, CARLOS EDUARDO ; Bisch, Paulo Mascarello ; MACHADO, CARLOS RENATO ; MACEDO, ANDRÉA MARA ; PIERCE, RAYMOND J. ; FRANCO, GLÓRIA REGINA
-TI  - Modeling the zing finger protein SmZF1 from Schistosoma mansoni: insights into DNA binding and gene regulation
-JO  - Journal of Molecular Graphics & Modelling
-VL  - x
-IS  - 
-SP  - in press
-EP  - 
-PY  - 2012
-L2  - http://dx.doi.org/10.1016/j.jmgm.2012.10.004
-L3  - 1093-3263
 ER  - 
 
 TY  - JOUR
@@ -4941,19 +4863,6 @@ L3  - 1471-2105
 ER  - 
 
 TY  - JOUR
-AU  - MOURA, D. F. C. ; SILVA, F. A. B. ; GALDINO, J. F.
-TI  - Case Studies of Attacks over Adaptive Modulation Based Tactical Software Defined Radios
-JO  - Journal of Computer Networks and Communications
-VL  - 2012
-IS  - 
-SP  - 1
-EP  - 9
-PY  - 2012
-L2  - http://dx.doi.org/10.1155/2012/703642
-L3  - 1687-7381
-ER  - 
-
-TY  - JOUR
 AU  - Nery Guimarães, Joanna Miguez ; CHOR, D. ; Chor, Dóra ; CARVALHO, Marilia Sa ; Werneck, Guilherme Loureiro ; Coeli, Claudia Medina ; LOPES, Claudia S ; FAERSTEIN, Eduardo
 TI  - Association between self-rated health and mortality: 10 years follow-up to the Pro-Saude cohort study
 JO  - BMC Public Health (Online)
@@ -5032,19 +4941,6 @@ L3  - 1517-3151
 ER  - 
 
 TY  - JOUR
-AU  - SENGER, Hermes ; SILVA, F. A. B.
-TI  - Bounds on the Scalability of Bag-of-Tasks Applications Running on Master-Slave Platforms
-JO  - Parallel Processing Letters
-VL  - 22
-IS  - 
-SP  - 1
-EP  - 16
-PY  - 2012
-L2  - http://dx.doi.org/10.1142/S0129626412500041
-L3  - 0129-6264
-ER  - 
-
-TY  - JOUR
 AU  - SIGNORINI, D. J. H. P. ; Oliveira-Netto, AMS ; Monteiro, MCM ; Signorini, DH ; CODEÇO, C. T. ; BASTOS, Francisco Inácio Pinkusfeld Monteiro ; Gabbay S ; Andrade, MFC
 TI  - Differences in body fat distribution assessed by ultrasonography in patients receiving antiretroviral drugs
 JO  - Revista da Associação Médica Brasileira (1992. Impresso)
@@ -5055,19 +4951,6 @@ EP  - 203
 PY  - 2012
 L2  - 
 L3  - 0104-4230
-ER  - 
-
-TY  - JOUR
-AU  - SILVA, F. A. B.; MOURA, D. F. C. ; GALDINO, J. F.
-TI  - Classes of Attacks for Tactical Software Defined Radios
-JO  - International Journal of Embedded and Real-Time Communication Systems
-VL  - 3(4)
-IS  - 
-SP  - 57
-EP  - 82
-PY  - 2012
-L2  - http://dx.doi.org/10.4018/jertcs.2012100104
-L3  - 1947-3176
 ER  - 
 
 TY  - JOUR
@@ -5146,32 +5029,6 @@ EP  -
 PY  - 2012
 L2  - http://dx.doi.org/10.1371/journal.pntd.0001450
 L3  - 1935-2735
-ER  - 
-
-TY  - JOUR
-AU  - Batista, Paulo R.; Pandey, Gaurav ; Pascutti, Pedro G. ; BISCH, PAULO M. ; Perahia, David ; Robert, Charles H.
-TI  - Free Energy Profiles along Consensus Normal Modes Provide Insight into HIV-1 Protease Flap Opening
-JO  - Journal of Chemical Theory and Computation
-VL  - 7
-IS  - 
-SP  - 2348
-EP  - 2352
-PY  - 2011
-L2  - http://dx.doi.org/10.1021/ct200237u
-L3  - 1549-9618
-ER  - 
-
-TY  - JOUR
-AU  - Batista, Paulo Ricardo; de Souza Costa, Mauricio Garcia ; Pascutti, Pedro Geraldo ; Bisch, Paulo Mascarello ; de Souza, Wanderley
-TI  - High temperatures enhance cooperative motions between CBM and catalytic domains of a thermostable cellulase: mechanism insights from essential dynamics
-JO  - PCCP. Physical Chemistry Chemical Physics (Print)
-VL  - 13
-IS  - 
-SP  - 13709
-EP  - 13720
-PY  - 2011
-L2  - http://dx.doi.org/10.1039/c0cp02697b
-L3  - 1463-9076
 ER  - 
 
 TY  - JOUR
@@ -5263,19 +5120,6 @@ EP  - 520
 PY  - 2011
 L2  - http://dx.doi.org/10.1590/S0102-311X2011000300011
 L3  - 0102-311X
-ER  - 
-
-TY  - JOUR
-AU  - GONÇALVES, S. ; ABRAMSON, G. ; GOMES, M F C
-TI  - Oscillations in SIRS model with distributed delays
-JO  - The European Physical Journal. B, Condensed Matter Physics (Print)
-VL  - 81
-IS  - 
-SP  - 363
-EP  - 371
-PY  - 2011
-L2  - http://dx.doi.org/10.1140/epjb/e2011-20054-9
-L3  - 1434-6028
 ER  - 
 
 TY  - JOUR
@@ -5487,19 +5331,6 @@ L3  - 1545-1097
 ER  - 
 
 TY  - JOUR
-AU  - SILVA, F. A. B.; SENGER, Hermes
-TI  - Scalability limits of Bag-of-Tasks applications running on hierarchical platforms
-JO  - JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING
-VL  - 71
-IS  - 
-SP  - 788
-EP  - 801
-PY  - 2011
-L2  - http://dx.doi.org/10.1016/j.jpdc.2011.01.002
-L3  - 0743-7315
-ER  - 
-
-TY  - JOUR
 AU  - Silva, Gulnar Azevedo e ; Novaes, Hillegonda Maria Dutilh ; Gadelha, Maria Inez Pordeus ; CARVALHO, Marilia Sa ; PINHEIRO, R.S. ; MELO, E. C. P. ; Melo, Enirtes Caetano Praates ; CARVALHO, Marília Sá
 TI  - O aumento de acesso à mamografia e os desafios para a política de controle do câncer de mama no Brasil
 JO  - Ciência e Saúde Coletiva (Impresso)
@@ -5552,19 +5383,6 @@ L3  - 1525-4135
 ER  - 
 
 TY  - JOUR
-AU  - Batista, Paulo Ricardo; Robert, Charles Herbert ; Maréchal, Jean-Didier ; Hamida-Rebaï, Meriam Ben ; Pascutti, Pedro Geraldo ; Bisch, Paulo Mascarello ; Perahia, David
-TI  - Consensus modes, a robust description of protein collective motions from multiple-minima normal mode analysis application to the HIV-1 protease
-JO  - PCCP. Physical Chemistry Chemical Physics
-VL  - 12
-IS  - 
-SP  - 2850
-EP  - 
-PY  - 2010
-L2  - http://dx.doi.org/10.1039/b919148h
-L3  - 1463-9076
-ER  - 
-
-TY  - JOUR
 AU  - Cardoso, C. C. ; Pereira, A. C. ; Brito-de-Souza, V. N. ; Dias-Baptista, I. M. ; Maniero, V. C. ; Venturini, J. ; Vilani-Moreno, F. R. ; Souza, F. C. ; Ribeiro-Alves, M. ; Sarno, E. N. ; PACHECO, A. G. ; Moraes, M. O.
 TI  - IFNG +874 T>A single nucleotide polymorphism is associated with leprosy among Brazilians
 JO  - Human Genetics
@@ -5575,32 +5393,6 @@ EP  - 490
 PY  - 2010
 L2  - http://dx.doi.org/10.1007/s00439-010-0872-x
 L3  - 0340-6717
-ER  - 
-
-TY  - JOUR
-AU  - COSTA, MAURICIO GS ; BATISTA, PAULO R ; SHIDA, CLÁUDIO S ; ROBERT, CHARLES H ; BISCH, PAULO M ; Pascutti, Pedro G
-TI  - How does heparin prevent the pH inactivation of cathepsin B? Allosteric mechanism elucidated by docking and molecular dynamics
-JO  - BMC Genomics
-VL  - 11
-IS  - 
-SP  - S5
-EP  - 
-PY  - 2010
-L2  - http://dx.doi.org/10.1186/1471-2164-11-s5-s5
-L3  - 1471-2164
-ER  - 
-
-TY  - JOUR
-AU  - da Silva, Manuela Leal ; da Silva Goncalves, Arlan ; Ricardo Batista, Paulo ; Figueroa-Villar, Jose Daniel ; Pascutti, Pedro Geraldo ; Franca, Tanos Celmar Costa
-TI  - Design, docking studies and molecular dynamics of new potential selective inhibitors of Plasmodium falciparum serine hydroxymethyltransferase
-JO  - Molecular Simulation (Print)
-VL  - 36
-IS  - 
-SP  - 5
-EP  - 14
-PY  - 2010
-L2  - http://dx.doi.org/10.1080/08927020903051580
-L3  - 0892-7022
 ER  - 
 
 TY  - JOUR
@@ -5679,32 +5471,6 @@ EP  -
 PY  - 2010
 L2  - http://dx.doi.org/10.1016/j.jinf.2010.09.020
 L3  - 0163-4453
-ER  - 
-
-TY  - JOUR
-AU  - Lery, Letícia MS ; Bitar, Mainá ; Costa, Mauricio GS ; Rössle, Shaila CS ; Bisch, Paulo M
-TI  - Unraveling the molecular mechanisms of nitrogenase conformational protection against oxygen in diazotrophic bacteria
-JO  - BMC Genomics
-VL  - 11
-IS  - 
-SP  - S7
-EP  - 
-PY  - 2010
-L2  - http://dx.doi.org/10.1186/1471-2164-11-S5-S7
-L3  - 1471-2164
-ER  - 
-
-TY  - JOUR
-AU  - LOPES, L. F. ; SILVA, F. A. B. ; COUTO, F. ; ZAMITE, J. ; FERREIRA, H.
-TI  - Epidemic Marketplace: An Information Management System for Epidemiological Data
-JO  - Lecture Notes in Computer Science
-VL  - 6266
-IS  - 
-SP  - 31
-EP  - 44
-PY  - 2010
-L2  - http://dx.doi.org/10.1007/978-3-642-15020-3
-L3  - 0302-9743
 ER  - 
 
 TY  - JOUR
@@ -5799,32 +5565,6 @@ L3  - 0001-706X
 ER  - 
 
 TY  - JOUR
-AU  - SILVA, F. A. B.; SILVA, M. J. ; COUTO, F.
-TI  - Epidemic Marketplace: an e-Science Platform for Epidemic Modelling and Analysis
-JO  - ERCIM News - Special Theme: Computational Biology
-VL  - 82
-IS  - 
-SP  - 44
-EP  - 45
-PY  - 2010
-L2  - 
-L3  - 0926-4981
-ER  - 
-
-TY  - JOUR
-AU  - Soares, Rosemberg O. ; Batista, Paulo R. ; Costa, Mauricio G.S. ; Dardenne, Laurent E. ; Pascutti, Pedro G. ; Soares, Marcelo A.
-TI  - Understanding the HIV-1 protease nelfinavir resistance mutation D30N in subtypes B and C through molecular dynamics simulations
-JO  - Journal of Molecular Graphics & Modelling
-VL  - 29
-IS  - 
-SP  - 137
-EP  - 147
-PY  - 2010
-L2  - http://dx.doi.org/10.1016/j.jmgm.2010.05.007
-L3  - 1093-3263
-ER  - 
-
-TY  - JOUR
 AU  - Tuboi, Suely Hiromi ; Pacheco, Antonio Guilherme ; HARRISON, Lee H ; Stone, Roslyn A ; May, Margaret ; Brinkhof, Martin W G ; Dabis, François ; Egger, Matthias ; Nash, Denis ; Bangsberg, David ; Braitstein, Paula ; Yiannoutsos, Constantin T ; Wood, Robin ; Sprinz, Eduardo ; Schechter, Mauro
 TI  - Mortality Associated With Discordant Responses to Antiretroviral Therapy in Resource-Constrained Settings
 JO  - Journal of Acquired Immune Deficiency Syndromes
@@ -5838,9 +5578,9 @@ L3  - 1525-4135
 ER  - 
 
 TY  - JOUR
-AU  - Valiente, Pedro A. ; Gil L., Alejandro ; Batista, Paulo R. ; Caffarena, Ernesto R. ; Pons, Tirso ; Pascutti, Pedro G
-TI  - New parameterization approaches of the LIE method to improve free energy calculations of PlmII-Inhibitors complexes
-JO  - Journal of Computational Chemistry
+AU  - VALIENTE, P. A. ; Gil, A. ; BATISTA, P. R. ; CAFFARENA, E. R. ; PONS, T. ; PASCUTTI, P.
+TI  - New parameterization approaches of the LIE method to improve free energy calculations of PlmII-inhibitors complexes
+JO  - JOURNAL OF COMPUTATIONAL CHEMISTRY
 VL  - 31
 IS  - 
 SP  - 2723
@@ -5848,19 +5588,6 @@ EP  - 2734
 PY  - 2010
 L2  - http://dx.doi.org/10.1002/jcc.21566
 L3  - 0192-8651
-ER  - 
-
-TY  - JOUR
-AU  - ZAMITE, J. ; SILVA, F. A. B. ; COUTO, F. ; SILVA, M. J.
-TI  - MEDcollector: Multisource Epidemic Data Collector
-JO  - Lecture Notes in Computer Science
-VL  - 6266
-IS  - 
-SP  - 16
-EP  - 30
-PY  - 2010
-L2  - 
-L3  - 0302-9743
 ER  - 
 
 TY  - JOUR
@@ -5900,19 +5627,6 @@ EP  - 69
 PY  - 2009
 L2  - 
 L3  - 1415-1499
-ER  - 
-
-TY  - JOUR
-AU  - Bastos, Leonardo S.; O'HAGAN, A.
-TI  - Diagnostics for Gaussian Process Emulators
-JO  - Technometrics
-VL  - 51
-IS  - 
-SP  - 425
-EP  - 438
-PY  - 2009
-L2  - http://dx.doi.org/10.1198/TECH.2009.08019
-L3  - 0040-1706
 ER  - 
 
 TY  - JOUR
@@ -5978,19 +5692,6 @@ EP  - 318
 PY  - 2009
 L2  - http://dx.doi.org/10.2217/14622416.10.2.311
 L3  - 1462-2416
-ER  - 
-
-TY  - JOUR
-AU  - GOMES, M F C; Gonçalves, Sebastián
-TI  - SIR model with general distribution function in the infectious period
-JO  - Physica. A (Print)
-VL  - 388
-IS  - 
-SP  - 3133
-EP  - 3142
-PY  - 2009
-L2  - http://dx.doi.org/10.1016/j.physa.2009.04.015
-L3  - 0378-4371
 ER  - 
 
 TY  - JOUR
@@ -6163,19 +5864,6 @@ L3  - 1013-9826
 ER  - 
 
 TY  - JOUR
-AU  - SILVA, F. A. B.; SENGER, Hermes
-TI  - Improving scalability of Bag-of-Tasks applications running on master-slave platforms
-JO  - PARALLEL COMPUTING
-VL  - 35
-IS  - 
-SP  - 57
-EP  - 71
-PY  - 2009
-L2  - http://dx.doi.org/10.1016/j.parco.2008.09.013
-L3  - 0167-8191
-ER  - 
-
-TY  - JOUR
 AU  - Struchiner, Claudio J.; MASSAD, Eduardo ; Tu, Zhijian ; Ribeiro, José M. C.
 TI  - THE TEMPO AND MODE OF EVOLUTION OF TRANSPOSABLE ELEMENTS AS REVEALED BY MOLECULAR PHYLOGENIES RECONSTRUCTED FROM MOSQUITO GENOMES
 JO  - Evolution (Lancaster, PA.)
@@ -6212,19 +5900,6 @@ EP  - 963
 PY  - 2009
 L2  - http://dx.doi.org/10.1016/j.bpj.2008.10.043
 L3  - 0006-3495
-ER  - 
-
-TY  - JOUR
-AU  - VILLELA, D. A. M
-TI  - Minimizing the Average Completion Time for Concurrent Grid Applications
-JO  - Journal of Grid Computing
-VL  - 8
-IS  - 
-SP  - 47
-EP  - 59
-PY  - 2009
-L2  - http://dx.doi.org/10.1007/s10723-009-9119-2
-L3  - 1570-7873
 ER  - 
 
 TY  - JOUR
@@ -6683,19 +6358,6 @@ L3  - 1360-2276
 ER  - 
 
 TY  - JOUR
-AU  - Valiente, Pedro A. ; BATISTA, P. R. ; Pupo, Amaury ; Pons, Tirso ; Valencia, Alfonso ; Pascutti, Pedro G.
-TI  - Predicting functional residues in Plasmodium falciparum plasmepsins by combining sequence and structural analysis with molecular dynamics simulations
-JO  - Proteins (Print)
-VL  - 73
-IS  - 
-SP  - 440
-EP  - 457
-PY  - 2008
-L2  - http://dx.doi.org/10.1002/prot.22068
-L3  - 0887-3585
-ER  - 
-
-TY  - JOUR
 AU  - Vargens, Daniela D. ; ALMENDRA, L. R. ; STRUCHINER, C. J. ; Suarez-Kurtz, Guilherme
 TI  - Distribution of the GNB3 825C>T polymorphism among Brazilians: impact of population structure
 JO  - European Journal of Clinical Pharmacology (Internet)
@@ -6706,6 +6368,1540 @@ EP  - 256
 PY  - 2008
 L2  - http://dx.doi.org/10.1007/s00228-007-0413-2
 L3  - 1432-1041
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; CORREIA, Virgínia Ragoni de Moraes ; MONTEIRO, A. M. V. ; WERNECK, G. L.
+TI  - Uma aplicaÃ§Ã£o do sensoriamento remoto para a investigaÃ§Ã£o de endemias urbanas
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 23
+IS  - 
+SP  - 1015
+EP  - 1028
+PY  - 2007
+L2  - http://dx.doi.org/10.1590/s0102-311x2007000500004
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; CUNHA, CB ; LEON, ACP ; SCHRAMM, J ; SOUZA JR, PRB ; CHAIN, R
+TI  - Tempo atÃ© o transplante e sobrevida em pacientes com insuficiÃªncia renal crÃ´nica no Estado do Rio de Janeiro, Brasil, 1998-2002
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 23
+IS  - 
+SP  - 805
+EP  - 813
+PY  - 2007
+L2  - http://dx.doi.org/10.1590/s0102-311x2007000400008
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; Gama SR ; Chaves, C.R.M.M.
+TI  - PrevalÃªncia em crianÃ§as de fatores de risco para as doenÃ§as cardiovasculares
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 23
+IS  - 
+SP  - 2239
+EP  - 2245
+PY  - 2007
+L2  - http://dx.doi.org/10.1590/s0102-311x2007000900032
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; SOUZA, W. V. ; ALBUQUERQUE, Maria de Fátima Militão ; BARCELLOS, Christovam ; Ximenes, RAA
+TI  - Tuberculosis in intra-urban settings: a Bayesian approach
+JO  - TM & IH. Tropical Medicine and International Health (Print)
+VL  - 12
+IS  - 
+SP  - 323
+EP  - 330
+PY  - 2007
+L2  - http://dx.doi.org/10.1111/j.1365-3156.2006.01797.x
+L3  - 1360-2276
+ER  - 
+
+TY  - JOUR
+AU  - Cavalcante, SC ; Soares, E.C. ; Pacheco, Antonio Guilherme Fonseca ; CHAISSON, R e ; Durovni, B
+TI  - Community DOT for tuberculosis in a Brazilian favela: comparison with a clinic model.
+JO  - The International Journal of Tuberculosis and Lung Disease
+VL  - 11
+IS  - 
+SP  - 544
+EP  - 549
+PY  - 2007
+L2  - 
+L3  - 1027-3719
+ER  - 
+
+TY  - JOUR
+AU  - CODEÇO, C. T.; Rios C.V. ; HONORIO, N. A. ; SABROZA, Paulo ; Moresco, M. ; Cunha I.C.L. ; Levino A. ; TOLEDO, Luciano ; LUZ, Sergio
+TI  - Distribution of dengue vectors in neighborhoods with different urbanization types of Manaus, State of Amazonas, Brazil
+JO  - Memórias do Instituto Oswaldo Cruz
+VL  - 102
+IS  - 
+SP  - 617
+EP  - 623
+PY  - 2007
+L2  - 
+L3  - 0074-0276
+ER  - 
+
+TY  - JOUR
+AU  - CODEÇO, C.T. ; LUZ, Paula Mendes ; COELHO, F.C. ; GALVANI, A. P. ; STRUCHINER, C. J.
+TI  - Vaccinating in disease-free regions: a vaccine model with application to yellow fever
+JO  - Journal of the Royal Society Interface
+VL  - april
+IS  - 
+SP  - 1119
+EP  - 1125
+PY  - 2007
+L2  - http://dx.doi.org/10.1098/rsif.2007.0234
+L3  - 1742-5689
+ER  - 
+
+TY  - JOUR
+AU  - FERNANDES, Guilherme Cortes ; CAMACHO, Luiz ; CARVALHO, Marilia Sa ; Batista, M ; Almeida, S,M,R.
+TI  - Neurological adverse events temporally associated to mass vaccination against yellow fever in Juiz de Fora, Brazil, 1999?2005
+JO  - Vaccine (Guildford)
+VL  - 25
+IS  - 
+SP  - 3124
+EP  - 3128
+PY  - 2007
+L2  - http://dx.doi.org/10.1016/j.vaccine.2007.01.078
+L3  - 0264-410X
+ER  - 
+
+TY  - JOUR
+AU  - FREITAS, R. M. ; CODEÇO, C. T. ; OLIVEIRA, R. L.
+TI  - Daily survival rates and dispersal of Aedes aegypti females in Rio de Janeiro, Brazil
+JO  - American Journal of Tropical Medicine and Hygiene
+VL  - 76
+IS  - 
+SP  - 659
+EP  - 665
+PY  - 2007
+L2  - 
+L3  - 0002-9637
+ER  - 
+
+TY  - JOUR
+AU  - FREITAS, R. M. ; CODEÇO, C. T. ; OLIVEIRA, R. L.
+TI  - Body-size associated survival and dispersal rates of Aedes aegypti in Rio de Janeiro
+JO  - Medical and Veterinary Entomology
+VL  - 21
+IS  - 
+SP  - 284
+EP  - 292
+PY  - 2007
+L2  - 
+L3  - 0269-283X
+ER  - 
+
+TY  - JOUR
+AU  - ORTEGA, N. R. S. ; MASSAD, Eduardo ; STRUCHINER, C. J.
+TI  - A Bayesian approach to fuzzy hypotheses testing for the estimation of optimal age for vaccination against measles
+JO  - Mathematics and Computers in Simulation
+VL  - 76
+IS  - 
+SP  - in press
+EP  - 
+PY  - 2007
+L2  - http://dx.doi.org/10.1016/j.matcom.2007.08.019
+L3  - 0378-4754
+ER  - 
+
+TY  - JOUR
+AU  - Pacheco, Antonio Guilherme Fonseca; Cardoso, C.C. ; Martinez, AN ; Guimarães, PE ; Mendes, CT ; Oliveira, RB ; Teles, RM ; Illarramendi, X ; SAMPAIO, E P ; SARNO, E N ; Dias-Neto, E ; MORAES, M O
+TI  - Ninjurin 1 asp110ala single nucleotide polymorphism is associated with protection in leprosy nerve damage
+JO  - Journal of Neuroimmunology (Print)
+VL  - 190
+IS  - 
+SP  - 131
+EP  - 138
+PY  - 2007
+L2  - http://dx.doi.org/10.1016/j.jneuroim.2007.07.015
+L3  - 0165-5728
+ER  - 
+
+TY  - JOUR
+AU  - Pacheco, Antonio Guilherme Fonseca; GOLUB, J E ; Saraceni, V. ; Cavalcante, SC ; MOULTON, L ; King, B ; Efron, A ; MOORE, R D ; CHAISSON, R e ; Durovni, B
+TI  - The impact of antiretroviral therapy and isoniazid preventive therapy on tuberculosis incidence in HIV-infected patients in Rio de Janeiro, Brazil
+JO  - AIDS (London)
+VL  - 21
+IS  - 
+SP  - 1441
+EP  - 1448
+PY  - 2007
+L2  - http://dx.doi.org/10.1097/qad.0b013e328216f441
+L3  - 0269-9370
+ER  - 
+
+TY  - JOUR
+AU  - Pacheco, Antonio Guilherme Fonseca; MOULTON, L ; GOLUB, J E ; Durovni, B ; Cavalcante, SC ; Saraceni, V. ; King, B ; CHAISSON, R e
+TI  - Statistical design of THRio: a phased implementation clinic-randomized study of a tuberculosis preventive therapy intervention
+JO  - Clinical Trials (London. Print)
+VL  - 4
+IS  - 
+SP  - 190
+EP  - 199
+PY  - 2007
+L2  - http://dx.doi.org/10.1177/1740774507076937
+L3  - 1740-7745
+ER  - 
+
+TY  - JOUR
+AU  - Pacheco, Antonio Guilherme Fonseca; VANDERBORGHT, P R ; MORAES, M E ; Antoni, G ; Romero, M ; Verville, A ; Thai, V.H. ; Huong, N.T. ; Ba, N.N. ; Shurr, E ; SARNO, E N ; MORAES, M O
+TI  - HLA-DRB1*04 and DRB1*10 are associated with resistance and susceptibility, respectively, in Brazilian and Vietnamese leprosy patients
+JO  - Genes and Immunity
+VL  - 8
+IS  - 
+SP  - 320
+EP  - 324
+PY  - 2007
+L2  - http://dx.doi.org/10.1038/sj.gene.6364390
+L3  - 1466-4879
+ER  - 
+
+TY  - JOUR
+AU  - PRATES, E. C. ; TRAVASSOS, Cláudia ; CARVALHO, Marilia Sa
+TI  - Infarto Agudo do Miocárdio no Município do Rio de Janeiro:qualidade dos dados, sobrevida e distribuição espacial
+JO  - Epidemiologia e Serviços de Saúde
+VL  - 16
+IS  - 
+SP  - 121
+EP  - 123
+PY  - 2007
+L2  - 
+L3  - 1679-4974
+ER  - 
+
+TY  - JOUR
+AU  - STRUCHINER, C. J.; HALLORAN, M. E.
+TI  - Randomization and baseline transmission in vaccine field trials
+JO  - Epidemiology and Infection
+VL  - 135
+IS  - 
+SP  - 181
+EP  - 194
+PY  - 2007
+L2  - http://dx.doi.org/10.1017/s0950268806006716
+L3  - 0950-2688
+ER  - 
+
+TY  - JOUR
+AU  - SUAREZ-KURTZ, G ; Jamila A. Perini ; Luciana Bastos-Rodrigues ; Sergio DJ Pena ; STRUCHINER, C. J.
+TI  - Impact of population admixture on the distribution of the CYP3A5*3 polymorphism.
+JO  - Pharmacogenomics (London)
+VL  - 8
+IS  - 
+SP  - 1299
+EP  - 1306
+PY  - 2007
+L2  - http://dx.doi.org/10.2217/14622416.8.10.1299
+L3  - 1462-2416
+ER  - 
+
+TY  - JOUR
+AU  - SUAREZ-KURTZ, G ; Vargens DD ; STRUCHINER, C. J. ; Luciana Bastos-Rodrigues ; Sergio DJ Pena
+TI  - Self-reported skin color, genomic ancestry and the distribution of GST polymorphisms.
+JO  - Pharmacogenetics and Genomics
+VL  - 17
+IS  - 
+SP  - 765
+EP  - 771
+PY  - 2007
+L2  - 
+L3  - 1744-6872
+ER  - 
+
+TY  - JOUR
+AU  - TEIXEIRA, R ; MIRANDA, A ; PACHECO, A ; LOPES, M ; FONSECACOSTA, J ; RABAHI, M ; MELO, H ; KRITSKI, A ; MELLO, F ; SUFFYS, P
+TI  - Genetic profile of the arylamine N-acetyltransferase 2 coding gene among individuals from two different regions of Brazil
+JO  - Mutation Research
+VL  - 624
+IS  - 
+SP  - 31
+EP  - 40
+PY  - 2007
+L2  - http://dx.doi.org/10.1016/j.mrfmmm.2007.03.015
+L3  - 0027-5107
+ER  - 
+
+TY  - JOUR
+AU  - VELASQUE, Luciane ; ESTRELA, R. C. E. ; SUAREZ-KURTZ, G ; STRUCHINER, C. J.
+TI  - A new model for the population pharmacokinetics of didanosine in healthy subjects.
+JO  - Brazilian Journal of Medical and Biological Research
+VL  - 40
+IS  - 
+SP  - 97
+EP  - 104
+PY  - 2007
+L2  - 
+L3  - 0100-879X
+ER  - 
+
+TY  - JOUR
+AU  - ANDREOZZI, Valeska L. ; BAILEY, Trevor C. ; NOBRE, Flávio F. ; STRUCHINER, C. J. ; BARRETO, Maurício L. ; ASSIS, Ana M.o. ; SANTOS, Leonor M.p.
+TI  - Random-Effects Models in Investigating the Effect of Vitamin A in Childhood Diarrhea
+JO  - Annals of Epidemiology
+VL  - 16
+IS  - 4
+SP  - 241
+EP  - 247
+PY  - 2006
+L2  - 
+L3  - 1047-2797
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; BENDER, E
+TI  - Associação entre peso ao nascer e o excesso de peso na infância: revisão sistemática
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 22
+IS  - 
+SP  - 2281
+EP  - 2300
+PY  - 2006
+L2  - http://dx.doi.org/10.1590/S0102-311X2006001100003
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; LAPA, Tiago Maria ; ALBUQUERQUE, Maria de Fátima Militão ; SILVEIRA JUNIOR, J. C.
+TI  - AnÃ¡lise da demanda de casos de hansenÃ­ase aos serviÃ§os de saÃºde atravÃ©s do uso de tÃ©cnicas de anÃ¡lise espacial
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 22
+IS  - 
+SP  - 2575
+EP  - 2583
+PY  - 2006
+L2  - http://dx.doi.org/10.1590/s0102-311x2006001200008
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; LIMA, Cláudia Risso de Araujo ; SCHRAMM, J
+TI  - Financiamento pÃºblico em saÃºde e confiabilidade dos bancos de dados nacionais. Um estudo dos anos de 2001 e 2002
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 22
+IS  - 
+SP  - 1855
+EP  - 1864
+PY  - 2006
+L2  - http://dx.doi.org/10.1590/s0102-311x2006000900016
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; MELO, Enirtes Caetano Prates de ; TRAVASSOS, Cláudia
+TI  - DistribuiÃ§Ã£o espacial da mortalidade por infarto agudo do miocÃ¡rdio no MunicÃ­pio do Rio de Janeiro, Brasil
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 22
+IS  - 6
+SP  - 1225
+EP  - 1236
+PY  - 2006
+L2  - http://dx.doi.org/10.1590/s0102-311x2006000600012
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CODEÇO, C. T
+TI  - The reversible catalytic model and the mathematical theory of epidmeics
+JO  - Revista de Saúde Pública / Journal of Public Health
+VL  - 40
+IS  - 2
+SP  - 205
+EP  - 206
+PY  - 2006
+L2  - 
+L3  - 0034-8910
+ER  - 
+
+TY  - JOUR
+AU  - CODEÇO, C. T.; COELHO, F.C.
+TI  - Trends in cholera epidemiology
+JO  - Plos Medicine
+VL  - 3
+IS  - 1
+SP  - e42
+EP  - 
+PY  - 2006
+L2  - 
+L3  - 
+ER  - 
+
+TY  - JOUR
+AU  - Djomand, G ; Duerr, A. ; Faulhaber, J.C. ; Struchiner, C.J. ; Pacheco, Antonio Guilherme Fonseca ; Melo, M.F. ; SCHECHTER, M
+TI  - Viral Load and CD4 Count Dynamics After HIV-1 Seroconversion in Homosexual and Bisexual Men in Rio de Janeiro, Brazil.
+JO  - Journal of Acquired Immune Deficiency Syndromes
+VL  - 43
+IS  - 
+SP  - 401
+EP  - 404
+PY  - 2006
+L2  - http://dx.doi.org/10.1097/01.qai.0000243117.21788.90
+L3  - 1525-4135
+ER  - 
+
+TY  - JOUR
+AU  - FREITAS, R. M. ; BROCKI-NETO,R, ; GONCALVES,J.M., ; CODEÇO, C. T. ; OLIVEIRA, R. L.
+TI  - Movement of Dengue Vectors Between the Human Modified Environment and an Urban Forest in Rio de Janeiro
+JO  - Journal of Medical Entomology
+VL  - 43
+IS  - prelo
+SP  - 1112
+EP  - 1120
+PY  - 2006
+L2  - 
+L3  - 
+ER  - 
+
+TY  - JOUR
+AU  - HONORIO, N. A. ; CABELLO, P. H. ; CODEÇO, C. T. ; OLIVEIRA, R. L.
+TI  - Preliminary data on the performance of Aedes aegypti and Aedes albopictus immatures developing in water-filled tires in Rio de Janeiro
+JO  - Memórias do Instituto Oswaldo Cruz
+VL  - 101
+IS  - 2
+SP  - 225
+EP  - 228
+PY  - 2006
+L2  - 
+L3  - 0074-0276
+ER  - 
+
+TY  - JOUR
+AU  - LOBO, C.A. ; RODRIGUEZ, M. ; STRUCHINER, C. J. ; ZALIS, M.G. ; LUSTIGMAN, S.
+TI  - Associations between defined polymorphic variants in the PfRH ligand family and the invasion pathways used by P. falciparum field isolates from Brazil
+JO  - Molecular and Biochemical Parasitology
+VL  - 149
+IS  - 
+SP  - 246
+EP  - 251
+PY  - 2006
+L2  - 
+L3  - 0166-6851
+ER  - 
+
+TY  - JOUR
+AU  - LUZ, Paula Mendes ; CODEÇO, Cláudia Torres ; WERNECK, Guilherme Loureiro ; STRUCHINER, C. J.
+TI  - A modelling analysis of pertussis transmission and vaccination in Rio de Janeiro, Brazil
+JO  - Epidemiology and Infection
+VL  - 134
+IS  - in press
+SP  - 850
+EP  - 862
+PY  - 2006
+L2  - http://dx.doi.org/10.1017/S095026880500539X
+L3  - 0950-2688
+ER  - 
+
+TY  - JOUR
+AU  - MASSAD, Eduardo ; COUTINHO, F A B ; BURATTINI, M N ; LOPEZ, L F ; STRUCHINER, C. J.
+TI  - The impact of imperfect vaccines on the evolution of HIV virulence
+JO  - Medical Hypotheses
+VL  - 66
+IS  - 
+SP  - 907
+EP  - 911
+PY  - 2006
+L2  - 
+L3  - 0306-9877
+ER  - 
+
+TY  - JOUR
+AU  - MORAES, M O ; Cardoso, C.C. ; VANDERBORGHT, P R ; Pacheco, Antonio Guilherme Fonseca
+TI  - Genetics of host response in leprosy
+JO  - Leprosy Review
+VL  - 77
+IS  - 
+SP  - 189
+EP  - 202
+PY  - 2006
+L2  - 
+L3  - 0305-7518
+ER  - 
+
+TY  - JOUR
+AU  - Oliveira, Fernanda G. ; Sant Anna, Carlos M.R. ; Caffarena, Ernesto R. ; Dardenne, Laurent E. ; BARREIRO, Eliezer J. ; CAFFARENA, E. R.
+TI  - Molecular docking study and development of an empirical binding free energy model for phosphodiesterase 4 inhibitors
+JO  - BIOORGANIC & MEDICINAL CHEMISTRY
+VL  - 14
+IS  - 
+SP  - 6001
+EP  - 6011
+PY  - 2006
+L2  - http://dx.doi.org/10.1016/j.bmc.2006.05.017
+L3  - 0968-0896
+ER  - 
+
+TY  - JOUR
+AU  - PINTO, Monica Edelenyi ; STRUCHINER, C. J.
+TI  - A diversidade do HIV-1: uma ferramenta para o estudo da pandemia
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 22
+IS  - 3
+SP  - 473
+EP  - 484
+PY  - 2006
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - Soares, E.C. ; Pacheco, Antonio Guilherme Fonseca ; Mello, F.C.Q. ; Durovni, B ; CHAISSON, R e ; Cavalcante, SC
+TI  - Improvements in treatment success rates with directly observed therapy in Rio de Janeiro City
+JO  - The International Journal of Tuberculosis and Lung Disease
+VL  - 10
+IS  - 
+SP  - 690
+EP  - 695
+PY  - 2006
+L2  - 
+L3  - 1027-3719
+ER  - 
+
+TY  - JOUR
+AU  - Soares, E.C. ; Saraceni, V. ; Lauria, L ; Pacheco, Antonio Guilherme Fonseca ; Durovni, B ; Cavalcante, SC
+TI  - Tuberculose como doença definidora de síndrome da imunodeficiência adquirida: dez anos de evolução na Cidade do Rio de Janeiro
+JO  - Jornal Brasileiro de Pneumologia
+VL  - 32
+IS  - 
+SP  - 444
+EP  - 448
+PY  - 2006
+L2  - 
+L3  - 1806-3713
+ER  - 
+
+TY  - JOUR
+AU  - SOARES, M. ; CARVALHO, Marilia Sa ; Salluh J ; Ferreira CG ; Luiz RR ; Rocco JR ; Spector N
+TI  - Effect of age on survival of critically ill patients with cancer.
+JO  - Critical Care Medicine
+VL  - 34
+IS  - 3
+SP  - 715
+EP  - 721
+PY  - 2006
+L2  - http://dx.doi.org/10.1097/01.CCM.0000201883.05900.3F
+L3  - 0090-3493
+ER  - 
+
+TY  - JOUR
+AU  - SOARES, M. ; Salluh JIF ; CARVALHO, Marilia Sa ; Darmon M ; Rocco JR ; Spector N
+TI  - Prognosis of critically ill patients with cancer and acute renal dysfunction
+JO  - Journal of Clinical Oncology
+VL  - 24
+IS  - 
+SP  - 4003
+EP  - 4010
+PY  - 2006
+L2  - http://dx.doi.org/10.1200/JCO.2006.05.7869
+L3  - 0732-183X
+ER  - 
+
+TY  - JOUR
+AU  - STRUCHINER, C. J.; LUZ, Paula Mendes ; CODEÇO, C.T. ; COELHO, F.C. ; MASSAD, E.
+TI  - Current research issues in mosquito-borne diseases modeling
+JO  - Contemporary Mathematics. American Mathematical Society
+VL  - 410
+IS  - prelo
+SP  - 349
+EP  - 366
+PY  - 2006
+L2  - 
+L3  - 0271-4132
+ER  - 
+
+TY  - JOUR
+AU  - CAFFARENA, E. R.
+TI  - Elastic properties, Young's modulus determination and structural stability of the tropocollagen molecule: a computational study by steered molecular dynamics
+JO  - Journal of Biomechanics
+VL  - 38
+IS  - 
+SP  - 1527
+EP  - 1533
+PY  - 2005
+L2  - http://dx.doi.org/10.1016/j.jbiomech.2004.07.011
+L3  - 0021-9290
+ER  - 
+
+TY  - JOUR
+AU  - Caffarena, Ernesto Raúl ; Lorenzo, Alicia Claudia ; CAFFARENA, E. R.
+TI  - Conformational and dynamical properties of the niruriside in aqueous solution: a molecular dynamics approach
+JO  - Journal of Molecular Structure. Theochem (Print)
+VL  - 714
+IS  - 2-3
+SP  - 189
+EP  - 197
+PY  - 2005
+L2  - http://dx.doi.org/10.1016/j.theochem.2004.11.009
+L3  - 0166-1280
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; BAILEY, Trevor ; LAPA, Tiago Maria ; SOUZA, Wayner Vieira de ; BREWER, M.
+TI  - Modeling of Under-detection of Cases in Disease Surveillance
+JO  - Annals of Epidemiology
+VL  - 15
+IS  - 5
+SP  - 335
+EP  - 343
+PY  - 2005
+L2  - http://dx.doi.org/10.1016/j.annepidem.2004.09.013
+L3  - 1047-2797
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; CASTRO, Monica Monteiro de ; TRAVASSOS, Cláudia
+TI  - Efeito da oferta de serviÃ§os de saÃºde no uso de internaÃ§Ãµes hospitalares no Brasil
+JO  - Revista de Saúde Pública (Impresso)
+VL  - 39
+IS  - 2
+SP  - 277
+EP  - 284
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/s0034-89102005000200020
+L3  - 0034-8910
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; CASTRO, Mônica Monteiro de ; TRAVASSOS, Cláudia
+TI  - Factors associated with readmission to a general hospital in Brazil
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 21
+IS  - 4
+SP  - 1186
+EP  - 1200
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/s0102-311x2005000400021
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; LOPES, Claudia
+TI  - Métodos em estudos de coorte
+JO  - Revista Brasileira de Epidemiologia
+VL  - 8
+IS  - 
+SP  - 234
+EP  - 235
+PY  - 2005
+L2  - 
+L3  - 1415-790X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; SOUZA-SANTOS, R.
+TI  - Análise de dados espaciais em saúde pública: métodos, problemas e perspectivas
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 21
+IS  - 2
+SP  - 361
+EP  - 378
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/S0102-311X2005000200003
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CASTRO, Monica Silva Monteiro de ; CARVALHO, Marilia Sa
+TI  - Agrupamento da Classificação Internacional de Doenças para Análise de Reinternações Hospitalares
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 21
+IS  - 1
+SP  - 317
+EP  - 323
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/S0102-311X2005000100035
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - D´ORSI, Eleonora ; CARVALHO, Marilia Sá ; CRUZ, O. G.
+TI  - Similarity between neonatal profile and socioeconomic index: a spatial approach.
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 21
+IS  - 3
+SP  - 786
+EP  - 794
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/S0102-311X2005000300012
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - FERNANDES, Guilherme Cortes ; CAMACHO, Luiz ; CARVALHO, Marilia Sa
+TI  - Surveillance system of vaccine adverse events and local data analysis - the experience in a middle-sized city in Brazil, 1999 - 2001
+JO  - Vaccine (Guildford)
+VL  - 23
+IS  - 17-18
+SP  - 2349
+EP  - 2353
+PY  - 2005
+L2  - http://dx.doi.org/10.1016/j.vaccine.2005.01.022
+L3  - 0264-410X
+ER  - 
+
+TY  - JOUR
+AU  - GUIMARAENS, M. A. ; CODEÇO, C. T.
+TI  - Experiments with mathematical models to simulate the population dynamics of Hepatitis A under different levels of endemicity
+JO  - Cadernos de Saúde Pública
+VL  - 21
+IS  - 5
+SP  - 1531
+EP  - 1539
+PY  - 2005
+L2  - 
+L3  - 
+ER  - 
+
+TY  - JOUR
+AU  - KAC, Gilberto ; STRUCHINER, C. J.
+TI  - Skin color and marital status influence postpartum weight retention among Brazilian adolescents
+JO  - Nutrition Research (New York)
+VL  - 25
+IS  - 
+SP  - 549
+EP  - 557
+PY  - 2005
+L2  - 
+L3  - 0271-5317
+ER  - 
+
+TY  - JOUR
+AU  - MASSAD, Eduardo ; COUTINHO, F A B ; BURATTINI, M N ; LOPEZ, L F ; STRUCHINER, C. J.
+TI  - Yellow fever vaccination: How much is enough?
+JO  - Vaccine (Guildford)
+VL  - 23
+IS  - 30
+SP  - 3908
+EP  - 3914
+PY  - 2005
+L2  - 
+L3  - 0264-410X
+ER  - 
+
+TY  - JOUR
+AU  - SANTOS, Simone Maria dos ; BARCELLOS, Christovam ; CARVALHO, Marilia Sa
+TI  - Ecological analysis of the distribution and socio-spatial context of homicides in Porto Alegre, Brazil
+JO  - Health and Place
+VL  - 12
+IS  - 1
+SP  - 38
+EP  - 47
+PY  - 2005
+L2  - http://dx.doi.org/10.1016/j.healthplace.2004.08.009
+L3  - 1353-8829
+ER  - 
+
+TY  - JOUR
+AU  - SIGNORINI, Dario José Hart Pontes ; CODEÇO, Claudia Torres ; CARVALHO, Marilia Sá ; CAMPOS, Dayse Pereira ; MONTEIRO, Michelle Carreira Miranda ; ANDRADE, Marion de Fátima Castro de ; PINTO, Jorge Francisco da Cunha ; SÁ, Carlos Alberto Morais de
+TI  - Effect of sociodemographic, clinical-prophylactic and therapeutic procedures on survival of AIDS patients assisted in a Brazilian outpatient clinic
+JO  - Revista Brasileira de Epidemiologia
+VL  - 8
+IS  - 3
+SP  - 253
+EP  - 261
+PY  - 2005
+L2  - 
+L3  - 1415-790X
+ER  - 
+
+TY  - JOUR
+AU  - SOUZA, W. V. ; ALBUQUERQUE, Maria de Fátima Militão de ; Barcellos, C.C. ; XIMENES, Ricardo Arraes de Alencar
+TI  - A Tuberculose no Brasil - construção de um sistema de vigilância de base territorial
+JO  - Revista de Saúde Pública / Journal of Public Health
+VL  - 39
+IS  - 1
+SP  - 82
+EP  - 89
+PY  - 2005
+L2  - 
+L3  - 0034-8910
+ER  - 
+
+TY  - JOUR
+AU  - SOUZA, Wayner Vieira de ; ALBUQUERQUE, Maria de Fátima Militão ; Ximenes, RAA ; BARCELLOS, Christovam ; CARVALHO, Marilia Sa
+TI  - Tuberculose no Brasil - construção de um sistema de vigilância de base territorial
+JO  - Revista de Saúde Pública (Impresso)
+VL  - 39
+IS  - 1
+SP  - 82
+EP  - 89
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/S0034-89102005000100011
+L3  - 0034-8910
+ER  - 
+
+TY  - JOUR
+AU  - SPYRIDES, Maria Helena Constantino ; STRUCHINER, C. J. ; BARBOSA, Maria Tereza Serrano ; KAC, Gilberto
+TI  - Breastfeeding practices and infant growth: a longitudinal study in infants of Rio de Janeiro, Brazil, 1999/2001
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 21
+IS  - 3
+SP  - 756
+EP  - 766
+PY  - 2005
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - SPYRIDES, Maria Helena Constantino ; STRUCHINER, C. J. ; BARBOSA, Maria Tereza Serrano ; KAC, Gilberto
+TI  - The effect of breastfeeding practices on infant growth
+JO  - Revista Brasileira de Saúde Materno Infantil
+VL  - 5
+IS  - 2
+SP  - 145
+EP  - 153
+PY  - 2005
+L2  - 
+L3  - 1519-3829
+ER  - 
+
+TY  - JOUR
+AU  - STRUCHINER, C. J.; KIDWELL, M G ; RIBEIRO, J M C
+TI  - Population Dynamics of Transposable Elements: Copy Number Regulation and Species Invasion Requirements
+JO  - Journal of Biological Systems
+VL  - 13
+IS  - 4
+SP  - 455
+EP  - 475
+PY  - 2005
+L2  - 
+L3  - 0218-3390
+ER  - 
+
+TY  - JOUR
+AU  - VASCONCELOS, G M ; STRUCHINER, C. J. ; SUAREZ-KURTZ, G
+TI  - CYP2A6 genetic polymorphisms and correlation with smoking status in Brazilians
+JO  - The Pharmacogenomics Journal
+VL  - 5
+IS  - 1
+SP  - 42
+EP  - 48
+PY  - 2005
+L2  - 
+L3  - 1470-269X
+ER  - 
+
+TY  - JOUR
+AU  - VELASQUE, Luciane ; ESTRELA, RCE ; SUAREZ-KURTZ, G ; STRUCHINER, C. J.
+TI  - Estimating the genetic component (RGC) in pharmacokinetic variability of the antiretroviral didanosine among healthy brazilians
+JO  - AIDS (London)
+VL  - 19
+IS  - Suppl4
+SP  - S76
+EP  - 80
+PY  - 2005
+L2  - 
+L3  - 0269-9370
+ER  - 
+
+TY  - JOUR
+AU  - BOCHNER, R. ; STRUCHINER, C. J.
+TI  - Aspectos ambientais e sócio-econômicos relacionados à incidência de acidentes ofídicos no Estado do Rio de Janeiro de 1990 a 1996:uma análise exploratória
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 20
+IS  - 4
+SP  - 976
+EP  - 985
+PY  - 2004
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CAFFARENA, E; GRIGERA, J
+TI  - On the hydrogen bond structure of water at different densities
+JO  - Physica. A (Print)
+VL  - 342
+IS  - 
+SP  - 34
+EP  - 39
+PY  - 2004
+L2  - http://dx.doi.org/10.1016/j.physa.2004.04.057
+L3  - 0378-4371
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; CORREIA, VRM ; SABROZA, PC ; VASCONCELOS, CH
+TI  - Remote sensing as a tool to survey endemic diseases in Brazil
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 20
+IS  - 4
+SP  - 891
+EP  - 904
+PY  - 2004
+L2  - http://dx.doi.org/10.1590/s0102-311x2004000400003
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; MELO, Enirtes Caetano Prates de ; TRAVASSOS, Cláudia
+TI  - Qualidade dos dados sobre Ã³bitos por infarto agudo do miocÃ¡rdio, Rio de Janeiro
+JO  - Revista de Saúde Pública (Impresso)
+VL  - 38
+IS  - 3
+SP  - 385
+EP  - 391
+PY  - 2004
+L2  - http://dx.doi.org/10.1590/s0034-89102004000300008
+L3  - 0034-8910
+ER  - 
+
+TY  - JOUR
+AU  - CODEÇO, Claudia Torres ; LUZ, Paula Mendes ; STRUCHINER, C. J.
+TI  - Risk assessment of yellow fever urbanization in Rio de Janeiro, Brazil
+JO  - Transactions of the Royal Society of Tropical Medicine and Hygiene
+VL  - 98
+IS  - 12
+SP  - 702
+EP  - 710
+PY  - 2004
+L2  - 
+L3  - 0035-9203
+ER  - 
+
+TY  - JOUR
+AU  - KAC, Gilberto ; BENÍCIO, Maria H.D.A. ; VELÁSQUEZ-MELÉNDEZ, Gustavo ; VALENTE, Joaquim Gonçalves ; STRUCHINER, C. J.
+TI  - Breastfeeding and postpartum weight retention in a cohort of Brazilian women
+JO  - American Journal of Clinical Nutrition
+VL  - 79
+IS  - 3
+SP  - 487
+EP  - 493
+PY  - 2004
+L2  - 
+L3  - 0002-9165
+ER  - 
+
+TY  - JOUR
+AU  - KAC, Gilberto ; BENÍCIO, Maria H.D.A. ; VELÁSQUEZ-MELÉNDEZ, Gustavo ; VALENTE, Joaquim Gonçalves ; STRUCHINER, C. J.
+TI  - Gestational Weight Gain and Prepregnancy Weight Influence Postpartum Weight Retention in a Cohort of Brazilian Women
+JO  - The Journal of Nutrition
+VL  - 134
+IS  - 3
+SP  - 661
+EP  - 666
+PY  - 2004
+L2  - 
+L3  - 0022-3166
+ER  - 
+
+TY  - JOUR
+AU  - MCELLISTREM, M C ; KOLANO, J A ; PASS, D A ; CAUGANT, A B ; MENDELSOHN, A G ; Pacheco, Antonio Guilherme Fonseca ; SHUTT, K A ; RAZEQ, J ; HARRISON, L H
+TI  - Correlating epidemiologic trends with the genotypes causing meningococcal disease, Maryland
+JO  - Emerging Infectious Diseases (Print)
+VL  - 10
+IS  - 3
+SP  - 451
+EP  - 456
+PY  - 2004
+L2  - 
+L3  - 1080-6040
+ER  - 
+
+TY  - JOUR
+AU  - MERCANTI, L. B. ; BEZERRA, M. L. S. ; FERNANDES FILHO, J. ; STRUCHINER, C. J.
+TI  - Dermatoglifia e Composição Corporal em Apnéia Obstrutiva do Sono
+JO  - Arquivos de Neuro-Psiquiatria
+VL  - 62
+IS  - 3b
+SP  - 858
+EP  - 864
+PY  - 2004
+L2  - 
+L3  - 0004-282X
+ER  - 
+
+TY  - JOUR
+AU  - OLIVEIRA, Evangelina Xavier Gouveia de ; CARVALHO, Marilia Sa ; TRAVASSOS, Cláudia
+TI  - Territórios do Sistema Único de Saúde: mapeamento das redes de atenção hospitalar
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 20
+IS  - 2
+SP  - 386
+EP  - 402
+PY  - 2004
+L2  - http://dx.doi.org/10.1590/S0102-311X2004000200006
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - OLIVEIRA, Evangelina Xavier Gouveia de ; TRAVASSOS, Cláudia ; CARVALHO, Marilia Sa
+TI  - Acesso à internação hospitalar nos municípios brasileiros em 2000: territórios do SUS
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 20
+IS  - S2
+SP  - 109
+EP  - 118
+PY  - 2004
+L2  - http://dx.doi.org/10.1590/S0102-311X2004000800023
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - Pacheco, Antonio Guilherme Fonseca; MORAES, M O ; SCHONKEREN, J J ; VANDERBORGHT, P R ; NERY, J A ; SANTOS, A R ; MORAES, M E ; MORAES, J R ; OTTENHOFF, T H ; SAMPAIO, E P ; HUIZINGA, T W ; SARNO, E N
+TI  - Interleukin-10 promoter single-nucleotide polymorphisms as markers for disease susceptibility and disease severity in leprosy
+JO  - Genes and Immunity
+VL  - 5
+IS  - 7
+SP  - 592
+EP  - 595
+PY  - 2004
+L2  - http://dx.doi.org/10.1038/sj.gene.6364122
+L3  - 1466-4879
+ER  - 
+
+TY  - JOUR
+AU  - SKABA, D.A. ; CARVALHO, Marilia Sa ; BARCELLOS, Christovam ; MARTINS, PC ; TERRON, SL
+TI  - Geoprocessamento dos dados da saúde: o tratamento dos endereços
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 20
+IS  - 6
+SP  - 1753
+EP  - 1756
+PY  - 2004
+L2  - http://dx.doi.org/10.1590/S0102-311X2004000600037
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - STRUCHINER, C. J.; LUZ, Paula Mendes ; DOURADO, I. ; SATO, H. K. ; AGUIAR, S. G. ; RIBEIRO, J. G. L. ; SOARES, R. C. R. ; CODEÇO, Claudia Torres
+TI  - Risk of fatal adverse events associated with 17DD yellow fever vaccine
+JO  - Epidemiology and Infection
+VL  - 132
+IS  - 
+SP  - 939
+EP  - 946
+PY  - 2004
+L2  - 
+L3  - 0950-2688
+ER  - 
+
+TY  - JOUR
+AU  - TASSINARI, Wagner de Souza ; PELLEGRINI, DCP ; SABROZA, PC ; CARVALHO, Marilia Sa
+TI  - Distribuição Espacial da Leptospirose no Município do Rio de Janeiro ao Longo dos Anos de 1996-1999
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 20
+IS  - 6
+SP  - 1721
+EP  - 1731
+PY  - 2004
+L2  - http://dx.doi.org/10.1590/S0102-311X2004000600031
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - BARBOSA, Maria Tereza Serrano ; STRUCHINER, C. J.
+TI  - Impacto da Terapia Anti-Retroviral na Magnitude da Epidemia do HIV/AIDS no Brasil: Diversos Cenários
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 19
+IS  - 2
+SP  - 535
+EP  - 541
+PY  - 2003
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - BOCHNER, R. ; STRUCHINER, C. J.
+TI  - Epidemiologia dos Acidentes Ofídicos nos Últimos 100 Anos: Uma Revisão
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 19
+IS  - 1
+SP  - 7
+EP  - 16
+PY  - 2003
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; HENDERSON, R. ; SHIMAKURA, S. ; SOUZA, I. P. S. C.
+TI  - Survival of hemodialysis patients: modeling differences in risk of dialysis centers
+JO  - International Journal for Quality in Health Care
+VL  - 15
+IS  - 3
+SP  - 189
+EP  - 196
+PY  - 2003
+L2  - http://dx.doi.org/10.1093/intqhc/mzg035
+L3  - 1353-4505
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; KNORR-HELD, L.
+TI  - Modelling Discrete Time Survival Data with Random Slopes: Evaluating Hemodialysis
+JO  - Statistics in Medicine (Print)
+VL  - 22
+IS  - 
+SP  - 3543
+EP  - 3555
+PY  - 2003
+L2  - http://dx.doi.org/10.1002/sim.1571
+L3  - 0277-6715
+ER  - 
+
+TY  - JOUR
+AU  - LUZ, P. M. ; CODEÇO, C. T. ; WERNECK, G.
+TI  - The resurgence of pertussis in developed countries: a problem for Brazil as well?
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 19
+IS  - 4
+SP  - 1209
+EP  - 1213
+PY  - 2003
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - LUZ, Paula Mendes ; CODEÇO, C.T. ; MASSAD, Eduardo ; STRUCHINER, C. J.
+TI  - Uncertainties Regarding Dengue Modeling in Rio de Janeiro, Brazil
+JO  - Memórias do Instituto Oswaldo Cruz
+VL  - 98
+IS  - 7
+SP  - 871
+EP  - 878
+PY  - 2003
+L2  - 
+L3  - 0074-0276
+ER  - 
+
+TY  - JOUR
+AU  - MAGALHÃES, Maria da Consolação ; CARVALHO, Marilia Sa
+TI  - Atenção Hospitalar perinatal e mortalidade neonatal no município de Juiz de Fora, Minas Gerais
+JO  - Revista Brasileira de Saúde Materno Infantil
+VL  - 3
+IS  - 3
+SP  - 329
+EP  - 338
+PY  - 2003
+L2  - 
+L3  - 1519-3829
+ER  - 
+
+TY  - JOUR
+AU  - MASSAD, Eduardo ; ORTEGA, N. R. S. ; STRUCHINER, C. J. ; BURATTINI, M. N.
+TI  - Fuzzy Epidemics
+JO  - Artificial Intelligence in Medicine
+VL  - 29
+IS  - 3
+SP  - 241
+EP  - 259
+PY  - 2003
+L2  - 
+L3  - 0933-3657
+ER  - 
+
+TY  - JOUR
+AU  - Pacheco, Antonio Guilherme Fonseca; NOLLER, A C ; MCELLISTREM, M C ; BOXRUD, D J ; HARRISON, L H
+TI  - Multilocus Variable-Number Tandem Repeat Analysis Distinguishes Outbreak and Sporadic Escherichia coli O157:H7 Isolates
+JO  - Journal of Clinical Microbiology (Print)
+VL  - 41
+IS  - 12
+SP  - 5389
+EP  - 5397
+PY  - 2003
+L2  - http://dx.doi.org/10.1128/JCM.41.12.5389-5397.2003
+L3  - 0095-1137
+ER  - 
+
+TY  - JOUR
+AU  - RIBEIRO, K. T. ; CODEÇO, C. T. ; FERNANDES, G. W.
+TI  - Local and regional spatial distribution of an eruptive and a latent herbivore insect species
+JO  - Austral Ecology
+VL  - 28
+IS  - 2
+SP  - 99
+EP  - 107
+PY  - 2003
+L2  - 
+L3  - 
+ER  - 
+
+TY  - JOUR
+AU  - TOMASSINI, H C ; ALVES, M G ; CLARO, L B ; Pacheco, Antonio Guilherme Fonseca ; ALMEIDA, M T
+TI  - Demographic and mortality trends in Niteroi, Rio de Janeiro, Brazil, 1979 to 1997
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 19
+IS  - 6
+SP  - 1621
+EP  - 1629
+PY  - 2003
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - TREC Collaborative Group
+TI  - Rapid tranquillisation for agitated patients in emergency psychiatric rooms: a randomised trial of midazolam versus haloperidol plus promethazine
+JO  - BMJ. British Medical Journal
+VL  - 327
+IS  - 7417
+SP  - 708
+EP  - 713
+PY  - 2003
+L2  - 
+L3  - 0959-535X
+ER  - 
+
+TY  - JOUR
+AU  - BARBOSA, M. T. S. ; STRUCHINER, C. J.
+TI  - Estimativa da magnitude da AIDS no Brasil: uma correção de atraso aplicada aos casos com data perdida
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 18
+IS  - 1
+SP  - 279
+EP  - 285
+PY  - 2002
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - BOCHNER, R. ; STRUCHINER, C. J.
+TI  - Acidentes por Animais Peçonhentos e Sistemas Nacionais de Informação
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 18
+IS  - 3
+SP  - 735
+EP  - 746
+PY  - 2002
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CAFFARENA, E. R.; GRIGERA, J. R. ; BISCH, Paulo M.
+TI  - Stochastic molecular dynamics of peanut lectin PNA complex with T-antigen disaccharide
+JO  - Journal of Molecular Graphics & Modelling
+VL  - 21
+IS  - 
+SP  - 227
+EP  - 240
+PY  - 2002
+L2  - http://dx.doi.org/10.1016/s1093-3263(02)00119-5
+L3  - 1093-3263
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; OTERO, U. B. ; ROZENFELD, S.
+TI  - Mortalidade por desnutrição em idosos, região Sudeste do Brasil, 1980-1997
+JO  - Revista de Saúde Pública (Impresso)
+VL  - 36
+IS  - 
+SP  - 141
+EP  - 148
+PY  - 2002
+L2  - http://dx.doi.org/10.1590/S0034-89102002000200004
+L3  - 0034-8910
+ER  - 
+
+TY  - JOUR
+AU  - DIAS, T. L. ; OLIVEIRA, M. P. G. ; CÂMARA, G. ; CARVALHO, Marilia Sa
+TI  - Problemas de Escala e a Relação Área-Indivíduo em Análise Espacial de Dados Censitários
+JO  - IP. Informática Pública
+VL  - 4
+IS  - 1
+SP  - 89
+EP  - 104
+PY  - 2002
+L2  - 
+L3  - 1516-697X
+ER  - 
+
+TY  - JOUR
+AU  - KURTZ, G. S. ; RIBEIRO, F. M. ; SALVADORI, M. C. ; STRUCHINER, C. J.
+TI  - Carbamazepine: A Bioequivalence Study and Limited Sampling Modeling
+JO  - International Journal of Clinical Pharmacology and Therapeutics
+VL  - 40
+IS  - 9
+SP  - 424
+EP  - 430
+PY  - 2002
+L2  - 
+L3  - 0946-1965
+ER  - 
+
+TY  - JOUR
+AU  - MONTEIRO-DE-CASTRO, M. S. ; TRAVASSOS, Cláudia ; CARVALHO, Marilia Sa
+TI  - Fatores Associados às Internações Hospitalares e aos Grandes Usuários de Serviços Hospitalares no Brasil
+JO  - Ciência & Saúde Coletiva
+VL  - 7
+IS  - 4
+SP  - 795
+EP  - 811
+PY  - 2002
+L2  - 
+L3  - 1413-8123
+ER  - 
+
+TY  - JOUR
+AU  - SALDIVA, S. R. M. ; CARVALHO, H. B. ; CASTILHO, V. P. ; STRUCHINER, C. J. ; MASSAD, Eduardo
+TI  - Malnutrition and Susceptibility to Enteroparasites: Reinfection Rates after Mass Chemotherapy
+JO  - Paediatric and Perinatal Epidemiology
+VL  - 16
+IS  - 2
+SP  - 166
+EP  - 171
+PY  - 2002
+L2  - 
+L3  - 0269-5022
+ER  - 
+
+TY  - JOUR
+AU  - VINCENTIM, G. ; SANTO, A. H. ; CARVALHO, Marilia Sa
+TI  - Tuberculose e indicadores sociais no município do Rio de Janeiro
+JO  - Ciência & Saúde Coletiva
+VL  - 7
+IS  - 2
+SP  - 253
+EP  - 263
+PY  - 2002
+L2  - 
+L3  - 1413-8123
+ER  - 
+
+TY  - JOUR
+AU  - BRUNET, R. C. ; STRUCHINER, C. J. ; LOINAZ, A.
+TI  - A Method for Estimating Time Dependent Intervention Benefits under Arbitrarily Varying Age and Exogenous Components of Hazard
+JO  - Lifetime Data Analysis
+VL  - 7
+IS  - 4
+SP  - 377
+EP  - 392
+PY  - 2001
+L2  - 
+L3  - 1380-7870
+ER  - 
+
+TY  - JOUR
+AU  - CAMARGO-NEVES, Vera Lucia Fonseca de ; KATZ, Gizelda ; RODAS, Lilian Aparecida Colebrusco ; POLETTO, Daniela Witacker ; LAGE, Lisete Cruz ; SPÍNOLA, Roberta Maria Fernandes ; CRUZ, O. G.
+TI  - Utilização de ferramentas de análise espacial na vigilância epidemiológica de leishmaniose visceral americana - Araçatuba, São Paulo, Brasil, 1998-1999
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 17
+IS  - 5
+SP  - 1263
+EP  - 1267
+PY  - 2001
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHO, Marilia Sa; NOBRE, F. F.
+TI  - Editorial Análise de Dados Espaciais em Saúde
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 17
+IS  - 5
+SP  - 1056
+EP  - 1057
+PY  - 2001
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - MASSAD, E. ; COUTINHO, F A B ; BURATTINI, M N ; LOPEZ, L F ; STRUCHINER, C. J.
+TI  - Modeling the impact of imperfect HIV vaccines on the incidence of the infection
+JO  - Mathematical and Computer Modelling
+VL  - 34
+IS  - 3/4
+SP  - 345
+EP  - 351
+PY  - 2001
+L2  - 
+L3  - 0895-7177
+ER  - 
+
+TY  - JOUR
+AU  - PINHEIRO, R. S. ; TRAVASSOS, Cláudia ; GAMERMAN, D. ; CARVALHO, Marilia Sa
+TI  - Mercados Hospitalares em áreas urbanas: uma abordagem metodológica
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 17
+IS  - 5
+SP  - 1111
+EP  - 1121
+PY  - 2001
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - SANTOS, Simone Maria dos ; BARCELLOS, Christovam ; CARVALHO, Marilia Sa ; FLORES, R.
+TI  - Detecção de aglomerados espaciais de óbitos por causas violentas em Porto Alegre, Rio Grande do Sul, Brasil, 1996
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 17
+IS  - 5
+SP  - 1141
+EP  - 1151
+PY  - 2001
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - SHIMAKURA, S. E. ; CARVALHO, Marilia Sa ; AERTZ, D. ; FLORES, R.
+TI  - Distribuição espacial do risco: modelagem da mortalidade infantil em Porto Alegre, Rio Grande do Sul, Brasil
+JO  - Cadernos de Saúde Pública (ENSP. Impresso)
+VL  - 17
+IS  - 5
+SP  - 1251
+EP  - 1261
+PY  - 2001
+L2  - http://dx.doi.org/10.1590/S0102-311X2001000500017
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - SOUZA, Wayner V ; BARCELLOS, Christovam C ; BRITO, Ana M ; CRUZ, O. G. ; CARVALHO, Marilia Sá ; ALBUQUERQUE, Maria de Fátima Militão ; ALVES, R K ; LAPA, Tiago Maria
+TI  - Aplicação de modelo bayesiano empírico na análise espacial da ocorrência de hanseníase.
+JO  - Revista de Saúde Pública (Impresso)
+VL  - 35
+IS  - 5
+SP  - 474
+EP  - 480
+PY  - 2001
+L2  - http://dx.doi.org/10.1590/S0034-89102001000500011
+L3  - 1518-8787
+ER  - 
+
+TY  - JOUR
+AU  - SUAREZ-KURTZ, G ; RIBEIRO, F. M. ; ESTRELA, R. C. E. ; VICENTE, F.L. ; STRUCHINER, C. J.
+TI  - Limited-sampling strategy models for estimating the pharmacokinetic parameters of 4-methylaminoantipyrine, an active metabolite of dipyrone: sampling strategies for pharmacokinetic measurements
+JO  - Brazilian Journal of Medical and Biological Research
+VL  - 34
+IS  - 11
+SP  - 1475
+EP  - 1485
+PY  - 2001
+L2  - 
+L3  - 0100-879X
+ER  - 
+
+TY  - JOUR
+AU  - SUAREZ-KURTZ, G ; RIBEIRO, F. M. ; VICENTE, F.L. ; STRUCHINER, C. J.
+TI  - Development and validation of limited-sampling strategies for predicting amoxicillin pharmacokinetic and pharmacodynamic parameters
+JO  - Antimicrobial Agents and Chemotherapy
+VL  - 45
+IS  - 11
+SP  - 3029
+EP  - 3036
+PY  - 2001
+L2  - 
+L3  - 0066-4804
+ER  - 
+
+TY  - JOUR
+AU  - BARBOSA, Maria Tereza Serrano ; BYINGTON, M. R. L. ; STRUCHINER, C. J.
+TI  - Modelos Dinâmicos e Redes Sociais: Revisão e Reflexões a Respeito de sua Contribuição para o Entendimento da Epidemia do HIV
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 16
+IS  - 
+SP  - 37
+EP  - 51
+PY  - 2000
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CAMPOS, T. P. ; CARVALHO, Marilia Sa
+TI  - Assistência ao Parto no Município do Rio de Janeiro: Perfil das Maternidades e o Acesso da Clientela
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 16
+IS  - 2
+SP  - 109
+EP  - 118
+PY  - 2000
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - CAMPOS, T. P. ; CARVALHO, Marilia Sa ; BARCELLOS, Christovam
+TI  - Áreas de risco e trajetória dos pacientes aos serviços: uma discussão da mortalidade infantil no município do Rio de Janeiro
+JO  - Revista Panamericana de Salud Pública / Pan American Journal of Public Health
+VL  - 8
+IS  - 3
+SP  - 164
+EP  - 171
+PY  - 2000
+L2  - 
+L3  - 1020-4989
+ER  - 
+
+TY  - JOUR
+AU  - HOFFER, C. B. ; HARRISON, L. H. ; STRUCHINER, C. J. ; MOREIRA, R. I. ; LAGO, R. F. ; MELO, M. F. ; SCHECHTER, M.
+TI  - Acute retrovirus syndrome among prospectively identified homosexual men with incident HIV infection in Brazil
+JO  - Journal of Acquired Immune Deficiency Syndromes and Human Retrovirology
+VL  - 25
+IS  - 2
+SP  - 188
+EP  - 191
+PY  - 2000
+L2  - 
+L3  - 1077-9450
+ER  - 
+
+TY  - JOUR
+AU  - OLIVEIRA, L. H. ; STRUCHINER, C. J.
+TI  - Vaccine-Associated Paralytic Poliomyelitis in Brazil, 1989-1995
+JO  - Revista Panamericana de Salud Pública / Pan American Journal of Public Health
+VL  - 7
+IS  - 4
+SP  - 219
+EP  - 224
+PY  - 2000
+L2  - 
+L3  - 1020-4989
+ER  - 
+
+TY  - JOUR
+AU  - OLIVEIRA, L. H. ; STRUCHINER, C. J.
+TI  - Vaccine-Associated Paralytic Poliomyelitis: A Retrospective Cohort Study of Acute Flaccid Paralyses in Brazil
+JO  - International Journal of Epidemiology
+VL  - 29
+IS  - 
+SP  - 757
+EP  - 763
+PY  - 2000
+L2  - 
+L3  - 0300-5771
+ER  - 
+
+TY  - JOUR
+AU  - SANTOS, Reinaldo Souza ; CARVALHO, Marilia Sa
+TI  - Análise da distribuição espacial de larvas de Aedes aegypti na Ilha do Governador, Rio de Janeiro, Brasil
+JO  - Cadernos de Saúde Pública (FIOCRUZ)
+VL  - 16
+IS  - 1
+SP  - 31
+EP  - 42
+PY  - 2000
+L2  - 
+L3  - 0102-311X
+ER  - 
+
+TY  - JOUR
+AU  - SANTOS, S. M. ; BARCELLOS, Christovam ; CARVALHO, Marilia Sa
+TI  - Identificação de grupos vulneráveis por meio da detecção de clusters de homicídios como apoio apoio ao planejamento de ações em saúde.
+JO  - Boletim da Saúde
+VL  - 14
+IS  - 1
+SP  - 117
+EP  - 129
+PY  - 2000
+L2  - 
+L3  - 0102-1001
 ER  - 
 
 TY  - BOOK
@@ -6739,16 +7935,6 @@ EP  -
 ER  - 
 
 TY  - BOOK
-AU  - BASTOS, L. S.; WILKINSON, R. D.
-TI  - Análise Estatística de Simuladores. São Paulo: Associação Brasileira de Estatística
-IS  - 
-PY  - 2010
-VL  - 
-SP  - 91
-EP  - 
-ER  - 
-
-TY  - BOOK
 AU  - HALLORAN, M. E. ; LONGINI JR, I. M. ; STRUCHINER, C. J.
 TI  - Design and Analysis of Vaccine Studies (Statistics for Biology and Health)
 IS  - 1
@@ -6765,6 +7951,46 @@ IS  -
 PY  - 2009
 VL  - 1
 SP  - 315
+EP  - 
+ER  - 
+
+TY  - BOOK
+AU  - CARVALHO, Marilia Sa; ANDREOZZI, Valeska Lima ; CODEÇO, Claudia Torres ; BARBOSA, Maria Tereza Serrano ; SHIMAKURA, Silvia Emiko
+TI  - Análise de sobrevida: teoria e aplicações em saúde. Rio de Janeiro: Editora Fiocruz
+IS  - 1
+PY  - 2005
+VL  - 1
+SP  - 396
+EP  - 
+ER  - 
+
+TY  - BOOK
+AU  - DRUCK, S. (Org.) ; CARVALHO, Marilia Sa (Org.) ; CÂMARA, G. (Org.)
+TI  - Análise Espacial de Dados Geográficos. Planaltina, DF: Embrapa Cerrados
+IS  - 
+PY  - 2004
+VL  - 1
+SP  - 210
+EP  - 
+ER  - 
+
+TY  - BOOK
+AU  - LUIZ, R. R. ; STRUCHINER, C. J.
+TI  - Inferência Causal em Epidemiologia. Rio de Janeiro: Editora FIOCRUZ
+IS  - 
+PY  - 2002
+VL  - 1
+SP  - 112
+EP  - 
+ER  - 
+
+TY  - BOOK
+AU  - CARVALHO, Marilia Sa; PINA, Maria de Fátima de (Org.) ; SANTOS, Simone Maria dos (Org.)
+TI  - Conceitos Básicos de Sistemas de Informação Geográfica e Cartografia Aplicados à Saúde
+IS  - 1
+PY  - 2000
+VL  - 1
+SP  - 124
 EP  - 
 ER  - 
 
@@ -6997,18 +8223,6 @@ EP  - 361
 ER  - 
 
 TY  - CHAP
-AU  - Zamite, João ; Silva, Fabrício A. B. ; Couto, Francisco ; Silva, Mário J.
-T1  - MEDCollector: Multisource Epidemic Data Collector. Lecture Notes in Computer Science. 4ed
-TI  - 
-IS  - 
-PB  - Springer Berlin Heidelberg
-PY  - 2011
-VL  - 
-SP  - 40
-EP  - 72
-ER  - 
-
-TY  - CHAP
 AU  - CAFFARENA, E. R.; GRIGERA, J. R.
 T1  - Hydration of carbohydrates
 TI  - Hugo Verli. (Org.). Strategies for the Determination of Carbohydrates Structure and Conformation. Kerala, India
@@ -7018,18 +8232,6 @@ PY  - 2010
 VL  - 85
 SP  - 101
 EP  - 
-ER  - 
-
-TY  - CHAP
-AU  - SILVA, F. A. B.; GAGLIARDI, Henrique Fabrício ; GALLO, Eduardo ; Madope, M. A. ; CAVICCHIOLI NETO, V. ; PISA, I. ; ALVES, D.
-T1  - IntegraEPI: Epidemiologic Surveillance on the Grid
-TI  - Mario Cannataro. (Org.). Handbook of Research on Computational Grid Technologies for Life Sciences, Biomedicine and Healthcare. Hershey
-IS  - 
-PB  - IGI Global
-PY  - 2009
-VL  - 
-SP  - 444
-EP  - 468
 ER  - 
 
 TY  - CHAP
@@ -7092,6 +8294,198 @@ SP  -
 EP  - 
 ER  - 
 
+TY  - CHAP
+AU  - SPYRIDES, Maria Helena Constantino ; Struchiner, Claudio José ; BARBOSA, Maria Tereza Serrano ; KAC, Gilberto
+T1  - Análise de Dados com Medidas Repetidas
+TI  - Gilberto Kac; Rosely Sichieri; Denise Petrucci Gigante. (Org.). Epidemiologia Nutricional. Rio de Janeiro
+IS  - 
+PB  - Editora FIOCRUZ / Atheneu
+PY  - 2007
+VL  - 
+SP  - 245
+EP  - 260
+ER  - 
+
+TY  - CHAP
+AU  - SOUZA, Wayner V ; CARVALHO, Marilia Sá ; CRUZ, O. G.
+T1  - Análise Espacial de Taxas Epidemiológicas calculadas para Unidades Geográficas
+TI  - Eduardo Freese de Carvalho. (Org.). Epidemiologia, Políticas e Determinantes das Doenças Crônicas não transmissíveis no Brasil. Recife
+IS  - 
+PB  - Editora Universitária-UFPE
+PY  - 2006
+VL  - 1
+SP  - 341
+EP  - 358
+ER  - 
+
+TY  - CHAP
+AU  - CARVALHO, Marilia Sá ; ANDREOZZI, Valeska Lima ; CODEÇO, Claudia Torres ; BARBOSA, Maria Tereza Serrano ; SHIMAKURA, Silvia Emiko ; STRUCHINER, C. J.
+T1  - Modelos de Sobrevida e a Epidemiologia
+TI  - Marília Sá Carvalho; Valeska Lima Andreozzi; Claudia Torres Codeço; Maria Tereza Serrano Barbosa; Silvia Emiko Shimakura. (Org.). Análise de Sobrevida: Teoria e Aplicações em Saúde. Rio de Janeiro
+IS  - 
+PB  - Editora FIOCRUZ
+PY  - 2005
+VL  - 
+SP  - 27
+EP  - 44
+ER  - 
+
+TY  - CHAP
+AU  - STRUCHINER, C. J.; LUZ, Paula Mendes ; SABROZA, Paulo Chagasteles
+T1  - Modelos Matemáticos e Epidemiológicos para Doenças Infecciosas e Parasitárias
+TI  - José Rodrigues Coura. (Org.). Dinâmica das Doenças Infecciosas e Parasitárias. Rio de Janeiro
+IS  - 
+PB  - Guanabara Koogan
+PY  - 2005
+VL  - I
+SP  - 121
+EP  - 131
+ER  - 
+
+TY  - CHAP
+AU  - CÂMARA, G. ; CARVALHO, Marilia Sa ; CRUZ, O. G. ; CORREIA, Virgínia Ragoni de Moraes
+T1  - Análise Espacial de Áreas
+TI  - Suzana Druck; Marilia Sá Carvalho; Gilberto Câmara; Antônio Miguel Vieira Monteiro. (Org.). Análise Espacial de Dados Geográficos. Brasília
+IS  - 
+PB  - EMPRAPA
+PY  - 2004
+VL  - 1
+SP  - 157
+EP  - 209
+ER  - 
+
+TY  - CHAP
+AU  - CÂMARA, G. ; MONTEIRO, A. M. V. ; DRUCK, S. ; CARVALHO, Marilia Sa
+T1  - Análise Espacial e Geoprocessamento
+TI  - Suzana Druck; Marilia Sa Carvalho; Gilberto Câmara; Antônio Miguel Vieira Monteiro. (Org.). Análise Espacial de Dados Geográficos. Brasília
+IS  - 
+PB  - EMBRAPA
+PY  - 2004
+VL  - 1
+SP  - 19
+EP  - 52
+ER  - 
+
+TY  - CHAP
+AU  - CÂMARA, Gilberto ; CARVALHO, Marilia Sá ; CRUZ, O. G. ; CORREA, Virgínia Ragoni de Moraes
+T1  - Análise Espacial de Eventos
+TI  - Suzana Druck; Marilia Sá Carvalho; Gilberto Câmara; Antônio Miguel Vieira Monteiro. (Org.). Análise Espacial de Dados Geográficos.. Brasilia
+IS  - 
+PB  - Embrapa
+PY  - 2004
+VL  - 1
+SP  - 157
+EP  - 209
+ER  - 
+
+TY  - CHAP
+AU  - STRUCHINER, C. J
+T1  - Inferência Bayesiana
+TI  - Eduardo Massad; Renée Xavier de Menezes; Paulo S. P. Silveira; Neli Regina S. Ortega. (Org.). Métodos Quantitativos em Medicina. Barueri
+IS  - 
+PB  - Manole
+PY  - 2004
+VL  - 
+SP  - 425
+EP  - 439
+ER  - 
+
+TY  - CHAP
+AU  - STRUCHINER, C. J
+T1  - Simulação Estocástica via Cadeias de Markov
+TI  - Eduardo Massad; Renée Xavier de Menezes; Paulo S. P. Silveira; Neli Regina S. Ortega. (Org.). Métodos Quantitativos em Medicina. Barueri
+IS  - 
+PB  - Manole
+PY  - 2004
+VL  - 
+SP  - 449
+EP  - 454
+ER  - 
+
+TY  - CHAP
+AU  - STRUCHINER, C. J
+T1  - Reamostragem
+TI  - Eduardo Massad; Renée Xavier de Menezes; Paulo S. P. Silveira; Neli Regina S. Ortega. (Org.). Métodos Quantitativos em Medicina. Barueri
+IS  - 
+PB  - Manole
+PY  - 2004
+VL  - 
+SP  - 455
+EP  - 460
+ER  - 
+
+TY  - CHAP
+AU  - CÂMARA, G. ; CARVALHO, Marilia Sa
+T1  - Análise Espacial na Definição de Políticas Públicas em Aglomerados Urbanos
+TI  - Elias Rassi-Neto; Cláudia Maria Bógus. (Org.). Saúde nos Grandes Aglomerados Urbanos: Uma Visão Integrada. Brasilia
+IS  - 
+PB  - MS/OPAS
+PY  - 2003
+VL  - 
+SP  - 137
+EP  - 154
+ER  - 
+
+TY  - CHAP
+AU  - LUIZ, R. R. ; STRUCHINER, C. J. ; KALE, P. L.
+T1  - Inferência Causal
+TI  - Roberto Andrade Medronho; Diana Maul de Carvalho; Katia Vergetti Bloch; Ronir Raggio Luiz; Guilherme Loureiro Werneck. (Org.). Epidemiologia. Rio de Janeiro
+IS  - 
+PB  - Editora Atheneu
+PY  - 2002
+VL  - 
+SP  - 213
+EP  - 223
+ER  - 
+
+TY  - CHAP
+AU  - RIBEIRO, J. M. ; STRUCHINER, C. J. ; WERNECK, Guilherme Loureiro
+T1  - Dinâmica de Transmisão de Doenças
+TI  - Roberto de Andrade Medronho; Diana Maul de Carvalho; Katia Vergetti Bloch; Ronir Raggio Luiz; Guilherme Loureiro Werneck. (Org.). Epidemiologia. Rio de Janeiro
+IS  - 
+PB  - Editora Atheneu
+PY  - 2002
+VL  - 
+SP  - 403
+EP  - 418
+ER  - 
+
+TY  - CHAP
+AU  - CARVALHO, Marilia Sa
+T1  - Sistemas de Informações em Saúde
+TI  - Suely Rozenfeld. (Org.). Fundamentos da Vigilância Sanitária. 1ed.Rio de Janeiro
+IS  - 
+PB  - FIOCRUZ e EAD-ENSP
+PY  - 2000
+VL  - 
+SP  - 233
+EP  - 256
+ER  - 
+
+TY  - CHAP
+AU  - CARVALHO, Marilia Sa; SANTOS, Simone Maria dos ; PINA, Maria de Fátima de
+T1  - Os Sistemas de Informações Geográficas
+TI  - Marilia Sá Carvalho; Maria de Fátima de Pina; Simone Maria dos Santos. (Org.). Conceitos básicos de sistemas de informações geográficas e cartografia aplicados à saúde. Brasilia
+IS  - 
+PB  - OPS/Ministérios da Saúde
+PY  - 2000
+VL  - 1
+SP  - 13
+EP  - 39
+ER  - 
+
+TY  - CHAP
+AU  - MASSAD, E. ; STRUCHINER, C. J. ; ORTEGA, N. R. S.
+T1  - Fuzzy Diagnostic and Therapeutic Decision Support
+TI  - ERUDIT. (Org.). Viena
+IS  - 
+PB  - Österreich Computer Gesellschaft
+PY  - 2000
+VL  - 
+SP  - 
+EP  - 
+ER  - 
+
 TY  - MGZN
 AU  - VILLELA, D. A. M.; GARCIA, G. A. ; MACIEL-DE-FREITAS, RAFAEL
 T1  - How can we track mosquitoes? (And why!)
@@ -7115,23 +8509,12 @@ M1  - 01 abr. 2014
 ER  - 
 
 TY  - MGZN
-AU  - Y. Moreno ; Gomes, Marcelo F.C. ; A. Pastore y Piontti ; SAMAY, NICOLE ; Q. Zhang ; A. Vespignani
-T1  - Predecir la epidemia de ébola es posible
-TI  - Tercer Milenio, Heraldo de Aragon
-PY  - 2014
-VL  - 
-SP  - 4
-EP  - 5
-M1  - 11 nov. 2014
-ER  - 
-
-TY  - MGZN
-AU  - Costa, Mauricio G.S.; Batista, Paulo R. ; Bisch, Paulo M ; PERAHIA, D.
-T1  - Understanding the dynamics and energetics of the conformational transitions in AMPA receptors
-TI  - Journal du IDA
-PY  - 2012
-VL  - 
-SP  - 4
-EP  - 4
-M1  - 05 jul. 2012
+AU  - CODEÇO, C. T.; COELHO, F.C.
+T1  - Pandemias: risco para a humanidade?
+TI  - Ciência Hoje, Rio de Janeiro, 
+PY  - 2006
+VL  - 38
+SP  - 26
+EP  - 31
+M1  - 01 mar. 2006
 ER  - 
