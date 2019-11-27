@@ -6,36 +6,36 @@ title: "Publications"
 
 ## To appear
 
-  - Lopes et al.. Natural infection by the protozoan Leptomonas wallacei impacts the morphology, physiology, reproduction, and lifespan of the insect Oncopeltus fasciatus. *Scientific Reports*.
-  - Barrenechea and **Bastos**. Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine*.
   - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. 
   - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
-  - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of _Trypanosoma cruzi_: an example of cooperative behavior. *Journal of Biomolecular Structure and Dynamics*.
 
 
 ## 2019
 
   - **Bastos**, Economou, et al.. A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
+  - Barrenechea and **Bastos**. Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine* [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31630938).
   - Coutinho, **Bastos**, et al.. The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0)
-  - de Almeida Ribeiro, et al.. Accuracy of rapid test for diagnosis of hepatitis A with different infection rate settings and with predictive modeling. *Future Microbiology*.
-  - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. *Brazilian Journal of Tropical Medicine*.  
+  - de Almeida Ribeiro, et al.. Accuracy of rapid test for diagnosis of hepatitis A with different infection rate settings and with predictive modeling. *Future Microbiology*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/30663895)
+  - Lopes et al.. Natural infection by the protozoan Leptomonas wallacei impacts the morphology, physiology, reproduction, and lifespan of the insect Oncopeltus fasciatus. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-019-53678-1)
+  - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of _Trypanosoma cruzi_: an example of cooperative behavior. *Journal of Biomolecular Structure and Dynamics*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31184542)
+  - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. *Brazilian Journal of Tropical Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31188913)
 
 ## 2018
 
-  - Bastos, **Bastos**, et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*.
+  - Bastos, **Bastos**, et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29794601)
   - Sperandei, Bastos, et al.. A simulation study across different networks. *Social Networks*.
-  - Juvanhol et al.. Association between demand-control model components and blood pressure in the ELSA-Brasil study: exploring heterogeneity using quantile regression analyses. *Scandinavian Journal of Work Enviroment & Health*.
-  - Faccion et al.. p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. *Celullar Oncology*.
-  - Da Silva et al.. Integrated analysis of ethionamide resistance loci in _Mycobacterium tuberculosis_ clinical isolates. *Tuberculosis*.
-  - Cysne-Finkelstein et al.. Evidence of Subpopulations with Distinct Biological Features Within a Leishmania (Viannia) braziliensis Strain. *Protist*.
+  - Juvanhol et al.. Association between demand-control model components and blood pressure in the ELSA-Brasil study: exploring heterogeneity using quantile regression analyses. *Scandinavian Journal of Work Enviroment & Health*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/30074051)
+  - Faccion et al.. p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. *Celullar Oncology*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29374392)
+  - Da Silva et al.. Integrated analysis of ethionamide resistance loci in _Mycobacterium tuberculosis_ clinical isolates. *Tuberculosis*. 
+  - Cysne-Finkelstein et al.. Evidence of Subpopulations with Distinct Biological Features Within a Leishmania (Viannia) braziliensis Strain. *Protist*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29482071)
 
 
 ## 2017
 
   - Villela, **Bastos**, et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*.
-  - Toledo et al.. Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda. *International Journal of Drug Policy*.
+  - Toledo et al.. Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda. *International Journal of Drug Policy*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28961496)
   - Lima et el.. MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. *PLoS Neglected Tropical Diseases*.
-  - Rodrigues et al.. Distribution of pulmonary tuberculosis in Rio de Janeiro (Brazil): a spatial analysis. *Ciencia & Saude Coletiva*.
+  - Rodrigues et al.. Distribution of pulmonary tuberculosis in Rio de Janeiro (Brazil): a spatial analysis. *Ciencia & Saude Coletiva*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29267729)
   - Lima-Neiva et al.. Biology of _Triatoma sherlocki_ (Hemiptera: Reduviidae) Under Laboratory Conditions: Biological Cycle and Resistance to Starvation. *Journal of Medical Entomology*.
   - Rizzzeto et al.. Chronic kidney disease progression: a retrospective analysis of 3-year adherence to a low protein diet. *Renal Failure*.
 
