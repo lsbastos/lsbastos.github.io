@@ -2,7 +2,7 @@
 title: "Contact"
 ---
 
-Emails: leonardo DOT bastos AT {fiocruz.br; lshtm.ac.uk; pq.cnpq.br}
+Emails: leonardo DOT bastos AT {fiocruz.br; lshtm.ac.uk}
 
 
 

@@ -22,6 +22,9 @@ title: Leo Bastos
 
 ## News in a short format
 
+### 2019
+
+- (Grant) A network grant proposal on drug abuse was accepted by FAPERJ. [(Link)](http://www.faperj.br/?id=3888.2.7)
 - (New paper) Accepted in Nature Scientific reports with Angela Lopes et al. (Nov 2019)
 - (New paper) Accepted in Vaccine with Guillermo Barrenechea (Oct 2019)
 - (New paper) Accepted in Cardernos de Saude Publica with Natalia Paiva et al. (Sep 2019)
@@ -33,6 +36,9 @@ title: Leo Bastos
 - (New paper) Accepted in Nature Scientific Reports with Carol Coutinho, Francisco Bastos and others. (Feb 2019)
 - (New paper) Accepted in Future Microbiology with Luciane Amado and others. (Jan 2019)
 - (Visiting researcher) I visited for 10 days prof. Haavard Rue at KAUST, Saudi Arabia.  (Jan 2019)
+
+### 2018
+
 - (Brazilian Elections 2018) I did some coding on Brazilian presidential elections [(Link)](eleicoes2018.html)
 - (Conference) I was a conference speakers at Foro Climatico Internacional, Tucuman, Argentina [(Link)](https://climactivo.com)  (Oct 2018)
 - (New paper) Accepted in Tubercolusis with Teca Galvão and others (Aug 2018)
