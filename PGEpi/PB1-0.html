@@ -1,0 +1,213 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Pesquisa no Programa de Epidemiologia em Saude Publica da ENSP</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Pesquisa no Programa de Epidemiologia em Saude Publica da ENSP</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Livros publicados/organizados ou edições'}, 
+series: [{data: [[2012,
+6],
+[2013,
+3],
+[2014,
+3],
+[2015,
+4],
+[2016,
+4],
+[2017,
+2],
+[2018,
+1],
+[2019,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Livros publicados/organizados ou edições</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 25<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anderson, W. (Org.) ; Roque, R. (Org.) ; SANTOS, RICARDO VENTURA (Org.). <b>Luso-Tropicalism and its Discontents: The Making and Unmaking of Racial Exceptionalism</b>. 1 ed. New York: Berghanh Books, 2019. p. 346. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Luso-Tropicalism+and+its+Discontents:+The+Making+and+Unmaking+of+Racial+Exceptionalism&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Luso-Tropicalism+and+its+Discontents:+The+Making+and+Unmaking+of+Racial+Exceptionalism">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Luso-Tropicalism+and+its+Discontents:+The+Making+and+Unmaking+of+Racial+Exceptionalism">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SANTOS, RICARDO VENTURA; GUIMARÃES, BRUNO NOGUEIRA (Org.) ; CAMPOS, MARDEN BARBOSA DE (Org.) ; AZEVEDO, MARTA M.A. (Org.). <b>Entre Demografia e Antropologia: Povos Indígenas no Brasil</b>. 1 ed. Rio de Janeiro: Editora Fiocruz, 2019. p. 264. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Entre+Demografia+e+Antropologia:+Povos+Indígenas+no+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Entre+Demografia+e+Antropologia:+Povos+Indígenas+no+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Entre+Demografia+e+Antropologia:+Povos+Indígenas+no+Brasil">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FOWLER, Cynthia T. (Org.) ; WELCH, James R. (Org.). <b>Fire Otherwise: Ethnobiology of Burning for a Changing World</b>. 1 ed. Salt Lake City, UT: The University of Utah Press, 2018. v. 1, p. 240. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Fire+Otherwise:+Ethnobiology+of+Burning+for+a+Changing+World&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Fire+Otherwise:+Ethnobiology+of+Burning+for+a+Changing+World">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Fire+Otherwise:+Ethnobiology+of+Burning+for+a+Changing+World">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LOPES-BELTRAN, C. (Org.) ; WADE, P. (Org.) ; Restrepo, E. (Org.) ; SANTOS, RICARDO VENTURA (Org.). <b>Genómica Mestiza: Raza, Nación y Ciencia en Latinoamérica</b>. 1 ed. Ciudad de México: Fondo de Cultura Económica, 2017. v. 1, p. 432. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Genómica+Mestiza:+Raza,+Nación+y+Ciencia+en+Latinoamérica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Genómica+Mestiza:+Raza,+Nación+y+Ciencia+en+Latinoamérica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Genómica+Mestiza:+Raza,+Nación+y+Ciencia+en+Latinoamérica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LORENZON, Maria Cristina ; LOPES, BCP ; SOARES-NETO, J. ; COELHO, FB ; AZEVEDO, LC ; PACHECO, MR ; BARTH, O.M. ; BOECHAT, RMA ; ANTUNES, RM ; CASTRO, R. N. ; KOSHIYAMA, A. S. ; TASSINARI, WAGNER S.. <b>Defesa da qualidade do mel e da sanidade apícola - Saiba porque as abelhas estão em risco</b>. 1 ed. Rio de Janeiro: RIT DA, 2017. v. 1, p. 310. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Defesa+da+qualidade+do+mel+e+da+sanidade+apícola+-+Saiba+porque+as+abelhas+estão+em+risco&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Defesa+da+qualidade+do+mel+e+da+sanidade+apícola+-+Saiba+porque+as+abelhas+estão+em+risco">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Defesa+da+qualidade+do+mel+e+da+sanidade+apícola+-+Saiba+porque+as+abelhas+estão+em+risco">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANTES, R.; Mendonça, S.B.M. (Org.) ; PICOLI, R. P. (Org.) ; DURAES, M. D. (Org.) ; Ferreira, L.T.G. (Org.). <b>Programa de Qualificação de Agentes Indígenas de Saúde (AIS) e Agentes Indígenas de Saneamento (AISAN) / Ministério da Saúde</b>. 1 ed. Brasilia: Ministério da Saúde, 2016. v. 16, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Programa+de+Qualificação+de+Agentes+Indígenas+de+Saúde+(AIS)+e+Agentes+Indígenas+de+Saneamento+(AISAN)+/+Ministério+da+Saúde&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Programa+de+Qualificação+de+Agentes+Indígenas+de+Saúde+(AIS)+e+Agentes+Indígenas+de+Saneamento+(AISAN)+/+Ministério+da+Saúde">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Programa+de+Qualificação+de+Agentes+Indígenas+de+Saúde+(AIS)+e+Agentes+Indígenas+de+Saneamento+(AISAN)+/+Ministério+da+Saúde">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carvalho, Marília Sá; MELO, A. C. ; RABELLO, R. S. ; LIMA, C. R. DE A.. <b>Inquérito de Saúde na Esfera Local: colocando em prática</b>. 1 ed. Rio de Janeiro: Fiocruz, 2016. v. 1, p. 141. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Inquérito+de+Saúde+na+Esfera+Local:+colocando+em+prática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Inquérito+de+Saúde+na+Esfera+Local:+colocando+em+prática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Inquérito+de+Saúde+na+Esfera+Local:+colocando+em+prática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Coimbra Jr, Carlos E. A. <b>100 Anos de Frederico Simões Barbosa</b>. 32 ed. Rio de Janeiro: Cadernos de Saúde Pública - Volume 32, Suplemento 1, 2016. v. 1, p. 49. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=100+Anos+de+Frederico+Simões+Barbosa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=100+Anos+de+Frederico+Simões+Barbosa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=100+Anos+de+Frederico+Simões+Barbosa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PEREIRA, CIMAR AZEREDO ; DE SOUZA, MARIA DE FATIMA MARINHO ; SZWARCWALD, C. L.. <b>Pesquisa nacional de saúde : 2013 : indicadores de saúde e mercado de trabalho</b>. 1 ed. Rio de Janeiro: IBGE, 2016. p. 66. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+nacional+de+saúde+:+2013+:+indicadores+de+saúde+e+mercado+de+trabalho&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+nacional+de+saúde+:+2013+:+indicadores+de+saúde+e+mercado+de+trabalho">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+nacional+de+saúde+:+2013+:+indicadores+de+saúde+e+mercado+de+trabalho">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2015"><h3 class="year">2015</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FOWLER, Cynthia T. (Org.) ; WELCH, James R. (Org.). <b>Journal of Ethnobiology: Special Issue on Fire Ecology and Ethnobiology</b>. 1 ed. Denton, TX: Society of Ethnobiology, 2015. p. 211. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Journal+of+Ethnobiology:+Special+Issue+on+Fire+Ecology+and+Ethnobiology&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Journal+of+Ethnobiology:+Special+Issue+on+Fire+Ecology+and+Ethnobiology">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Journal+of+Ethnobiology:+Special+Issue+on+Fire+Ecology+and+Ethnobiology">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Hedgecoe A (Org.) ; WADE, P. (Org.) ; Beltrán, C.L. (Org.) ; Santos, RicardoVentura (Org.). <b>Genomic Research, Publics and Experts in Latin America?Nation, Race and Body (Special Issue of Social Studies of Science)</b>. 1 ed. USA: Social Studies of Science, 2015. v. 1, p. 100. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Genomic+Research,+Publics+and+Experts+in+Latin+America?Nation,+Race+and+Body+(Special+Issue+of+Social+Studies+of+Science)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Genomic+Research,+Publics+and+Experts+in+Latin+America?Nation,+Race+and+Body+(Special+Issue+of+Social+Studies+of+Science)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Genomic+Research,+Publics+and+Experts+in+Latin+America?Nation,+Race+and+Body+(Special+Issue+of+Social+Studies+of+Science)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PEREIRA, CIMAR AZEREDO ; Malta, Deborah Carvalho ; SZWARCWALD, C. L.. <b>Pesquisa nacional de saúde : 2013 : acesso e utilização dos serviços de saúde, acidentes e violências</b>. 1 ed. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística - IBGE, 2015. p. 100. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+nacional+de+saúde+:+2013+:+acesso+e+utilização+dos+serviços+de+saúde,+acidentes+e+violências&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+nacional+de+saúde+:+2013+:+acesso+e+utilização+dos+serviços+de+saúde,+acidentes+e+violências">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+nacional+de+saúde+:+2013+:+acesso+e+utilização+dos+serviços+de+saúde,+acidentes+e+violências">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PEREIRA, CIMAR AZEREDO ; Malta, Deborah Carvalho ; SZWARCWALD, C. L.. <b>Pesquisa nacional de saúde : 2013 : ciclos de vida</b>. 1 ed. Rio de Janeiro: IBGE, 2015. p. 92. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+nacional+de+saúde+:+2013+:+ciclos+de+vida&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+nacional+de+saúde+:+2013+:+ciclos+de+vida">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+nacional+de+saúde+:+2013+:+ciclos+de+vida">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2014"><h3 class="year">2014</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COIMBRA JR, Carlos E. A. (Org.) ; Welch, James R. (Org.). <b>Antropologia e História Xavante em Perspectiva</b>. 1 ed. Rio de Janeiro: Museu do Índio/FUNAI, 2014. v. 1, p. 216. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Antropologia+e+História+Xavante+em+Perspectiva&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Antropologia+e+História+Xavante+em+Perspectiva">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Antropologia+e+História+Xavante+em+Perspectiva">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PEREIRA, CIMAR AZEREDO ; Malta, Deborah Carvalho ; Szwarcwald CL. <b>Pesquisa Nacional de Saúde 2013 - Percepção do estado de saúde, estilos de vida e doenças crônicas</b>. 1 ed. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística - IBGE, 2014. p. 181. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+Nacional+de+Saúde+2013+-+Percepção+do+estado+de+saúde,+estilos+de+vida+e+doenças+crônicas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+Nacional+de+Saúde+2013+-+Percepção+do+estado+de+saúde,+estilos+de+vida+e+doenças+crônicas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+Nacional+de+Saúde+2013+-+Percepção+do+estado+de+saúde,+estilos+de+vida+e+doenças+crônicas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>WADE, P. (Org.) ; LOPES-BELTRAN, C. (Org.) ; Restrepo, E. (Org.) ; SANTOS, RICARDO VENTURA (Org.). <b>Mestizo Genomics: Race Mixture, Nation, and Science in Latin America</b>. 1 ed. Durham: Duke University Press, 2014. p. 336. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mestizo+Genomics:+Race+Mixture,+Nation,+and+Science+in+Latin+America&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mestizo+Genomics:+Race+Mixture,+Nation,+and+Science+in+Latin+America">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mestizo+Genomics:+Race+Mixture,+Nation,+and+Science+in+Latin+America">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2013"><h3 class="year">2013</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MACIEL, Elvira Maria Godinho de Seixas; CZERESNIA, D. ; Rafael Antonio Malagón Oviedo. <b>Os sentidos da saúde e da doença</b>. 1a ed. Rio de Janeiro: FIOCRUZ, 2013. v. 1, p. 119. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Os+sentidos+da+saúde+e+da+doença&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Os+sentidos+da+saúde+e+da+doença">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Os+sentidos+da+saúde+e+da+doença">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>WELCH, James R. <b>Sprouting Valley: Historical Ethnobotany of the Northern Pomo from Potter Valley, California</b>. 1 ed. Denton, TX: Society of Ethnobiology, 2013. p. 224. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sprouting+Valley:+Historical+Ethnobotany+of+the+Northern+Pomo+from+Potter+Valley,+California&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sprouting+Valley:+Historical+Ethnobotany+of+the+Northern+Pomo+from+Potter+Valley,+California">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sprouting+Valley:+Historical+Ethnobotany+of+the+Northern+Pomo+from+Potter+Valley,+California">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>WELCH, James Robert ; SANTOS, Ricardo Ventura ; FLOWERS, Nancy May ; Coimbra Jr., Carlos Everaldo Alvares. <b>Na Primeira Margem do Rio: Território e Ecologia do Povo Xavante de Wedezé</b>. 1a. ed. Rio de Janeiro: Museu do Índio/ Fundação Nacional do Índio, 2013. p. 240. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Na+Primeira+Margem+do+Rio:+Território+e+Ecologia+do+Povo+Xavante+de+Wedezé&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Na+Primeira+Margem+do+Rio:+Território+e+Ecologia+do+Povo+Xavante+de+Wedezé">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Na+Primeira+Margem+do+Rio:+Território+e+Ecologia+do+Povo+Xavante+de+Wedezé">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2012"><h3 class="year">2012</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Czeresnia, Dina. Categoria Vida: reflexões para uma nova biologia. <b>São Paulo - Rio de Janeiro: UNESP - FIOCRUZ</b>. São Paulo - Rio de Janeiro: UNESP - FIOCRUZ, 2012. v. 1, p. 140. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=São+Paulo+-+Rio+de+Janeiro:+UNESP+-+FIOCRUZ&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=São+Paulo+-+Rio+de+Janeiro:+UNESP+-+FIOCRUZ">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=São+Paulo+-+Rio+de+Janeiro:+UNESP+-+FIOCRUZ">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Lindee, M.S. (Org.) ; SANTOS, R. V. (Org.). <b>The Biological Anthropology of Living Human Populations: World Histories, National Styles, and International Networks - Special issue of Current Anthropology (Wenner-Gren Symposium Supplement 5). Chicago: University of Chicago Press</b>. The Biological Anthropology of Living Human Populations: World Histories, National Styles, and International Networks - Special issue of Current Anthropology (Wenner-Gren Symposium Supplement 5). Chicago: University of Chicago Press, 2012. v. 1, p. 266. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+Biological+Anthropology+of+Living+Human+Populations:+World+Histories,+National+Styles,+and+International+Networks+-+Special+issue+of+Current+Anthropology+(Wenner-Gren+Symposium+Supplement+5).+Chicago:+University+of+Chicago+Press&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+Biological+Anthropology+of+Living+Human+Populations:+World+Histories,+National+Styles,+and+International+Networks+-+Special+issue+of+Current+Anthropology+(Wenner-Gren+Symposium+Supplement+5).+Chicago:+University+of+Chicago+Press">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+Biological+Anthropology+of+Living+Human+Populations:+World+Histories,+National+Styles,+and+International+Networks+-+Special+issue+of+Current+Anthropology+(Wenner-Gren+Symposium+Supplement+5).+Chicago:+University+of+Chicago+Press">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>LORENZON, Maria Cristina ; TASSINARI, W. S. ; KOSHIYAMA ; ALMEIDA. <b>Indicadores e Desafios da Apicultura Fluminense - Um Retrato Brasileiro</b>. 1 ed. Espírito Santo: ABOVE, 2012. v. 1000, p. 272. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Indicadores+e+Desafios+da+Apicultura+Fluminense+-+Um+Retrato+Brasileiro&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Indicadores+e+Desafios+da+Apicultura+Fluminense+-+Um+Retrato+Brasileiro">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Indicadores+e+Desafios+da+Apicultura+Fluminense+-+Um+Retrato+Brasileiro">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OLIVEIRA, N. P. ; SILVA, A. M. C. ; MATTOS, I.E. ; PIGNATI, W. A.. <b>Questões Ambientais em Saúde Coletiva</b>. 1 ed. Cuiabá: Editora da UFMT, 2012. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Questões+Ambientais+em+Saúde+Coletiva&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Questões+Ambientais+em+Saúde+Coletiva">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Questões+Ambientais+em+Saúde+Coletiva">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANTOS, R. V.; Gibbon, Sahra (Org.) ; BELTRAO, J. (Org.). <b>Identidades Emergentes, Genética e Saúde: Perspectivas Antropológicas. Rio de Janeiro: Editora Garamond Editora Fiocruz</b>. Identidades Emergentes, Genética e Saúde: Perspectivas Antropológicas. Rio de Janeiro: Editora Garamond Editora Fiocruz, 2012. p. 272. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Identidades+Emergentes,+Genética+e+Saúde:+Perspectivas+Antropológicas.+Rio+de+Janeiro:+Editora+Garamond+Editora+Fiocruz&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Identidades+Emergentes,+Genética+e+Saúde:+Perspectivas+Antropológicas.+Rio+de+Janeiro:+Editora+Garamond+Editora+Fiocruz">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Identidades+Emergentes,+Genética+e+Saúde:+Perspectivas+Antropológicas.+Rio+de+Janeiro:+Editora+Garamond+Editora+Fiocruz">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Souza, Vanderlei Sebastião de (Org.) ; SANTOS, R. V. (Org.). <b>Dossie tematico do Boletim do Museu Paraense Emilio Goeldi - Corpos, Medidas e Nacao: Antropologia Fisica na Capital da Republica Brasileira na Primeira Metade do Seculo XX</b>. 1 ed. Belem: Museu Paraense Emilio Goeldi, 2012. v. 1, p. 135. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Dossie+tematico+do+Boletim+do+Museu+Paraense+Emilio+Goeldi+-+Corpos,+Medidas+e+Nacao:+Antropologia+Fisica+na+Capital+da+Republica+Brasileira+na+Primeira+Metade+do+Seculo+XX&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Dossie+tematico+do+Boletim+do+Museu+Paraense+Emilio+Goeldi+-+Corpos,+Medidas+e+Nacao:+Antropologia+Fisica+na+Capital+da+Republica+Brasileira+na+Primeira+Metade+do+Seculo+XX">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Dossie+tematico+do+Boletim+do+Museu+Paraense+Emilio+Goeldi+-+Corpos,+Medidas+e+Nacao:+Antropologia+Fisica+na+Capital+da+Republica+Brasileira+na+Primeira+Metade+do+Seculo+XX">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2012 até 2019
+<br>Data de processamento: 06/12/2019 14:40:10<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leonardo.bastos@fiocruz.br">leonardo.bastos@fiocruz.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
