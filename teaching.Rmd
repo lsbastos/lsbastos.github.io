@@ -5,11 +5,13 @@ title: "Teaching"
 - [Epi] Courses for the Epidemiology graduate program
 - [BCS] Courses for Computational and Systems Biology
 - [Stat] Undergraduate courses for Statistics
+- [LSHTM] Courses at LSHTM
 
 
 ### 2019
 
 - (BCS) Quantitative methods in biosciences (Métodos quantitativos em biociências)
+- (LSHTM) STEPH Statistics for Epidemiology and Population Health (facilitator)
 
 
 ### 2018

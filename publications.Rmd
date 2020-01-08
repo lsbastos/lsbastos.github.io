@@ -8,6 +8,8 @@ title: "Publications"
 
   - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. 
   - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
+  - Torres et al. Risk assessment for HIV infection in men who have sex with men and the contribution of sexual partner networks. *Ciência & Saúde Coletiva*.
+  - Carvalho et al. Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil.  *Scientific Reports*.
 
 
 ## 2019
