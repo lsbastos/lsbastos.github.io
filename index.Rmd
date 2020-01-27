@@ -25,7 +25,10 @@ title: Leo Bastos
 
 ### 2020
 
+- (New paper) Accepted in Revista Americana de Medicina Respiratoria with Barrenechea 
 - (New paper) Accepted in Ciencia & Saúde Coletiva with Raquel Torres et al. (Jan 2019)
+- (Site update) Run script lattes for the [PROCC](PROCC/) and [Epidemiology graduate program](PGEpi/).
+
 
 ### 2019
 
