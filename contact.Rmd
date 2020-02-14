@@ -4,7 +4,7 @@ title: "Contact"
 
 Emails: leonardo DOT bastos AT {fiocruz.br; lshtm.ac.uk}
 
-
+<img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
 
 ## Institutional address:
