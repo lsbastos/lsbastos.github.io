@@ -9,11 +9,12 @@ title: "Publications"
   - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
   - Torres et al.. Proposta de índice de risco para infecção HIV em homens que fazem sexo com homens com a contribuição das redes sexuais. *Ciencia & Saude Coletiva*.
   - Barrenechea and **Bastos**. Factores determinantes de tabaquismo en mujeres embarazadas en Tucumán. *Revista Americana de Medicina Respiratória*.
-  - Torres, **Bastos**, et al.. Do men who have sex with men who report alcohol and illicit drug use before/during sex (Chemsex) present moderate/high risk for substance use disorders? *Drug and Alcohol Dependence*.
-  - Lana et al.. The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. 
+
 
 ## 2020
 
+  - Torres, **Bastos**, et al.. Do men who have sex with men who report alcohol and illicit drug use before/during sex (Chemsex) present moderate/high risk for substance use disorders? *Drug and Alcohol Dependence*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32078972).
+  - Lana et al.. The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/) 
   - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32049124).
   - Carvalho, Freitas, Cruz, Brasil, and **Bastos**. Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. *Scientific Reports*.  [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32019953)
 
