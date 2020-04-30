@@ -3,7 +3,7 @@ title: "Research areas"
 ---
 
 
-- Statistical modelling of mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria)
+- Statistical modelling of infectious diseases, primarily mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and repiratory diseases (Influenza-like illness, COVID-19, and TB)
     - Spatial and Spatio-temporal models for counting data
     - Nowcasting and forecasting models for epidemics
     - Model-based approach for defining epidemic thrseholds

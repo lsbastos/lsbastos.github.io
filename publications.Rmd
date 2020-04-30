@@ -1,76 +1,26 @@
 ---
-title: "Publications"
+title: "Selected publications"
 
 ---
 
+## Selected publications
 
-## To appear
+For the full list check my CVs, for instance my [Orcid page](https://orcid.org/0000-0002-1406-0122).
 
-  - Goncalvez, Migon and **Bastos**. Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*.
-  - Torres et al.. Proposta de índice de risco para infecção HIV em homens que fazem sexo com homens com a contribuição das redes sexuais. *Ciencia & Saude Coletiva*.
-  - Barrenechea and **Bastos**. Factores determinantes de tabaquismo en mujeres embarazadas en Tucumán. *Revista Americana de Medicina Respiratória*.
-
-
-## 2020
-
-  - Torres, **Bastos**, et al.. Do men who have sex with men who report alcohol and illicit drug use before/during sex (Chemsex) present moderate/high risk for substance use disorders? *Drug and Alcohol Dependence*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32078972).
-  - Lana et al.. The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/) 
-  - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32049124).
-  - Carvalho, Freitas, Cruz, Brasil, and **Bastos**. Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. *Scientific Reports*.  [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32019953)
-
-
-## 2019
-
-  - **Bastos**, Economou, et al.. A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
-  - Barrenechea and **Bastos**. Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine* [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31630938).
-  - Coutinho, **Bastos**, et al.. The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0)
-  - de Almeida Ribeiro, et al.. Accuracy of rapid test for diagnosis of hepatitis A with different infection rate settings and with predictive modeling. *Future Microbiology*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/30663895)
-  - Lopes et al.. Natural infection by the protozoan Leptomonas wallacei impacts the morphology, physiology, reproduction, and lifespan of the insect Oncopeltus fasciatus. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-019-53678-1)
-  - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of _Trypanosoma cruzi_: an example of cooperative behavior. *Journal of Biomolecular Structure and Dynamics*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31184542)
-  - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. *Brazilian Journal of Tropical Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31188913)
-
-## 2018
-
-  - Bastos, **Bastos**, et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29794601)
-  - Sperandei, Bastos, et al.. A simulation study across different networks. *Social Networks*.
-  - Juvanhol et al.. Association between demand-control model components and blood pressure in the ELSA-Brasil study: exploring heterogeneity using quantile regression analyses. *Scandinavian Journal of Work Enviroment & Health*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/30074051)
-  - Faccion et al.. p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. *Celullar Oncology*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29374392)
-  - Da Silva et al.. Integrated analysis of ethionamide resistance loci in _Mycobacterium tuberculosis_ clinical isolates. *Tuberculosis*. 
-  - Cysne-Finkelstein et al.. Evidence of Subpopulations with Distinct Biological Features Within a Leishmania (Viannia) braziliensis Strain. *Protist*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29482071)
-
-
-## 2017
-
-  - Villela, **Bastos**, et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28240195)
-  - Toledo et al.. Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda. *International Journal of Drug Policy*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28961496)
-  - Lima et el.. MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. *PLoS Neglected Tropical Diseases*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/)
-  - Rodrigues et al.. Distribution of pulmonary tuberculosis in Rio de Janeiro (Brazil): a spatial analysis. *Ciencia & Saude Coletiva*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29267729)
-  - Lima-Neiva et al.. Biology of _Triatoma sherlocki_ (Hemiptera: Reduviidae) Under Laboratory Conditions: Biological Cycle and Resistance to Starvation. *Journal of Medical Entomology*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28399226)
-  - Rizzzeto et al.. Chronic kidney disease progression: a retrospective analysis of 3-year adherence to a low protein diet. *Renal Failure*.
-
-## 2016
-
-  - MacCharty et al.. Mind the gap: implementation challenges break the link between HIV/AIDS research and practice. *Cadernos de Saúde Pública*. [PUBMED]( https://www.ncbi.nlm.nih.gov/pubmed/27828609) 
-  - Codeco et al.. Zika is not a reason for missing the Olympic Games in Rio de Janeiro: response to the open letter of Dr Attaran and colleagues to Dr Margaret Chan, Director - General, WHO, on the Zika threat to the Olympic and Paralympic Games. *Memórias do Instituto Oswaldo Cruz*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/27304097)
-  - Juvanhol et al. Factors associated with overweight: are the conclusions influenced by choice of the regression method? *BMC Public Health*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/27461119)
-  - Coelho et al.. Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. *International Journal of Infectious Diseases*. [PUBMED]( https://www.ncbi.nlm.nih.gov/pubmed/27664930)
-
-## 2015
-
-  - **Bastos**, De Oliveira and Velasque. Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/25859716) 
-  - Bittencourt et al.. Neonatal care in Brazil: hospital structure and adequacy according to newborn obstetric risk. *Paediatrics and International Child Health*.
-
-## 2014
-
-  - Bazin et al.. Terapia antirretroviral em crianças e adolescentes infectados pelo HIV: o que sabemos após 30 anos de epidemia. *Cadernos de Saúde Pública*.
-  - Zapata-Vazquez, **Bastos** and O'Hagan. Eliciting expert judgements about a set of proportions. Journal of Applied Statistics
-  - Boni et al. Unrecorded alcohol in Rio de Janeiro: assessing its misusers through respondent-driven sampling. *Drug and Alcohol Depencdence*.
-  - Griep, **Bastos**, et al. Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil. *BMC Health Services Research*.
-  
-## 2013 and before
-
-  - **Bastos** and Rosa. Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. *Journal of Applied Statistics*. (2013)
-  - Paiva and **Bastos**. Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. *Revista Brasileira de Estatística*. (2012)
-  - **Bastos** and O'Hagan. Diagnostics for Gaussian Process Emulators. *Technometrics*. (2009)
-  - **Bastos** and Gamerman. Dynamic survival models with spatial frailty. Lifetime Data Analaysis. (2006)
-  - Loschi, **Bastos**, and Iglesias. Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. *Computational Economics*. (2005)
+  - Lana et al.. (2020) The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32187288) 
+  - Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in Brazil: a comparison up to the 12th epidemiological week of 2020. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32321075) 
+  - Goncalvez, Migon and **Bastos**. (2020)  Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*. [Link](https://projecteuclid.org/euclid.ba/1556244057)
+  - Paiva et al.. (2020) Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32049124).
+  - Carvalho, Freitas, Cruz, Brasil, and **Bastos**. (2020) Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. *Scientific Reports*.  [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32019953)
+  - **Bastos**, Economou, et al.. (2019) A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
+  - Barrenechea and **Bastos**. (2019) Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine* [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31630938).
+  - Coutinho, **Bastos**, et al.. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0)
+  - Bastos, **Bastos**, et al.. (2018) HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29794601)
+  - Sperandei, Bastos, et al.. (2018) A simulation study across different networks. *Social Networks*.
+  - Villela, **Bastos**, et al.. (2017) Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28240195)
+  - Coelho et al.. (2016) Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. *International Journal of Infectious Diseases*. [PUBMED]( https://www.ncbi.nlm.nih.gov/pubmed/27664930)
+  - **Bastos** and Rosa. (2013) Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. *Journal of Applied Statistics*.
+  - Paiva and **Bastos**. (2012) Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. *Revista Brasileira de Estatística*.
+  - **Bastos** and O'Hagan. (2009) Diagnostics for Gaussian Process Emulators. *Technometrics*.
+  - **Bastos** and Gamerman. (2006) Dynamic survival models with spatial frailty. Lifetime Data Analaysis. 
+  - Loschi, **Bastos**, and Iglesias. (2005) Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. *Computational Economics*.

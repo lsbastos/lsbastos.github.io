@@ -28,6 +28,8 @@ title: Leo Bastos
 
 ### 2020
 
+- (COVID-19) Dashboard analysing COVID-19 cases and hospitalizations due to severe acute respiratory illness (SARI) with confirmed test for SARS-CoV-2 (SARI-COVID) in Brazil by states. [Link](covid-19/)
+- (New paper) Accepted in Cadernos de Saúde Publica Bastos, Niquini et al. (Mar 2020)
 - (New paper) Accepted in Drug and Alcohol Dependence with Thiago Torres et al. (Feb 2020)
 - (New paper) Accepted in Cadernos de Saúde Publica with Raquel Lana et al. (Feb 2020)
 - (New paper) Accepted in Revista Americana de Medicina Respiratoria with Barrenechea (Jan 2020) 
