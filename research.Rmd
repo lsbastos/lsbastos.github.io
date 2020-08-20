@@ -43,6 +43,80 @@ coauthor_network <- get_coauthors(id, n_coauthors = 6)
 plot_coauthors(coauthor_network)
 ```
 
+# Supervision
+
+## Posdocs
+
+### Current
+
+### Former
+
+  - Marcelo F C Gomes (2019-2019) BCS/Fiocruz.
+  - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
+
+
+## PhD students
+
+
+### Current
+
+  - Camila Mattos Santos  (2020-) PhD candidate in Epidemiology, Fiocruz
+  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD candidate in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
+  - Lucas Monteiro Bianchi (2019-). PhD candidate in Epidemiology, Fiocruz
+  - Gisele Vieira Rocha  (2016-) PhD student in Systems and Computational Biology, Fiocruz (co supervisor: Mauricio Garcia)
+
+### Former 
+
+  - Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
+  - Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
+  - Maria Rita Lustosa Byington (2015) PhD in Epidemiology at Fiocruz (Supervisor Marilia Carvalho)
+  - Lidiane da Silveira Gouvea Toledo (2015) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
+
+
+## MSc students 
+
+### Current
+
+  - Julia Novaes de Barros Peixoto (2018-) MSc student in Epidemiology, Fiocruz
+
+### Former 
+
+  - Camila Mattos Santos  (2018-2020) MSc student in Epidemiology, Fiocruz (co supervisor: Carolina Coutinho)
+  - Ana Carolina de Queirós e Feijó  (2017-2019) MSc in Epidemiology, Fiocruz (co supervisor Leticia Cardoso)
+  - Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
+  - Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)
+  - Daniel Stokes (2015-2016) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
+  - José Carlos Benfica (2014-2015) MSc in Epidemiogy, Fiocruz (Co supervisor Paula Luz)
+  - Mohema Duarte de Oliveira (2014-2015) MSc in Epidemiogy, Fiocruz
+  - Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
+  - Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)
+
+## BSc level
+
+### Current
+
+
+### Former 
+
+  - Juliane da Silva Falcão (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
+  - Diego da Costa Moreira Barbosa (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
+  - Monique de Abreu Rocha (2014-2015) BSc in Statistics, ENCE/IBGE.
+  - Bruno Laiber de Pinho (2014-2015) BSc in Statistics, ENCE/IBGE.
+  - Felipe Rocha Oshiro (2014-2015) BSc in Statistics, ENCE/IBGE.
+  - Leonara Alves Cesario da Silva (2014-2015) Scientific Iniciation, Fiocruz.
+  - Yasmin Ferreira Cavaliere (2014-2015) Scientific Iniciation, Fiocruz.
+  - Julia Villapouca Gesualdi (2013-2014) Scientific Iniciation, Fiocruz.
+  - Danielle Freitas (2012-2013) BSc in Statistics, UFF.
+  - Evandro Dalbem Lopes (2013-2013) BSc in Statistics, UFF.
+  - Natalia Santana Paiva (2011-2012) BSc in Statistics, UFF.
+  - Kiese da Silva Quiavauca (2012-2012) BSc in Statistics, UFF.
+  - Natália Santana Paiva	(2010-2011) Scientific Iniciation, UFF.
+  - Clarissa Cardoso Oesselmann (2011-2012) Scientific Iniciation, UFF
+  - Fabiano Oliveira Campos (2006-2006) BSc in Statistics, UFPR.
+  - Moisés Marcus Retka (2006-2006) BSc in Statistics, UFPR.
+
+
+
 # Important links:
 
 - Bayesian Statistical softwares
@@ -53,7 +127,3 @@ plot_coauthors(coauthor_network)
     - PNS: [IBGE description](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&t=sobre) and [download and analysis in R](http://asdfree.com/pesquisa-nacional-de-saude-pns.html)
     - Vigitel: http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm
     - Datasus: http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos
-- Research projects:
-    - Infodenge: https://info.dengue.mat.br/
-    - Infogripe: http://info.gripe.fiocruz.br/
-    - ELSA-Brasil: http://www.elsa.org.br/index1.html

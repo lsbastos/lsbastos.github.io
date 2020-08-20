@@ -1,5 +1,5 @@
 ---
-title: Leo Bastos
+title: Dr Leo Bastos
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -8,7 +8,7 @@ title: Leo Bastos
 
 
 - Associate researcher at [PROCC](http://www.procc.fiocruz.br)/[Fiocruz](http://www.fiocruz.br), Brazil.
-- Posdoctoral Research Fellow at [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK.
+
 
 
 ## CV and publications:
@@ -28,7 +28,10 @@ title: Leo Bastos
 
 ### 2020
 
-- (COVID-19) Dashboard analysing COVID-19 cases and hospitalizations due to severe acute respiratory illness (SARI) with confirmed test for SARS-CoV-2 (SARI-COVID) in Brazil by states. [Link](covid-19/)
+- (Funding) My first grant proposal as PI was approved, it is on developing analytical methods to epidemiological surveillance (INOVA Fiocruz)[https://portal.fiocruz.br/edital-geracao-de-conhecimento-enfrentamento-da-pandemia-e-pos-pandemia-covid-19-encomendas] (June 2020)
+- (New paper) Accepted in BMC Medicine, Brady et al. (May 2020)
+- (New paper) Accepted in Revista Argentina de Salud Publica, Barrenechea et al. (May 2020)
+- (COVID-19) Dashboard analysing COVID-19 cases in Brazil. [Link](covid-19/)
 - (New paper) Accepted in Cadernos de Saúde Publica Bastos, Niquini et al. (Mar 2020)
 - (New paper) Accepted in Drug and Alcohol Dependence with Thiago Torres et al. (Feb 2020)
 - (New paper) Accepted in Cadernos de Saúde Publica with Raquel Lana et al. (Feb 2020)
