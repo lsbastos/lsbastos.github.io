@@ -3,17 +3,17 @@ title: "Research areas"
 ---
 
 
-- Statistical modelling of infectious diseases, primarily mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and repiratory diseases (Influenza-like illness, COVID-19, and TB)
+- Statistical modelling of infectious diseases, primarily mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and respiratory diseases (Influenza-like illness, COVID-19, and TB)
     - Spatial and Spatio-temporal models for counting data
     - Nowcasting and forecasting models for epidemics
-    - Model-based approach for defining epidemic thrseholds
+    - Model-based approach for defining epidemic thresholds
 - Inference in hard-to-reach (H2R) populations
     - Inference for Respondent-driven sampling data
     - Estimating population size using Network scale-up methods
     - Statistical models for sexually transmitted infections (e.g. HIV, HCV, syphilis) in H2R populations
         - Bayesian multilevel modelling (multilevel logistic regression)
 - Statistical models for noncomunicable diseases
-    - Statistical models for cohorts, in particular in colaboration with the ELSA-Brasil study
+    - Statistical models for cohorts, in particular in collaboration with the ELSA-Brasil study
     - Bayesian inference for complex samples in secondary data sources 
 
 

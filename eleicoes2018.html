@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>eleicoes2018.utf8.md</title>
+<title>eleicoes2018.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -350,7 +350,7 @@ dados2 &lt;- mutate(dados, Total = `Bolsonaro (PSL)` + `Fernando Haddad (PT)`,
 <h2>Considerando apenas as do segundo turno</h2>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-3-1.png" width="672" /><img src="eleicoes2018_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
 </div>
-<div id="modelando-usando-uma-verossimilhanca-beta-e-efeito-aleatorio-dinamico" class="section level2">
+<div id="modelando-usando-uma-verossimilhança-beta-e-efeito-aleatório-dinâmico" class="section level2">
 <h2>Modelando usando uma verossimilhança Beta e efeito aleatório dinâmico</h2>
 <p><span class="math display">\[Y_t \sim Beta(\mu_t, \phi), \quad t=1,2,\ldots \]</span> onde <span class="math inline">\(t=1\)</span> é o dia da eleição (não considerei o resultado da eleição do primeiro turno), a função de ligação é dada por <span class="math display">\[logit(\mu_t) = \alpha + \beta_t\]</span> onde <span class="math inline">\(\alpha\)</span> é um efeito fixo, e <span class="math inline">\(\beta_t\)</span> segue um passeio aleatório de ordem 2.</p>
 <pre class="r"><code>library(INLA)
@@ -381,12 +381,9 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = mode, ymin = `0.025quant`, ymax = `0.975quant`), color = &quot;red&quot;, fill = &quot;red&quot;, alpha = 0.2) +
   geom_line(data = Prediction, mapping = aes(x = Data, y = 1-mode), color = &quot;#E69F00&quot;) +
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = &quot;#E69F00&quot;, fill = &quot;#E69F00&quot;, alpha = 0.2)</code></pre>
-<pre><code>## Warning: Ignoring unknown aesthetics: y
-
-## Warning: Ignoring unknown aesthetics: y</code></pre>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
-<div id="estimativas-de-votos-validos-do-haddad" class="section level2">
+<div id="estimativas-de-votos-válidos-do-haddad" class="section level2">
 <h2>Estimativas de votos válidos do Haddad</h2>
 <pre class="r"><code>tail(Prediction)</code></pre>
 <pre><code>## # A tibble: 6 x 7
