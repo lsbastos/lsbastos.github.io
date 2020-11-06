@@ -7,6 +7,8 @@ title: "Selected publications"
 
 For the full list check my CVs, for instance my [Orcid page](https://orcid.org/0000-0002-1406-0122).
 
+  - Niquini et al. (2020) Description and comparison of demographic characteristics and comorbidities in SARI from COVID-19, SARI from influenza, and the Brazilian general population *Cadernos de Saúde Pública*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32725087/)
+  - Coelho et al. (2020) Assessing the spread of COVID-19 in Brazil: Mobility, morbidity and social vulnerability. *PLOS One*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32946442/)
   - Lana et al.. (2020) The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32187288) 
   - Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in Brazil: a comparison up to the 12th epidemiological week of 2020. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32321075) 
   - Goncalvez, Migon and **Bastos**. (2020)  Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*. [Link](https://projecteuclid.org/euclid.ba/1556244057)

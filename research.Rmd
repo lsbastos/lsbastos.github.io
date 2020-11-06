@@ -25,6 +25,23 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 - **Graduate students (MSc and PhD)** <br> I am qualified to supervise students in two graduate programs: Epidemiology in Public Health at ENSP/Fiocruz and Systems and Computational Biology at IOC/Fiocruz. A project may be required, so please get in touch in advance at least 3 to 6 months before application (usually 2nd semester of each year)
 - **Posdoctoral reasearchers** <br> From time to time there are some posdoc scholarships available from the graduate programs (PNPD) and from other sources like FAPERJ, CNPq and international sources, let me know if you are interested.
 
+# Current supervision
+
+## Posdoc
+
+  - Raquel Lana (2020-) Fiocruz/INOVA-COVID
+  
+## PhD
+
+  - Camila Mattos Santos  (2020-) PhD candidate in Epidemiology, Fiocruz
+  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD candidate in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
+  - Lucas Monteiro Bianchi (2019-). PhD candidate in Epidemiology, Fiocruz
+  - Gisele Vieira Rocha  (2016-) PhD student in Systems and Computational Biology, Fiocruz (co supervisor: Mauricio Garcia)
+
+## MSc 
+
+## BSc
+
 
 
 # Google scholar colaborarion network
@@ -43,29 +60,16 @@ coauthor_network <- get_coauthors(id, n_coauthors = 6)
 plot_coauthors(coauthor_network)
 ```
 
-# Supervision
+
+
+# Past supervision
 
 ## Posdocs
-
-### Current
-
-### Former
 
   - Marcelo F C Gomes (2019-2019) BCS/Fiocruz.
   - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
 
-
-## PhD students
-
-
-### Current
-
-  - Camila Mattos Santos  (2020-) PhD candidate in Epidemiology, Fiocruz
-  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD candidate in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
-  - Lucas Monteiro Bianchi (2019-). PhD candidate in Epidemiology, Fiocruz
-  - Gisele Vieira Rocha  (2016-) PhD student in Systems and Computational Biology, Fiocruz (co supervisor: Mauricio Garcia)
-
-### Former 
+## PhD 
 
   - Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
@@ -73,14 +77,9 @@ plot_coauthors(coauthor_network)
   - Lidiane da Silveira Gouvea Toledo (2015) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
 
 
-## MSc students 
+## MSc 
 
-### Current
-
-  - Julia Novaes de Barros Peixoto (2018-) MSc student in Epidemiology, Fiocruz
-
-### Former 
-
+  - Julia Novaes de Barros Peixoto (2018-2020) MSc student in Epidemiology, Fiocruz
   - Camila Mattos Santos  (2018-2020) MSc student in Epidemiology, Fiocruz (co supervisor: Carolina Coutinho)
   - Ana Carolina de Queirós e Feijó  (2017-2019) MSc in Epidemiology, Fiocruz (co supervisor Leticia Cardoso)
   - Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
@@ -91,12 +90,7 @@ plot_coauthors(coauthor_network)
   - Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
   - Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)
 
-## BSc level
-
-### Current
-
-
-### Former 
+## BSc 
 
   - Juliane da Silva Falcão (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
   - Diego da Costa Moreira Barbosa (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)
@@ -116,14 +110,3 @@ plot_coauthors(coauthor_network)
   - Moisés Marcus Retka (2006-2006) BSc in Statistics, UFPR.
 
 
-
-# Important links:
-
-- Bayesian Statistical softwares
-    - INLA: http://www.r-inla.org/
-    - Stan: https://mc-stan.org/
-    - Nimble: https://r-nimble.org/
-- Brazilian microdata:
-    - PNS: [IBGE description](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&t=sobre) and [download and analysis in R](http://asdfree.com/pesquisa-nacional-de-saude-pns.html)
-    - Vigitel: http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm
-    - Datasus: http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos

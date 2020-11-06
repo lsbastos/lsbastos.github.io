@@ -28,7 +28,11 @@ title: Dr Leo Bastos
 
 ### 2020
 
-- (Funding) My first grant proposal as PI was approved, it is on developing analytical methods to epidemiological surveillance (INOVA Fiocruz)[https://portal.fiocruz.br/edital-geracao-de-conhecimento-enfrentamento-da-pandemia-e-pos-pandemia-covid-19-encomendas] (June 2020)
+- (New paper) Accepted in Malaria Journal, Lana et al. (Nov 2020)
+- (New paper) Accepted in Clinics, Lana et al. (Oct 2020)
+- (New paper) Accepted in Salud Coletiva, Valois-Santos et al. (Sep 2020)
+- (New paper) Accepted in PLOS One, Viana et al. (Jul 2020)
+- (Funding) My first grant proposal as PI was approved, it is on developing analytical methods to epidemiological surveillance [INOVA Fiocruz](https://portal.fiocruz.br/edital-geracao-de-conhecimento-enfrentamento-da-pandemia-e-pos-pandemia-covid-19-encomendas) (June 2020)
 - (New paper) Accepted in BMC Medicine, Brady et al. (May 2020)
 - (New paper) Accepted in Revista Argentina de Salud Publica, Barrenechea et al. (May 2020)
 - (COVID-19) Dashboard analysing COVID-19 cases in Brazil. [Link](covid-19/)

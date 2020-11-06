@@ -10,19 +10,35 @@ title: "CV"
 
 ## Short bio
 
-I hold permanent position at Scientific Computing Program [PROCC](http://www.procc.fiocruz.br), [Fiocruz](https://portal.fiocruz.br/en), Rio de Janeiro, Brazil. I consider myself an applied Bayesian biostatistician devoting my work to help solving problems on infectious diseases surveillance. I am a registred statistician at the [CONRE2](http://www.conre2.org.br/). And I spent some time in London working infectious disease modelling at the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK. My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research questions related to infectious diseases epidemics. 
+I hold permanent position at Scientific Computing Program [PROCC](http://www.procc.fiocruz.br), [Fiocruz](https://portal.fiocruz.br/en), Rio de Janeiro, Brazil. I consider myself an applied Bayesian biostatistician devoting my work to help solving problems on infectious diseases surveillance. I am an ellected member of [ISI](https://www.isi-web.org/) and a registered statistician at the Brazilian Statistical Council [CONRE2](http://www.conre2.org.br/). I spent some time in London working infectious disease modelling at the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK. My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research questions related to infectious diseases epidemics. 
 
 ## Research projects
 
-  - Infodengue: https://info.dengue.mat.br
-  - Infogripe: http://info.gripe.fiocruz.br
+  - Developing analytic methods for epidemiological surveillance. This project focus on developing statistical and mathematical methods for infectious disease epidemiological surveillance. Some related projects: 
+    - MAVE team: http://mave.procc.fiocruz.br  
+    - Infodengue: https://info.dengue.mat.br
+    - Infogripe: http://info.gripe.fiocruz.br
+    
+Other projects I am involved:    
   - ELSA-Brasil: http://www.elsa.org.br/index1.html
+
+
+# Important links:
+
+- Bayesian Statistical softwares
+    - INLA: http://www.r-inla.org/
+    - Stan: https://mc-stan.org/
+    - Nimble: https://r-nimble.org/
+- Brazilian microdata:
+    - PNS: [IBGE description](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&t=sobre) and [download and analysis in R](http://asdfree.com/pesquisa-nacional-de-saude-pns.html)
+    - Vigitel: http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm
+    - Datasus: http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos
 
 
 ## Random stuff
 
   - My [Erdős Number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 4: Bastos > O'Hagan > Leonard > Taylor > Erdős (Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2))
-    - Curiosity note: I am academically decendent from Lindley, Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli
+    - Curiosity note: A list of my academic ancestors: O'Hagan, Lindley, Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli
   - My profile in the [Mathematics Genealogy project](https://genealogy.math.ndsu.nodak.edu/id.php?id=144359)
   - I am a Taekwondo student holding a 1st DAN black belt. My masters are: 
     - [Master Erico Soares](http://soaresteam.com.br) (4th DAN)
