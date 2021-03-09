@@ -7,29 +7,37 @@ title: Dr Leo Bastos
 <img src="files/fotoLeoLSHTM.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
 
-- Associate researcher at [PROCC](http://www.procc.fiocruz.br)/[Fiocruz](http://www.fiocruz.br), Brazil.
+- Associate researcher at [PROCC](http://www.procc.fiocruz.br){target="_blank"}/[Fiocruz](http://www.fiocruz.br){target="_blank"}, Brazil.
 
 
 
 ## CV and publications:
 
-- [Lattes CV](http://lattes.cnpq.br/5241799121437269)
-- [Google Scholar](https://scholar.google.com/citations?user=A5VmZYMAAAAJ&hl=en)
-- Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122)
-- Scopus: [55648716900](https://www.scopus.com/authid/detail.uri?authorId=55648716900)
-- [PUBMED*](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bastos%2C%20Leonardo%20Soares%5BFull%20Author%20Name%5D%20or%20Bastos%2C%20Leonardo%5BFull%20Author%20Name%5D&cmd=DetailsSearch) 
+- [Lattes CV](http://lattes.cnpq.br/5241799121437269){target="_blank"}
+- [Google Scholar](https://scholar.google.com/citations?user=A5VmZYMAAAAJ&hl=en){target="_blank"}
+- Orcid: [0000-0002-1406-0122](https://orcid.org/0000-0002-1406-0122){target="_blank"}
+- Scopus: [55648716900](https://www.scopus.com/authid/detail.uri?authorId=55648716900){target="_blank"}
+- [PUBMED*](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bastos%2C%20Leonardo%20Soares%5BFull%20Author%20Name%5D%20or%20Bastos%2C%20Leonardo%5BFull%20Author%20Name%5D&cmd=DetailsSearch){target="_blank"} 
 - [Publication page](publications.html)
 
-* Few listed papers are mine due to people with similar names.
+* Some of the listed papers in PUBMED are not mine due to people with similar names.
 
 
 ## News in a short format
 
 
-### 2020
+### 2021
+- (COVID-19) Shinyapp for nowcasting real-time SARI and SARI-COVID hospitalizations and deaths in Brazil [Link](https://lsbastos.shinyapps.io/nowcasting/)
+- (New paper) Accepted in Pediatrics, (Feb 2021)
+- (New paper) Accepted in Revista do Instituto de Medicina Tropical de São Paulo, Barbosa et al. (Jan 2021)
+- (New paper) Accepted in PLOS Medicine, Colon-Gonzalez et al. (Jan 2021)
 
+
+### 2020
+- (Book chapter) To be publiched in a COVID-19 collection, Pontes et al. (Dec, 2020)
+- (New paper) Accepted in Lancet Planetary Health , Lowe et al. (Nov 2020)
 - (New paper) Accepted in Malaria Journal, Lana et al. (Nov 2020)
-- (New paper) Accepted in Clinics, Lana et al. (Oct 2020)
+- (New paper) Accepted in Clinics, Izbicki, Diniz and Bastos (Oct 2020)
 - (New paper) Accepted in Salud Coletiva, Valois-Santos et al. (Sep 2020)
 - (New paper) Accepted in PLOS One, Viana et al. (Jul 2020)
 - (Funding) My first grant proposal as PI was approved, it is on developing analytical methods to epidemiological surveillance [INOVA Fiocruz](https://portal.fiocruz.br/edital-geracao-de-conhecimento-enfrentamento-da-pandemia-e-pos-pandemia-covid-19-encomendas) (June 2020)

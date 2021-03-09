@@ -36,7 +36,6 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
   - Camila Mattos Santos  (2020-) PhD candidate in Epidemiology, Fiocruz
   - Fernanda Esthefane Garrides Oliveira  (2019-) PhD candidate in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
   - Lucas Monteiro Bianchi (2019-). PhD candidate in Epidemiology, Fiocruz
-  - Gisele Vieira Rocha  (2016-) PhD student in Systems and Computational Biology, Fiocruz (co supervisor: Mauricio Garcia)
 
 ## MSc 
 
@@ -70,7 +69,7 @@ plot_coauthors(coauthor_network)
   - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
 
 ## PhD 
-
+  - Gisele Vieira Rocha  (2020) PhD in Computational and Systems Biology, Fiocruz (co supervisor: Mauricio Garcia)
   - Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Maria Rita Lustosa Byington (2015) PhD in Epidemiology at Fiocruz (Supervisor Marilia Carvalho)

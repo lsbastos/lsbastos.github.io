@@ -3,26 +3,22 @@ title: "Selected publications"
 
 ---
 
-## Selected publications
+For the full list check my CVs, for instance my [Orcid page](https://orcid.org/0000-0002-1406-0122){target="_blank"}.
 
-For the full list check my CVs, for instance my [Orcid page](https://orcid.org/0000-0002-1406-0122).
+  - Colon-Gonzalez et al. (2021) Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles *PLOS Medicine*. [Open access](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003542){target="_blank"}
+  - Izbicki, Diniz and Bastos (2020) Sensitivity and specificity in prevalence studies: The importance of considering uncertainty *Clinics*  [PUBMED](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7690961/){target="_blank"}
+  - Niquini et al. (2020) Description and comparison of demographic characteristics and comorbidities in SARI from COVID-19, SARI from influenza, and the Brazilian general population *Cadernos de Saúde Pública*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32725087/){target="_blank"}
+  - Coelho et al. (2020) Assessing the spread of COVID-19 in Brazil: Mobility, morbidity and social vulnerability. *PLOS One*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32946442/){target="_blank"}
+  - Lana et al.. (2020) The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32187288){target="_blank"} 
+  - Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in Brazil: a comparison up to the 12th epidemiological week of 2020. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32321075) {target="_blank"}
+  - Goncalvez, Migon and **Bastos**. (2020)  Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*. [Link](https://projecteuclid.org/euclid.ba/1556244057){target="_blank"}
+  - Paiva et al.. (2020) Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32049124){target="_blank"}.
+  - Carvalho, Freitas, Cruz, Brasil, and **Bastos**. (2020) Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. *Scientific Reports*.  [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32019953){target="_blank"}
+  - **Bastos**, Economou, et al.. (2019) A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303){target="_blank"}. [Code and data](https://github.com/lsbastos/Delay).
+  - Barrenechea and **Bastos**. (2019) Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine* [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31630938){target="_blank"}
+  - Coutinho, **Bastos**, et al.. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0){target="_blank"}
+  - Bastos, **Bastos**, et al.. (2018) HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29794601){target="_blank"}
+  - Sperandei, Bastos, et al.. (2018) A simulation study across different networks. *Social Networks*. 
+  - Villela, **Bastos**, et al.. (2017) Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28240195){target="_blank"}
+  - Coelho et al.. (2016) Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. *International Journal of Infectious Diseases*. [PUBMED]( https://www.ncbi.nlm.nih.gov/pubmed/27664930){target="_blank"}
 
-  - Niquini et al. (2020) Description and comparison of demographic characteristics and comorbidities in SARI from COVID-19, SARI from influenza, and the Brazilian general population *Cadernos de Saúde Pública*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32725087/)
-  - Coelho et al. (2020) Assessing the spread of COVID-19 in Brazil: Mobility, morbidity and social vulnerability. *PLOS One*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32946442/)
-  - Lana et al.. (2020) The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32187288) 
-  - Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in Brazil: a comparison up to the 12th epidemiological week of 2020. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32321075) 
-  - Goncalvez, Migon and **Bastos**. (2020)  Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*. [Link](https://projecteuclid.org/euclid.ba/1556244057)
-  - Paiva et al.. (2020) Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32049124).
-  - Carvalho, Freitas, Cruz, Brasil, and **Bastos**. (2020) Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. *Scientific Reports*.  [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32019953)
-  - **Bastos**, Economou, et al.. (2019) A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303). [Code and data](https://github.com/lsbastos/Delay).
-  - Barrenechea and **Bastos**. (2019) Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine* [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31630938).
-  - Coutinho, **Bastos**, et al.. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0)
-  - Bastos, **Bastos**, et al.. (2018) HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29794601)
-  - Sperandei, Bastos, et al.. (2018) A simulation study across different networks. *Social Networks*.
-  - Villela, **Bastos**, et al.. (2017) Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28240195)
-  - Coelho et al.. (2016) Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. *International Journal of Infectious Diseases*. [PUBMED]( https://www.ncbi.nlm.nih.gov/pubmed/27664930)
-  - **Bastos** and Rosa. (2013) Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. *Journal of Applied Statistics*.
-  - Paiva and **Bastos**. (2012) Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. *Revista Brasileira de Estatística*.
-  - **Bastos** and O'Hagan. (2009) Diagnostics for Gaussian Process Emulators. *Technometrics*.
-  - **Bastos** and Gamerman. (2006) Dynamic survival models with spatial frailty. Lifetime Data Analaysis. 
-  - Loschi, **Bastos**, and Iglesias. (2005) Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. *Computational Economics*.

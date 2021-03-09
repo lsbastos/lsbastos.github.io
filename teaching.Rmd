@@ -8,6 +8,10 @@ title: "Teaching"
 - [LSHTM] Courses at LSHTM
 
 
+### 2021
+
+- (Epi) Applied Bayesian modelling
+
 ### 2019
 
 - (BCS) Quantitative methods in biosciences (Métodos quantitativos em biociências)
