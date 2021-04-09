@@ -5,6 +5,7 @@ title: "Selected publications"
 
 For the full list check my CVs, for instance my [Orcid page](https://orcid.org/0000-0002-1406-0122){target="_blank"}.
 
+  - Lowe et al. (2021) Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study *The Lancet Planetary Healthy*. [Open Access](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30292-8/) 
   - Colon-Gonzalez et al. (2021) Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles *PLOS Medicine*. [Open access](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003542){target="_blank"}
   - Izbicki, Diniz and Bastos (2020) Sensitivity and specificity in prevalence studies: The importance of considering uncertainty *Clinics*  [PUBMED](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7690961/){target="_blank"}
   - Niquini et al. (2020) Description and comparison of demographic characteristics and comorbidities in SARI from COVID-19, SARI from influenza, and the Brazilian general population *Cadernos de Saúde Pública*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32725087/){target="_blank"}
