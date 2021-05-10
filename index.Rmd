@@ -27,7 +27,8 @@ title: Dr Leo Bastos
 
 
 ### 2021
-- (New paper) Accepted in Pediatrics (April 2021)
+- (Book chapter) In Matta et al. (2021) "Os impactos sociais da Covid-19 no Brasil: populações vulnerabilizadas e respostas à pandemia" [Free book in Portuguese](http://books.scielo.org/id/r3hc2)
+- (New paper) Accepted in Pediatrics, Lugon et al. (April 2021)
 - (COVID-19) Shinyapp for nowcasting real-time SARI and SARI-COVID hospitalizations and deaths in Brazil [Link](https://lsbastos.shinyapps.io/nowcasting/)
 - (New paper) Accepted in Revista do Instituto de Medicina Tropical de São Paulo, Barbosa et al. (Jan 2021)
 - (New paper) Accepted in PLOS Medicine, Colon-Gonzalez et al. (Jan 2021)
