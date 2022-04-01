@@ -25,8 +25,13 @@ title: Dr Leo Bastos
 
 ## News in a short format
 
+### 2022
+- (New papers) Accepted in Bayesian Analysis, Nature Communication
+- (Funding) Research Fellow at CNPq (Productivity scholarship)
+- (Funding) INOVA-Fiocruz on improving Early warning systems of some infectious diseases in Brazil.
 
 ### 2021
+- (Funding) Research Fellow at FAPERJ (Our State Young Scientist Program)
 - (Book chapter) In Matta et al. (2021) "Os impactos sociais da Covid-19 no Brasil: populações vulnerabilizadas e respostas à pandemia" [Free book in Portuguese](http://books.scielo.org/id/r3hc2)
 - (New paper) Accepted in Pediatrics, Lugon et al. (April 2021)
 - (COVID-19) Shinyapp for nowcasting real-time SARI and SARI-COVID hospitalizations and deaths in Brazil [Link](https://lsbastos.shinyapps.io/nowcasting/)

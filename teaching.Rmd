@@ -11,6 +11,7 @@ title: "Teaching"
 ### 2021
 
 - (Epi) Applied Bayesian modelling
+- (Epi) PhD Seminar III
 
 ### 2019
 
