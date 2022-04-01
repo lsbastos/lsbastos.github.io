@@ -29,16 +29,18 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 
 ## Posdoc
 
-  - Raquel Lana (2020-) Fiocruz/INOVA-COVID
   
 ## PhD
 
-  - Camila Mattos Santos  (2020-) PhD candidate in Epidemiology, Fiocruz
-  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD candidate in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
-  - Lucas Monteiro Bianchi (2019-). PhD candidate in Epidemiology, Fiocruz
+  - Camila Mattos Santos  (2020-) PhD in Epidemiology, Fiocruz (co supervisor: Francisco I Bastos)
+  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
+  - Lucas Monteiro Bianchi (2019-). PhD in Epidemiology, Fiocruz
+  - Guillermo Barrenechea (2022-). PhD in Epidemiology, Fiocruz
 
 ## MSc 
-
+  - Léa de Freitas Amaral (2021-). MSc in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
+  - GUilherme dos Santos (2021-). MSc in Statistics, UFRJ (supervisor: Kelly Gonçalves)
+  
 ## BSc
 
 
@@ -65,6 +67,7 @@ plot_coauthors(coauthor_network)
 
 ## Posdocs
 
+  - Raquel Lana (2020-2021) Fiocruz/INOVA-COVID
   - Marcelo F C Gomes (2019-2019) BCS/Fiocruz.
   - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
 
