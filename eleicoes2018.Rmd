@@ -101,15 +101,3 @@ tail(Prediction)
 Note que a última linha é o dia da eleição.
 
 
-Calculando a probabilidade de vitória do Haddad, $P(Y_T > 0.50)$, onde $T$ é o dia da eleição (28/10/2018).
-
-
-```{r}
-aux <- names(r$marginals.fitted.values)
-
-prob <- 1 - inla.pmarginal( q = 0.50, 
-                marginal = r$marginals.fitted.values[aux[length(aux)]][[1]]
-                )
-round(prob,4)
-```
-

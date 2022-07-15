@@ -13,6 +13,7 @@
 
 <title>Selected publications</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -292,31 +297,120 @@ $(document).ready(function () {
 </div>
 
 
-<p>For the full list check my CVs, for instance my <a href="https://orcid.org/0000-0002-1406-0122" target="_blank">Orcid page</a>.</p>
+<p>For the full list check my CVs, for instance my <a
+href="https://orcid.org/0000-0002-1406-0122" target="_blank">Orcid
+page</a>.</p>
 <ul>
-<li>Carvalho, LM; Villela, DAM; Coelho, FC; Bastos, LS. Bayesian Inference for the Weights in Logarithmic Pooling. Bayesian Analysis, 2022. <a href="https://projecteuclid.org/journals/bayesian-analysis/volume--1/issue--1/Bayesian-Inference-for-the-Weights-in-Logarithmic-Pooling/10.1214/22-BA1311.full">Open access</a></li>
-<li>Barberia, LG; Bastos, LS ; De Sousa, TCM. School reopening and COVID-19 in Brazil. The Lancet Regional Health - Americas, v. 5, p. 100149, 2022. <a href="https://www.sciencedirect.com/science/article/pii/S2667193X21001459?via%3Dihub">Link</a></li>
-<li>Sperandei, S; Bastos, LS; Ribeiro-Alves, M; Reis, A; Bastos, FI. Assessing logistic regression applied to respondent-driven sampling studies: a simulation study with an application to empirical data. International Journal of Social Research Methodology, v. 25, p. 1-15, 2022. <a href="https://www.tandfonline.com/doi/abs/10.1080/13645579.2022.2031153?journalCode=tsrm20">Link</a></li>
-<li>Niquini, RP ; Mota, JC; Bastos, LS; Barbosa, DCM; Falcão, JS; Palmieri, P; Martins, P; Villar, LM; Bastos, FI. Persistently high hepatitis C rates in haemodialysis patients in Brazil [a systematic review and meta-analysis]. Scientific Reports, v. 12, p. 330, 2022. <a href="https://www.nature.com/articles/s41598-021-03961-x">Open access</a></li>
-<li>Ayala, MJC; Bastos, LS; Villela, DAM. On multifactorial drivers for malaria rebound in Brazil: a spatio-temporal analysis. MALARIA JOURNAL, v. 21, p. 52, 2022.<a href="https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-04037-x">Open access</a></li>
-<li>Lugon et al. (2021) SARS-CoV-2 Infection Dynamics in Children and Household Contacts in a Slum in Rio de Janeiro <em>Pediatrics</em>. <a href="https://pediatrics.aappublications.org/content/early/2021/04/14/peds.2021-050182">Open access</a></li>
-<li>Lowe et al. (2021) Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study <em>The Lancet Planetary Healthy</em>. <a href="https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30292-8/">Open Access</a></li>
-<li>Colon-Gonzalez et al. (2021) Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles <em>PLOS Medicine</em>. <a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003542" target="_blank">Open access</a></li>
-<li>Izbicki, Diniz and Bastos (2020) Sensitivity and specificity in prevalence studies: The importance of considering uncertainty <em>Clinics</em> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7690961/" target="_blank">PUBMED</a></li>
-<li>Niquini et al. (2020) Description and comparison of demographic characteristics and comorbidities in SARI from COVID-19, SARI from influenza, and the Brazilian general population <em>Cadernos de Saúde Pública</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/32725087/" target="_blank">PUBMED</a></li>
-<li>Coelho et al. (2020) Assessing the spread of COVID-19 in Brazil: Mobility, morbidity and social vulnerability. <em>PLOS One</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/32946442/" target="_blank">PUBMED</a></li>
-<li>Lana et al.. (2020) The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. <em>Cadernos de Saúde Pública</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32187288" target="_blank">PUBMED</a></li>
-<li>Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in Brazil: a comparison up to the 12th epidemiological week of 2020. <em>Cadernos de Saúde Pública</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32321075">PUBMED</a> {target="_blank"}</li>
-<li>Goncalvez, Migon and <strong>Bastos</strong>. (2020) Dynamic Quantile Linear Models: A Bayesian Approach. <em>Bayesian Analysis</em>. <a href="https://projecteuclid.org/euclid.ba/1556244057" target="_blank">Link</a></li>
-<li>Paiva et al.. (2020) Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. <em>Cadernos de Saúde Pública</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32049124" target="_blank">PUBMED</a>.</li>
-<li>Carvalho, Freitas, Cruz, Brasil, and <strong>Bastos</strong>. (2020) Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. <em>Scientific Reports</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32019953" target="_blank">PUBMED</a></li>
-<li><strong>Bastos</strong>, Economou, et al.. (2019) A modelling approach for correcting reporting delays in disease surveillance data. <em>Statistics in Medicine</em>. <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303" target="_blank">Open Access</a>. <a href="https://github.com/lsbastos/Delay">Code and data</a>.</li>
-<li>Barrenechea and <strong>Bastos</strong>. (2019) Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, <em>Vaccine</em> <a href="https://www.ncbi.nlm.nih.gov/pubmed/31630938" target="_blank">PUBMED</a></li>
-<li>Coutinho, <strong>Bastos</strong>, et al.. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. <em>Scientific Reports</em>. <a href="https://www.nature.com/articles/s41598-018-35657-0" target="_blank">Open access</a></li>
-<li>Bastos, <strong>Bastos</strong>, et al.. (2018) HIV, HCV, HBV, and syphilis among transgender women from Brazil. <em>Medicine</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/29794601" target="_blank">PUBMED</a></li>
-<li>Sperandei, Bastos, et al.. (2018) A simulation study across different networks. <em>Social Networks</em>.</li>
-<li>Villela, <strong>Bastos</strong>, et al.. (2017) Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. <em>Epidemiology and Infection</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/28240195" target="_blank">PUBMED</a></li>
-<li>Coelho et al.. (2016) Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. <em>International Journal of Infectious Diseases</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27664930" target="_blank">PUBMED</a></li>
+<li>Carvalho, LM; Villela, DAM; Coelho, FC; Bastos, LS. Bayesian
+Inference for the Weights in Logarithmic Pooling. Bayesian Analysis,
+2022. <a
+href="https://projecteuclid.org/journals/bayesian-analysis/volume--1/issue--1/Bayesian-Inference-for-the-Weights-in-Logarithmic-Pooling/10.1214/22-BA1311.full">Open
+access</a></li>
+<li>Barberia, LG; Bastos, LS ; De Sousa, TCM. School reopening and
+COVID-19 in Brazil. The Lancet Regional Health - Americas, v. 5,
+p. 100149, 2022. <a
+href="https://www.sciencedirect.com/science/article/pii/S2667193X21001459?via%3Dihub">Link</a></li>
+<li>Sperandei, S; Bastos, LS; Ribeiro-Alves, M; Reis, A; Bastos, FI.
+Assessing logistic regression applied to respondent-driven sampling
+studies: a simulation study with an application to empirical data.
+International Journal of Social Research Methodology, v. 25, p. 1-15,
+2022. <a
+href="https://www.tandfonline.com/doi/abs/10.1080/13645579.2022.2031153?journalCode=tsrm20">Link</a></li>
+<li>Niquini, RP ; Mota, JC; Bastos, LS; Barbosa, DCM; Falcão, JS;
+Palmieri, P; Martins, P; Villar, LM; Bastos, FI. Persistently high
+hepatitis C rates in haemodialysis patients in Brazil [a systematic
+review and meta-analysis]. Scientific Reports, v. 12, p. 330, 2022. <a
+href="https://www.nature.com/articles/s41598-021-03961-x">Open
+access</a></li>
+<li>Ayala, MJC; Bastos, LS; Villela, DAM. On multifactorial drivers for
+malaria rebound in Brazil: a spatio-temporal analysis. MALARIA JOURNAL,
+v. 21, p. 52, 2022.<a
+href="https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-04037-x">Open
+access</a></li>
+<li>Lugon et al. (2021) SARS-CoV-2 Infection Dynamics in Children and
+Household Contacts in a Slum in Rio de Janeiro <em>Pediatrics</em>. <a
+href="https://pediatrics.aappublications.org/content/early/2021/04/14/peds.2021-050182">Open
+access</a></li>
+<li>Lowe et al. (2021) Combined effects of hydrometeorological hazards
+and urbanisation on dengue risk in Brazil: a spatiotemporal modelling
+study <em>The Lancet Planetary Healthy</em>. <a
+href="https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30292-8/">Open
+Access</a></li>
+<li>Colon-Gonzalez et al. (2021) Probabilistic seasonal dengue
+forecasting in Vietnam: A modelling study using superensembles <em>PLOS
+Medicine</em>. <a
+href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003542"
+target="_blank">Open access</a></li>
+<li>Izbicki, Diniz and Bastos (2020) Sensitivity and specificity in
+prevalence studies: The importance of considering uncertainty
+<em>Clinics</em> <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7690961/"
+target="_blank">PUBMED</a></li>
+<li>Niquini et al. (2020) Description and comparison of demographic
+characteristics and comorbidities in SARI from COVID-19, SARI from
+influenza, and the Brazilian general population <em>Cadernos de Saúde
+Pública</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/32725087/"
+target="_blank">PUBMED</a></li>
+<li>Coelho et al. (2020) Assessing the spread of COVID-19 in Brazil:
+Mobility, morbidity and social vulnerability. <em>PLOS One</em>. <a
+href="https://pubmed.ncbi.nlm.nih.gov/32946442/"
+target="_blank">PUBMED</a></li>
+<li>Lana et al.. (2020) The emergence of the novel coronavirus,
+COVID-19, and the role of a timely and effective national health
+surveillance. <em>Cadernos de Saúde Pública</em>. <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/32187288"
+target="_blank">PUBMED</a></li>
+<li>Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in
+Brazil: a comparison up to the 12th epidemiological week of 2020.
+<em>Cadernos de Saúde Pública</em>. <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/32321075">PUBMED</a>
+{target=“_blank”}</li>
+<li>Goncalvez, Migon and <strong>Bastos</strong>. (2020) Dynamic
+Quantile Linear Models: A Bayesian Approach. <em>Bayesian Analysis</em>.
+<a href="https://projecteuclid.org/euclid.ba/1556244057"
+target="_blank">Link</a></li>
+<li>Paiva et al.. (2020) Women who have undergone abortion in the city
+of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model.
+<em>Cadernos de Saúde Pública</em>. <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/32049124"
+target="_blank">PUBMED</a>.</li>
+<li>Carvalho, Freitas, Cruz, Brasil, and <strong>Bastos</strong>. (2020)
+Association of past dengue fever epidemics with the risk of Zika
+microcephaly at the population level in Brazil. <em>Scientific
+Reports</em>. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32019953"
+target="_blank">PUBMED</a></li>
+<li><strong>Bastos</strong>, Economou, et al.. (2019) A modelling
+approach for correcting reporting delays in disease surveillance data.
+<em>Statistics in Medicine</em>. <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303"
+target="_blank">Open Access</a>. <a
+href="https://github.com/lsbastos/Delay">Code and data</a>.</li>
+<li>Barrenechea and <strong>Bastos</strong>. (2019) Evaluation of the
+vaccine impact on the incidence of chickenpox in Argentina,
+<em>Vaccine</em> <a href="https://www.ncbi.nlm.nih.gov/pubmed/31630938"
+target="_blank">PUBMED</a></li>
+<li>Coutinho, <strong>Bastos</strong>, et al.. (2019) The risks of HCV
+infection among Brazilian crack cocaine users: incorporating diagnostic
+test uncertainty. <em>Scientific Reports</em>. <a
+href="https://www.nature.com/articles/s41598-018-35657-0"
+target="_blank">Open access</a></li>
+<li>Bastos, <strong>Bastos</strong>, et al.. (2018) HIV, HCV, HBV, and
+syphilis among transgender women from Brazil. <em>Medicine</em>. <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/29794601"
+target="_blank">PUBMED</a></li>
+<li>Sperandei, Bastos, et al.. (2018) A simulation study across
+different networks. <em>Social Networks</em>.</li>
+<li>Villela, <strong>Bastos</strong>, et al.. (2017) Zika in Rio de
+Janeiro: Assessment of basic reproduction number and comparison with
+dengue outbreaks. <em>Epidemiology and Infection</em>. <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/28240195"
+target="_blank">PUBMED</a></li>
+<li>Coelho et al.. (2016) Higher incidence of Zika in adult women than
+adult men in Rio de Janeiro suggests a significant contribution of
+sexual transmission from men to women. <em>International Journal of
+Infectious Diseases</em>. <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/27664930"
+target="_blank">PUBMED</a></li>
 </ul>
 
 

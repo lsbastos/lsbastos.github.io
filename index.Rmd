@@ -10,7 +10,6 @@ title: Dr Leo Bastos
 - Associate researcher at [PROCC](http://www.procc.fiocruz.br){target="_blank"}/[Fiocruz](http://www.fiocruz.br){target="_blank"}, Brazil.
 
 
-
 ## CV and publications:
 
 - [Lattes CV](http://lattes.cnpq.br/5241799121437269){target="_blank"}
@@ -20,66 +19,8 @@ title: Dr Leo Bastos
 - [PUBMED*](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bastos%2C%20Leonardo%20Soares%5BFull%20Author%20Name%5D%20or%20Bastos%2C%20Leonardo%5BFull%20Author%20Name%5D&cmd=DetailsSearch){target="_blank"} 
 - [Publication page](publications.html)
 
-* Some of the listed papers in PUBMED are not mine due to people with similar names.
+* Some of the listed papers in PUBMED may not be mine due to people with similar names.
 
-
-## News in a short format
-
-### 2022
-- (New papers) Accepted in Bayesian Analysis, Nature Communication
-- (Funding) Research Fellow at CNPq (Productivity scholarship)
-- (Funding) INOVA-Fiocruz on improving Early warning systems of some infectious diseases in Brazil.
-
-### 2021
-- (Funding) Research Fellow at FAPERJ (Our State Young Scientist Program)
-- (Book chapter) In Matta et al. (2021) "Os impactos sociais da Covid-19 no Brasil: populações vulnerabilizadas e respostas à pandemia" [Free book in Portuguese](http://books.scielo.org/id/r3hc2)
-- (New paper) Accepted in Pediatrics, Lugon et al. (April 2021)
-- (COVID-19) Shinyapp for nowcasting real-time SARI and SARI-COVID hospitalizations and deaths in Brazil [Link](https://lsbastos.shinyapps.io/nowcasting/)
-- (New paper) Accepted in Revista do Instituto de Medicina Tropical de São Paulo, Barbosa et al. (Jan 2021)
-- (New paper) Accepted in PLOS Medicine, Colon-Gonzalez et al. (Jan 2021)
-
-
-### 2020
-- (Book chapter) To be published in a COVID-19 collection, Pontes et al. (Dec, 2020)
-- (New paper) Accepted in Lancet Planetary Health , Lowe et al. (Nov 2020)
-- (New paper) Accepted in Malaria Journal, Lana et al. (Nov 2020)
-- (New paper) Accepted in Clinics, Izbicki, Diniz and Bastos (Oct 2020)
-- (New paper) Accepted in Salud Coletiva, Valois-Santos et al. (Sep 2020)
-- (New paper) Accepted in PLOS One, Viana et al. (Jul 2020)
-- (Funding) My first grant proposal as PI was approved, it is on developing analytical methods to epidemiological surveillance [INOVA Fiocruz](https://portal.fiocruz.br/edital-geracao-de-conhecimento-enfrentamento-da-pandemia-e-pos-pandemia-covid-19-encomendas) (June 2020)
-- (New paper) Accepted in BMC Medicine, Brady et al. (May 2020)
-- (New paper) Accepted in Revista Argentina de Salud Publica, Barrenechea et al. (May 2020)
-- (COVID-19) Dashboard analysing COVID-19 cases in Brazil. [Link](covid-19/)
-- (New paper) Accepted in Cadernos de Saúde Publica Bastos, Niquini et al. (Mar 2020)
-- (New paper) Accepted in Drug and Alcohol Dependence with Thiago Torres et al. (Feb 2020)
-- (New paper) Accepted in Cadernos de Saúde Publica with Raquel Lana et al. (Feb 2020)
-- (New paper) Accepted in Revista Americana de Medicina Respiratoria with Barrenechea (Jan 2020) 
-- (New paper) Accepted in Ciencia & Saúde Coletiva with Raquel Torres et al. (Jan 2020)
-- (Site update) Run script lattes for the [PROCC](PROCC/) and [Epidemiology graduate program](PGEpi/).
-
-
-### 2019
-
-- (New paper) Accepted in Nature Scientific reports with Carvalho et al. (Dez 2019)
-- (Grant) A network grant proposal on drug abuse was accepted by FAPERJ. [(Link)](http://www.faperj.br/?id=3888.2.7)
-- (New paper) Accepted in Nature Scientific reports with Angela Lopes et al. (Nov 2019)
-- (New paper) Accepted in Vaccine with Guillermo Barrenechea (Oct 2019)
-- (New paper) Accepted in Cardernos de Saude Publica with Natalia Paiva et al. (Sep 2019)
-- (New paper) Accepted in Statistics in Medicine with Theo Economou, Prof Trevor Bailey, and others. (Jul 2019)
-- (Postdoc) Started a research fellow position at LSHTM in London with Rachel Lowe and Oliver Brandy. (Jun 2019)
-- (New paper) Accepted in Journal of Biomolecular Structure and Dynamics with Rafael Soares, Ernesto Caffarena, and others (May 2019)
-- (New paper) Accepted in Bayesian Analysis with Kelly Goncalvez and Helio Migon (Apr 2019)
-- (New paper) Accepted in Journal of the Brazilian Society of Tropical Medicine with Filipe de Souza, Nathaly de Souza and others. (Mar 2019)
-- (New paper) Accepted in Nature Scientific Reports with Carol Coutinho, Francisco Bastos and others. (Feb 2019)
-- (New paper) Accepted in Future Microbiology with Luciane Amado and others. (Jan 2019)
-- (Visiting researcher) I visited for 10 days prof. Haavard Rue at KAUST, Saudi Arabia.  (Jan 2019)
-
-### 2018
-
-- (Brazilian Elections 2018) I did some coding on Brazilian presidential elections [(Link)](eleicoes2018.html)
-- (Conference) I was a conference speakers at Foro Climatico Internacional, Tucuman, Argentina [(Link)](https://climactivo.com)  (Oct 2018)
-- (New paper) Accepted in Tubercolusis with Teca Galvão and others (Aug 2018)
-- (New paper) Accepted in the Scandinavian Journal of Work Enviroment & Health with Leidjaira Juvanhol, Rosane Griep and others (2018)
 
 Last update:
 ```{r, echo=F}

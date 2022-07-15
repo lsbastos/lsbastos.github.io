@@ -13,6 +13,7 @@
 
 <title>Dr Leo Bastos</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -295,91 +300,32 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p><img src="files/fotoLeoLSHTM.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right"></p>
 <ul>
-<li>Associate researcher at <a href="http://www.procc.fiocruz.br" target="_blank">PROCC</a>/<a href="http://www.fiocruz.br" target="_blank">Fiocruz</a>, Brazil.</li>
+<li>Associate researcher at <a href="http://www.procc.fiocruz.br"
+target="_blank">PROCC</a>/<a href="http://www.fiocruz.br"
+target="_blank">Fiocruz</a>, Brazil.</li>
 </ul>
 <div id="cv-and-publications" class="section level2">
 <h2>CV and publications:</h2>
 <ul>
-<li><p><a href="http://lattes.cnpq.br/5241799121437269" target="_blank">Lattes CV</a></p></li>
-<li><p><a href="https://scholar.google.com/citations?user=A5VmZYMAAAAJ&amp;hl=en" target="_blank">Google Scholar</a></p></li>
-<li><p>Orcid: <a href="https://orcid.org/0000-0002-1406-0122" target="_blank">0000-0002-1406-0122</a></p></li>
-<li><p>Scopus: <a href="https://www.scopus.com/authid/detail.uri?authorId=55648716900" target="_blank">55648716900</a></p></li>
-<li><p><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Bastos%2C%20Leonardo%20Soares%5BFull%20Author%20Name%5D%20or%20Bastos%2C%20Leonardo%5BFull%20Author%20Name%5D&amp;cmd=DetailsSearch" target="_blank">PUBMED*</a></p></li>
+<li><p><a href="http://lattes.cnpq.br/5241799121437269"
+target="_blank">Lattes CV</a></p></li>
+<li><p><a
+href="https://scholar.google.com/citations?user=A5VmZYMAAAAJ&amp;hl=en"
+target="_blank">Google Scholar</a></p></li>
+<li><p>Orcid: <a href="https://orcid.org/0000-0002-1406-0122"
+target="_blank">0000-0002-1406-0122</a></p></li>
+<li><p>Scopus: <a
+href="https://www.scopus.com/authid/detail.uri?authorId=55648716900"
+target="_blank">55648716900</a></p></li>
+<li><p><a
+href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Bastos%2C%20Leonardo%20Soares%5BFull%20Author%20Name%5D%20or%20Bastos%2C%20Leonardo%5BFull%20Author%20Name%5D&amp;cmd=DetailsSearch"
+target="_blank">PUBMED*</a></p></li>
 <li><p><a href="publications.html">Publication page</a></p></li>
-<li><p>Some of the listed papers in PUBMED are not mine due to people with similar names.</p></li>
-</ul>
-</div>
-<div id="news-in-a-short-format" class="section level2">
-<h2>News in a short format</h2>
-<div id="section" class="section level3">
-<h3>2022</h3>
-<ul>
-<li>(New papers) Accepted in Bayesian Analysis, Nature Communication</li>
-<li>(Funding) Research Fellow at CNPq (Productivity scholarship)</li>
-<li>(Funding) INOVA-Fiocruz on improving Early warning systems of some infectious diseases in Brazil.</li>
-</ul>
-</div>
-<div id="section-1" class="section level3">
-<h3>2021</h3>
-<ul>
-<li>(Funding) Research Fellow at FAPERJ (Our State Young Scientist Program)</li>
-<li>(Book chapter) In Matta et al. (2021) “Os impactos sociais da Covid-19 no Brasil: populações vulnerabilizadas e respostas à pandemia” <a href="http://books.scielo.org/id/r3hc2">Free book in Portuguese</a></li>
-<li>(New paper) Accepted in Pediatrics, Lugon et al. (April 2021)</li>
-<li>(COVID-19) Shinyapp for nowcasting real-time SARI and SARI-COVID hospitalizations and deaths in Brazil <a href="https://lsbastos.shinyapps.io/nowcasting/">Link</a></li>
-<li>(New paper) Accepted in Revista do Instituto de Medicina Tropical de São Paulo, Barbosa et al. (Jan 2021)</li>
-<li>(New paper) Accepted in PLOS Medicine, Colon-Gonzalez et al. (Jan 2021)</li>
-</ul>
-</div>
-<div id="section-2" class="section level3">
-<h3>2020</h3>
-<ul>
-<li>(Book chapter) To be published in a COVID-19 collection, Pontes et al. (Dec, 2020)</li>
-<li>(New paper) Accepted in Lancet Planetary Health , Lowe et al. (Nov 2020)</li>
-<li>(New paper) Accepted in Malaria Journal, Lana et al. (Nov 2020)</li>
-<li>(New paper) Accepted in Clinics, Izbicki, Diniz and Bastos (Oct 2020)</li>
-<li>(New paper) Accepted in Salud Coletiva, Valois-Santos et al. (Sep 2020)</li>
-<li>(New paper) Accepted in PLOS One, Viana et al. (Jul 2020)</li>
-<li>(Funding) My first grant proposal as PI was approved, it is on developing analytical methods to epidemiological surveillance <a href="https://portal.fiocruz.br/edital-geracao-de-conhecimento-enfrentamento-da-pandemia-e-pos-pandemia-covid-19-encomendas">INOVA Fiocruz</a> (June 2020)</li>
-<li>(New paper) Accepted in BMC Medicine, Brady et al. (May 2020)</li>
-<li>(New paper) Accepted in Revista Argentina de Salud Publica, Barrenechea et al. (May 2020)</li>
-<li>(COVID-19) Dashboard analysing COVID-19 cases in Brazil. <a href="covid-19/">Link</a></li>
-<li>(New paper) Accepted in Cadernos de Saúde Publica Bastos, Niquini et al. (Mar 2020)</li>
-<li>(New paper) Accepted in Drug and Alcohol Dependence with Thiago Torres et al. (Feb 2020)</li>
-<li>(New paper) Accepted in Cadernos de Saúde Publica with Raquel Lana et al. (Feb 2020)</li>
-<li>(New paper) Accepted in Revista Americana de Medicina Respiratoria with Barrenechea (Jan 2020)</li>
-<li>(New paper) Accepted in Ciencia &amp; Saúde Coletiva with Raquel Torres et al. (Jan 2020)</li>
-<li>(Site update) Run script lattes for the <a href="PROCC/">PROCC</a> and <a href="PGEpi/">Epidemiology graduate program</a>.</li>
-</ul>
-</div>
-<div id="section-3" class="section level3">
-<h3>2019</h3>
-<ul>
-<li>(New paper) Accepted in Nature Scientific reports with Carvalho et al. (Dez 2019)</li>
-<li>(Grant) A network grant proposal on drug abuse was accepted by FAPERJ. <a href="http://www.faperj.br/?id=3888.2.7">(Link)</a></li>
-<li>(New paper) Accepted in Nature Scientific reports with Angela Lopes et al. (Nov 2019)</li>
-<li>(New paper) Accepted in Vaccine with Guillermo Barrenechea (Oct 2019)</li>
-<li>(New paper) Accepted in Cardernos de Saude Publica with Natalia Paiva et al. (Sep 2019)</li>
-<li>(New paper) Accepted in Statistics in Medicine with Theo Economou, Prof Trevor Bailey, and others. (Jul 2019)</li>
-<li>(Postdoc) Started a research fellow position at LSHTM in London with Rachel Lowe and Oliver Brandy. (Jun 2019)</li>
-<li>(New paper) Accepted in Journal of Biomolecular Structure and Dynamics with Rafael Soares, Ernesto Caffarena, and others (May 2019)</li>
-<li>(New paper) Accepted in Bayesian Analysis with Kelly Goncalvez and Helio Migon (Apr 2019)</li>
-<li>(New paper) Accepted in Journal of the Brazilian Society of Tropical Medicine with Filipe de Souza, Nathaly de Souza and others. (Mar 2019)</li>
-<li>(New paper) Accepted in Nature Scientific Reports with Carol Coutinho, Francisco Bastos and others. (Feb 2019)</li>
-<li>(New paper) Accepted in Future Microbiology with Luciane Amado and others. (Jan 2019)</li>
-<li>(Visiting researcher) I visited for 10 days prof. Haavard Rue at KAUST, Saudi Arabia. (Jan 2019)</li>
-</ul>
-</div>
-<div id="section-4" class="section level3">
-<h3>2018</h3>
-<ul>
-<li>(Brazilian Elections 2018) I did some coding on Brazilian presidential elections <a href="eleicoes2018.html">(Link)</a></li>
-<li>(Conference) I was a conference speakers at Foro Climatico Internacional, Tucuman, Argentina <a href="https://climactivo.com">(Link)</a> (Oct 2018)</li>
-<li>(New paper) Accepted in Tubercolusis with Teca Galvão and others (Aug 2018)</li>
-<li>(New paper) Accepted in the Scandinavian Journal of Work Enviroment &amp; Health with Leidjaira Juvanhol, Rosane Griep and others (2018)</li>
+<li><p>Some of the listed papers in PUBMED may not be mine due to people
+with similar names.</p></li>
 </ul>
 <p>Last update:</p>
-<pre><code>## [1] &quot;Fri Apr  1 12:45:16 2022&quot;</code></pre>
-</div>
+<pre><code>## [1] &quot;Fri Jul 15 15:49:24 2022&quot;</code></pre>
 </div>
 
 

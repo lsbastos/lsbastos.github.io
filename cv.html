@@ -13,6 +13,7 @@
 
 <title>CV</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -295,57 +300,107 @@ $(document).ready(function () {
 <div id="education" class="section level2">
 <h2>Education</h2>
 <ul>
-<li>PhD in statistics, <a href="https://www.sheffield.ac.uk/maths">The University of Sheffield</a>, UK, 2010. <BR> Under supervision of <a href="http://tonyohagan.co.uk/">Prof Tony O’Hagan</a> and <a href="http://www.jeremy-oakley.staff.shef.ac.uk/">Prof Jeremy Oakley</a>. (<a href="http://etheses.whiterose.ac.uk/963/">Thesis</a>)</li>
-<li>MSc in statistics, <a href="http://www.dme.ufrj.br">Federal University of Rio de Janeiro</a>, Brazil, 2003. <br> Under supervison of <a href="">Prof Dani Gamerman</a></li>
-<li>BSc in statistics, <a href="http://www.est.ufmg.br">Federal University of Minas Gerais</a>, Brazil, 2002. <br> Under supervison of <a href="http://www.est.ufmg.br/~loschi">Prof Rosangela Loschi</a> and <a href="http://www.pgest.unb.br/docentes">Prof Cibele Silva</a></li>
+<li>PhD in statistics, <a href="https://www.sheffield.ac.uk/maths">The
+University of Sheffield</a>, UK, 2010. <BR> Under supervision of <a
+href="http://tonyohagan.co.uk/">Prof Tony O’Hagan</a> and <a
+href="http://www.jeremy-oakley.staff.shef.ac.uk/">Prof Jeremy
+Oakley</a>. (<a
+href="http://etheses.whiterose.ac.uk/963/">Thesis</a>)</li>
+<li>MSc in statistics, <a href="http://www.dme.ufrj.br">Federal
+University of Rio de Janeiro</a>, Brazil, 2003. <br> Under supervison of
+<a href="">Prof Dani Gamerman</a></li>
+<li>BSc in statistics, <a href="http://www.est.ufmg.br">Federal
+University of Minas Gerais</a>, Brazil, 2002. <br> Under supervison of
+<a href="http://www.est.ufmg.br/~loschi">Prof Rosangela Loschi</a> and
+<a href="http://www.pgest.unb.br/docentes">Prof Cibele Silva</a></li>
 </ul>
 </div>
 <div id="short-bio" class="section level2">
 <h2>Short bio</h2>
-<p>I hold permanent position at Scientific Computing Program <a href="http://www.procc.fiocruz.br">PROCC</a>, <a href="https://portal.fiocruz.br/en">Fiocruz</a>, Rio de Janeiro, Brazil. I am a research fellow at CNPq (bolsista de produtividade) and FAPERJ (Jovem cientista Nosso Estado). I consider myself an applied Bayesian (bio)statistician focused on Infectious Disease (Statistical) Modelling. I am an ellected member of <a href="https://www.isi-web.org/">ISI</a> and a registered statistician at the Brazilian Statistical Council <a href="http://www.conre2.org.br/">CONRE2</a>. I spent some time (2019-2020) in London working on infectious disease modelling at the <a href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases">CMMID</a>/<a href="https://www.lshtm.ac.uk/">LSHTM</a>, UK. My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research questions related to infectious diseases epidemiology.</p>
+<p>I hold permanent position at Scientific Computing Program <a
+href="http://www.procc.fiocruz.br">PROCC</a>, <a
+href="https://portal.fiocruz.br/en">Fiocruz</a>, Rio de Janeiro, Brazil.
+I am a research fellow at CNPq (bolsista de produtividade) and FAPERJ
+(Jovem cientista Nosso Estado). I consider myself an applied Bayesian
+(bio)statistician focused on Infectious Disease (Statistical) Modelling.
+I am an ellected member of <a href="https://www.isi-web.org/">ISI</a>
+and a registered statistician at the Brazilian Statistical Council <a
+href="http://www.conre2.org.br/">CONRE2</a>. I spent some time
+(2019-2020) in London working on infectious disease modelling at the <a
+href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases">CMMID</a>/<a
+href="https://www.lshtm.ac.uk/">LSHTM</a>, UK. My main research
+interests are on developing Bayesian statistical solutions/models to
+applied real problems, usually research questions related to infectious
+diseases epidemiology.</p>
 </div>
 <div id="research-projects" class="section level2">
 <h2>Research projects</h2>
 <ul>
-<li>Developing analytic methods for epidemiological surveillance. This project focus on developing statistical and mathematical methods for infectious disease epidemiological surveillance. Some related projects:
+<li>Developing analytic methods for epidemiological surveillance. This
+project focus on developing statistical and mathematical methods for
+infectious disease epidemiological surveillance. Some related projects:
 <ul>
-<li>MAVE team: <a href="http://mave.procc.fiocruz.br" class="uri">http://mave.procc.fiocruz.br</a><br />
+<li>MAVE team: <a href="http://mave.procc.fiocruz.br"
+class="uri">http://mave.procc.fiocruz.br</a><br />
 </li>
-<li>Infodengue: <a href="https://info.dengue.mat.br" class="uri">https://info.dengue.mat.br</a></li>
-<li>Infogripe: <a href="http://info.gripe.fiocruz.br" class="uri">http://info.gripe.fiocruz.br</a></li>
+<li>Infodengue: <a href="https://info.dengue.mat.br"
+class="uri">https://info.dengue.mat.br</a></li>
+<li>Infogripe: <a href="http://info.gripe.fiocruz.br"
+class="uri">http://info.gripe.fiocruz.br</a></li>
 </ul></li>
 </ul>
 <p>Other projects I am involved:<br />
-- ELSA-Brasil: <a href="http://www.elsa.org.br/index1.html" class="uri">http://www.elsa.org.br/index1.html</a></p>
+- ELSA-Brasil: <a href="http://www.elsa.org.br/index1.html"
+class="uri">http://www.elsa.org.br/index1.html</a></p>
 </div>
 <div id="important-links" class="section level1">
 <h1>Important links:</h1>
 <ul>
 <li>Bayesian Statistical softwares
 <ul>
-<li>INLA: <a href="http://www.r-inla.org/" class="uri">http://www.r-inla.org/</a></li>
-<li>Stan: <a href="https://mc-stan.org/" class="uri">https://mc-stan.org/</a></li>
-<li>Nimble: <a href="https://r-nimble.org/" class="uri">https://r-nimble.org/</a></li>
+<li>INLA: <a href="http://www.r-inla.org/"
+class="uri">http://www.r-inla.org/</a></li>
+<li>Stan: <a href="https://mc-stan.org/"
+class="uri">https://mc-stan.org/</a></li>
+<li>Nimble: <a href="https://r-nimble.org/"
+class="uri">https://r-nimble.org/</a></li>
 </ul></li>
 <li>Brazilian microdata:
 <ul>
-<li>PNS: <a href="https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&amp;t=sobre">IBGE description</a> and <a href="http://asdfree.com/pesquisa-nacional-de-saude-pns.html">download and analysis in R</a></li>
-<li>Vigitel: <a href="http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm" class="uri">http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm</a></li>
-<li>Datasus: <a href="http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos" class="uri">http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos</a></li>
+<li>PNS: <a
+href="https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&amp;t=sobre">IBGE
+description</a> and <a
+href="http://asdfree.com/pesquisa-nacional-de-saude-pns.html">download
+and analysis in R</a></li>
+<li>Vigitel: <a
+href="http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm"
+class="uri">http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm</a></li>
+<li>Datasus: <a
+href="http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos"
+class="uri">http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos</a></li>
 </ul></li>
 </ul>
 <div id="random-stuff" class="section level2">
 <h2>Random stuff</h2>
 <ul>
-<li>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erdős Number</a> is 4: Bastos &gt; O’Hagan &gt; Leonard &gt; Taylor &gt; Erdős (Calculate yours: <a href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">Link</a>)
+<li>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erdős
+Number</a> is 4: Bastos &gt; O’Hagan &gt; Leonard &gt; Taylor &gt; Erdős
+(Calculate yours: <a
+href="https://mathscinet.ams.org/mathscinet/freeTools.html?version=2">Link</a>)
 <ul>
-<li>Curiosity note: A list of my academic ancestors: O’Hagan, Lindley, Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli</li>
+<li>Curiosity note: A list of my academic ancestors: O’Hagan, Lindley,
+Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli</li>
 </ul></li>
-<li>My profile in the <a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=144359">Mathematics Genealogy project</a></li>
-<li>I am a Taekwondo student holding a 1st DAN black belt. My masters are:
+<li>My profile in the <a
+href="https://genealogy.math.ndsu.nodak.edu/id.php?id=144359">Mathematics
+Genealogy project</a></li>
+<li>I am a Taekwondo student holding a 1st DAN black belt. My masters
+are:
 <ul>
-<li><a href="http://soaresteam.com.br">Master Erico Soares</a> (4th DAN)</li>
-<li><a href="https://www.kimtkd.com.br/">Grandmaster Renato Ribeiro</a> (7th DAN).</li>
+<li><a href="http://soaresteam.com.br">Master Erico Soares</a> (4th
+DAN)</li>
+<li><a href="https://www.kimtkd.com.br/">Grandmaster Renato Ribeiro</a>
+(7th DAN).</li>
 </ul></li>
 </ul>
 </div>

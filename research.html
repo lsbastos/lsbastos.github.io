@@ -13,6 +13,7 @@
 
 <title>Research areas</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,7 +298,9 @@ $(document).ready(function () {
 
 
 <ul>
-<li>Statistical modelling of infectious diseases, primarily mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and respiratory diseases (Influenza-like illness, COVID-19, and TB)
+<li>Statistical modelling of infectious diseases, primarily
+mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and
+respiratory diseases (Influenza-like illness, COVID-19, and TB)
 <ul>
 <li>Spatial and Spatio-temporal models for counting data</li>
 <li>Nowcasting and forecasting models for epidemics</li>
@@ -303,24 +310,40 @@ $(document).ready(function () {
 <ul>
 <li>Inference for Respondent-driven sampling data</li>
 <li>Estimating population size using Network scale-up methods</li>
-<li>Statistical models for sexually transmitted infections (e.g. HIV, HCV, syphilis) in H2R populations
+<li>Statistical models for sexually transmitted infections (e.g. HIV,
+HCV, syphilis) in H2R populations
 <ul>
 <li>Bayesian multilevel modelling (multilevel logistic regression)</li>
 </ul></li>
 </ul></li>
 <li>Statistical models for noncomunicable diseases
 <ul>
-<li>Statistical models for cohorts, in particular in collaboration with the ELSA-Brasil study</li>
-<li>Bayesian inference for complex samples in secondary data sources</li>
+<li>Statistical models for cohorts, in particular in collaboration with
+the ELSA-Brasil study</li>
+<li>Bayesian inference for complex samples in secondary data
+sources</li>
 </ul></li>
 </ul>
 <div id="oportunities" class="section level2">
 <h2>Oportunities</h2>
-<p>If you are looking for a possible colaboration or an opportunity feel free to write to discuss a potencial project at all levels:</p>
+<p>If you are looking for a possible colaboration or an opportunity feel
+free to write to discuss a potencial project at all levels:</p>
 <ul>
-<li><strong>Undergraduate students</strong> <br> Scientific iniciation (PIBIC), it requires a CR&gt;7 and at least a couple of months to prepare a project to submit to Fiocruz, FAPERJ, etc. PIBIC project under my supervision wiil basically be R development projects relate to my research interests.</li>
-<li><strong>Graduate students (MSc and PhD)</strong> <br> I am qualified to supervise students in two graduate programs: Epidemiology in Public Health at ENSP/Fiocruz and Systems and Computational Biology at IOC/Fiocruz. A project may be required, so please get in touch in advance at least 3 to 6 months before application (usually 2nd semester of each year)</li>
-<li><strong>Posdoctoral reasearchers</strong> <br> From time to time there are some posdoc scholarships available from the graduate programs (PNPD) and from other sources like FAPERJ, CNPq and international sources, let me know if you are interested.</li>
+<li><strong>Undergraduate students</strong> <br> Scientific iniciation
+(PIBIC), it requires a CR&gt;7 and at least a couple of months to
+prepare a project to submit to Fiocruz, FAPERJ, etc. PIBIC project under
+my supervision wiil basically be R development projects relate to my
+research interests.</li>
+<li><strong>Graduate students (MSc and PhD)</strong> <br> I am qualified
+to supervise students in two graduate programs: Epidemiology in Public
+Health at ENSP/Fiocruz and Systems and Computational Biology at
+IOC/Fiocruz. A project may be required, so please get in touch in
+advance at least 3 to 6 months before application (usually 2nd semester
+of each year)</li>
+<li><strong>Posdoctoral reasearchers</strong> <br> From time to time
+there are some posdoc scholarships available from the graduate programs
+(PNPD) and from other sources like FAPERJ, CNPq and international
+sources, let me know if you are interested.</li>
 </ul>
 </div>
 <div id="current-supervision" class="section level1">
@@ -331,17 +354,27 @@ $(document).ready(function () {
 <div id="phd" class="section level2">
 <h2>PhD</h2>
 <ul>
-<li>Camila Mattos Santos (2020-) PhD in Epidemiology, Fiocruz (co supervisor: Francisco I Bastos)</li>
-<li>Fernanda Esthefane Garrides Oliveira (2019-) PhD in Epidemiology, Fiocruz (co supervisor: Rosane Griep)</li>
+<li>Guillermo Barrenechea (2022-). PhD in Epidemiology, VigiFronteiras,
+Fiocruz</li>
+<li>Karla de Araújo Ferreira (2022-). PhD in Epidemiology, Fiocruz</li>
+<li>Camila Mattos Santos (2020-) PhD in Epidemiology, Fiocruz (co
+supervisor: Francisco I Bastos)</li>
+<li>Fernanda Esthefane Garrides Oliveira (2019-) PhD in Epidemiology,
+Fiocruz (co supervisor: Rosane Griep)</li>
 <li>Lucas Monteiro Bianchi (2019-). PhD in Epidemiology, Fiocruz</li>
-<li>Guillermo Barrenechea (2022-). PhD in Epidemiology, Fiocruz</li>
 </ul>
 </div>
 <div id="msc" class="section level2">
 <h2>MSc</h2>
 <ul>
-<li>Léa de Freitas Amaral (2021-). MSc in Epidemiology, Fiocruz (co supervisor: Raquel Lana)</li>
-<li>GUilherme dos Santos (2021-). MSc in Statistics, UFRJ (supervisor: Kelly Gonçalves)</li>
+<li>Tatiana Scheidt (2021-). MSc in Epidemiology, VigiFronteiras,
+Fiocruz (co supervisor: Paulo Victor)</li>
+<li>Guilherme dos Santos (2021-), MSc in Statistics, UFRJ (supervisor
+Kelly Gonçalves)</li>
+<li>Léa de Freitas Amaral (2021-). MSc in Epidemiology, Fiocruz (co
+supervisor: Raquel Lana)</li>
+<li>GUilherme dos Santos (2021-). MSc in Statistics, UFRJ (supervisor:
+Kelly Gonçalves)</li>
 </ul>
 </div>
 <div id="bsc" class="section level2">
@@ -350,7 +383,8 @@ $(document).ready(function () {
 </div>
 <div id="google-scholar-colaborarion-network" class="section level1">
 <h1>Google scholar colaborarion network</h1>
-<p>My colaborarion network according to Google scholar (using scholar package)</p>
+<p>My colaborarion network according to Google scholar (using scholar
+package)</p>
 <pre class="r"><code>library(scholar)
 
 # My google scholar id
@@ -360,6 +394,7 @@ p &lt;- get_publications(id)
 coauthor_network &lt;- get_coauthors(id, n_coauthors = 6)
 
 plot_coauthors(coauthor_network)</code></pre>
+<pre><code>## Warning: Removed 5 rows containing missing values (geom_point).</code></pre>
 <p><img src="research_files/figure-html/AFF-1.png" width="120%" /></p>
 </div>
 <div id="past-supervision" class="section level1">
@@ -369,51 +404,74 @@ plot_coauthors(coauthor_network)</code></pre>
 <ul>
 <li>Raquel Lana (2020-2021) Fiocruz/INOVA-COVID</li>
 <li>Marcelo F C Gomes (2019-2019) BCS/Fiocruz.</li>
-<li>Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)</li>
+<li>Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco
+Bastos)</li>
 </ul>
 </div>
 <div id="phd-1" class="section level2">
 <h2>PhD</h2>
 <ul>
-<li>Gisele Vieira Rocha (2020) PhD in Computational and Systems Biology, Fiocruz (co supervisor: Mauricio Garcia)</li>
-<li>Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)</li>
-<li>Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)</li>
-<li>Maria Rita Lustosa Byington (2015) PhD in Epidemiology at Fiocruz (Supervisor Marilia Carvalho)</li>
-<li>Lidiane da Silveira Gouvea Toledo (2015) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)</li>
+<li>Gisele Vieira Rocha (2020) PhD in Computational and Systems Biology,
+Fiocruz (co supervisor: Mauricio Garcia)</li>
+<li>Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz
+(Supervisor Francisco Bastos)</li>
+<li>Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at
+Fiocruz (Supervisor Francisco Bastos)</li>
+<li>Maria Rita Lustosa Byington (2015) PhD in Epidemiology at Fiocruz
+(Supervisor Marilia Carvalho)</li>
+<li>Lidiane da Silveira Gouvea Toledo (2015) PhD in Epidemiology at
+Fiocruz (Supervisor Francisco Bastos)</li>
 </ul>
 </div>
 <div id="msc-1" class="section level2">
 <h2>MSc</h2>
 <ul>
-<li>Julia Novaes de Barros Peixoto (2018-2020) MSc student in Epidemiology, Fiocruz</li>
-<li>Camila Mattos Santos (2018-2020) MSc student in Epidemiology, Fiocruz (co supervisor: Carolina Coutinho)</li>
-<li>Ana Carolina de Queirós e Feijó (2017-2019) MSc in Epidemiology, Fiocruz (co supervisor Leticia Cardoso)</li>
-<li>Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)</li>
-<li>Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)</li>
-<li>Daniel Stokes (2015-2016) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)</li>
-<li>José Carlos Benfica (2014-2015) MSc in Epidemiogy, Fiocruz (Co supervisor Paula Luz)</li>
-<li>Mohema Duarte de Oliveira (2014-2015) MSc in Epidemiogy, Fiocruz</li>
-<li>Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)</li>
-<li>Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)</li>
+<li>Julia Novaes de Barros Peixoto (2018-2020) MSc student in
+Epidemiology, Fiocruz</li>
+<li>Camila Mattos Santos (2018-2020) MSc student in Epidemiology,
+Fiocruz (co supervisor: Carolina Coutinho)</li>
+<li>Ana Carolina de Queirós e Feijó (2017-2019) MSc in Epidemiology,
+Fiocruz (co supervisor Leticia Cardoso)</li>
+<li>Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and
+Computational Biology at Fiocruz. (Supervisor Floriano)</li>
+<li>Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in
+Epidemiogy at Fiocruz (Supervisor Claudia Codeco)</li>
+<li>Daniel Stokes (2015-2016) MSc in Epidemiogy, Fiocruz (Co supervisor
+Marilia Carvalho)</li>
+<li>José Carlos Benfica (2014-2015) MSc in Epidemiogy, Fiocruz (Co
+supervisor Paula Luz)</li>
+<li>Mohema Duarte de Oliveira (2014-2015) MSc in Epidemiogy,
+Fiocruz</li>
+<li>Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co
+supervisor Marilia Carvalho)</li>
+<li>Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF
+(Supervisor Claudete Cardoso)</li>
 </ul>
 </div>
 <div id="bsc-1" class="section level2">
 <h2>BSc</h2>
 <ul>
-<li>Juliane da Silva Falcão (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)</li>
-<li>Diego da Costa Moreira Barbosa (2016-2017) Scientific iniciation, Fiocruz and IFRJ (co supervisor Roberta Niquini)</li>
-<li>Monique de Abreu Rocha (2014-2015) BSc in Statistics, ENCE/IBGE.</li>
+<li>Juliane da Silva Falcão (2016-2017) Scientific iniciation, Fiocruz
+and IFRJ (co supervisor Roberta Niquini)</li>
+<li>Diego da Costa Moreira Barbosa (2016-2017) Scientific iniciation,
+Fiocruz and IFRJ (co supervisor Roberta Niquini)</li>
+<li>Monique de Abreu Rocha (2014-2015) BSc in Statistics,
+ENCE/IBGE.</li>
 <li>Bruno Laiber de Pinho (2014-2015) BSc in Statistics, ENCE/IBGE.</li>
 <li>Felipe Rocha Oshiro (2014-2015) BSc in Statistics, ENCE/IBGE.</li>
-<li>Leonara Alves Cesario da Silva (2014-2015) Scientific Iniciation, Fiocruz.</li>
-<li>Yasmin Ferreira Cavaliere (2014-2015) Scientific Iniciation, Fiocruz.</li>
-<li>Julia Villapouca Gesualdi (2013-2014) Scientific Iniciation, Fiocruz.</li>
+<li>Leonara Alves Cesario da Silva (2014-2015) Scientific Iniciation,
+Fiocruz.</li>
+<li>Yasmin Ferreira Cavaliere (2014-2015) Scientific Iniciation,
+Fiocruz.</li>
+<li>Julia Villapouca Gesualdi (2013-2014) Scientific Iniciation,
+Fiocruz.</li>
 <li>Danielle Freitas (2012-2013) BSc in Statistics, UFF.</li>
 <li>Evandro Dalbem Lopes (2013-2013) BSc in Statistics, UFF.</li>
 <li>Natalia Santana Paiva (2011-2012) BSc in Statistics, UFF.</li>
 <li>Kiese da Silva Quiavauca (2012-2012) BSc in Statistics, UFF.</li>
 <li>Natália Santana Paiva (2010-2011) Scientific Iniciation, UFF.</li>
-<li>Clarissa Cardoso Oesselmann (2011-2012) Scientific Iniciation, UFF</li>
+<li>Clarissa Cardoso Oesselmann (2011-2012) Scientific Iniciation,
+UFF</li>
 <li>Fabiano Oliveira Campos (2006-2006) BSc in Statistics, UFPR.</li>
 <li>Moisés Marcus Retka (2006-2006) BSc in Statistics, UFPR.</li>
 </ul>

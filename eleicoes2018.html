@@ -13,6 +13,7 @@
 
 <title>eleicoes2018.knit</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,7 +298,11 @@ $(document).ready(function () {
 
 <div id="dados" class="section level2">
 <h2>Dados</h2>
-<p>Peguei os dados das pesquisas registradas usando no site pooling data <a href="http://www.pollingdata.com.br" class="uri">http://www.pollingdata.com.br</a>. Mas quem quiser, pode baixar o arquivo csv <a href="files/PollingData%20-%202018-T2-Brasil-BR-President.csv">aqui</a>.</p>
+<p>Peguei os dados das pesquisas registradas usando no site pooling data
+<a href="http://www.pollingdata.com.br"
+class="uri">http://www.pollingdata.com.br</a>. Mas quem quiser, pode
+baixar o arquivo csv <a
+href="files/PollingData%20-%202018-T2-Brasil-BR-President.csv">aqui</a>.</p>
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
 ### Using this because I am lazy to upgrade my linux
@@ -315,16 +324,27 @@ dados2 &lt;- mutate(dados, Total = `Bolsonaro (PSL)` + `Fernando Haddad (PT)`,
 <h2>Todos os votos e pesquisas</h2>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-2-1.png" width="672" /><img src="eleicoes2018_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
 </div>
-<div id="considerando-apenas-as-do-segundo-turno" class="section level2">
+<div id="considerando-apenas-as-do-segundo-turno"
+class="section level2">
 <h2>Considerando apenas as do segundo turno</h2>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-3-1.png" width="672" /><img src="eleicoes2018_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
 </div>
-<div id="modelando-usando-uma-verossimilhança-beta-e-efeito-aleatório-dinâmico" class="section level2">
-<h2>Modelando usando uma verossimilhança Beta e efeito aleatório dinâmico</h2>
-<p><span class="math display">\[Y_t \sim Beta(\mu_t, \phi), \quad t=1,2,\ldots \]</span> onde <span class="math inline">\(t=1\)</span> é o dia da eleição (não considerei o resultado da eleição do primeiro turno), a função de ligação é dada por <span class="math display">\[logit(\mu_t) = \alpha + \beta_t\]</span> onde <span class="math inline">\(\alpha\)</span> é um efeito fixo, e <span class="math inline">\(\beta_t\)</span> segue um passeio aleatório de ordem 2.</p>
-<pre class="r"><code>library(INLA)
-
-# Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
+<div
+id="modelando-usando-uma-verossimilhança-beta-e-efeito-aleatório-dinâmico"
+class="section level2">
+<h2>Modelando usando uma verossimilhança Beta e efeito aleatório
+dinâmico</h2>
+<p><span class="math display">\[Y_t \sim Beta(\mu_t, \phi), \quad
+t=1,2,\ldots \]</span> onde <span class="math inline">\(t=1\)</span> é o
+dia da eleição (não considerei o resultado da eleição do primeiro
+turno), a função de ligação é dada por <span
+class="math display">\[logit(\mu_t) = \alpha + \beta_t\]</span> onde
+<span class="math inline">\(\alpha\)</span> é um efeito fixo, e <span
+class="math inline">\(\beta_t\)</span> segue um passeio aleatório de
+ordem 2.</p>
+<pre class="r"><code>library(INLA)</code></pre>
+<pre><code>## Warning: package &#39;INLA&#39; was built under R version 4.2.0</code></pre>
+<pre class="r"><code># Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
 seq_2turno &lt;- seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1)
 
 
@@ -350,6 +370,8 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = mode, ymin = `0.025quant`, ymax = `0.975quant`), color = &quot;red&quot;, fill = &quot;red&quot;, alpha = 0.2) +
   geom_line(data = Prediction, mapping = aes(x = Data, y = 1-mode), color = &quot;#E69F00&quot;) +
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = &quot;#E69F00&quot;, fill = &quot;#E69F00&quot;, alpha = 0.2)</code></pre>
+<pre><code>## Warning: Removed 22 row(s) containing missing values (geom_path).</code></pre>
+<pre><code>## Warning: Removed 22 row(s) containing missing values (geom_path).</code></pre>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 <div id="estimativas-de-votos-válidos-do-haddad" class="section level2">
@@ -358,21 +380,13 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
 <pre><code>## # A tibble: 6 × 7
 ##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
 ##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
-## 1 0.429 0.0135        0.402      0.429        0.456 0.429 2018-10-23
-## 2 0.433 0.0142        0.405      0.433        0.461 0.433 2018-10-24
-## 3 0.438 0.0154        0.407      0.438        0.468 0.438 2018-10-25
-## 4 0.443 0.0175        0.408      0.443        0.477 0.443 2018-10-26
-## 5 0.448 0.0205        0.408      0.448        0.489 0.447 2018-10-27
-## 6 0.453 0.0245        0.406      0.452        0.503 0.451 2018-10-28</code></pre>
+## 1 0.429 0.0135        0.402      0.429        0.455    NA 2018-10-23
+## 2 0.433 0.0141        0.405      0.433        0.461    NA 2018-10-24
+## 3 0.438 0.0154        0.407      0.438        0.468    NA 2018-10-25
+## 4 0.443 0.0174        0.408      0.443        0.477    NA 2018-10-26
+## 5 0.448 0.0204        0.408      0.447        0.488    NA 2018-10-27
+## 6 0.453 0.0243        0.406      0.452        0.502    NA 2018-10-28</code></pre>
 <p>Note que a última linha é o dia da eleição.</p>
-<p>Calculando a probabilidade de vitória do Haddad, <span class="math inline">\(P(Y_T &gt; 0.50)\)</span>, onde <span class="math inline">\(T\)</span> é o dia da eleição (28/10/2018).</p>
-<pre class="r"><code>aux &lt;- names(r$marginals.fitted.values)
-
-prob &lt;- 1 - inla.pmarginal( q = 0.50, 
-                marginal = r$marginals.fitted.values[aux[length(aux)]][[1]]
-                )
-round(prob,4)</code></pre>
-<pre><code>## [1] 0.0306</code></pre>
 </div>
 
 
