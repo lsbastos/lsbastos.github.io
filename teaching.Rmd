@@ -8,6 +8,16 @@ title: "Teaching"
 - [LSHTM] Courses at LSHTM
 
 
+### 2023
+
+- (BCS) Introduction to statistical learning
+- (Epi) Introduction to data science
+- (Epi) PhD Seminar III
+
+### 2022
+
+- (Epi) PhD Seminar III
+
 ### 2021
 
 - (Epi) Applied Bayesian modelling

@@ -3,7 +3,7 @@ title: "Research areas"
 ---
 
 
-- Statistical modelling of infectious diseases, primarily mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and respiratory diseases (Influenza-like illness, COVID-19, and TB)
+- Statistical modelling for infectious disease epidemiology, primarily mosquito-borne diseases (e.g. Dengue, zika, chikungunya, Malaria) and respiratory diseases (Influenza-like illness, COVID-19, and TB)
     - Spatial and Spatio-temporal models for counting data
     - Nowcasting and forecasting models for epidemics
     - Model-based approach for defining epidemic thresholds
@@ -29,21 +29,19 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 
 ## Posdoc
 
+  - Fernanda Esthefane Garrides Oliveira, (2023-) Long COVID in Manguinhos.
   
 ## PhD
 
+  - Ramilla (2023-) PhD in Epidemiology, Fiocruz (co supervisor: Eduardo Krempser)
+  - Léa de Freitas Amaral (2023-). PhD in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
   - Guillermo Barrenechea (2022-). PhD in Epidemiology, VigiFronteiras, Fiocruz
   - Karla de Araújo Ferreira (2022-). PhD in Epidemiology, Fiocruz
   - Camila Mattos Santos  (2020-) PhD in Epidemiology, Fiocruz (co supervisor: Francisco I Bastos)
-  - Fernanda Esthefane Garrides Oliveira  (2019-) PhD in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
-  - Lucas Monteiro Bianchi (2019-). PhD in Epidemiology, Fiocruz
 
 ## MSc 
   - Tatiana Scheidt (2021-). MSc in Epidemiology, VigiFronteiras, Fiocruz (co supervisor: Paulo Victor)
-  - Guilherme dos Santos (2021-), MSc in Statistics, UFRJ (supervisor Kelly Gonçalves)
-  - Léa de Freitas Amaral (2021-). MSc in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
-  - GUilherme dos Santos (2021-). MSc in Statistics, UFRJ (supervisor: Kelly Gonçalves)
-  
+
 ## BSc
 
 
@@ -75,6 +73,8 @@ plot_coauthors(coauthor_network)
   - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
 
 ## PhD 
+  - Fernanda Esthefane Garrides Oliveira  (2023) PhD in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
+  - Lucas Monteiro Bianchi (2023). PhD in Epidemiology, Fiocruz
   - Gisele Vieira Rocha  (2020) PhD in Computational and Systems Biology, Fiocruz (co supervisor: Mauricio Garcia)
   - Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
@@ -84,16 +84,18 @@ plot_coauthors(coauthor_network)
 
 ## MSc 
 
-  - Julia Novaes de Barros Peixoto (2018-2020) MSc student in Epidemiology, Fiocruz
-  - Camila Mattos Santos  (2018-2020) MSc student in Epidemiology, Fiocruz (co supervisor: Carolina Coutinho)
-  - Ana Carolina de Queirós e Feijó  (2017-2019) MSc in Epidemiology, Fiocruz (co supervisor Leticia Cardoso)
-  - Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
-  - Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)
-  - Daniel Stokes (2015-2016) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
-  - José Carlos Benfica (2014-2015) MSc in Epidemiogy, Fiocruz (Co supervisor Paula Luz)
-  - Mohema Duarte de Oliveira (2014-2015) MSc in Epidemiogy, Fiocruz
-  - Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
-  - Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)
+  - Guilherme dos Santos (2023), MSc in Statistics, UFRJ (supervisor Kelly Gonçalves)
+  - Léa de Freitas Amaral (2023). MSc in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
+  - Julia Novaes de Barros Peixoto (2020) MSc student in Epidemiology, Fiocruz
+  - Camila Mattos Santos  (2020) MSc student in Epidemiology, Fiocruz (co supervisor: Carolina Coutinho)
+  - Ana Carolina de Queirós e Feijó  (2019) MSc in Epidemiology, Fiocruz (co supervisor Leticia Cardoso)
+  - Fabio Jorge de Vasconcellos Júnior (2019) MSc in Systems and Computational Biology at Fiocruz. (Supervisor Floriano)
+  - Ana Carolina Cardoso Arruda Carvalho de Moura (2019) MSc in Epidemiogy at Fiocruz (Supervisor Claudia Codeco)
+  - Daniel Stokes (2016) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
+  - José Carlos Benfica (2015) MSc in Epidemiogy, Fiocruz (Co supervisor Paula Luz)
+  - Mohema Duarte de Oliveira (2015) MSc in Epidemiogy, Fiocruz
+  - Sebastian Genero (2014) MSc in Epidemiogy, Fiocruz (Co supervisor Marilia Carvalho)
+  - Gabriela Ricordi Bazin (2013) MSc in Child Health at UFF (Supervisor Claudete Cardoso)
 
 ## BSc 
 

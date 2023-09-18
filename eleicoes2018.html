@@ -13,7 +13,7 @@
 
 <title>eleicoes2018.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -343,7 +340,7 @@ class="math display">\[logit(\mu_t) = \alpha + \beta_t\]</span> onde
 class="math inline">\(\beta_t\)</span> segue um passeio aleatório de
 ordem 2.</p>
 <pre class="r"><code>library(INLA)</code></pre>
-<pre><code>## Warning: package &#39;INLA&#39; was built under R version 4.2.0</code></pre>
+<pre><code>## Warning: package &#39;INLA&#39; was built under R version 4.2.3</code></pre>
 <pre class="r"><code># Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
 seq_2turno &lt;- seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1)
 
@@ -370,8 +367,6 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = mode, ymin = `0.025quant`, ymax = `0.975quant`), color = &quot;red&quot;, fill = &quot;red&quot;, alpha = 0.2) +
   geom_line(data = Prediction, mapping = aes(x = Data, y = 1-mode), color = &quot;#E69F00&quot;) +
   geom_ribbon(data = Prediction, mapping = aes(x = Data, y = 1-mode, ymax = 1-`0.025quant`, ymin = 1-`0.975quant`), color = &quot;#E69F00&quot;, fill = &quot;#E69F00&quot;, alpha = 0.2)</code></pre>
-<pre><code>## Warning: Removed 22 row(s) containing missing values (geom_path).</code></pre>
-<pre><code>## Warning: Removed 22 row(s) containing missing values (geom_path).</code></pre>
 <p><img src="eleicoes2018_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 <div id="estimativas-de-votos-válidos-do-haddad" class="section level2">
@@ -380,12 +375,12 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
 <pre><code>## # A tibble: 6 × 7
 ##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
 ##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
-## 1 0.429 0.0135        0.402      0.429        0.455    NA 2018-10-23
-## 2 0.433 0.0141        0.405      0.433        0.461    NA 2018-10-24
-## 3 0.438 0.0154        0.407      0.438        0.468    NA 2018-10-25
-## 4 0.443 0.0174        0.408      0.443        0.477    NA 2018-10-26
-## 5 0.448 0.0204        0.408      0.447        0.488    NA 2018-10-27
-## 6 0.453 0.0243        0.406      0.452        0.502    NA 2018-10-28</code></pre>
+## 1 0.429 0.0130        0.403      0.429        0.455 0.429 2018-10-23
+## 2 0.433 0.0137        0.406      0.433        0.460 0.433 2018-10-24
+## 3 0.437 0.0150        0.408      0.437        0.467 0.437 2018-10-25
+## 4 0.442 0.0170        0.409      0.442        0.475 0.442 2018-10-26
+## 5 0.446 0.0197        0.408      0.446        0.486 0.446 2018-10-27
+## 6 0.451 0.0232        0.406      0.451        0.498 0.450 2018-10-28</code></pre>
 <p>Note que a última linha é o dia da eleição.</p>
 </div>
 

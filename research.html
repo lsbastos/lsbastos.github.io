@@ -13,7 +13,7 @@
 
 <title>Research areas</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -298,8 +295,8 @@ $(document).ready(function () {
 
 
 <ul>
-<li>Statistical modelling of infectious diseases, primarily
-mosquito-borne diseases (e.g. Dengue, Zika, Chikungunya, Malaria) and
+<li>Statistical modelling for infectious disease epidemiology, primarily
+mosquito-borne diseases (e.g. Dengue, zika, chikungunya, Malaria) and
 respiratory diseases (Influenza-like illness, COVID-19, and TB)
 <ul>
 <li>Spatial and Spatio-temporal models for counting data</li>
@@ -350,18 +347,23 @@ sources, let me know if you are interested.</li>
 <h1>Current supervision</h1>
 <div id="posdoc" class="section level2">
 <h2>Posdoc</h2>
+<ul>
+<li>Fernanda Esthefane Garrides Oliveira, (2023-) Long COVID in
+Manguinhos.</li>
+</ul>
 </div>
 <div id="phd" class="section level2">
 <h2>PhD</h2>
 <ul>
+<li>Ramilla (2023-) PhD in Epidemiology, Fiocruz (co supervisor: Eduardo
+Krempser)</li>
+<li>Léa de Freitas Amaral (2023-). PhD in Epidemiology, Fiocruz (co
+supervisor: Raquel Lana)</li>
 <li>Guillermo Barrenechea (2022-). PhD in Epidemiology, VigiFronteiras,
 Fiocruz</li>
 <li>Karla de Araújo Ferreira (2022-). PhD in Epidemiology, Fiocruz</li>
 <li>Camila Mattos Santos (2020-) PhD in Epidemiology, Fiocruz (co
 supervisor: Francisco I Bastos)</li>
-<li>Fernanda Esthefane Garrides Oliveira (2019-) PhD in Epidemiology,
-Fiocruz (co supervisor: Rosane Griep)</li>
-<li>Lucas Monteiro Bianchi (2019-). PhD in Epidemiology, Fiocruz</li>
 </ul>
 </div>
 <div id="msc" class="section level2">
@@ -369,12 +371,6 @@ Fiocruz (co supervisor: Rosane Griep)</li>
 <ul>
 <li>Tatiana Scheidt (2021-). MSc in Epidemiology, VigiFronteiras,
 Fiocruz (co supervisor: Paulo Victor)</li>
-<li>Guilherme dos Santos (2021-), MSc in Statistics, UFRJ (supervisor
-Kelly Gonçalves)</li>
-<li>Léa de Freitas Amaral (2021-). MSc in Epidemiology, Fiocruz (co
-supervisor: Raquel Lana)</li>
-<li>GUilherme dos Santos (2021-). MSc in Statistics, UFRJ (supervisor:
-Kelly Gonçalves)</li>
 </ul>
 </div>
 <div id="bsc" class="section level2">
@@ -394,7 +390,7 @@ p &lt;- get_publications(id)
 coauthor_network &lt;- get_coauthors(id, n_coauthors = 6)
 
 plot_coauthors(coauthor_network)</code></pre>
-<pre><code>## Warning: Removed 5 rows containing missing values (geom_point).</code></pre>
+<pre><code>## Warning: Removed 5 rows containing missing values (`geom_point()`).</code></pre>
 <p><img src="research_files/figure-html/AFF-1.png" width="120%" /></p>
 </div>
 <div id="past-supervision" class="section level1">
@@ -411,6 +407,9 @@ Bastos)</li>
 <div id="phd-1" class="section level2">
 <h2>PhD</h2>
 <ul>
+<li>Fernanda Esthefane Garrides Oliveira (2023) PhD in Epidemiology,
+Fiocruz (co supervisor: Rosane Griep)</li>
+<li>Lucas Monteiro Bianchi (2023). PhD in Epidemiology, Fiocruz</li>
 <li>Gisele Vieira Rocha (2020) PhD in Computational and Systems Biology,
 Fiocruz (co supervisor: Mauricio Garcia)</li>
 <li>Natália Santana Paiva (2018) PhD in Epidemiology at Fiocruz
@@ -426,26 +425,29 @@ Fiocruz (Supervisor Francisco Bastos)</li>
 <div id="msc-1" class="section level2">
 <h2>MSc</h2>
 <ul>
-<li>Julia Novaes de Barros Peixoto (2018-2020) MSc student in
-Epidemiology, Fiocruz</li>
-<li>Camila Mattos Santos (2018-2020) MSc student in Epidemiology,
-Fiocruz (co supervisor: Carolina Coutinho)</li>
-<li>Ana Carolina de Queirós e Feijó (2017-2019) MSc in Epidemiology,
-Fiocruz (co supervisor Leticia Cardoso)</li>
-<li>Fabio Jorge de Vasconcellos Júnior (2018-2019) MSc in Systems and
-Computational Biology at Fiocruz. (Supervisor Floriano)</li>
-<li>Ana Carolina Cardoso Arruda Carvalho de Moura (2018-2019) MSc in
-Epidemiogy at Fiocruz (Supervisor Claudia Codeco)</li>
-<li>Daniel Stokes (2015-2016) MSc in Epidemiogy, Fiocruz (Co supervisor
-Marilia Carvalho)</li>
-<li>José Carlos Benfica (2014-2015) MSc in Epidemiogy, Fiocruz (Co
-supervisor Paula Luz)</li>
-<li>Mohema Duarte de Oliveira (2014-2015) MSc in Epidemiogy,
+<li>Guilherme dos Santos (2023), MSc in Statistics, UFRJ (supervisor
+Kelly Gonçalves)</li>
+<li>Léa de Freitas Amaral (2023). MSc in Epidemiology, Fiocruz (co
+supervisor: Raquel Lana)</li>
+<li>Julia Novaes de Barros Peixoto (2020) MSc student in Epidemiology,
 Fiocruz</li>
-<li>Sebastian Genero (2013-2014) MSc in Epidemiogy, Fiocruz (Co
-supervisor Marilia Carvalho)</li>
-<li>Gabriela Ricordi Bazin (2012-2013) MSc in Child Health at UFF
-(Supervisor Claudete Cardoso)</li>
+<li>Camila Mattos Santos (2020) MSc student in Epidemiology, Fiocruz (co
+supervisor: Carolina Coutinho)</li>
+<li>Ana Carolina de Queirós e Feijó (2019) MSc in Epidemiology, Fiocruz
+(co supervisor Leticia Cardoso)</li>
+<li>Fabio Jorge de Vasconcellos Júnior (2019) MSc in Systems and
+Computational Biology at Fiocruz. (Supervisor Floriano)</li>
+<li>Ana Carolina Cardoso Arruda Carvalho de Moura (2019) MSc in
+Epidemiogy at Fiocruz (Supervisor Claudia Codeco)</li>
+<li>Daniel Stokes (2016) MSc in Epidemiogy, Fiocruz (Co supervisor
+Marilia Carvalho)</li>
+<li>José Carlos Benfica (2015) MSc in Epidemiogy, Fiocruz (Co supervisor
+Paula Luz)</li>
+<li>Mohema Duarte de Oliveira (2015) MSc in Epidemiogy, Fiocruz</li>
+<li>Sebastian Genero (2014) MSc in Epidemiogy, Fiocruz (Co supervisor
+Marilia Carvalho)</li>
+<li>Gabriela Ricordi Bazin (2013) MSc in Child Health at UFF (Supervisor
+Claudete Cardoso)</li>
 </ul>
 </div>
 <div id="bsc-1" class="section level2">
