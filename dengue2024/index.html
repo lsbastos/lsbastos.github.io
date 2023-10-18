@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Leo Bastos and InfoDengue team">
+
+<title>Previsão para casos suspeitos de dengue nas macro regiões de saúde do Brasil, 2024</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="macro_forecasting_files/libs/clipboard/clipboard.min.js"></script>
+<script src="macro_forecasting_files/libs/quarto-html/quarto.js"></script>
+<script src="macro_forecasting_files/libs/quarto-html/popper.min.js"></script>
+<script src="macro_forecasting_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="macro_forecasting_files/libs/quarto-html/anchor.min.js"></script>
+<link href="macro_forecasting_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="macro_forecasting_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="macro_forecasting_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="macro_forecasting_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="macro_forecasting_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#previsões-para-2024" id="toc-previsões-para-2024" class="nav-link active" data-scroll-target="#previsões-para-2024">Previsões para 2024</a></li>
+  <li><a href="#região-norte" id="toc-região-norte" class="nav-link" data-scroll-target="#região-norte">Região Norte</a>
+  <ul class="collapse">
+  <li><a href="#ac" id="toc-ac" class="nav-link" data-scroll-target="#ac">AC</a></li>
+  <li><a href="#am" id="toc-am" class="nav-link" data-scroll-target="#am">AM</a></li>
+  <li><a href="#ap" id="toc-ap" class="nav-link" data-scroll-target="#ap">AP</a></li>
+  <li><a href="#pa" id="toc-pa" class="nav-link" data-scroll-target="#pa">PA</a></li>
+  <li><a href="#ro" id="toc-ro" class="nav-link" data-scroll-target="#ro">RO</a></li>
+  <li><a href="#rr" id="toc-rr" class="nav-link" data-scroll-target="#rr">RR</a></li>
+  <li><a href="#to" id="toc-to" class="nav-link" data-scroll-target="#to">TO</a></li>
+  </ul></li>
+  <li><a href="#região-nordeste" id="toc-região-nordeste" class="nav-link" data-scroll-target="#região-nordeste">Região Nordeste</a>
+  <ul class="collapse">
+  <li><a href="#al" id="toc-al" class="nav-link" data-scroll-target="#al">AL</a></li>
+  <li><a href="#ba" id="toc-ba" class="nav-link" data-scroll-target="#ba">BA</a></li>
+  <li><a href="#ce" id="toc-ce" class="nav-link" data-scroll-target="#ce">CE</a></li>
+  <li><a href="#ma" id="toc-ma" class="nav-link" data-scroll-target="#ma">MA</a></li>
+  <li><a href="#pb" id="toc-pb" class="nav-link" data-scroll-target="#pb">PB</a></li>
+  <li><a href="#pe" id="toc-pe" class="nav-link" data-scroll-target="#pe">PE</a></li>
+  <li><a href="#pi" id="toc-pi" class="nav-link" data-scroll-target="#pi">PI</a></li>
+  <li><a href="#rn" id="toc-rn" class="nav-link" data-scroll-target="#rn">RN</a></li>
+  <li><a href="#se" id="toc-se" class="nav-link" data-scroll-target="#se">SE</a></li>
+  </ul></li>
+  <li><a href="#região-sudeste" id="toc-região-sudeste" class="nav-link" data-scroll-target="#região-sudeste">Região Sudeste</a>
+  <ul class="collapse">
+  <li><a href="#es" id="toc-es" class="nav-link" data-scroll-target="#es">ES</a></li>
+  <li><a href="#mg" id="toc-mg" class="nav-link" data-scroll-target="#mg">MG</a></li>
+  <li><a href="#rj" id="toc-rj" class="nav-link" data-scroll-target="#rj">RJ</a></li>
+  <li><a href="#sp" id="toc-sp" class="nav-link" data-scroll-target="#sp">SP</a></li>
+  </ul></li>
+  <li><a href="#região-centro-oeste" id="toc-região-centro-oeste" class="nav-link" data-scroll-target="#região-centro-oeste">Região Centro Oeste</a>
+  <ul class="collapse">
+  <li><a href="#df" id="toc-df" class="nav-link" data-scroll-target="#df">DF</a></li>
+  <li><a href="#go" id="toc-go" class="nav-link" data-scroll-target="#go">GO</a></li>
+  <li><a href="#ms" id="toc-ms" class="nav-link" data-scroll-target="#ms">MS</a></li>
+  <li><a href="#mt" id="toc-mt" class="nav-link" data-scroll-target="#mt">MT</a></li>
+  </ul></li>
+  <li><a href="#região-sul" id="toc-região-sul" class="nav-link" data-scroll-target="#região-sul">Região Sul</a>
+  <ul class="collapse">
+  <li><a href="#pr" id="toc-pr" class="nav-link" data-scroll-target="#pr">PR</a></li>
+  <li><a href="#rs" id="toc-rs" class="nav-link" data-scroll-target="#rs">RS</a></li>
+  <li><a href="#sc" id="toc-sc" class="nav-link" data-scroll-target="#sc">SC</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Previsão para casos suspeitos de dengue nas macro regiões de saúde do Brasil, 2024</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Leo Bastos and InfoDengue team </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="previsões-para-2024" class="level2">
+<h2 class="anchored" data-anchor-id="previsões-para-2024">Previsões para 2024</h2>
+<p>Previsões para os casos suspeitos de dengue, casos notificados, por semana epidemiológica nas 118 macro regioes do Brasil usando um modelo estatístico de previsão e dados a partir de 2015. A partir das previsões para as macrorregiões podemos reagregar e estimar totais de casos suspeitos de dengue por UF e para o Brasil.</p>
+<p>Em 2024, esperamos para o Brasil um total de 2211873 casos suspeitos de dengue, essa previsão varia de 837059 até 3586686 .</p>
+</section>
+<section id="região-norte" class="level2">
+<h2 class="anchored" data-anchor-id="região-norte">Região Norte</h2>
+<section id="ac" class="level3">
+<h3 class="anchored" data-anchor-id="ac">AC</h3>
+<p>AC tem uma incidência anual de 2275.16 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 846102 para o ano de 2024, espera-se um total de 19250 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</section>
+<section id="am" class="level3">
+<h3 class="anchored" data-anchor-id="am">AM</h3>
+<p>AM tem uma incidência anual de 356.69 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 4017370 para o ano de 2024, espera-se um total de 14330 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-3.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-4.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ap" class="level3">
+<h3 class="anchored" data-anchor-id="ap">AP</h3>
+<p>AP tem uma incidência anual de 313.15 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 744173 para o ano de 2024, espera-se um total de 2330 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-5.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pa" class="level3">
+<h3 class="anchored" data-anchor-id="pa">PA</h3>
+<p>PA tem uma incidência anual de 184.25 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 8177899 para o ano de 2024, espera-se um total de 15068 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-6.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-7.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-8.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-9.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ro" class="level3">
+<h3 class="anchored" data-anchor-id="ro">RO</h3>
+<p>RO tem uma incidência anual de 708.15 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 1584115 para o ano de 2024, espera-se um total de 11218 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-10.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-11.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rr" class="level3">
+<h3 class="anchored" data-anchor-id="rr">RR</h3>
+<p>RR tem uma incidência anual de 490.37 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 667275 para o ano de 2024, espera-se um total de 3272 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-12.png" class="img-fluid" width="672"></p>
+</section>
+<section id="to" class="level3">
+<h3 class="anchored" data-anchor-id="to">TO</h3>
+<p>TO tem uma incidência anual de 1765.75 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 1532797 para o ano de 2024, espera-se um total de 27065 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-13.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-3-14.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-nordeste" class="level2">
+<h2 class="anchored" data-anchor-id="região-nordeste">Região Nordeste</h2>
+<section id="al" class="level3">
+<h3 class="anchored" data-anchor-id="al">AL</h3>
+<p>AL tem uma incidência anual de 783.84 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 3128680 para o ano de 2024, espera-se um total de 24524 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ba" class="level3">
+<h3 class="anchored" data-anchor-id="ba">BA</h3>
+<p>BA tem uma incidência anual de 564.2 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 14156341 para o ano de 2024, espera-se um total de 79870 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-4.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-6.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-10.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-11.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ce" class="level3">
+<h3 class="anchored" data-anchor-id="ce">CE</h3>
+<p>CE tem uma incidência anual de 975.88 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 8848238 para o ano de 2024, espera-se um total de 86348 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-15.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-16.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ma" class="level3">
+<h3 class="anchored" data-anchor-id="ma">MA</h3>
+<p>MA tem uma incidência anual de 150.32 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 6808548 para o ano de 2024, espera-se um total de 10234 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-17.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-18.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-19.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pb" class="level3">
+<h3 class="anchored" data-anchor-id="pb">PB</h3>
+<p>PB tem uma incidência anual de 695.78 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 4009157 para o ano de 2024, espera-se um total de 27895 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-20.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-21.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-22.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pe" class="level3">
+<h3 class="anchored" data-anchor-id="pe">PE</h3>
+<p>PE tem uma incidência anual de 919.69 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 9101772 para o ano de 2024, espera-se um total de 83708 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-23.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-24.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-25.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-26.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pi" class="level3">
+<h3 class="anchored" data-anchor-id="pi">PI</h3>
+<p>PI tem uma incidência anual de 335.07 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 3294338 para o ano de 2024, espera-se um total de 11038 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-27.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-28.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-29.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-30.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rn" class="level3">
+<h3 class="anchored" data-anchor-id="rn">RN</h3>
+<p>RN tem uma incidência anual de 953.96 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 3324803 para o ano de 2024, espera-se um total de 31717 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-31.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-4-32.png" class="img-fluid" width="672"></p>
+</section>
+<section id="se" class="level3">
+<h3 class="anchored" data-anchor-id="se">SE</h3>
+<p>SE tem uma incidência anual de 621.89 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 2233150 para o ano de 2024, espera-se um total de 13888 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-4-33.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-sudeste" class="level2">
+<h2 class="anchored" data-anchor-id="região-sudeste">Região Sudeste</h2>
+<section id="es" class="level3">
+<h3 class="anchored" data-anchor-id="es">ES</h3>
+<p>ES tem uma incidência anual de 1657.87 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 3886572 para o ano de 2024, espera-se um total de 64434 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-4.png" class="img-fluid" width="672"></p>
+</section>
+<section id="mg" class="level3">
+<h3 class="anchored" data-anchor-id="mg">MG</h3>
+<p>MG tem uma incidência anual de 1529.89 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 20695631 para o ano de 2024, espera-se um total de 316621 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-5-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-6.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-10.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-11.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-15.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-16.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-17.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-18.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rj" class="level3">
+<h3 class="anchored" data-anchor-id="rj">RJ</h3>
+<p>RJ tem uma incidência anual de 359.21 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 16065287 para o ano de 2024, espera-se um total de 57707 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-5-19.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-20.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-21.png" class="img-fluid" width="672"></p>
+</section>
+<section id="sp" class="level3">
+<h3 class="anchored" data-anchor-id="sp">SP</h3>
+<p>SP tem uma incidência anual de 1354.53 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 44946831 para o ano de 2024, espera-se um total de 608820 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-5-22.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-23.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-24.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-25.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-26.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-27.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-28.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-29.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-30.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-31.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-32.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-33.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-34.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-35.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-36.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-37.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-5-38.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-centro-oeste" class="level2">
+<h2 class="anchored" data-anchor-id="região-centro-oeste">Região Centro Oeste</h2>
+<section id="df" class="level3">
+<h3 class="anchored" data-anchor-id="df">DF</h3>
+<p>DF tem uma incidência anual de 1775.65 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 2858219 para o ano de 2024, espera-se um total de 50752 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</section>
+<section id="go" class="level3">
+<h3 class="anchored" data-anchor-id="go">GO</h3>
+<p>GO tem uma incidência anual de 2266.98 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 7230470 para o ano de 2024, espera-se um total de 163913 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-4.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-6.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ms" class="level3">
+<h3 class="anchored" data-anchor-id="ms">MS</h3>
+<p>MS tem uma incidência anual de 2570.92 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 2801548 para o ano de 2024, espera-se um total de 72025 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-6-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-10.png" class="img-fluid" width="672"></p>
+</section>
+<section id="mt" class="level3">
+<h3 class="anchored" data-anchor-id="mt">MT</h3>
+<p>MT tem uma incidência anual de 1285.49 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 3762762 para o ano de 2024, espera-se um total de 48370 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-6-11.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-6-15.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-sul" class="level2">
+<h2 class="anchored" data-anchor-id="região-sul">Região Sul</h2>
+<section id="pr" class="level3">
+<h3 class="anchored" data-anchor-id="pr">PR</h3>
+<p>PR tem uma incidência anual de 1796.88 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 11609664 para o ano de 2024, espera-se um total de 208611 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-2.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-4.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rs" class="level3">
+<h3 class="anchored" data-anchor-id="rs">RS</h3>
+<p>RS tem uma incidência anual de 290.16 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 10908434 para o ano de 2024, espera-se um total de 31652 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-7-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-6.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-10.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-11.png" class="img-fluid" width="672"></p>
+</section>
+<section id="sc" class="level3">
+<h3 class="anchored" data-anchor-id="sc">SC</h3>
+<p>SC tem uma incidência anual de 1629.68 casos suspeitos de dengue por 100 mil habitantes. Com uma população estimada de 7805936 para o ano de 2024, espera-se um total de 127212 casos de dengue a serem notificados em 2024.</p>
+<p><img src="macro_forecasting_files/figure-html/unnamed-chunk-7-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-15.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-16.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-17.png" class="img-fluid" width="672"> <img src="macro_forecasting_files/figure-html/unnamed-chunk-7-18.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
