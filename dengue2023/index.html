@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Leo Bastos and InfoDengue team">
+
+<title>Previsão para casos suspeitos de dengue nas macro regiões de saúde do Brasil, 2023</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="macro_forecasting_2023_files/libs/clipboard/clipboard.min.js"></script>
+<script src="macro_forecasting_2023_files/libs/quarto-html/quarto.js"></script>
+<script src="macro_forecasting_2023_files/libs/quarto-html/popper.min.js"></script>
+<script src="macro_forecasting_2023_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="macro_forecasting_2023_files/libs/quarto-html/anchor.min.js"></script>
+<link href="macro_forecasting_2023_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="macro_forecasting_2023_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="macro_forecasting_2023_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="macro_forecasting_2023_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="macro_forecasting_2023_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#previsões-para-2023" id="toc-previsões-para-2023" class="nav-link active" data-scroll-target="#previsões-para-2023">Previsões para 2023</a></li>
+  <li><a href="#brasil" id="toc-brasil" class="nav-link" data-scroll-target="#brasil">Brasil</a></li>
+  <li><a href="#região-norte" id="toc-região-norte" class="nav-link" data-scroll-target="#região-norte">Região Norte</a>
+  <ul class="collapse">
+  <li><a href="#ac" id="toc-ac" class="nav-link" data-scroll-target="#ac">AC</a></li>
+  <li><a href="#am" id="toc-am" class="nav-link" data-scroll-target="#am">AM</a></li>
+  <li><a href="#ap" id="toc-ap" class="nav-link" data-scroll-target="#ap">AP</a></li>
+  <li><a href="#pa" id="toc-pa" class="nav-link" data-scroll-target="#pa">PA</a></li>
+  <li><a href="#ro" id="toc-ro" class="nav-link" data-scroll-target="#ro">RO</a></li>
+  <li><a href="#rr" id="toc-rr" class="nav-link" data-scroll-target="#rr">RR</a></li>
+  <li><a href="#to" id="toc-to" class="nav-link" data-scroll-target="#to">TO</a></li>
+  </ul></li>
+  <li><a href="#região-nordeste" id="toc-região-nordeste" class="nav-link" data-scroll-target="#região-nordeste">Região Nordeste</a>
+  <ul class="collapse">
+  <li><a href="#al" id="toc-al" class="nav-link" data-scroll-target="#al">AL</a></li>
+  <li><a href="#ba" id="toc-ba" class="nav-link" data-scroll-target="#ba">BA</a></li>
+  <li><a href="#ce" id="toc-ce" class="nav-link" data-scroll-target="#ce">CE</a></li>
+  <li><a href="#ma" id="toc-ma" class="nav-link" data-scroll-target="#ma">MA</a></li>
+  <li><a href="#pb" id="toc-pb" class="nav-link" data-scroll-target="#pb">PB</a></li>
+  <li><a href="#pe" id="toc-pe" class="nav-link" data-scroll-target="#pe">PE</a></li>
+  <li><a href="#pi" id="toc-pi" class="nav-link" data-scroll-target="#pi">PI</a></li>
+  <li><a href="#rn" id="toc-rn" class="nav-link" data-scroll-target="#rn">RN</a></li>
+  <li><a href="#se" id="toc-se" class="nav-link" data-scroll-target="#se">SE</a></li>
+  </ul></li>
+  <li><a href="#região-sudeste" id="toc-região-sudeste" class="nav-link" data-scroll-target="#região-sudeste">Região Sudeste</a>
+  <ul class="collapse">
+  <li><a href="#es" id="toc-es" class="nav-link" data-scroll-target="#es">ES</a></li>
+  <li><a href="#mg" id="toc-mg" class="nav-link" data-scroll-target="#mg">MG</a></li>
+  <li><a href="#rj" id="toc-rj" class="nav-link" data-scroll-target="#rj">RJ</a></li>
+  <li><a href="#sp" id="toc-sp" class="nav-link" data-scroll-target="#sp">SP</a></li>
+  </ul></li>
+  <li><a href="#região-centro-oeste" id="toc-região-centro-oeste" class="nav-link" data-scroll-target="#região-centro-oeste">Região Centro Oeste</a>
+  <ul class="collapse">
+  <li><a href="#df" id="toc-df" class="nav-link" data-scroll-target="#df">DF</a></li>
+  <li><a href="#go" id="toc-go" class="nav-link" data-scroll-target="#go">GO</a></li>
+  <li><a href="#ms" id="toc-ms" class="nav-link" data-scroll-target="#ms">MS</a></li>
+  <li><a href="#mt" id="toc-mt" class="nav-link" data-scroll-target="#mt">MT</a></li>
+  </ul></li>
+  <li><a href="#região-sul" id="toc-região-sul" class="nav-link" data-scroll-target="#região-sul">Região Sul</a>
+  <ul class="collapse">
+  <li><a href="#pr" id="toc-pr" class="nav-link" data-scroll-target="#pr">PR</a></li>
+  <li><a href="#rs" id="toc-rs" class="nav-link" data-scroll-target="#rs">RS</a></li>
+  <li><a href="#sc" id="toc-sc" class="nav-link" data-scroll-target="#sc">SC</a></li>
+  </ul></li>
+  <li><a href="#totais-estimados-para-brasil-e-ufs" id="toc-totais-estimados-para-brasil-e-ufs" class="nav-link" data-scroll-target="#totais-estimados-para-brasil-e-ufs">Totais estimados para Brasil e UFs</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Previsão para casos suspeitos de dengue nas macro regiões de saúde do Brasil, 2023</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Leo Bastos and InfoDengue team </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="previsões-para-2023" class="level2">
+<h2 class="anchored" data-anchor-id="previsões-para-2023">Previsões para 2023</h2>
+<p>Previsões para os casos suspeitos (casos notificados no SINAN) de dengue por semana epidemiológica nas 118 macro regioes do Brasil usando um modelo estatístico de previsão e dados a partir de 2015 até 2022.</p>
+<p>A partir das previsões para as macrorregiões podemos reagregar e estimar totais de casos suspeitos de dengue por UF e para o Brasil.</p>
+</section>
+<section id="brasil" class="level2">
+<h2 class="anchored" data-anchor-id="brasil">Brasil</h2>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<p>Em 2023, o modelo estimou para o Brasil um total de 1806046 casos suspeitos de dengue, podendo variar de 1349642 até 4075972 casos. E o total de casos notificados foi de 2749200 de casos.</p>
+</section>
+<section id="região-norte" class="level2">
+<h2 class="anchored" data-anchor-id="região-norte">Região Norte</h2>
+<section id="ac" class="level3">
+<h3 class="anchored" data-anchor-id="ac">AC</h3>
+<p>AC teve uma incidência anual de prevista de 1690.5 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 14167 casos. Observou-se um total de 15510 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</section>
+<section id="am" class="level3">
+<h3 class="anchored" data-anchor-id="am">AM</h3>
+<p>AM teve uma incidência anual de prevista de 286.78 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 11412 casos. Observou-se um total de 14110.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-3.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-4.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ap" class="level3">
+<h3 class="anchored" data-anchor-id="ap">AP</h3>
+<p>AP teve uma incidência anual de prevista de 185 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 1367 casos. Observou-se um total de 2133 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-5.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pa" class="level3">
+<h3 class="anchored" data-anchor-id="pa">PA</h3>
+<p>PA teve uma incidência anual de prevista de 170.52 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 13872 casos. Observou-se um total de 12444 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-6.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-7.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-8.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-9.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ro" class="level3">
+<h3 class="anchored" data-anchor-id="ro">RO</h3>
+<p>RO teve uma incidência anual de prevista de 462.27 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 7316 casos. Observou-se um total de 18711.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-10.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-11.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rr" class="level3">
+<h3 class="anchored" data-anchor-id="rr">RR</h3>
+<p>RR teve uma incidência anual de prevista de 428 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 2790 casos. Observou-se um total de 2585.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-12.png" class="img-fluid" width="672"></p>
+</section>
+<section id="to" class="level3">
+<h3 class="anchored" data-anchor-id="to">TO</h3>
+<p>TO teve uma incidência anual de prevista de 1370.11 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 20855 casos. Observou-se um total de 22839 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-13.png" class="img-fluid" width="672"></p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-3-14.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-nordeste" class="level2">
+<h2 class="anchored" data-anchor-id="região-nordeste">Região Nordeste</h2>
+<section id="al" class="level3">
+<h3 class="anchored" data-anchor-id="al">AL</h3>
+<p>AL teve uma incidência anual de prevista de 458.63 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 14346 casos. Observou-se um total de 5336 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ba" class="level3">
+<h3 class="anchored" data-anchor-id="ba">BA</h3>
+<p>BA teve uma incidência anual de prevista de 442.99 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 62667 casos. Observou-se um total de 72116.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-4.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-6.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-10.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-11.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ce" class="level3">
+<h3 class="anchored" data-anchor-id="ce">CE</h3>
+<p>CE teve uma incidência anual de prevista de 832 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 73382 casos. Observou-se um total de 37148 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-15.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-16.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ma" class="level3">
+<h3 class="anchored" data-anchor-id="ma">MA</h3>
+<p>MA teve uma incidência anual de prevista de 124.32 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 8443 casos. Observou-se um total de 8019.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-17.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-18.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-19.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pb" class="level3">
+<h3 class="anchored" data-anchor-id="pb">PB</h3>
+<p>PB teve uma incidência anual de prevista de 600.5 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 23971 casos. Observou-se um total de 9222 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-20.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-21.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-22.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pe" class="level3">
+<h3 class="anchored" data-anchor-id="pe">PE</h3>
+<p>PE teve uma incidência anual de prevista de 729.07 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 66200 casos. Observou-se um total de 20977 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-23.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-24.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-25.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-26.png" class="img-fluid" width="672"></p>
+</section>
+<section id="pi" class="level3">
+<h3 class="anchored" data-anchor-id="pi">PI</h3>
+<p>PI teve uma incidência anual de prevista de 291.09 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 9553 casos. Observou-se um total de 9404 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-27.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-28.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-29.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-30.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rn" class="level3">
+<h3 class="anchored" data-anchor-id="rn">RN</h3>
+<p>RN teve uma incidência anual de prevista de 825.32 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 27348 casos. Observou-se um total de 10158.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-31.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-32.png" class="img-fluid" width="672"></p>
+</section>
+<section id="se" class="level3">
+<h3 class="anchored" data-anchor-id="se">SE</h3>
+<p>SE teve uma incidência anual de prevista de 254 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 5642 casos. Observou-se um total de 9548 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-4-33.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-sudeste" class="level2">
+<h2 class="anchored" data-anchor-id="região-sudeste">Região Sudeste</h2>
+<section id="es" class="level3">
+<h3 class="anchored" data-anchor-id="es">ES</h3>
+<p>ES teve uma incidência anual de prevista de 912.31 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 35215 casos. Observou-se um total de 163189 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-4.png" class="img-fluid" width="672"></p>
+</section>
+<section id="mg" class="level3">
+<h3 class="anchored" data-anchor-id="mg">MG</h3>
+<p>MG teve uma incidência anual de prevista de 1057.73 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 218073 casos. Observou-se um total de 634047.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-6.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-10.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-11.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-15.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-16.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-17.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-18.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rj" class="level3">
+<h3 class="anchored" data-anchor-id="rj">RJ</h3>
+<p>RJ teve uma incidência anual de prevista de 207.14 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 33266 casos. Observou-se um total de 79331.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-19.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-20.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-21.png" class="img-fluid" width="672"></p>
+</section>
+<section id="sp" class="level3">
+<h3 class="anchored" data-anchor-id="sp">SP</h3>
+<p>SP teve uma incidência anual de prevista de 1115.29 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 498354 casos. Observou-se um total de 697318.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-22.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-23.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-24.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-25.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-26.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-27.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-28.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-29.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-30.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-31.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-32.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-33.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-34.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-35.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-36.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-37.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-5-38.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-centro-oeste" class="level2">
+<h2 class="anchored" data-anchor-id="região-centro-oeste">Região Centro Oeste</h2>
+<section id="df" class="level3">
+<h3 class="anchored" data-anchor-id="df">DF</h3>
+<p>DF teve uma incidência anual de prevista de 897.5 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 25468 casos. Observou-se um total de 36889.5 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</section>
+<section id="go" class="level3">
+<h3 class="anchored" data-anchor-id="go">GO</h3>
+<p>GO teve uma incidência anual de prevista de 2202.39 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 157313 casos. Observou-se um total de 99699 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-4.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-6.png" class="img-fluid" width="672"></p>
+</section>
+<section id="ms" class="level3">
+<h3 class="anchored" data-anchor-id="ms">MS</h3>
+<p>MS teve uma incidência anual de prevista de 1654.79 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 45943 casos. Observou-se um total de 95156 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-10.png" class="img-fluid" width="672"></p>
+</section>
+<section id="mt" class="level3">
+<h3 class="anchored" data-anchor-id="mt">MT</h3>
+<p>MT teve uma incidência anual de prevista de 896.92 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 33283 casos. Observou-se um total de 42350 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-11.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-6-15.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="região-sul" class="level2">
+<h2 class="anchored" data-anchor-id="região-sul">Região Sul</h2>
+<section id="pr" class="level3">
+<h3 class="anchored" data-anchor-id="pr">PR</h3>
+<p>PR teve uma incidência anual de prevista de 1195.49 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 137797 casos. Observou-se um total de 327737 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-2.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-3.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-4.png" class="img-fluid" width="672"></p>
+</section>
+<section id="rs" class="level3">
+<h3 class="anchored" data-anchor-id="rs">RS</h3>
+<p>RS teve uma incidência anual de prevista de 84.1 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 9161 casos. Observou-se um total de 64106 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-5.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-6.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-7.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-8.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-9.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-10.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-11.png" class="img-fluid" width="672"></p>
+</section>
+<section id="sc" class="level3">
+<h3 class="anchored" data-anchor-id="sc">SC</h3>
+<p>SC teve uma incidência anual de prevista de 253.02 casos suspeitos de dengue por 100 mil habitantes. Com um total estimado de 19469 casos. Observou-se um total de 239113 casos.</p>
+<p><img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-12.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-13.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-14.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-15.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-16.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-17.png" class="img-fluid" width="672"> <img src="macro_forecasting_2023_files/figure-html/unnamed-chunk-7-18.png" class="img-fluid" width="672"></p>
+</section>
+</section>
+<section id="totais-estimados-para-brasil-e-ufs" class="level2">
+<h2 class="anchored" data-anchor-id="totais-estimados-para-brasil-e-ufs">Totais estimados para Brasil e UFs</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-br_uf" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;1: Total de casos e incidência prevista para 2023</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 9%">
+<col style="width: 20%">
+<col style="width: 9%">
+<col style="width: 13%">
+<col style="width: 23%">
+<col style="width: 9%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">UF</th>
+<th style="text-align: right;">Casos</th>
+<th style="text-align: right;">Mediana de casos</th>
+<th style="text-align: right;">LI</th>
+<th style="text-align: right;">LS</th>
+<th style="text-align: right;">Incidência mediana</th>
+<th style="text-align: right;">LI</th>
+<th style="text-align: right;">LS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BR</td>
+<td style="text-align: right;">2749200</td>
+<td style="text-align: right;">1806046</td>
+<td style="text-align: right;">1349642</td>
+<td style="text-align: right;">4075972.36</td>
+<td style="text-align: right;">885.21</td>
+<td style="text-align: right;">661.51</td>
+<td style="text-align: right;">1997.78</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AC</td>
+<td style="text-align: right;">15510</td>
+<td style="text-align: right;">14167</td>
+<td style="text-align: right;">3175</td>
+<td style="text-align: right;">57817.89</td>
+<td style="text-align: right;">1690.50</td>
+<td style="text-align: right;">378.90</td>
+<td style="text-align: right;">6898.97</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AL</td>
+<td style="text-align: right;">5336</td>
+<td style="text-align: right;">14346</td>
+<td style="text-align: right;">2120</td>
+<td style="text-align: right;">140435.87</td>
+<td style="text-align: right;">458.63</td>
+<td style="text-align: right;">67.79</td>
+<td style="text-align: right;">4489.51</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AM</td>
+<td style="text-align: right;">14110</td>
+<td style="text-align: right;">11412</td>
+<td style="text-align: right;">4873</td>
+<td style="text-align: right;">32345.50</td>
+<td style="text-align: right;">286.78</td>
+<td style="text-align: right;">122.45</td>
+<td style="text-align: right;">812.85</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AP</td>
+<td style="text-align: right;">2133</td>
+<td style="text-align: right;">1367</td>
+<td style="text-align: right;">177</td>
+<td style="text-align: right;">12844.35</td>
+<td style="text-align: right;">185.00</td>
+<td style="text-align: right;">24.00</td>
+<td style="text-align: right;">1738.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BA</td>
+<td style="text-align: right;">72116</td>
+<td style="text-align: right;">62667</td>
+<td style="text-align: right;">29542</td>
+<td style="text-align: right;">216549.17</td>
+<td style="text-align: right;">442.99</td>
+<td style="text-align: right;">208.83</td>
+<td style="text-align: right;">1530.77</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CE</td>
+<td style="text-align: right;">37148</td>
+<td style="text-align: right;">73382</td>
+<td style="text-align: right;">30629</td>
+<td style="text-align: right;">319923.55</td>
+<td style="text-align: right;">832.00</td>
+<td style="text-align: right;">347.26</td>
+<td style="text-align: right;">3627.27</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DF</td>
+<td style="text-align: right;">36890</td>
+<td style="text-align: right;">25468</td>
+<td style="text-align: right;">2609</td>
+<td style="text-align: right;">250342.63</td>
+<td style="text-align: right;">897.50</td>
+<td style="text-align: right;">91.95</td>
+<td style="text-align: right;">8822.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ES</td>
+<td style="text-align: right;">163189</td>
+<td style="text-align: right;">35215</td>
+<td style="text-align: right;">14716</td>
+<td style="text-align: right;">132685.52</td>
+<td style="text-align: right;">912.31</td>
+<td style="text-align: right;">381.25</td>
+<td style="text-align: right;">3437.42</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GO</td>
+<td style="text-align: right;">99699</td>
+<td style="text-align: right;">157313</td>
+<td style="text-align: right;">93066</td>
+<td style="text-align: right;">317267.74</td>
+<td style="text-align: right;">2202.39</td>
+<td style="text-align: right;">1302.92</td>
+<td style="text-align: right;">4441.76</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MA</td>
+<td style="text-align: right;">8020</td>
+<td style="text-align: right;">8443</td>
+<td style="text-align: right;">3065</td>
+<td style="text-align: right;">31898.73</td>
+<td style="text-align: right;">124.32</td>
+<td style="text-align: right;">45.13</td>
+<td style="text-align: right;">469.66</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MG</td>
+<td style="text-align: right;">634048</td>
+<td style="text-align: right;">218073</td>
+<td style="text-align: right;">118161</td>
+<td style="text-align: right;">671622.44</td>
+<td style="text-align: right;">1057.73</td>
+<td style="text-align: right;">573.12</td>
+<td style="text-align: right;">3257.59</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS</td>
+<td style="text-align: right;">95156</td>
+<td style="text-align: right;">45943</td>
+<td style="text-align: right;">15216</td>
+<td style="text-align: right;">202547.58</td>
+<td style="text-align: right;">1654.79</td>
+<td style="text-align: right;">548.06</td>
+<td style="text-align: right;">7295.42</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MT</td>
+<td style="text-align: right;">42350</td>
+<td style="text-align: right;">33283</td>
+<td style="text-align: right;">13929</td>
+<td style="text-align: right;">157238.58</td>
+<td style="text-align: right;">896.92</td>
+<td style="text-align: right;">375.37</td>
+<td style="text-align: right;">4237.34</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PA</td>
+<td style="text-align: right;">12444</td>
+<td style="text-align: right;">13872</td>
+<td style="text-align: right;">7295</td>
+<td style="text-align: right;">32835.14</td>
+<td style="text-align: right;">170.52</td>
+<td style="text-align: right;">89.67</td>
+<td style="text-align: right;">403.61</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PB</td>
+<td style="text-align: right;">9222</td>
+<td style="text-align: right;">23971</td>
+<td style="text-align: right;">7795</td>
+<td style="text-align: right;">96919.43</td>
+<td style="text-align: right;">600.50</td>
+<td style="text-align: right;">195.28</td>
+<td style="text-align: right;">2427.95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PE</td>
+<td style="text-align: right;">20977</td>
+<td style="text-align: right;">66200</td>
+<td style="text-align: right;">20547</td>
+<td style="text-align: right;">315875.00</td>
+<td style="text-align: right;">729.07</td>
+<td style="text-align: right;">226.29</td>
+<td style="text-align: right;">3478.81</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PI</td>
+<td style="text-align: right;">9404</td>
+<td style="text-align: right;">9553</td>
+<td style="text-align: right;">4207</td>
+<td style="text-align: right;">28462.41</td>
+<td style="text-align: right;">291.09</td>
+<td style="text-align: right;">128.19</td>
+<td style="text-align: right;">867.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PR</td>
+<td style="text-align: right;">327737</td>
+<td style="text-align: right;">137797</td>
+<td style="text-align: right;">48282</td>
+<td style="text-align: right;">569716.39</td>
+<td style="text-align: right;">1195.49</td>
+<td style="text-align: right;">418.88</td>
+<td style="text-align: right;">4942.70</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RJ</td>
+<td style="text-align: right;">79332</td>
+<td style="text-align: right;">33266</td>
+<td style="text-align: right;">10147</td>
+<td style="text-align: right;">162611.47</td>
+<td style="text-align: right;">207.14</td>
+<td style="text-align: right;">63.18</td>
+<td style="text-align: right;">1012.53</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RN</td>
+<td style="text-align: right;">10158</td>
+<td style="text-align: right;">27348</td>
+<td style="text-align: right;">10133</td>
+<td style="text-align: right;">105304.01</td>
+<td style="text-align: right;">825.32</td>
+<td style="text-align: right;">305.80</td>
+<td style="text-align: right;">3177.93</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RO</td>
+<td style="text-align: right;">18712</td>
+<td style="text-align: right;">7316</td>
+<td style="text-align: right;">2199</td>
+<td style="text-align: right;">29650.31</td>
+<td style="text-align: right;">462.27</td>
+<td style="text-align: right;">138.93</td>
+<td style="text-align: right;">1873.55</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RR</td>
+<td style="text-align: right;">2586</td>
+<td style="text-align: right;">2790</td>
+<td style="text-align: right;">873</td>
+<td style="text-align: right;">8430.70</td>
+<td style="text-align: right;">428.00</td>
+<td style="text-align: right;">133.98</td>
+<td style="text-align: right;">1293.47</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RS</td>
+<td style="text-align: right;">64106</td>
+<td style="text-align: right;">9161</td>
+<td style="text-align: right;">2586</td>
+<td style="text-align: right;">66246.04</td>
+<td style="text-align: right;">84.10</td>
+<td style="text-align: right;">23.74</td>
+<td style="text-align: right;">608.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SC</td>
+<td style="text-align: right;">239113</td>
+<td style="text-align: right;">19469</td>
+<td style="text-align: right;">5470</td>
+<td style="text-align: right;">201718.25</td>
+<td style="text-align: right;">253.02</td>
+<td style="text-align: right;">71.08</td>
+<td style="text-align: right;">2621.53</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SE</td>
+<td style="text-align: right;">9548</td>
+<td style="text-align: right;">5642</td>
+<td style="text-align: right;">355</td>
+<td style="text-align: right;">71773.55</td>
+<td style="text-align: right;">254.00</td>
+<td style="text-align: right;">16.00</td>
+<td style="text-align: right;">3231.07</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SP</td>
+<td style="text-align: right;">697318</td>
+<td style="text-align: right;">498354</td>
+<td style="text-align: right;">284073</td>
+<td style="text-align: right;">1547576.64</td>
+<td style="text-align: right;">1115.29</td>
+<td style="text-align: right;">635.74</td>
+<td style="text-align: right;">3463.41</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TO</td>
+<td style="text-align: right;">22839</td>
+<td style="text-align: right;">20855</td>
+<td style="text-align: right;">6032</td>
+<td style="text-align: right;">88762.72</td>
+<td style="text-align: right;">1370.11</td>
+<td style="text-align: right;">396.28</td>
+<td style="text-align: right;">5831.49</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
