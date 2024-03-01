@@ -2,20 +2,22 @@
 title: "Research areas"
 ---
 
+I am a (Bayesian) statistician by formation, so I naturally prefer working on developing statistical methods for applied problems. But since I join a public health institute I have done analyses on several areas of health to find the area I enjoy the most which is epidemiology of infectious diseases.
 
-- Statistical modelling for infectious disease epidemiology, primarily mosquito-borne diseases (e.g. Dengue, zika, chikungunya, Malaria) and respiratory diseases (Influenza-like illness, COVID-19, and TB)
-    - Spatial and Spatio-temporal models for counting data
-    - Nowcasting and forecasting models for epidemics
-    - Model-based approach for defining epidemic thresholds
-- Inference in hard-to-reach (H2R) populations
-    - Inference for Respondent-driven sampling data
-    - Estimating population size using Network scale-up methods
-    - Statistical models for sexually transmitted infections (e.g. HIV, HCV, syphilis) in H2R populations
-        - Bayesian multilevel modelling (multilevel logistic regression)
-- Statistical models for noncomunicable diseases
-    - Statistical models for cohorts, in particular in collaboration with the ELSA-Brasil study
-    - Bayesian inference for complex samples in secondary data sources 
+## Funded projects
 
+  - Disease surveillance:
+    - Infodengue: https://info.dengue.mat.br
+    - Infogripe: http://info.gripe.fiocruz.br
+    - Mosqlimate: https://mosqlimate.org/
+    - Clima e Ciencia de Dados:
+  - Post-COVID 
+    - INOVA posdoc
+    - Coortes de pacientes com Covid-19 e seus contactantes. 
+  
+## Past funded projects
+
+  - MAVE
 
 ## Oportunities
 
@@ -33,17 +35,33 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
   
 ## PhD
 
-  - Ramilla (2023-) PhD in Epidemiology, Fiocruz (co supervisor: Eduardo Krempser)
+  - Ramilla de Alencar Sousa (2023-) PhD in Epidemiology, Fiocruz (co supervisor: Eduardo Krempser)
+  - Raquel de Sousa Martins (2023-) PhD in Computational and Systems Biology, Fiocruz.
+  - Rowan Morris (2023-) PhD in Statistics, Queens Mary University of London (supervisor: Silvia Liverani).
   - Léa de Freitas Amaral (2023-). PhD in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
   - Guillermo Barrenechea (2022-). PhD in Epidemiology, VigiFronteiras, Fiocruz
   - Karla de Araújo Ferreira (2022-). PhD in Epidemiology, Fiocruz
   - Camila Mattos Santos  (2020-) PhD in Epidemiology, Fiocruz (co supervisor: Francisco I Bastos)
 
 ## MSc 
-  - Tatiana Scheidt (2021-). MSc in Epidemiology, VigiFronteiras, Fiocruz (co supervisor: Paulo Victor)
 
 ## BSc
 
+
+# Past students
+
+## Posdoc
+  - Raquel Lana
+  - Marcelo Gomes
+  
+## PhD
+  - 
+  
+## MsC
+
+  - Tatiana Scheidt (2021-2023). MSc in Epidemiology, VigiFronteiras, Fiocruz (co supervisor: Paulo Victor)
+
+## BSc
 
 
 # Google scholar colaborarion network

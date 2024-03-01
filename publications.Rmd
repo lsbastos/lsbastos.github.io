@@ -1,36 +1,130 @@
 ---
-title: "Selected publications"
+title: "Publications"
 
 ---
 
-For the full list check my CVs, for instance my [Orcid page](https://orcid.org/0000-0002-1406-0122){target="_blank"} or [Lattes page](http://lattes.cnpq.br/5241799121437269){target="_blank"}.
+In summary, I have published a total of 85 papers in peer-reviewed journals, one book, and seven book chapters in 4 different books.
 
+# Papers
 
-  - Ayala et al.. Notification of malaria cases in the Brazilian Amazon Basin from 2010 to 2020: an analysis of the reporting times. MALARIA JOURNAL, v. 22, p. 49, 2023. [Open access](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04464-y)
-  - Fuller, Bastos, et al.. The Role of Children in Household Transmission of SARS-CoV-2 Across Four Waves of the Pandemic. Journal of the Pediatric Infectious Diseases Society, v. 12, p. 413-420, 2023. [Link](https://academic.oup.com/jpids/article/12/7/413/7199678?login=true)
-  - Ferreira et al.. The expansion of chikungunya in Brazil. Lancet Regional Health-Americas, v. 25, p. 100571, 2023. [Open access](https://www.sciencedirect.com/science/article/pii/S2667193X2300145X?via%3Dihub)
-  - Pavani, Bastos and Moraga. Joint spatial modeling of the risks of co-circulating mosquito-borne diseases in Ceará, Brazil. SPATIAL AND SPATIO-TEMPORAL EPIDEMIOLOGY, v. 47, p. 100616, 2023. [Link](https://www.sciencedirect.com/science/article/pii/S1877584523000539?via%3Dihub)
-  - Carvalho et al.. Bayesian Inference for the Weights in Logarithmic Pooling. Bayesian Analysis, 2023. [Open access](https://projecteuclid.org/journals/bayesian-analysis/volume--1/issue--1/Bayesian-Inference-for-the-Weights-in-Logarithmic-Pooling/10.1214/22-BA1311.full)
-  - Barberia, Bastos, and De Sousa. School reopening and COVID-19 in Brazil. The Lancet Regional Health - Americas, v. 5, p. 100149, 2022. [Link](https://www.sciencedirect.com/science/article/pii/S2667193X21001459?via%3Dihub)
-  - Sperandei, Bastos et al.. Assessing logistic regression applied to respondent-driven sampling studies: a simulation study with an application to empirical data. International Journal of Social Research Methodology, v. 25, p. 1-15, 2022. [Link](https://www.tandfonline.com/doi/abs/10.1080/13645579.2022.2031153?journalCode=tsrm20)
-  - Niquini et al.. Persistently high hepatitis C rates in haemodialysis patients in Brazil [a systematic review and meta-analysis]. Scientific Reports, v. 12, p. 330, 2022. [Open access](https://www.nature.com/articles/s41598-021-03961-x)
-  - Ayala, Bastos, and Villela. On multifactorial drivers for malaria rebound in Brazil: a spatio-temporal analysis. MALARIA JOURNAL, v. 21, p. 52, 2022.[Open access](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-04037-x) 
-  - Lugon et al. (2021) SARS-CoV-2 Infection Dynamics in Children and Household Contacts in a Slum in Rio de Janeiro *Pediatrics*. [Open access](https://pediatrics.aappublications.org/content/early/2021/04/14/peds.2021-050182)
-  - Lowe et al. (2021) Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study *The Lancet Planetary Healthy*. [Open Access](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30292-8/) 
-  - Colon-Gonzalez, Bastos, et al. (2021) Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles *PLOS Medicine*. [Open access](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003542){target="_blank"}
-  - Izbicki, Diniz and Bastos (2020) Sensitivity and specificity in prevalence studies: The importance of considering uncertainty *Clinics*  [PUBMED](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7690961/){target="_blank"}
-  - Niquini et al. (2020) Description and comparison of demographic characteristics and comorbidities in SARI from COVID-19, SARI from influenza, and the Brazilian general population *Cadernos de Saúde Pública*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32725087/){target="_blank"}
-  - Coelho et al. (2020) Assessing the spread of COVID-19 in Brazil: Mobility, morbidity and social vulnerability. *PLOS One*. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32946442/){target="_blank"}
-  - Lana et al.. (2020) The emergence of the novel coronavirus, COVID-19, and the role of a timely and effective national health surveillance. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32187288){target="_blank"} 
-  - Bastos et al.. (2020) COVID-19 and hospitalizations for SARI in Brazil: a comparison up to the 12th epidemiological week of 2020. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32321075) {target="_blank"}
-  - Goncalvez, Migon and **Bastos**. (2020)  Dynamic Quantile Linear Models: A Bayesian Approach. *Bayesian Analysis*. [Link](https://projecteuclid.org/euclid.ba/1556244057){target="_blank"}
-  - Paiva et al.. (2020) Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. *Cadernos de Saúde Pública*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32049124){target="_blank"}.
-  - Carvalho, Freitas, Cruz, Brasil, and **Bastos**. (2020) Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. *Scientific Reports*.  [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/32019953){target="_blank"}
-  - **Bastos**, Economou, et al.. (2019) A modelling approach for correcting reporting delays in disease surveillance data. *Statistics in Medicine*. [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8303){target="_blank"}. [Code and data](https://github.com/lsbastos/Delay).
-  - Barrenechea and **Bastos**. (2019) Evaluation of the vaccine impact on the incidence of chickenpox in Argentina, *Vaccine* [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/31630938){target="_blank"}
-  - Coutinho, **Bastos**, et al.. (2019) The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. *Scientific Reports*. [Open access](https://www.nature.com/articles/s41598-018-35657-0){target="_blank"}
-  - Bastos, **Bastos**, et al.. (2018) HIV, HCV, HBV, and syphilis among transgender women from Brazil. *Medicine*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/29794601){target="_blank"}
-  - Sperandei, Bastos, et al.. (2018) A simulation study across different networks. *Social Networks*. 
-  - Villela, **Bastos**, et al.. (2017) Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. *Epidemiology and Infection*. [PUBMED](https://www.ncbi.nlm.nih.gov/pubmed/28240195){target="_blank"}
-  - Coelho et al.. (2016) Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. *International Journal of Infectious Diseases*. [PUBMED]( https://www.ncbi.nlm.nih.gov/pubmed/27664930){target="_blank"}
+## 2024 
+  - Amaral, Lana & Bastos. Was the COVID-19 epidemic synchronous in space? An analysis in the health regions of the Rio de Janeiro state, 2020-2022. Brazilian Journal of Epidemiology, 2024.
+  
+  
+## 2023 
+  - Carvalho et al.. Bayesian Inference for the Weights in Logarithmic Pooling. Bayesian Analysis, 2023.
+  - Ayala et al.. Notification of malaria cases in the Brazilian Amazon Basin from 2010 to 2020: an analysis of the reporting times. Malaria Journal, 2023.
+  - Costa et al.. MDexciteR: Enhanced Sampling Molecular Dynamics by Excited Normal Modes or Principal Components Obtained from Experiments. Journal of Chemical Theory and Computation, 2023.
+  - Brindle, Bastos, et al.. The spatio-temporal distribution of acute encephalitis syndrome and its association with climate and landcover in Vietnam. BMC Infectious Diseases, 2023.
+  - Fuller, Bastos, et al. The Role of Children in Household Transmission of SARS-CoV-2 Across Four Waves of the Pandemic. Journal of the Pediatric Infectious Diseases Society, 2023.
+  - Penetra et al.. SARS-CoV-2 reinfection cases in a household-based prospective cohort in Rio de Janeiro. Journal of Infectious Diseases.
+  - Ferreira et al.. The expansion of chikungunya in Brazil. Lancet Regional Health-Americas, 2023.
+  - Pavani, Bastos & Moraga. Joint spatial modeling of the risks of co-circulating mosquito-borne diseases in Ceará, Brazil. Spatial and Spatio-temporal Epidemiology, 2023.
+  - De Almeida et al.. Registration with Primary Health Care and COVID-19 mortality: cohort of diabetics from five administrative health regions in the city of Rio de Janeiro, Brazil, 2020–2021. Brazilian Journal of Epidemiology, 2023.
+  - Ferreira et al. Estimating the impact of implementation and timing of the COVID-19 vaccination programme in Brazil: a counterfactual analysis. Lancet Regional Health-Americas, 2023.
+  - Santos et al.. The effectiveness of COVID-19 vaccines against severe cases and deaths in Brazil from 2021 to 2022: a registry-based study. Lancet Regional Health-Americas, 2023.
 
+## 2022
+  - Sperandei et al.. Assessing logistic regression applied to respondent-driven sampling studies: a simulation study with an application to empirical data. International Journal Of Social Research Methodology, 2022.
+  - Brasil et al.. Cohort-profile: Household transmission of SARS-CoV-2 in a low-resource community in Rio de Janeiro, Brazil. BMJ Open, 2022.
+  - Leveau & Bastos. Desigualdades socioespaciales de la mortalidad por COVID-19 en tres olas de propagación: un análisis intraurbano en Argentina. Cadernos De Saude Publica, 2022.
+  - Codeço et al.. Fast expansion of dengue in Brazil. The Lancet Regional Health - Americas, 2022.
+  - Miller et al.. Faster indicators of chikungunya incidence using Google searches. Plos Neglected Tropical Diseases, 2022.
+  - Barberia, et al.. Government inaction on COVID-19 vaccines contributes to the persistence of childism in Brazil. The Lancet Regional Health - Americas, 2022.
+  - Carvalho, Bastos, et al.. Incidence of SARS-CoV-2 over four epidemic waves in a low-resource community in Rio de Janeiro, Brazil: A prospective cohort study.	The Lancet Regional Health - Americas, 2022.
+  - Ayala et al.. On multifactorial drivers for malaria rebound in Brazil: a spatio-temporal analysis. Malaria Journal, 2022.
+  - Niquini et al.. Persistently high hepatitis C rates in haemodialysis patients in Brazil [a systematic review and meta-analysis]. Scientific Reports, 2022.
+  - Oliveira et al.. Racial inequalities in multimorbidity: baseline of the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil). BMC Public Health, 2022.
+  - Barberia et al.. School reopening and COVID-19 in Brazil.	The Lancet Regional Health - Americas, 2022.
+  - Silva et al.. Severe acute respiratory infection surveillance in Brazil: the role of public, private and philanthropic healthcare units.	Health Policy And Planning, 2022.
+  - Brizzi et al.. Spatial and temporal fluctuations in COVID-19 fatality rates in Brazilian hospitals. Nature Medicine, 2022.
+
+## 2021
+  - Torres, Bastos, et al.. Avaliação de risco para infecção HIV em homens que fazem sexo com homens e a contribuição das redes de parceiros sexuais. Ciência & Saúde Coletiva, 2021.
+  - Lowe et al.. Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study. The Lancet Planetary Health, 2021.
+  - Izbicki et al.. How many hospitalizations has the COVID-19 vaccination already prevented in São Paulo? Clinics, 2021.
+  - Lana et al.. Identificação de grupos prioritários para a vacinação contra COVID-19 no Brasil. Cadernos de Saude Publica, 2021.
+  - Colon-Gonzalez, Bastos, et al.. Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles. PLOS Medicine, 2021.
+  - Lugon et al.. SARS-CoV-2 Infection Dynamics in Children and Household Contacts in a Slum in Rio de Janeiro. Pediatrics, 2021.
+  - Coura-Vidal, et al.. Spatiotemporal dynamics and risk estimates of COVID-19 epidemic in Minas Gerais State: analysis of an expanding process. Revista do Instituto de Medicina Tropical de São Paulo, 2021
+  - Rodrigues et al.. Temporal evolution of homicide mortality in Brazilian capitals from 2005 to 2019. Journal Of Aggression Conflict And Peace Research, 2021.
+
+## 2020
+  - Barrenechea et al.. Análisis por series temporales dela incidencia de varicela y el impacto de la implementación de la vacuna en Tucumán. Revista Argentina de Salud Publica, 2020.
+  - Coelho et al.. Assessing the spread of COVID-19 in Brazil: Mobility, morbidity and social vulnerability. PLOS One, 2020.
+  - Carvalho et al.. Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. Scientific Reports, 2020.
+  - Bastos et al.. COVID-19 e hospitalizações por SRAG no Brasil: uma comparação até a 12ª semana epidemiológica de 2020. Cadernos De Saude Publica, 2020.
+  - Torres et al.. Do men who have sex with men who report alcohol and illicit drug use before/during sex (Chemsex) present moderate/high risk for substance use disorders? Drug And Alcohol Dependence, 2020.
+  - Gonçalves, Migon & Bastos. Dynamic Quantile Linear Models: A Bayesian Approach. Bayesian Analysis, 2020.
+  - Lana et al.. Emergência do novo coronavírus (SARS-CoV-2) e o papel de uma vigilância nacional em saúde oportuna e efetiva. 	Cadernos de Saude Publica, 2020.
+  - Barrenechea et al.. Factores determinantes de tabaquismo en mujeres embarazadas atendidas en instituciones públicas de la Provincia de Tucumán, Argentina. Revista Americana de Medicina Respiratoria, 2020.
+  - Viana et al.. Factors associated with death in patients with tuberculosis in Brazil: Competing risks analysis. PLOS One, 2020.
+  - Rocha, Bastos & Costa. Identification of Potential Allosteric Binding Sites in Cathepsin K Based on Intramolecular Communication. Proteins-Structure Function And Bioinformatics, 2020.
+  - Gomes et al.. Measuring the contribution of human mobility to malaria persistence. Malaria Journal, 2020.
+  - Valois-Santos et al.. Reassessing geographic bottlenecks in a respondent-driven sampling based multicity study in Brazil. Salud Colectiva, 2020.
+  - Izbicki, DInis & Bastos. Sensitivity and specificity in prevalence studies: The importance of considering uncertainty. Clinics, 2020.
+  - Niquini et al.. SRAG por COVID-19 no Brasil: descrição e comparação de características demográficas e comorbidades com SRAG por influenza e com a população geral. Cadernos de Saude Publica, 2020.
+  - Brady et al.. The cost-effectiveness of controlling dengue in Indonesia using wMel Wolbachia released at scale: a modelling study. BMC Medicine, 2020.
+  - Paiva et al.. Women who have undergone abortion in the city of Rio de Janeiro, Brazil: application of a Bayesian hierarchical model. Cadernos de Saude Publica, 2020.
+  
+## 2019
+  - Bastos et al.. A modelling approach for correcting reporting delays in disease surveillance data. Statistics in Medicine, 2019.
+  - de Almeida et al.. Accuracy of rapid test for diagnosis of hepatitis A with different infection rate settings and with predictive modeling. Future Microbiology, 2019.
+  - Barrenechea & Bastos. Evaluation of impact of one dose varicella vaccine on the incidence of chickenpox in Argentina. Vaccine, 2019.
+  - Vaconcellos et al.. Natural infection by the protozoan Leptomonas wallacei impacts the morphology, physiology, reproduction, and lifespan of the insect Oncopeltus fasciatus. Scientific Reports, 2019.
+  - Souza et al.. Nocturnal Activity Rhythm of Nyssomyia intermedia (Diptera: Psychodidae: Phlebotominae) in Campus Fiocruz Mata Atlântica, an American Cutaneous Leishmaniasis Transmission Area, Rio de Janeiro, Brazil. Revista da Sociedade Brasileira de Medicina Tropical, 2019.
+  - Soares et al.. Studying effects of different protonation states of His11 and His102 in ribose-5-phosphate isomerase of : an example of cooperative behavior. Journal of Biomolecular Structure and Dynamics, 2019.
+  - Coutinho, Bastos et al.. The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty. Scientific Reports, 2019.
+
+## 2018
+
+  - Sperandei et al. Assessing respondent-driven sampling: A simulation study across different networks. Social Networks, 2018.
+  - Juvanhol et al.. Association between demand-control model components and blood pressure in the ELSA-Brasil study: exploring heterogeneity using quantile regression analyses. Scandinavian Journal of Work Environment & Health, 2018.
+  - Cysne-Finkelstein et al.. Evidence of Subpopulations with Distinct Biological Features Within a Leishmania (Viannia) braziliensis Strain. Protist, 2018.
+  - Bastos, Bastos et al.. HIV, HCV, HBV, and syphilis among transgender women from Brazil. Medicine, 2018.
+  - Codeço et al.. Infodengue: A nowcasting system for the surveillance of arboviruses in Brazil. Revue de Epidemiologie et de Sante Publique, 2018.
+  - da Silvia et al.. Integrated analysis of ethionamide resistance loci in Mycobacterium tuberculosis clinical isolates. Tuberculosis, 2018
+  - Faccion et al.. p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors. Cellular Oncology, 2018.
+  
+## 2017-2005
+  - Lima-Neiva et al.. Biology of Triatoma sherlocki (Hemiptera: Reduviidae) Under Laboratory Conditions: Biological Cycle and Resistance to Starvation. Journal Of Medical Entomology, 2017.
+  - Rizzetto et al.. Chronic kidney disease progression: a retrospective analysis of 3-year adherence to a low protein diet. Renal Failure, 2017.
+  - Toledo et al.. Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda. International Journal of Drug Policy, 2017.
+  - Rodrigues et al.. Distribution of pulmonary tuberculosis in Rio de Janeiro (Brazil): a spatial analysis. Ciencia & Saude Coletiva, 2017.
+  - Lima et al.. MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes. PLOS Neglected Tropical Diseases, 2017.
+  - Villela, Bastos et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. Epidemiology And Infection, 2017.
+  
+## 2016
+
+  - Juvanhol et al.. Factors associated with overweight: are the conclusions influenced by choice of the regression method? BMC Public Health, 2016.
+  - Coelho et al.. Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. International Journal of Infectious Diseases, 2016.
+  - MacCharty et al.. Mind the gap: implementation challenges break the link between HIV/AIDS research and practice. Cadernos de Saude, 2016.
+  - Codeço et al.. Zika is not a reason for missing the Olympic Games in Rio de Janeiro: response to the open letter of Dr Attaran and colleagues to Dr Margaret Chan, Director - General, WHO, on the Zika threat to the Olympic and Paralympic Games. Memorias Do Instituto Oswaldo Cruz, 2016.
+
+## 2015-2005
+
+  - de Azevedo et al.. Neonatal care in Brazil: hospital structure and adequacy according to newborn obstetric risk. Paediatrics And International Child Health, 2015.
+  - Bastos, de Oliveira & Velasque. Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. Cadernos de Saude Publica, 2015.
+  - Zapata-Vazquez, Bastos & O'Hagan. Eliciting expert judgements about a set of proportions. Journal Of Applied Statistics, 2014.
+  - Bazin et al.. Terapia antirretroviral em crianças e adolescentes infectados pelo HIV: o que sabemos após 30 anos de epidemia. Cadernos de Saude Publica, 2014.
+  - de Boni et al.. Unrecorded alcohol in Rio de Janeiro: assessing its misusers through respondent-driven sampling. Drug And Alcohol Dependence, 2014.
+  - Griep, Bastos et al.. Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil. BMC Health Services Research, 2014.
+  - Bastos & Rosa. Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model. Journal of Applied Statistics, 2013.
+  - Paiva & Bastos. Análise do risco de mortalidade e de morbidade hospitalar do SUS por doenças respiratórias usando modelo de regressão Poisson com efeitos aleatórios. Revista Brasileira de Estatística, 2012.
+  - Bastos & O'Hagan. Diagnostics for Gaussian Process Emulators, Technometrics, 2009.
+  - Bastos & Gamerman. Dynamic survival models with spatial frailty. Lifetime Data Analysis, 2006.
+  - Loschi, Bastos & Iglesias. Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis. Computational Economics, 2005.
+
+# Book and book chapters
+
+## Book
+  - Bastos & Wilkinson. Análise Estatística de Simuladores (Statistical Analysis of Computer Experiments). Simpósio Nacional de Probabilidade e Estatística 19o (SINAPE).
+  
+## Book chapters
+  - Bastos, Carvalho & Gomes. Modelling misreported data in Building a Platform for Data-Driven Pandemic Prediction From Data Modelling to Visualisation - The CovidLP Project, Chapman Hall, 2022
+  - Gammerman, Mayrink & Bastos. Pandemic Data, in Building a Platform for Data-Driven Pandemic Prediction From Data Modelling to Visualisation - The CovidLP Project, Chapman Hall, 2022
+  - Pontes et al.. Pandemia de Covid-19 e os Povos Indígenas no Brasil: cenários sociopolíticos e epidemiológicos, in Os impactos sociais da Covid-19 no Brasil: populações vulnerabilizadas e respostas à pandemia. Editora Fiocruz, 2021.
+  - Estimativa de risco de espalhamento da Covid-19 no Brasil e avaliação da vulnerabilidade socioeconômica nas microrregiões brasileiras. In Covid-19 no Brasil: cenários epidemiológicos e vigilância em saúde. Editora Fiocruz, 2021
+  - Pandemia pelo SARS-CoV-2 no estado do Amazonas. In Covid-19 no Brasil: cenários epidemiológicos e vigilância em saúde. Editora Fiocruz, 2021
+  - Vulnerabilidade das populações indígenas à pandemia de COVID-19 no Brasil e os desafios para o seu monitoramento. In Covid-19 no Brasil: cenários epidemiológicos e vigilância em saúde. Editora Fiocruz, 2021
+  - Carvalho, Struchiner, Bastos. Bayesian Inference of Deterministic Population Growth Models, In  Interdisciplinary Bayesian Statistics: EBEB 2014. Springer, 2015.
