@@ -340,7 +340,7 @@ class="math display">\[logit(\mu_t) = \alpha + \beta_t\]</span> onde
 class="math inline">\(\beta_t\)</span> segue um passeio aleatório de
 ordem 2.</p>
 <pre class="r"><code>library(INLA)</code></pre>
-<pre><code>## Warning: package &#39;INLA&#39; was built under R version 4.2.3</code></pre>
+<pre><code>## Warning: package &#39;INLA&#39; was built under R version 4.3.2</code></pre>
 <pre class="r"><code># Somente segundo turno, votos válidos para Haddad e adicionado a data da eleicao
 seq_2turno &lt;- seq.Date(from = ymd(&quot;2018-10-07&quot;), to = ymd(&quot;2018-10-28&quot;), by=1)
 
@@ -375,12 +375,12 @@ p1 + geom_line(data = Prediction, mapping = aes(x = Data, y = mode), color = &qu
 <pre><code>## # A tibble: 6 × 7
 ##    mean     sd `0.025quant` `0.5quant` `0.975quant`  mode Data      
 ##   &lt;dbl&gt;  &lt;dbl&gt;        &lt;dbl&gt;      &lt;dbl&gt;        &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;    
-## 1 0.429 0.0130        0.403      0.429        0.455 0.429 2018-10-23
-## 2 0.433 0.0137        0.406      0.433        0.460 0.433 2018-10-24
-## 3 0.437 0.0150        0.408      0.437        0.467 0.437 2018-10-25
-## 4 0.442 0.0170        0.409      0.442        0.475 0.442 2018-10-26
-## 5 0.446 0.0197        0.408      0.446        0.486 0.446 2018-10-27
-## 6 0.451 0.0232        0.406      0.451        0.498 0.450 2018-10-28</code></pre>
+## 1 0.429 0.0131        0.403      0.429        0.455 0.429 2018-10-23
+## 2 0.433 0.0138        0.406      0.433        0.460 0.433 2018-10-24
+## 3 0.437 0.0151        0.408      0.437        0.467 0.437 2018-10-25
+## 4 0.442 0.0171        0.409      0.442        0.476 0.442 2018-10-26
+## 5 0.447 0.0199        0.408      0.447        0.486 0.446 2018-10-27
+## 6 0.451 0.0235        0.406      0.451        0.499 0.450 2018-10-28</code></pre>
 <p>Note que a última linha é o dia da eleição.</p>
 </div>
 

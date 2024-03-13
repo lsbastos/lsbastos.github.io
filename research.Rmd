@@ -10,10 +10,10 @@ I am a (Bayesian) statistician by formation, so I naturally prefer working on de
     - Infodengue: https://info.dengue.mat.br
     - Infogripe: http://info.gripe.fiocruz.br
     - Mosqlimate: https://mosqlimate.org/
+    - Disease Surveillance: https://diseasesurveillance.github.io/
     - Clima e Ciencia de Dados:
   - Post-COVID 
-    - INOVA posdoc
-    - Coortes de pacientes com Covid-19 e seus contactantes. 
+    - INOVA posdoc: Coortes de pacientes com Covid-19 e seus contactantes. 
   
 ## Past funded projects
 
