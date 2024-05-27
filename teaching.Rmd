@@ -7,6 +7,9 @@ title: "Teaching"
 - [Stat] Undergraduate courses for Statistics
 - [LSHTM] Courses at LSHTM
 
+### 2024
+- (Epi) PhD Seminar III
+- (Epi) Statistics for Epidemiology II
 
 ### 2023
 
@@ -38,7 +41,7 @@ title: "Teaching"
 
 ### 2017
 
-- (Epi) Statistics for Epidemiology
+- (Epi) Statistics for Epidemiology I
 - (Epi) Applied Bayesian modelling
 - (Epi) Statistical modelling II
 
