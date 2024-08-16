@@ -2,52 +2,59 @@
 title: "About me"
 ---
 
-## Education
-
-- PhD in statistics, [The University of Sheffield](https://www.sheffield.ac.uk/maths), UK, 2010. <BR> Under supervision of [Prof Tony O'Hagan](http://tonyohagan.co.uk/) and [Prof Jeremy Oakley](http://www.jeremy-oakley.staff.shef.ac.uk/). ([Thesis](http://etheses.whiterose.ac.uk/963/))
-- MSc in statistics, [Federal University of Rio de Janeiro](http://www.dme.ufrj.br), Brazil, 2003. <br> Under supervison of [Prof Dani Gamerman]()
-- BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. <br> Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
-
 ## Short bio
 
-I hold a permanent position at Scientific Computing Program [PROCC](http://www.procc.fiocruz.br), [Fiocruz](https://portal.fiocruz.br/en), Rio de Janeiro, Brazil since December 2012. I hold a productivity fellowship from CNPq (bolsa de produtividade) and a Our State Young Cientist fellowship from FAPERJ (Jovem cientista Nosso Estado). I consider myself an applied Bayesian (bio)statistician. I am an elected member of [ISI](https://www.isi-web.org/) and a registered statistician at the Brazilian Statistical Council [CONRE2](http://www.conre2.org.br/). I spent some time (2019-2020) in London working on infectious disease modelling at the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)/[LSHTM](https://www.lshtm.ac.uk/), UK. My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research questions related to infectious diseases epidemiology. 
+I hold a permanent position at the Scientific Computing Programme [PROCC](https://portal.fiocruz.br/programa-de-computacao-cientifica), Oswaldo Cruz Foundation [Fiocruz](https://portal.fiocruz.br/en), Rio de Janeiro, Brazil since December 2012. I hold a productivity fellowship from CNPq (bolsa de produtividade) and a Our State Young Scientist fellowship from FAPERJ (Jovem cientista Nosso Estado). I consider myself an applied Bayesian (bio)statistician. I am an elected member of [ISI](https://www.isi-web.org/) and a registered statistician at the Brazilian Statistical Council [CONRE2](http://www.conre2.org.br/). I spent some time (2019-2020) in London working on infectious disease modelling at the [Department of Infectious Disease Epidemiology](https://www.lshtm.ac.uk/research/faculties/eph/ide) and in the [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases) in the London School of Hygiene and Tropical Medicine [LSHTM](https://www.lshtm.ac.uk/), UK. My main research interests are on developing Bayesian statistical solutions/models to applied real problems, usually research questions related to infectious diseases epidemiology. I am also a father of three boys.
+
+![My family in a wedding, June 2024](files/family.jpeg)
+
+## Education
+
+-   PhD in statistics, [The University of Sheffield](https://www.sheffield.ac.uk/maths), UK, 2010. <BR> Under supervision of [Prof Tony O'Hagan](http://tonyohagan.co.uk/) and [Prof Jeremy Oakley](http://www.jeremy-oakley.staff.shef.ac.uk/). ([Thesis](http://etheses.whiterose.ac.uk/963/))
+
+-   MSc in statistics, [Federal University of Rio de Janeiro](http://www.dme.ufrj.br), Brazil, 2003. <br> Under supervison of [Prof Dani Gamerman]()
+
+-   BSc in statistics, [Federal University of Minas Gerais](http://www.est.ufmg.br), Brazil, 2002. <br> Under supervison of [Prof Rosangela Loschi](http://www.est.ufmg.br/~loschi) and [Prof Cibele Silva](http://www.pgest.unb.br/docentes)
+
+    ![My MSc supervisor, Prof Dani Gamerman (UFRJ), and my BSc supervisor, Prof Rosangela Loschi (UFMG), in the 2024 ISBA, Veneza, Italia.](files/dani_leo_rosangela.jpeg)
 
 ## Awards
 
-  - Winner of [Study UK Alumni Awards Brasil 2023/24](https://americas.britishcouncil.org/pt/programas/alumni-awards-br-23-24/finalistas-202324), 2024
-  - Travel support award for the participation at the International Society for Bayesian Analysis (ISBA) World Meeting, 2016.
-  - Third place at the Master dissertation award, Simpósio Nacional de Probabilidade e Estatística,	2004.
-  - Finalist at the IASI (Instituto Interamericano de Estadística) award, 2004.
-  - Best paper at the 8th Escola de Modelos de Regressão, 2003.
-  - Finalist of the scientific initiation award at Federal University of Minas Gerais, 2002.
-  - Third place at best presentations at the XVI ENESTE (Encontro Nacional de Estudantes de Estatística), 2001.
+-   Winner of [Study UK Alumni Awards Brasil 2023/24](https://americas.britishcouncil.org/pt/programas/alumni-awards-br-23-24/finalistas-202324), 2024
+-   Travel support award for the participation at the International Society for Bayesian Analysis (ISBA) World Meeting, 2016.
+-   Third place at the Master dissertation award, Simpósio Nacional de Probabilidade e Estatística, 2004.
+-   Finalist at the IASI (Instituto Interamericano de Estadística) award, 2004.
+-   Best paper at the 8th Escola de Modelos de Regressão, 2003.
+-   Finalist of the scientific initiation award at Federal University of Minas Gerais, 2002.
+-   Third place at best presentations at the XVI ENESTE (Encontro Nacional de Estudantes de Estatística), 2001.
 
 ## Students and collaborators awards
 
-  - Honour mention to Fernanda Oliveria's PhD thesis in the 2023 Oswaldo Cruz Thesis Award [(Prêmio Oswaldo Cruz de Teses 2023)](https://campusvirtual.fiocruz.br/portal/?q=content/70498) in the category Population Health, 2023. 
-  - Best hemotherapy paper at the HEMO2022, Congresso Brasileiro de Hematologia, Hemoterapia e Terapia Celular, 2022.
-  - Honour mention to Gisele V. Rocha paper at the IV Escola Brasileira de Modelagem Molecular (EBMM) , 2017.
-  - Second place to Natalia Paiva in the Scientific Initiation award at the 20th SINAPE, 2012.
-
+-   First place to Guilherme Silva in the Master dissertation award at the 25th SINAPE, 2024.
+-   Honour mention to Fernanda Oliveria's PhD thesis in the 2023 Oswaldo Cruz Thesis Award [(Prêmio Oswaldo Cruz de Teses 2023)](https://campusvirtual.fiocruz.br/portal/?q=content/70498) in the category Population Health, 2023.
+-   Best hemotherapy paper at the HEMO2022, Congresso Brasileiro de Hematologia, Hemoterapia e Terapia Celular, 2022.
+-   Honour mention to Gisele V. Rocha paper at the IV Escola Brasileira de Modelagem Molecular (EBMM) , 2017.
+-   Second place to Natalia Paiva in the Scientific Initiation award at the 20th SINAPE, 2012.
 
 ## Important links:
 
-- Bayesian Statistical softwares
-    - INLA: http://www.r-inla.org/
-    - Stan: https://mc-stan.org/
-    - Nimble: https://r-nimble.org/
-- Brazilian microdata:
-    - PNS: [IBGE description](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&t=sobre) and [download and analysis in R](http://asdfree.com/pesquisa-nacional-de-saude-pns.html)
-    - Vigitel: http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm
-    - Datasus: http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos
-
+-   Bayesian Statistical softwares
+    -   INLA: <http://www.r-inla.org/>
+    -   Stan: <https://mc-stan.org/>
+    -   Nimble: <https://r-nimble.org/>
+-   Brazilian microdata:
+    -   PNS: [IBGE description](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html?edicao=9161&t=sobre) and [download and analysis in R](http://asdfree.com/pesquisa-nacional-de-saude-pns.html)
+    -   Vigitel: <http://tabnet.datasus.gov.br/cgi/vigitel/vigteldescr.htm>
+    -   Datasus: <http://datasus.saude.gov.br/informacoes-de-saude/servicos2/transferencia-de-arquivos>
 
 ## Random stuff
 
-  - My [Erdős Number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 4: Bastos > O'Hagan > Leonard > Taylor > Erdős (Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2))
-    - Curiosity note: A list of my academic ancestors: O'Hagan, Lindley, Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli
-  - My profile in the [Mathematics Genealogy project](https://genealogy.math.ndsu.nodak.edu/id.php?id=144359)
-  - I am a Taekwondo student holding a 1st DAN black belt. My masters are: 
-    - [Master Erico Soares](http://soaresteam.com.br) (4th DAN)
-    - [Grandmaster Renato Ribeiro](https://www.kimtkd.com.br/) (7th DAN).
+-   My [Erdős Number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 4: Bastos \> O'Hagan \> Leonard \> Taylor \> Erdős (Calculate yours: [Link](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2))
+    -   Curiosity note: A list of my academic ancestors: O'Hagan, Lindley, Barnard, Poisson, Lagrange, Laplace, Euler, Bernoulli
+-   My profile in the [Mathematics Genealogy project](https://genealogy.math.ndsu.nodak.edu/id.php?id=144359)
+-   I am a Taekwondo student holding a 1st DAN black belt. My masters are:
+    -   [Master Erico Soares](http://soaresteam.com.br) (4th DAN)
 
+    -   [Grandmaster Renato Ribeiro](https://www.kimtkd.com.br/) (7th DAN).
+
+        ![Exame de faixa, 2015.](files/exame_vermelha.jpeg){width="75%"}

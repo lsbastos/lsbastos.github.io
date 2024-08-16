@@ -2,18 +2,22 @@
 title: "Contact"
 ---
 
-Email: leonardo DOT bastos AT fiocruz DOT br
+## Eletronic address
 
-<img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
+leonardo DOT bastos AT fiocruz DOT br
+
+<img src="files/fotoLeo2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="center">
 
 
 ## Institutional address:
 
+```{}
+Programa de Computação Científica,
+Residência Oficial
+Fundação Oswaldo Cruz
+Avenida Brasil, 4365, Manguinhos,
+Rio de Janeiro, RJ, Brasil
+CEP: 21045-900
+```
 
-Programa de Computação Científica, <br>
-Residência Oficial <br>
-Fundação Oswaldo Cruz <br>
-Avenida Brasil, 4365, Manguinhos, <br>
-Rio de Janeiro, RJ, Brasil <br>
-CEP: 21045-900<br>
 

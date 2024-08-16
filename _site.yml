@@ -11,16 +11,14 @@ navbar:
       href: teaching.html
     - text: "About me"
       href: cv.html
-    - text: "Contact"
-      href: contact.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fa-github fa-lg
       href: http://github.com/lsbastos
     - icon: fa-twitter fa-lg
-      href: https://twitter.com/leosbastos
+      href: https://x.com/leosbastos
 output:
   html_document:
-    theme: cosmo
+    theme: darkly
     css: 'styles.css'

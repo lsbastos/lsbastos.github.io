@@ -2,7 +2,7 @@
 title: "Research areas"
 ---
 
-I am a (Bayesian) statistician by formation, so I naturally prefer working on developing statistical methods for applied problems. But since I join a public health institute I have done analyses on several areas of health to find the area I enjoy the most which is epidemiology of infectious diseases.
+I am a (Bayesian) statistician by formation, so I naturally prefer working on developing statistical methods for applied problems. I am mainly involved on projects on statistical analysis for infectious diseases epidemiology.
 
 ## Funded projects
 
@@ -31,7 +31,7 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 
 ## Posdoc
 
-  - Fernanda Esthefane Garrides Oliveira, (2023-) Long COVID in Manguinhos.
+  - Heloisa Ferreira, (2024-) Sympthoms Long COVID in Rio de Janeiro.
   
 ## PhD
 
@@ -41,7 +41,6 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
   - Léa de Freitas Amaral (2023-). PhD in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
   - Guillermo Barrenechea (2022-). PhD in Epidemiology, VigiFronteiras, Fiocruz
   - Karla de Araújo Ferreira (2022-). PhD in Epidemiology, Fiocruz
-  - Camila Mattos Santos  (2020-) PhD in Epidemiology, Fiocruz (co supervisor: Francisco I Bastos)
 
 ## MSc 
 
@@ -51,46 +50,13 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 # Past students
 
 ## Posdoc
-  - Raquel Lana
-  - Marcelo Gomes
-  
-## PhD
-  - 
-  
-## MsC
-
-  - Tatiana Scheidt (2021-2023). MSc in Epidemiology, VigiFronteiras, Fiocruz (co supervisor: Paulo Victor)
-
-## BSc
-
-
-# Google scholar colaborarion network
-
-My colaborarion network according to Google scholar (using scholar package)
-
-```{r, AFF, out.width = '120%', message=FALSE}
-library(scholar)
-
-# My google scholar id
-id <- "A5VmZYMAAAAJ"
-p <- get_publications(id)
-
-coauthor_network <- get_coauthors(id, n_coauthors = 6)
-
-plot_coauthors(coauthor_network)
-```
-
-
-
-# Past supervision
-
-## Posdocs
-
+  - Fernanda Esthefane Garrides Oliveira (2023-2024) Fiocruz/INOVA.
   - Raquel Lana (2020-2021) Fiocruz/INOVA-COVID
   - Marcelo F C Gomes (2019-2019) BCS/Fiocruz.
   - Sandro Sperandei (2017-2018) Fiocruz/FAPERJ (Supervisor Francisco Bastos)
-
-## PhD 
+  
+## PhD
+  - Camila Mattos Santos  (2024) PhD in Epidemiology, Fiocruz (co supervisor: Francisco I Bastos)
   - Fernanda Esthefane Garrides Oliveira  (2023) PhD in Epidemiology, Fiocruz (co supervisor: Rosane Griep)
   - Lucas Monteiro Bianchi (2023). PhD in Epidemiology, Fiocruz
   - Gisele Vieira Rocha  (2020) PhD in Computational and Systems Biology, Fiocruz (co supervisor: Mauricio Garcia)
@@ -98,10 +64,10 @@ plot_coauthors(coauthor_network)
   - Carolina Fausto de Souza Coutinho (2017) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
   - Maria Rita Lustosa Byington (2015) PhD in Epidemiology at Fiocruz (Supervisor Marilia Carvalho)
   - Lidiane da Silveira Gouvea Toledo (2015) PhD in Epidemiology at Fiocruz (Supervisor Francisco Bastos)
+  
+## MsC
 
-
-## MSc 
-
+  - Tatiana Scheidt (2023). MSc in Epidemiology, VigiFronteiras, Fiocruz (co supervisor: Paulo Victor)
   - Guilherme dos Santos (2023), MSc in Statistics, UFRJ (supervisor Kelly Gonçalves)
   - Léa de Freitas Amaral (2023). MSc in Epidemiology, Fiocruz (co supervisor: Raquel Lana)
   - Julia Novaes de Barros Peixoto (2020) MSc student in Epidemiology, Fiocruz
@@ -133,5 +99,23 @@ plot_coauthors(coauthor_network)
   - Clarissa Cardoso Oesselmann (2011-2012) Scientific Iniciation, UFF
   - Fabiano Oliveira Campos (2006-2006) BSc in Statistics, UFPR.
   - Moisés Marcus Retka (2006-2006) BSc in Statistics, UFPR.
+
+
+# Google scholar colaborarion network
+
+My colaborarion network according to Google scholar (using scholar package)
+
+```{r, AFF, out.width = '120%', message=FALSE}
+library(scholar)
+
+# My google scholar id
+id <- "A5VmZYMAAAAJ"
+p <- get_publications(id)
+
+coauthor_network <- get_coauthors(id, n_coauthors = 6)
+
+plot_coauthors(coauthor_network)
+```
+
 
 
