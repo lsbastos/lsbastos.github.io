@@ -20,6 +20,7 @@ title: Dr Leonardo Bastos, PhD
 -   Scopus: [55648716900](https://www.scopus.com/authid/detail.uri?authorId=55648716900){target="_blank"}
 -   [PUBMED\*](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bastos%2C%20Leonardo%20Soares%5BFull%20Author%20Name%5D%20or%20Bastos%2C%20Leonardo%5BFull%20Author%20Name%5D&cmd=DetailsSearch){target="_blank"}
 -   [Publication page](publications.html)
+- [Backup talk](files/palestra_ence.pdf)
 
 Address:
 

@@ -35,6 +35,7 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
   
 ## PhD
 
+  - Roxana Flores Mamani (2023-) PhD in Tropical Medicine, Fiocruz (supervisor: Patricia Brasil)
   - Ramilla de Alencar Sousa (2023-) PhD in Epidemiology, Fiocruz (co supervisor: Eduardo Krempser)
   - Raquel de Sousa Martins (2023-) PhD in Computational and Systems Biology, Fiocruz.
   - Rowan Morris (2023-) PhD in Statistics, Queens Mary University of London (supervisor: Silvia Liverani).
@@ -44,6 +45,9 @@ If you are looking for a possible colaboration or an opportunity feel free to wr
 
 ## MSc 
 
+  - Jo de Napoli (2024-) MSc in Computational and Systems Biology, Fiocruz.
+  - Isaac Gonçalves (2024-) MSc in Epidemiology, Fiocruz
+  
 ## BSc
 
 
@@ -110,7 +114,7 @@ library(scholar)
 
 # My google scholar id
 id <- "A5VmZYMAAAAJ"
-p <- get_publications(id)
+# p <- get_publications(id)
 
 coauthor_network <- get_coauthors(id, n_coauthors = 6)
 

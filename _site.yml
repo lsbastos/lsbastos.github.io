@@ -16,8 +16,8 @@ navbar:
       href: contact.html
     - icon: fa-github fa-lg
       href: http://github.com/lsbastos
-    - icon: fa-twitter fa-lg
-      href: https://x.com/leosbastos
+    - icon: fa-bug fa-lg
+      href: https://bsky.app/profile/epibayes.bsky.social
 output:
   html_document:
     theme: darkly
