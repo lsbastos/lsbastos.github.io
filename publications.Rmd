@@ -13,33 +13,35 @@ The papers are organized by subject, a full list in chronological order can be f
 
 ### Arboviroses
 
--   Brindle, Bastos, et al.. The spatio-temporal distribution of acute encephalitis syndrome and its association with climate and landcover in Vietnam. BMC Infectious Diseases, 2023.
+-   Brindle, Bastos, et al.. The spatio-temporal distribution of acute encephalitis syndrome and its association with climate and landcover in Vietnam. BMC Infectious Diseases, 2023. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/37312047/)
 
--   Ferreira et al.. The expansion of chikungunya in Brazil. Lancet Regional Health-Americas, 2023.
+-   Ferreira et al.. The expansion of chikungunya in Brazil. Lancet Regional Health-Americas, 2023. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/37638140/)
 
--   Pavani, Bastos & Moraga. Joint spatial modeling of the risks of co-circulating mosquito-borne diseases in Ceará, Brazil. Spatial and Spatio-temporal Epidemiology, 2023.
+-   Pavani, Bastos & Moraga. Joint spatial modeling of the risks of co-circulating mosquito-borne diseases in Ceará, Brazil. Spatial and Spatio-temporal Epidemiology, 2023. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/38042535/)
 
--   Codeço et al.. Fast expansion of dengue in Brazil. The Lancet Regional Health - Americas, 2022.
+-   Codeço et al.. Fast expansion of dengue in Brazil. The Lancet Regional Health - Americas, 2022. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/36776428/)
 
--   Miller et al.. Faster indicators of chikungunya incidence using Google searches. Plos Neglected Tropical Diseases, 2022.
+-   Miller et al.. Faster indicators of chikungunya incidence using Google searches. Plos Neglected Tropical Diseases, 2022. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/35679262/)
 
--   Lowe et al.. Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study. The Lancet Planetary Health, 2021.
+-   Lowe et al.. Combined effects of hydrometeorological hazards and urbanisation on dengue risk in Brazil: a spatiotemporal modelling study. The Lancet Planetary Health, 2021. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/33838736/)
 
--   Colon-Gonzalez, Bastos, et al.. Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles. PLOS Medicine, 2021.
+-   Colon-Gonzalez, Bastos, et al.. Probabilistic seasonal dengue forecasting in Vietnam: A modelling study using superensembles. PLOS Medicine, 2021. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/33661904/)
 
--   Brady et al.. The cost-effectiveness of controlling dengue in Indonesia using wMel Wolbachia released at scale: a modelling study. BMC Medicine, 2020.
+-   Brady et al.. The cost-effectiveness of controlling dengue in Indonesia using wMel Wolbachia released at scale: a modelling study. BMC Medicine, 2020. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32641039/)
 
--   Carvalho et al.. Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. Scientific Reports, 2020.
+-   Carvalho et al.. Association of past dengue fever epidemics with the risk of Zika microcephaly at the population level in Brazil. Scientific Reports, 2020. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/32019953/)
 
 -   Codeço et al.. Infodengue: A nowcasting system for the surveillance of arboviruses in Brazil. Revue de Epidemiologie et de Sante Publique, 2018.
 
--   Villela, Bastos et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. Epidemiology And Infection, 2017.
+-   Villela, Bastos et al.. Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks. Epidemiology And Infection, 2017. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/28240195/)
 
--   Codeço et al.. Zika is not a reason for missing the Olympic Games in Rio de Janeiro: response to the open letter of Dr Attaran and colleagues to Dr Margaret Chan, Director - General, WHO, on the Zika threat to the Olympic and Paralympic Games. Memorias Do Instituto Oswaldo Cruz, 2016. Covid-19
+-   Codeço et al.. Zika is not a reason for missing the Olympic Games in Rio de Janeiro: response to the open letter of Dr Attaran and colleagues to Dr Margaret Chan, Director - General, WHO, on the Zika threat to the Olympic and Paralympic Games. Memorias Do Instituto Oswaldo Cruz, 2016. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/27304097/) 
 
--   Coelho et al.. Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. International Journal of Infectious Diseases, 2016.
+-   Coelho et al.. Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women. International Journal of Infectious Diseases, 2016. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/27664930/)
 
 ### COVID-19
+
+-   Fuller et al. Sex, vaccination status, and comorbidities influence long COVID persistence.  J Infect Public Health, 2024. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/39418956/)
 
 -   da Silva et al. Cohort profile: follow-up of a household cohort throughout five epidemic waves of SARS-CoV-2 in Rio de Janeiro, Brazil. Cadernos de Saude Publica, 2024. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/39194089/)
 
@@ -47,9 +49,9 @@ The papers are organized by subject, a full list in chronological order can be f
 
 -   Moreira, *Bastos*, Carvalho, Freitas, Pacheco. Persistent high mortality rates for Diabetes Mellitus and Hypertension after excluding deaths associated with COVID-19 in Brazil, 2020-2022. PLOS Global Public Health, 2024. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/38722828/)
 
--   Fuller, Bastos, et al. The Role of Children in Household Transmission of SARS-CoV-2 Across Four Waves of the Pandemic. Journal of the Pediatric Infectious Diseases Society, 2023.
+-   Fuller, Bastos, et al. The Role of Children in Household Transmission of SARS-CoV-2 Across Four Waves of the Pandemic. Journal of the Pediatric Infectious Diseases Society, 2023. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/37327193/)
 
--   Penetra et al.. SARS-CoV-2 reinfection cases in a household-based prospective cohort in Rio de Janeiro. Journal of Infectious Diseases.
+-   Penetra et al.. SARS-CoV-2 reinfection cases in a household-based prospective cohort in Rio de Janeiro. Journal of Infectious Diseases. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/37571849/)
 
 -   Ferreira et al. Estimating the impact of implementation and timing of the COVID-19 vaccination programme in Brazil: a counterfactual analysis. Lancet Regional Health-Americas, 2023.
 
